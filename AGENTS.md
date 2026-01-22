@@ -12,9 +12,4 @@ Structure: `[{ "id": "uuid", "source": "OpenAI", "title": "...", "date": "...", 
 2. **De-duplication:** Before adding news, check if the "title" or "url" already exists in `news.json`. If it does, DO NOT add it.
 3. **Commit Style:** If you add news, commit with message: "⚡ Update: [Source Name] - [Title]".
 4. **Twitter:** If checking Twitter, look for the "pinned tweet" or the latest tweet.
-
-## UI/UX Guidelines
-- **Modern:** Use glassmorphism (backdrop-blur) for headers.
-- **Clean:** Prefer whitespace over borders.
-- **Motion:** Everything clickable must have a hover state.
-- **Dark Mode:** First-class citizen. Always verify contrast.   
+   
