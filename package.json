@@ -6,7 +6,13 @@
   "scripts": {
     "monitor": "ts-node scripts/monitor.ts",
     "monitor:web": "ts-node scripts/monitor.ts --source web",
-    "monitor:twitter": "ts-node scripts/monitor.ts --source twitter"
+    "monitor:twitter": "ts-node scripts/monitor.ts --source twitter",
+    "summary": "ts-node scripts/generate-summary.ts",
+    "check-links": "ts-node scripts/check-links.ts",
+    "audit": "ts-node scripts/dependency-audit.ts",
+    "archive": "ts-node scripts/archive-old-news.ts",
+    "build": "echo 'Build system not yet configured - requires Astro setup'",
+    "typecheck": "tsc --noEmit"
   },
   "keywords": ["ai", "news", "monitoring", "scraping"],
   "author": "",
@@ -14,11 +20,14 @@
   "dependencies": {
     "axios": "^1.6.0",
     "cheerio": "^1.0.0-rc.12",
-    "playwright": "^1.40.0"
+    "playwright": "^1.40.0",
+    "uuid": "^9.0.0"
   },
   "devDependencies": {
     "ts-node": "^10.9.2",
     "typescript": "^5.3.0",
-    "@types/node": "^20.10.0"
+    "@types/node": "^20.10.0",
+    "@types/uuid": "^9.0.0",
+    "broken-link-checker": "^0.7.8"
   }
 }
