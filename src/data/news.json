@@ -1,1 +1,72 @@
-[]
+[
+  {
+    "id": "ac9d94e9-cf48-43b3-9271-3ccab91b2ca3",
+    "source": "Gemini",
+    "title": "A Guide to Fine-Tuning FunctionGemma",
+    "date": "2026-01-27T18:06:16.273Z",
+    "url": "https://developers.googleblog.com/search/?q=Gemini"
+  },
+  {
+    "id": "f3fe16be-ae97-4bbc-b52c-d4da1113c9fe",
+    "source": "Gemini",
+    "title": "Under the Hood: Universal Commerce Protocol (UCP)",
+    "date": "2026-01-27T18:07:43.931Z",
+    "url": "https://developers.googleblog.com/under-the-hood-universal-commerce-protocol-ucp/"
+  },
+  {
+    "id": "3762622e-1076-4087-9eed-4bd9f7887921",
+    "source": "Gemini",
+    "title": "A Developer's Guide to Debugging JAX on Cloud TPUs: Essential Tools and Techniques",
+    "date": "2026-01-27T18:07:43.931Z",
+    "url": "https://developers.googleblog.com/a-developers-guide-to-debugging-jax-on-cloud-tpus-essential-tools-and-techniques/"
+  },
+  {
+    "id": "e857a148-ef41-4f00-8b5d-dd75dea38167",
+    "source": "Gemini",
+    "title": "Real-World Agent Examples with Gemini 3",
+    "date": "2026-01-27T18:07:43.931Z",
+    "url": "https://developers.googleblog.com/real-world-agent-examples-with-gemini-3/"
+  },
+  {
+    "id": "4c7de2f3-540f-4b86-927a-7b5a5fea9f34",
+    "source": "Gemini",
+    "title": "Conductor: Introducing context-driven development for Gemini CLI",
+    "date": "2026-01-27T18:07:43.931Z",
+    "url": "https://developers.googleblog.com/conductor-introducing-context-driven-development-for-gemini-cli/"
+  },
+  {
+    "id": "273615f0-6e6d-4adb-a346-e9c85b5c270a",
+    "source": "Gemini",
+    "title": "Introducing Agent Development Kit for TypeScript: Build AI Agents with the Power of a Code-First Approach",
+    "date": "2026-01-27T18:07:43.931Z",
+    "url": "https://developers.googleblog.com/introducing-agent-development-kit-for-typescript-build-ai-agents-with-the-power-of-a-code-first-approach/"
+  },
+  {
+    "id": "11e29539-261b-4ac6-b21e-258d6be3f55c",
+    "source": "Gemini",
+    "title": "Gemini 3 Flash is now available in Gemini CLI",
+    "date": "2026-01-27T18:07:43.931Z",
+    "url": "https://developers.googleblog.com/gemini-3-flash-is-now-available-in-gemini-cli/"
+  },
+  {
+    "id": "535f8fac-5f63-4fc3-bd1a-89a9d99a21b4",
+    "source": "Gemini",
+    "title": "Developer’s guide to multi-agent patterns in ADK",
+    "date": "2026-01-27T18:07:43.931Z",
+    "url": "https://developers.googleblog.com/developers-guide-to-multi-agent-patterns-in-adk/"
+  },
+  {
+    "id": "b5e7a941-5003-4955-8d78-9633c5171cbc",
+    "source": "Gemini",
+    "title": "Introducing A2UI: An open project for agent-driven interfaces",
+    "date": "2026-01-27T18:07:43.931Z",
+    "url": "https://developers.googleblog.com/introducing-a2ui-an-open-project-for-agent-driven-interfaces/"
+  },
+  {
+    "id": "2e9d55c7-e2e7-4992-922c-822b8f750bf2",
+    "source": "Gemini",
+    "title": "Building agents with the ADK and the new Interactions API",
+    "date": "2026-01-27T18:07:43.931Z",
+    "url": "https://developers.googleblog.com/building-agents-with-the-adk-and-the-new-interactions-api/"
+  }
+]

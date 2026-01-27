@@ -30,6 +30,11 @@ interface ScrapedResult {
   error?: string;
 }
 
+interface ScrapedItem {
+  title: string;
+  url?: string;
+}
+
 // Retry configuration
 const MAX_RETRIES = 3;
 const RETRY_DELAY_MS = 2000;
@@ -157,17 +162,39 @@ async function scrapeTwitter(page: Page, url: string): Promise<string | null> {
   return null;
 }
 
-async function scrapeWeb(page: Page, url: string, selector: string): Promise<string[]> {
+async function scrapeWeb(page: Page, url: string, selector: string): Promise<ScrapedItem[]> {
   await page.goto(url, { waitUntil: 'networkidle', timeout: REQUEST_TIMEOUT_MS });
   
   // Get all matching elements to find multiple news items
   const elements = await page.$$(selector);
-  const results: string[] = [];
+  const results: ScrapedItem[] = [];
   
   for (const element of elements) {
     const text = await element.innerText();
     if (text && text.trim()) {
-      results.push(text.trim());
+      // Try to find the closest link (either the element itself or a parent/child)
+      const link = await element.evaluate((el) => {
+        // If element is 'a', use it
+        if (el.tagName.toLowerCase() === 'a') {
+          return (el as HTMLAnchorElement).href;
+        }
+        // Check closest 'a' parent
+        const parentA = el.closest('a');
+        if (parentA) {
+          return parentA.href;
+        }
+        // Check if there is an 'a' child
+        const childA = el.querySelector('a');
+        if (childA) {
+          return childA.href;
+        }
+        return null;
+      });
+
+      results.push({
+        title: text.trim(),
+        url: link || undefined
+      });
     }
   }
   
@@ -245,20 +272,22 @@ async function main() {
             }
           }
         } else {
-          const contents = await scrapeWithRetry(() => scrapeWeb(page, url, args.selector!));
+          const scrapedItems = await scrapeWithRetry(() => scrapeWeb(page, url, args.selector!));
           
-          if (contents && contents.length > 0) {
-            result.content = contents.join(' | ');
+          if (scrapedItems && scrapedItems.length > 0) {
+            result.content = scrapedItems.map(item => item.title).join(' | ');
             
-            // Add each scraped title as a potential news item
-            for (const title of contents) {
-              if (!isDuplicate([...existingNews, ...newItems], title, url)) {
-                newItems.push(createNewsItem(args.name, title, url));
+            // Add each scraped item as a potential news item
+            for (const item of scrapedItems) {
+              const itemUrl = item.url || url; // Fallback to source URL if no link found
+
+              if (!isDuplicate([...existingNews, ...newItems], item.title, itemUrl)) {
+                newItems.push(createNewsItem(args.name, item.title, itemUrl));
                 addedCount++;
-                console.log(`Added: "${title}" from ${args.name}`);
+                console.log(`Added: "${item.title}" from ${args.name}`);
               } else {
                 skippedCount++;
-                console.log(`Skipped duplicate: "${title}"`);
+                console.log(`Skipped duplicate: "${item.title}"`);
               }
             }
           }
