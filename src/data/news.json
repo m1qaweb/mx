@@ -1,1 +1,16 @@
-[]
+[
+  {
+    "id": "2fdacd85-2e53-4b1b-903a-2dde69473cda",
+    "source": "Antigravity",
+    "title": "Introducing Google Antigravity",
+    "date": "2026-01-27T18:06:43.143Z",
+    "url": "https://antigravity.google/blog"
+  },
+  {
+    "id": "79aaf147-09b3-444f-af46-6ddd47c2e631",
+    "source": "Antigravity",
+    "title": "Performance Improvements",
+    "date": "2026-01-27T18:06:45.382Z",
+    "url": "https://antigravity.google/changelog"
+  }
+]
