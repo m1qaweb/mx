@@ -92,19 +92,24 @@ function generateReport(result: LinkCheckResult): string {
 }
 
 async function main() {
+  // Get URL from command line args or default
+  const args = process.argv.slice(2);
+  const targetUrl = args[0] || DEFAULT_SITE_URL;
+
   console.log('Running broken link check...\n');
-  console.log(`Target URL: ${DEFAULT_SITE_URL}`);
+  console.log(`Target URL: ${targetUrl}`);
   console.log('Note: Twitter/X links are excluded due to anti-scraping measures.\n');
   console.log('---\n');
   
   // Check if we're checking a real site or localhost
-  if (DEFAULT_SITE_URL.includes('localhost')) {
+  if (targetUrl.includes('localhost')) {
     console.log('Warning: Checking localhost. Make sure your dev server is running.\n');
-    console.log('To check a production site, set the SITE_URL environment variable:\n');
+    console.log('To check a production site, pass the URL as an argument or set the SITE_URL environment variable:\n');
+    console.log('  npm run check-links -- https://your-site.com');
     console.log('  SITE_URL=https://your-site.com npm run check-links\n');
   }
   
-  const result = await runBrokenLinkChecker(DEFAULT_SITE_URL);
+  const result = await runBrokenLinkChecker(targetUrl);
   
   console.log('\n---\n');
   console.log('Summary:');
