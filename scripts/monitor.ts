@@ -33,7 +33,7 @@ interface ScrapedResult {
 // Retry configuration
 const MAX_RETRIES = 3;
 const RETRY_DELAY_MS = 2000;
-const REQUEST_TIMEOUT_MS = 30000;
+const REQUEST_TIMEOUT_MS = 60000;
 
 function parseArgs(): MonitorArgs {
   const args = process.argv.slice(2);
@@ -129,7 +129,7 @@ async function sleep(ms: number): Promise<void> {
 
 async function scrapeTwitter(page: Page, url: string): Promise<string | null> {
   try {
-    await page.goto(url, { waitUntil: 'networkidle', timeout: REQUEST_TIMEOUT_MS });
+    await page.goto(url, { waitUntil: 'domcontentloaded', timeout: REQUEST_TIMEOUT_MS });
     
     // Wait for tweets to load with extended timeout for Twitter's slow loading
     await page.waitForSelector('[data-testid="tweet"]', { timeout: 15000 });
@@ -158,7 +158,13 @@ async function scrapeTwitter(page: Page, url: string): Promise<string | null> {
 }
 
 async function scrapeWeb(page: Page, url: string, selector: string): Promise<string[]> {
-  await page.goto(url, { waitUntil: 'networkidle', timeout: REQUEST_TIMEOUT_MS });
+  await page.goto(url, { waitUntil: 'domcontentloaded', timeout: REQUEST_TIMEOUT_MS });
+  try {
+    await page.waitForLoadState('networkidle', { timeout: 10000 });
+  } catch (e) {
+    // Ignore network idle timeout, proceed with DOM content
+    console.log(`Network idle timeout for ${url}, proceeding with DOM content`);
+  }
   
   // Get all matching elements to find multiple news items
   const elements = await page.$$(selector);
