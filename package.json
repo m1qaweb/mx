@@ -14,13 +14,16 @@
     "build": "echo 'Build system not yet configured - requires Astro setup'",
     "typecheck": "tsc --noEmit"
   },
-  "keywords": ["ai", "news", "monitoring", "scraping"],
+  "keywords": [
+    "ai",
+    "news",
+    "monitoring",
+    "scraping"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "axios": "^1.6.0",
-    "cheerio": "^1.0.0-rc.12",
-    "playwright": "^1.40.0",
+    "playwright": "^1.58.0",
     "uuid": "^9.0.0"
   },
   "devDependencies": {
@@ -29,5 +32,9 @@
     "@types/node": "^20.10.0",
     "@types/uuid": "^9.0.0",
     "broken-link-checker": "^0.7.8"
+  },
+  "overrides": {
+    "robots-txt-guard": "^1.0.2",
+    "tmp": "^0.2.5"
   }
 }
