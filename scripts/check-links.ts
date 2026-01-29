@@ -47,15 +47,15 @@ async function runBrokenLinkChecker(url: string): Promise<LinkCheckResult> {
       result.output = output;
       
       // Parse output for statistics
-      const brokenMatch = output.match(/(\d+)\s+broken/i);
-      const totalMatch = output.match(/(\d+)\s+links?\s+checked/i);
+      // blc output format (when using -ro):
+      // ├───OK─── http://...
+      // ├─BROKEN─ http://...
       
-      if (brokenMatch) {
-        result.brokenLinks = parseInt(brokenMatch[1], 10);
-      }
-      if (totalMatch) {
-        result.totalLinks = parseInt(totalMatch[1], 10);
-      }
+      const brokenCount = (output.match(/─BROKEN─/g) || []).length;
+      const okCount = (output.match(/───OK───/g) || []).length;
+
+      result.brokenLinks = brokenCount;
+      result.totalLinks = brokenCount + okCount;
       
       result.success = code === 0 && result.brokenLinks === 0;
       resolve(result);
@@ -92,19 +92,22 @@ function generateReport(result: LinkCheckResult): string {
 }
 
 async function main() {
+  // Get URL from command line arg or default
+  const targetUrl = process.argv[2] || DEFAULT_SITE_URL;
+
   console.log('Running broken link check...\n');
-  console.log(`Target URL: ${DEFAULT_SITE_URL}`);
+  console.log(`Target URL: ${targetUrl}`);
   console.log('Note: Twitter/X links are excluded due to anti-scraping measures.\n');
   console.log('---\n');
   
   // Check if we're checking a real site or localhost
-  if (DEFAULT_SITE_URL.includes('localhost')) {
+  if (targetUrl.includes('localhost')) {
     console.log('Warning: Checking localhost. Make sure your dev server is running.\n');
     console.log('To check a production site, set the SITE_URL environment variable:\n');
     console.log('  SITE_URL=https://your-site.com npm run check-links\n');
   }
   
-  const result = await runBrokenLinkChecker(DEFAULT_SITE_URL);
+  const result = await runBrokenLinkChecker(targetUrl);
   
   console.log('\n---\n');
   console.log('Summary:');
