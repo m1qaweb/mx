@@ -1,4 +1,4 @@
-import { chromium, Browser, Page } from 'playwright';
+import { chromium, Browser, Page, ElementHandle } from 'playwright';
 import * as fs from 'fs';
 import * as path from 'path';
 import { v4 as uuidv4 } from 'uuid';
@@ -113,12 +113,12 @@ function isDuplicate(news: NewsItem[], title: string, url: string): boolean {
   );
 }
 
-function createNewsItem(source: string, title: string, url: string): NewsItem {
+function createNewsItem(source: string, title: string, url: string, date?: string): NewsItem {
   return {
     id: uuidv4(),
     source,
     title,
-    date: new Date().toISOString(),
+    date: date || new Date().toISOString(),
     url
   };
 }
@@ -127,34 +127,45 @@ async function sleep(ms: number): Promise<void> {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
 
-async function scrapeTwitter(page: Page, url: string): Promise<string | null> {
+async function scrapeTwitter(page: Page, url: string): Promise<{ content: string | null; date: string | null }> {
   try {
     await page.goto(url, { waitUntil: 'networkidle', timeout: REQUEST_TIMEOUT_MS });
     
     // Wait for tweets to load with extended timeout for Twitter's slow loading
     await page.waitForSelector('[data-testid="tweet"]', { timeout: 15000 });
     
+    const getTweetData = async (tweet: ElementHandle) => {
+      const textEl = await tweet.$('[data-testid="tweetText"]');
+      const timeEl = await tweet.$('time');
+      const text = textEl ? await textEl.innerText() : null;
+      const date = timeEl ? await timeEl.getAttribute('datetime') : null;
+      return { content: text, date };
+    };
+
     // Try to find pinned tweet first (per AGENTS.md requirement)
     const pinnedTweet = await page.$('[data-testid="tweet"]:has([aria-label*="Pinned"])');
     
     if (pinnedTweet) {
-      const tweetText = await pinnedTweet.$('[data-testid="tweetText"]');
-      if (tweetText) {
-        return await tweetText.innerText();
+      const data = await getTweetData(pinnedTweet);
+      if (data.content) {
+        return data;
       }
     }
     
     // Fallback to latest tweet
-    const latestTweet = await page.$('[data-testid="tweet"] [data-testid="tweetText"]');
+    const latestTweet = await page.$('[data-testid="tweet"]');
     if (latestTweet) {
-      return await latestTweet.innerText();
+      const data = await getTweetData(latestTweet);
+      if (data.content) {
+        return data;
+      }
     }
   } catch (error) {
     // Twitter often blocks scraping, this is expected
     console.log(`Note: Twitter scraping may be blocked for ${url}`);
   }
   
-  return null;
+  return { content: null, date: null };
 }
 
 async function scrapeWeb(page: Page, url: string, selector: string): Promise<string[]> {
@@ -228,15 +239,18 @@ async function main() {
       
       try {
         if (args.source === 'twitter') {
-          const content = await scrapeWithRetry(() => scrapeTwitter(page, url));
-          result.content = content;
+          const tweetData = await scrapeWithRetry(() => scrapeTwitter(page, url));
+          const content = tweetData?.content;
+          const date = tweetData?.date;
+
+          result.content = content || null;
           
           if (content) {
             // For Twitter, use the tweet text as both title and content
             const title = content.slice(0, 100) + (content.length > 100 ? '...' : '');
             
             if (!isDuplicate([...existingNews, ...newItems], title, url)) {
-              newItems.push(createNewsItem(args.name, title, url));
+              newItems.push(createNewsItem(args.name, title, url, date || undefined));
               addedCount++;
               console.log(`Added: "${title}" from ${args.name}`);
             } else {
@@ -253,7 +267,7 @@ async function main() {
             // Add each scraped title as a potential news item
             for (const title of contents) {
               if (!isDuplicate([...existingNews, ...newItems], title, url)) {
-                newItems.push(createNewsItem(args.name, title, url));
+                newItems.push(createNewsItem(args.name, title, url)); // Web scrape doesn't return date yet
                 addedCount++;
                 console.log(`Added: "${title}" from ${args.name}`);
               } else {
