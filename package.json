@@ -11,7 +11,8 @@
     "check-links": "ts-node scripts/check-links.ts",
     "audit": "ts-node scripts/dependency-audit.ts",
     "archive": "ts-node scripts/archive-old-news.ts",
-    "build": "echo 'Build system not yet configured - requires Astro setup'",
+    "verify-data": "ts-node scripts/verify-data.ts",
+    "build": "npm run verify-data && echo 'Data integrity verified. Build system requires Astro setup'",
     "typecheck": "tsc --noEmit"
   },
   "keywords": [
