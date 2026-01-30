@@ -158,8 +158,14 @@ async function scrapeTwitter(page: Page, url: string): Promise<string | null> {
 }
 
 async function scrapeWeb(page: Page, url: string, selector: string): Promise<string[]> {
-  await page.goto(url, { waitUntil: 'networkidle', timeout: REQUEST_TIMEOUT_MS });
+  await page.goto(url, { waitUntil: 'domcontentloaded', timeout: REQUEST_TIMEOUT_MS });
   
+  try {
+    await page.waitForSelector(selector, { timeout: 10000 });
+  } catch (e) {
+    console.log(`Warning: Selector "${selector}" not found on ${url}`);
+  }
+
   // Get all matching elements to find multiple news items
   const elements = await page.$$(selector);
   const results: string[] = [];
