@@ -1,0 +1,45 @@
+name: Nightly Janitor (Auto-Merge & Clean)
+
+on:
+  schedule:
+    # Run every night at 11:00 PM UTC
+    - cron: '0 23 * * *'
+  workflow_dispatch: # Allows you to run it manually
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  janitor:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Process All Open PRs
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo "🧹 Starting Nightly Cleanup..."
+
+          # Get list of all open PR numbers
+          prs=$(gh pr list --state open --json number -q '.[].number')
+
+          if [ -z "$prs" ]; then
+            echo "✅ No open PRs found. All clean!"
+            exit 0
+          fi
+
+          for pr in $prs; do
+            echo "👉 Processing PR #$pr..."
+
+            # 1. Try to Merge
+            if gh pr merge $pr --merge --admin; then
+              echo "   ✅ Successfully merged #$pr"
+            else
+              # 2. If Merge Fails (Conflict), Close it
+              echo "   ❌ Merge failed (Conflict). Closing PR #$pr to prevent pile-up."
+              gh pr close $pr --comment "Auto-closed by Janitor due to merge conflicts." --delete-branch
+            fi
+          done
