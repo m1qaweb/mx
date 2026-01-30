@@ -14,7 +14,12 @@
     "build": "echo 'Build system not yet configured - requires Astro setup'",
     "typecheck": "tsc --noEmit"
   },
-  "keywords": ["ai", "news", "monitoring", "scraping"],
+  "keywords": [
+    "ai",
+    "news",
+    "monitoring",
+    "scraping"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
@@ -24,10 +29,10 @@
     "uuid": "^9.0.0"
   },
   "devDependencies": {
-    "ts-node": "^10.9.2",
-    "typescript": "^5.3.0",
     "@types/node": "^20.10.0",
     "@types/uuid": "^9.0.0",
-    "broken-link-checker": "^0.7.8"
+    "linkinator": "^7.5.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.0"
   }
 }
