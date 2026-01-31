@@ -35,6 +35,11 @@ const MAX_RETRIES = 3;
 const RETRY_DELAY_MS = 2000;
 const REQUEST_TIMEOUT_MS = 30000;
 
+const DEFAULT_SELECTORS: Record<string, string> = {
+  'openai.com': 'h3, a[href*="/news/"]',
+  'anthropic.com': '[class*="title"], h3'
+};
+
 function parseArgs(): MonitorArgs {
   const args = process.argv.slice(2);
   const result: Partial<MonitorArgs> = {};
@@ -73,8 +78,8 @@ function parseArgs(): MonitorArgs {
   }
 
   if (result.source === 'web' && !result.selector) {
-    console.error('Error: --selector is required for web source');
-    process.exit(1);
+    // Allow missing selector if we might have defaults
+    // We will validate per-URL in main()
   }
 
   return result as MonitorArgs;
@@ -253,7 +258,31 @@ async function main() {
             }
           }
         } else {
-          const contents = await scrapeWithRetry(() => scrapeWeb(page, url, args.selector!));
+          let selector = args.selector;
+
+          if (!selector) {
+            for (const [domain, sel] of Object.entries(DEFAULT_SELECTORS)) {
+              if (url.includes(domain)) {
+                selector = sel;
+                break;
+              }
+            }
+          }
+
+          if (!selector) {
+            console.log(`Skipping ${url}: No selector provided and no default found`);
+            results.push({
+              url,
+              source: args.source,
+              name: args.name,
+              content: null,
+              timestamp: new Date().toISOString(),
+              error: 'Missing selector'
+            });
+            continue;
+          }
+
+          const contents = await scrapeWithRetry(() => scrapeWeb(page, url, selector));
           
           if (contents && contents.length > 0) {
             result.content = contents.join(' | ');

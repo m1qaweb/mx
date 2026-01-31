@@ -12,5 +12,33 @@
     "title": "#Conversation insights",
     "date": "2026-01-30T18:32:33.780Z",
     "url": "https://cursor.com/changelog"
+  },
+  {
+    "id": "bb5f3318-59d7-4211-b72a-a7fcdce694b0",
+    "source": "Models_Web",
+    "title": "Newsroom",
+    "date": "2026-01-31T06:03:59.332Z",
+    "url": "https://www.anthropic.com/news"
+  },
+  {
+    "id": "052df82a-f01c-4cb9-8f02-fca4523bd445",
+    "source": "Models_Social",
+    "title": "Introducing Prism, a free workspace for scientists to write and collaborate on research, powered by ...",
+    "date": "2026-01-31T06:04:28.485Z",
+    "url": "https://x.com/OpenAI"
+  },
+  {
+    "id": "4c924cf2-da7b-4f03-8cca-636d2963b954",
+    "source": "Models_Social",
+    "title": "On December 8, the Perseverance rover safely trundled across the surface of Mars.\n\nThis was the firs...",
+    "date": "2026-01-31T06:04:34.174Z",
+    "url": "https://x.com/AnthropicAI"
+  },
+  {
+    "id": "c471eab6-d348-44e4-8707-cc4866ed0267",
+    "source": "Models_Social",
+    "title": "no thank you but we will buy twitter for $9.74 billion if you want",
+    "date": "2026-01-31T06:04:57.206Z",
+    "url": "https://x.com/sama"
   }
 ]
