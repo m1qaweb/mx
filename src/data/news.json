@@ -12,5 +12,19 @@
     "title": "#Conversation insights",
     "date": "2026-01-30T18:32:33.780Z",
     "url": "https://cursor.com/changelog"
+  },
+  {
+    "id": "37a8f3f9-a49f-470c-881c-9ac699cf5e97",
+    "source": "Coding_Tools",
+    "title": "Arena Mode",
+    "date": "2026-01-31T06:03:37.342Z",
+    "url": "https://windsurf.com/changelog"
+  },
+  {
+    "id": "107abce7-aea1-4641-bfb2-fb6cf84aa201",
+    "source": "Coding_Tools",
+    "title": "Web Tools, Subagents, Contextual Hooks, and Per-File Code Review",
+    "date": "2026-01-31T06:03:43.397Z",
+    "url": "https://kiro.dev/changelog/"
   }
 ]
