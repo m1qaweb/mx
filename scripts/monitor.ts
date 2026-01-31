@@ -7,7 +7,7 @@ import { v4 as uuidv4 } from 'uuid';
 const NEWS_JSON_PATH = path.join(__dirname, '..', 'src', 'data', 'news.json');
 
 interface MonitorArgs {
-  source: 'web' | 'twitter';
+  source: 'web' | 'twitter' | 'mixed';
   name: string;
   urls: string[];
   selector?: string;
@@ -42,7 +42,7 @@ function parseArgs(): MonitorArgs {
   for (let i = 0; i < args.length; i++) {
     switch (args[i]) {
       case '--source':
-        result.source = args[++i] as 'web' | 'twitter';
+        result.source = args[++i] as 'web' | 'twitter' | 'mixed';
         break;
       case '--name':
         result.name = args[++i];
@@ -57,8 +57,8 @@ function parseArgs(): MonitorArgs {
   }
 
   // Validation
-  if (!result.source || !['web', 'twitter'].includes(result.source)) {
-    console.error('Error: --source must be "web" or "twitter"');
+  if (!result.source || !['web', 'twitter', 'mixed'].includes(result.source)) {
+    console.error('Error: --source must be "web", "twitter" or "mixed"');
     process.exit(1);
   }
 
@@ -235,7 +235,17 @@ async function main() {
       };
       
       try {
-        if (args.source === 'twitter') {
+        let effectiveSource = args.source;
+        if (effectiveSource === 'mixed') {
+          // Detect source based on URL
+          if (url.includes('twitter.com') || url.includes('x.com')) {
+            effectiveSource = 'twitter';
+          } else {
+            effectiveSource = 'web';
+          }
+        }
+
+        if (effectiveSource === 'twitter') {
           const content = await scrapeWithRetry(() => scrapeTwitter(page, url));
           result.content = content;
           
@@ -253,7 +263,9 @@ async function main() {
             }
           }
         } else {
-          const contents = await scrapeWithRetry(() => scrapeWeb(page, url, args.selector!));
+          // Web source
+          const selector = args.selector || 'h1, h2, h3'; // Default selector if not provided
+          const contents = await scrapeWithRetry(() => scrapeWeb(page, url, selector));
           
           if (contents && contents.length > 0) {
             result.content = contents.join(' | ');

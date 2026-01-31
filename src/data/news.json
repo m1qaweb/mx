@@ -12,5 +12,40 @@
     "title": "#Conversation insights",
     "date": "2026-01-30T18:32:33.780Z",
     "url": "https://cursor.com/changelog"
+  },
+  {
+    "id": "772967f7-ea00-42a1-8f70-352d11159936",
+    "source": "Google_Ecosystem",
+    "title": "Blog",
+    "date": "2026-01-31T06:04:00.969Z",
+    "url": "https://antigravity.google/blog"
+  },
+  {
+    "id": "26e81319-a081-43d1-80c0-5290299dd5f6",
+    "source": "Google_Ecosystem",
+    "title": "404",
+    "date": "2026-01-31T06:04:02.696Z",
+    "url": "https://developers.googleblog.com/search/label/Gemini"
+  },
+  {
+    "id": "1a254dc7-6978-4772-b03d-a88f3f6b85af",
+    "source": "Google_Ecosystem",
+    "title": "Step inside Project Genie: our experimental research prototype that lets you create, edit, and explo...",
+    "date": "2026-01-31T06:04:11.157Z",
+    "url": "https://x.com/GoogleDeepMind"
+  },
+  {
+    "id": "14445088-19b4-4792-b5dc-aa24944a0d62",
+    "source": "Google_Ecosystem",
+    "title": "Last August, we previewed Genie 3: a general-purpose world model that turns a single text prompt int...",
+    "date": "2026-01-31T06:04:16.722Z",
+    "url": "https://x.com/GoogleAI"
+  },
+  {
+    "id": "7c22c912-5e97-4cb4-a72b-fab30ffd9e92",
+    "source": "Google_Ecosystem",
+    "title": "NEW LABS EXPERIMENT\n\nIntroducing Project Genie, an experimental prototype that lets you create and e...",
+    "date": "2026-01-31T06:04:21.630Z",
+    "url": "https://x.com/GoogleLabs"
   }
 ]
