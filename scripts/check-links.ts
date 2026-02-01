@@ -1,6 +1,5 @@
 import * as path from 'path';
 import * as fs from 'fs';
-import axios from 'axios';
 
 // Default site URL - should be configured for actual deployment
 const DEFAULT_SITE_URL = process.env.SITE_URL || 'http://localhost:4321';
@@ -51,59 +50,71 @@ function extractLinksFromMarkdown(filePath: string): string[] {
   }
 }
 
-async function checkLinksWithAxios(links: string[]): Promise<LinkCheckResult> {
-  const brokenLinksList: { url: string; status: any; parent: string }[] = [];
-  let checkedCount = 0;
+async function checkLinksWithLinkinator(links: string[]): Promise<LinkCheckResult> {
+  // Dynamic import for ESM-only package
+  const { LinkChecker } = await import('linkinator');
+  const checker = new LinkChecker();
 
-  console.log(`Checking ${links.length} links...`);
+  console.log(`Checking ${links.length} links using Linkinator...`);
 
-  // Filter out Twitter/X links before checking
-  const filteredLinks = links.filter(link => !/twitter\.com/.test(link) && !/x\.com/.test(link));
-  const skippedCount = links.length - filteredLinks.length;
-  if (skippedCount > 0) {
-    console.log(`Skipped ${skippedCount} Twitter/X links.`);
-  }
+  // Create temporary HTML file
+  const tempFileName = `temp-links-${Date.now()}.html`;
+  const tempFile = path.join(__dirname, tempFileName);
 
-  for (const link of filteredLinks) {
-    try {
-      // Try HEAD first
-      await axios.head(link, {
-        timeout: 10000,
-        headers: { 'User-Agent': 'AI-Pulse-Monitor/1.0' }
-      });
-    } catch (error: any) {
-       // If HEAD fails, try GET (some servers block HEAD or return 405)
-       try {
-         await axios.get(link, {
-            timeout: 10000,
-            headers: { 'User-Agent': 'AI-Pulse-Monitor/1.0' }
-         });
-       } catch (getError: any) {
-          const status = getError.response ? getError.response.status : (getError.code || 'UNKNOWN');
-          brokenLinksList.push({ url: link, status, parent: 'Markdown File' });
-       }
+  const htmlContent = `
+    <!DOCTYPE html>
+    <html>
+      <head><title>Link Check</title></head>
+      <body>
+        <ul>
+          ${links.map(link => `<li><a href="${link}">${link}</a></li>`).join('\n')}
+        </ul>
+      </body>
+    </html>
+  `;
+
+  fs.writeFileSync(tempFile, htmlContent);
+
+  try {
+    const results = await checker.check({
+      path: tempFile,
+      recurse: false,
+      linksToSkip: async (link) => {
+        return /twitter\.com/.test(link) || /x\.com/.test(link);
+      }
+    });
+
+    // Filter out the temp file itself from results if it appears
+    const checkedLinks = results.links.filter(l => l.url !== `file://${tempFile}` && l.url !== tempFile);
+
+    const brokenLinks = checkedLinks.filter(link => link.state === 'BROKEN');
+
+    let output = '';
+    if (brokenLinks.length > 0) {
+      output = brokenLinks.map(link => `[${link.status}] ${link.url} (from Markdown)`).join('\n');
     }
-    checkedCount++;
-    if (checkedCount % 5 === 0) process.stdout.write('.');
+
+    // Print results
+    if (brokenLinks.length > 0) {
+      console.log('\nBroken links found:');
+      console.log(output);
+    } else {
+      console.log('\nNo broken links found.');
+    }
+
+    return {
+      url: 'Markdown Files',
+      brokenLinks: brokenLinks.length,
+      totalLinks: checkedLinks.length,
+      success: results.passed,
+      output
+    };
+  } finally {
+    // Cleanup
+    if (fs.existsSync(tempFile)) {
+      fs.unlinkSync(tempFile);
+    }
   }
-  console.log('\nDone.');
-
-  const brokenOutput = brokenLinksList.map(item => `[${item.status}] ${item.url} (on ${item.parent})`).join('\n');
-
-  if (brokenLinksList.length > 0) {
-    console.log('\nBroken links found:');
-    console.log(brokenOutput);
-  } else {
-    console.log('\nNo broken links found.');
-  }
-
-  return {
-    url: 'Markdown Files',
-    brokenLinks: brokenLinksList.length,
-    totalLinks: filteredLinks.length, // Only report checked links
-    success: brokenLinksList.length === 0,
-    output: brokenOutput
-  };
 }
 
 async function runLinkinator(target: string): Promise<LinkCheckResult> {
@@ -218,7 +229,7 @@ async function main() {
           output: 'No links found in markdown files.'
         };
       } else {
-        result = await checkLinksWithAxios(uniqueLinks);
+        result = await checkLinksWithLinkinator(uniqueLinks);
       }
 
     } else {
