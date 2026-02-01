@@ -7,7 +7,7 @@ import { v4 as uuidv4 } from 'uuid';
 const NEWS_JSON_PATH = path.join(__dirname, '..', 'src', 'data', 'news.json');
 
 interface MonitorArgs {
-  source: 'web' | 'twitter';
+  source: 'web' | 'twitter' | 'mixed';
   name: string;
   urls: string[];
   selector?: string;
@@ -37,7 +37,9 @@ const REQUEST_TIMEOUT_MS = 30000;
 
 const DEFAULT_SELECTORS: Record<string, string> = {
   'openai.com': 'h3, a[href*="/news/"]',
-  'anthropic.com': '[class*="title"], h3'
+  'anthropic.com': '[class*="title"], h3',
+  'antigravity.google': 'h3',
+  'developers.googleblog.com': '.post-title'
 };
 
 function parseArgs(): MonitorArgs {
@@ -47,7 +49,7 @@ function parseArgs(): MonitorArgs {
   for (let i = 0; i < args.length; i++) {
     switch (args[i]) {
       case '--source':
-        result.source = args[++i] as 'web' | 'twitter';
+        result.source = args[++i] as 'web' | 'twitter' | 'mixed';
         break;
       case '--name':
         result.name = args[++i];
@@ -62,8 +64,8 @@ function parseArgs(): MonitorArgs {
   }
 
   // Validation
-  if (!result.source || !['web', 'twitter'].includes(result.source)) {
-    console.error('Error: --source must be "web" or "twitter"');
+  if (!result.source || !['web', 'twitter', 'mixed'].includes(result.source)) {
+    console.error('Error: --source must be "web", "twitter", or "mixed"');
     process.exit(1);
   }
 
@@ -240,8 +242,14 @@ async function main() {
       };
       
       try {
-        if (args.source === 'twitter') {
-          const content = await scrapeWithRetry(() => scrapeTwitter(page, url));
+        // Determine source type for this URL
+        let isTwitter = args.source === 'twitter';
+        if (args.source === 'mixed') {
+          isTwitter = url.includes('twitter.com') || url.includes('x.com');
+        }
+
+        if (isTwitter) {
+          const content = await scrapeWithRetry(() => scrapeTwitter(page!, url));
           result.content = content;
           
           if (content) {
@@ -282,7 +290,7 @@ async function main() {
             continue;
           }
 
-          const contents = await scrapeWithRetry(() => scrapeWeb(page, url, selector));
+          const contents = await scrapeWithRetry(() => scrapeWeb(page!, url, selector));
           
           if (contents && contents.length > 0) {
             result.content = contents.join(' | ');
