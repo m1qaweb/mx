@@ -37,7 +37,10 @@ const REQUEST_TIMEOUT_MS = 30000;
 
 const DEFAULT_SELECTORS: Record<string, string> = {
   'openai.com': 'h3, a[href*="/news/"]',
-  'anthropic.com': '[class*="title"], h3'
+  'anthropic.com': '[class*="title"], h3',
+  'windsurf.com': 'h2',
+  'kiro.dev': 'h2',
+  'cursor.com': 'h2'
 };
 
 function parseArgs(): MonitorArgs {
