@@ -54,5 +54,33 @@
     "title": "Web Tools, Subagents, Contextual Hooks, and Per-File Code Review",
     "date": "2026-02-01T06:16:47.264Z",
     "url": "https://kiro.dev/changelog/"
+  },
+  {
+    "id": "6ff395c8-cacb-49bb-8b61-79c8417e82a2",
+    "source": "Google_Ecosystem",
+    "title": "Gemini 3 Flash in Google Antigravity",
+    "date": "2026-02-02T06:29:46.519Z",
+    "url": "https://antigravity.google/blog"
+  },
+  {
+    "id": "6d0c5e6a-3df3-481a-a15c-14e7741c3908",
+    "source": "Google_Ecosystem",
+    "title": "Step inside Project Genie: our experimental research prototype that lets you create, edit, and explo...",
+    "date": "2026-02-02T06:29:59.914Z",
+    "url": "https://x.com/GoogleDeepMind"
+  },
+  {
+    "id": "5acfb587-e8ab-4e4d-8028-d3621363dbaf",
+    "source": "Google_Ecosystem",
+    "title": "Last August, we previewed Genie 3: a general-purpose world model that turns a single text prompt int...",
+    "date": "2026-02-02T06:30:07.561Z",
+    "url": "https://x.com/GoogleAI"
+  },
+  {
+    "id": "4c1e583c-a875-42b7-be6e-13be913897f6",
+    "source": "Google_Ecosystem",
+    "title": "NEW LABS EXPERIMENT\n\nIntroducing Project Genie, an experimental prototype that lets you create and e...",
+    "date": "2026-02-02T06:30:12.790Z",
+    "url": "https://x.com/GoogleLabs"
   }
 ]

@@ -7,7 +7,7 @@ import { v4 as uuidv4 } from 'uuid';
 const NEWS_JSON_PATH = path.join(__dirname, '..', 'src', 'data', 'news.json');
 
 interface MonitorArgs {
-  source: 'web' | 'twitter';
+  source: 'web' | 'twitter' | 'mixed';
   name: string;
   urls: string[];
   selector?: string;
@@ -40,7 +40,9 @@ const DEFAULT_SELECTORS: Record<string, string> = {
   'anthropic.com': '[class*="title"], h3',
   'windsurf.com': 'h2',
   'kiro.dev': 'h2',
-  'cursor.com': 'h2'
+  'cursor.com': 'h2',
+  'antigravity.google': 'h3',
+  'developers.googleblog.com': '.post-title'
 };
 
 function parseArgs(): MonitorArgs {
@@ -50,7 +52,7 @@ function parseArgs(): MonitorArgs {
   for (let i = 0; i < args.length; i++) {
     switch (args[i]) {
       case '--source':
-        result.source = args[++i] as 'web' | 'twitter';
+        result.source = args[++i] as 'web' | 'twitter' | 'mixed';
         break;
       case '--name':
         result.name = args[++i];
@@ -65,8 +67,8 @@ function parseArgs(): MonitorArgs {
   }
 
   // Validation
-  if (!result.source || !['web', 'twitter'].includes(result.source)) {
-    console.error('Error: --source must be "web" or "twitter"');
+  if (!result.source || !['web', 'twitter', 'mixed'].includes(result.source)) {
+    console.error('Error: --source must be "web", "twitter", or "mixed"');
     process.exit(1);
   }
 
@@ -234,16 +236,25 @@ async function main() {
     const page = await context.newPage();
     
     for (const url of args.urls) {
+      let currentSource = args.source;
+      if (currentSource === 'mixed') {
+        if (url.includes('twitter.com') || url.includes('x.com')) {
+          currentSource = 'twitter';
+        } else {
+          currentSource = 'web';
+        }
+      }
+
       const result: ScrapedResult = {
         url,
-        source: args.source,
+        source: currentSource,
         name: args.name,
         content: null,
         timestamp: new Date().toISOString()
       };
       
       try {
-        if (args.source === 'twitter') {
+        if (currentSource === 'twitter') {
           const content = await scrapeWithRetry(() => scrapeTwitter(page, url));
           result.content = content;
           
@@ -276,7 +287,7 @@ async function main() {
             console.log(`Skipping ${url}: No selector provided and no default found`);
             results.push({
               url,
-              source: args.source,
+              source: currentSource,
               name: args.name,
               content: null,
               timestamp: new Date().toISOString(),
