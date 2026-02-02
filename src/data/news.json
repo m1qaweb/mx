@@ -54,5 +54,12 @@
     "title": "Web Tools, Subagents, Contextual Hooks, and Per-File Code Review",
     "date": "2026-02-01T06:16:47.264Z",
     "url": "https://kiro.dev/changelog/"
+  },
+  {
+    "id": "d89a5a64-d217-44b5-b213-91281f3f797b",
+    "source": "Models_Web",
+    "title": "News",
+    "date": "2026-02-02T06:21:39.497Z",
+    "url": "https://openai.com/news"
   }
 ]
