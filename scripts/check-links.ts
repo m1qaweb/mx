@@ -50,6 +50,22 @@ function extractLinksFromMarkdown(filePath: string): string[] {
   }
 }
 
+function extractLinksFromNewsJson(): string[] {
+  const newsJsonPath = path.join(__dirname, '..', 'src', 'data', 'news.json');
+  try {
+    if (fs.existsSync(newsJsonPath)) {
+      const content = fs.readFileSync(newsJsonPath, 'utf-8');
+      const data = JSON.parse(content);
+      if (Array.isArray(data)) {
+        return data.map((item: any) => item.url).filter((url: string) => url && typeof url === 'string');
+      }
+    }
+  } catch (error) {
+    console.error('Error reading news.json:', error);
+  }
+  return [];
+}
+
 async function checkLinksWithLinkinator(links: string[]): Promise<LinkCheckResult> {
   // Dynamic import for ESM-only package
   const { LinkChecker } = await import('linkinator');
@@ -216,6 +232,11 @@ async function main() {
         const links = extractLinksFromMarkdown(file);
         links.forEach(link => allLinks.add(link));
       });
+
+      console.log(`Scanning news.json for links...`);
+      const newsLinks = extractLinksFromNewsJson();
+      console.log(`Found ${newsLinks.length} links in news.json.`);
+      newsLinks.forEach(link => allLinks.add(link));
 
       const uniqueLinks = Array.from(allLinks);
       console.log(`Found ${uniqueLinks.length} unique links to check.`);
