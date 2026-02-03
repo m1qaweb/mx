@@ -170,13 +170,9 @@ async function scrapeTwitter(page: Page, url: string): Promise<string | null> {
 async function scrapeWeb(page: Page, url: string, selector: string): Promise<string[]> {
   await page.goto(url, { waitUntil: 'domcontentloaded', timeout: REQUEST_TIMEOUT_MS });
   
-  try {
-    // Wait for the selector to ensure elements are present
-    await page.waitForSelector(selector, { timeout: 5000 });
-  } catch (e) {
-    console.log(`Warning: Selector "${selector}" not found on ${url}`);
-    return [];
-  }
+  // Wait for the selector to ensure elements are present
+  // If this times out, it will throw and trigger the retry mechanism
+  await page.waitForSelector(selector, { timeout: 10000 });
 
   // Get all matching elements to find multiple news items
   const elements = await page.$$(selector);
