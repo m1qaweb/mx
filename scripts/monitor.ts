@@ -37,7 +37,7 @@ const REQUEST_TIMEOUT_MS = 30000;
 
 const DEFAULT_SELECTORS: Record<string, string> = {
   'openai.com': 'h3, a[href*="/news/"]',
-  'anthropic.com': '[class*="title"], h3',
+  'anthropic.com': 'a[href*="/news/"]',
   'windsurf.com': 'h2',
   'kiro.dev': 'h2',
   'cursor.com': 'h2',
@@ -137,7 +137,7 @@ async function sleep(ms: number): Promise<void> {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
 
-async function scrapeTwitter(page: Page, url: string): Promise<string | null> {
+async function scrapeTwitter(page: Page, url: string): Promise<{text: string, link: string} | null> {
   try {
     await page.goto(url, { waitUntil: 'domcontentloaded', timeout: REQUEST_TIMEOUT_MS });
     
@@ -145,19 +145,34 @@ async function scrapeTwitter(page: Page, url: string): Promise<string | null> {
     await page.waitForSelector('[data-testid="tweet"]', { timeout: 15000 });
     
     // Try to find pinned tweet first (per AGENTS.md requirement)
-    const pinnedTweet = await page.$('[data-testid="tweet"]:has([aria-label*="Pinned"])');
+    let tweetElement = await page.$('[data-testid="tweet"]:has([aria-label*="Pinned"])');
     
-    if (pinnedTweet) {
-      const tweetText = await pinnedTweet.$('[data-testid="tweetText"]');
-      if (tweetText) {
-        return await tweetText.innerText();
-      }
+    if (!tweetElement) {
+       // Fallback to latest tweet
+       tweetElement = await page.$('[data-testid="tweet"]');
     }
-    
-    // Fallback to latest tweet
-    const latestTweet = await page.$('[data-testid="tweet"] [data-testid="tweetText"]');
-    if (latestTweet) {
-      return await latestTweet.innerText();
+
+    if (tweetElement) {
+      const tweetTextElement = await tweetElement.$('[data-testid="tweetText"]');
+      const tweetText = tweetTextElement ? await tweetTextElement.innerText() : null;
+
+      // Try to find the status link. It is usually inside a <time> element's parent or direct timestamp link
+      const timeElement = await tweetElement.$('time');
+      let tweetLink = url; // Default to profile URL if status link not found
+
+      if (timeElement) {
+         // The time element is usually wrapped in a link or has a link nearby
+         // Often it's <a href="/user/status/id"><time>...</time></a>
+         // So we check the parent
+         const href = await timeElement.evaluate(el => el.parentElement?.getAttribute('href'));
+         if (href) {
+            tweetLink = new URL(href, 'https://x.com').toString();
+         }
+      }
+
+      if (tweetText) {
+        return { text: tweetText, link: tweetLink };
+      }
     }
   } catch (error) {
     // Twitter often blocks scraping, this is expected
@@ -167,7 +182,7 @@ async function scrapeTwitter(page: Page, url: string): Promise<string | null> {
   return null;
 }
 
-async function scrapeWeb(page: Page, url: string, selector: string): Promise<string[]> {
+async function scrapeWeb(page: Page, url: string, selector: string): Promise<{text: string, link: string}[]> {
   await page.goto(url, { waitUntil: 'domcontentloaded', timeout: REQUEST_TIMEOUT_MS });
   
   try {
@@ -180,12 +195,16 @@ async function scrapeWeb(page: Page, url: string, selector: string): Promise<str
 
   // Get all matching elements to find multiple news items
   const elements = await page.$$(selector);
-  const results: string[] = [];
+  const results: {text: string, link: string}[] = [];
   
   for (const element of elements) {
     const text = await element.innerText();
+    const href = await element.getAttribute('href');
+
     if (text && text.trim()) {
-      results.push(text.trim());
+      // Resolve relative URLs
+      const fullLink = href ? new URL(href, url).toString() : url;
+      results.push({ text: text.trim(), link: fullLink });
     }
   }
   
@@ -256,20 +275,22 @@ async function main() {
       try {
         if (currentSource === 'twitter') {
           const content = await scrapeWithRetry(() => scrapeTwitter(page, url));
-          result.content = content;
           
           if (content) {
+            result.content = content.text;
             // For Twitter, use the tweet text as both title and content
-            const title = content.slice(0, 100) + (content.length > 100 ? '...' : '');
+            const title = content.text.slice(0, 100) + (content.text.length > 100 ? '...' : '');
             
-            if (!isDuplicate([...existingNews, ...newItems], title, url)) {
-              newItems.push(createNewsItem(args.name, title, url));
+            if (!isDuplicate([...existingNews, ...newItems], title, content.link)) {
+              newItems.push(createNewsItem(args.name, title, content.link));
               addedCount++;
               console.log(`Added: "${title}" from ${args.name}`);
             } else {
               skippedCount++;
               console.log(`Skipped duplicate: "${title}"`);
             }
+          } else {
+              result.content = null;
           }
         } else {
           let selector = args.selector;
@@ -299,19 +320,21 @@ async function main() {
           const contents = await scrapeWithRetry(() => scrapeWeb(page, url, selector));
           
           if (contents && contents.length > 0) {
-            result.content = contents.join(' | ');
+            result.content = contents.map(c => c.text).join(' | ');
             
             // Add each scraped title as a potential news item
-            for (const title of contents) {
-              if (!isDuplicate([...existingNews, ...newItems], title, url)) {
-                newItems.push(createNewsItem(args.name, title, url));
+            for (const item of contents) {
+              if (!isDuplicate([...existingNews, ...newItems], item.text, item.link)) {
+                newItems.push(createNewsItem(args.name, item.text, item.link));
                 addedCount++;
-                console.log(`Added: "${title}" from ${args.name}`);
+                console.log(`Added: "${item.text}" from ${args.name}`);
               } else {
                 skippedCount++;
-                console.log(`Skipped duplicate: "${title}"`);
+                console.log(`Skipped duplicate: "${item.text}"`);
               }
             }
+          } else {
+             result.content = null;
           }
         }
       } catch (error) {
