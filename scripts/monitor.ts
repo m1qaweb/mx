@@ -124,10 +124,12 @@ function isDuplicate(news: NewsItem[], title: string, url: string): boolean {
 }
 
 function createNewsItem(source: string, title: string, url: string): NewsItem {
+  // Clean title: remove newlines and excessive whitespace
+  const cleanTitle = title.replace(/\s+/g, ' ').trim();
   return {
     id: uuidv4(),
     source,
-    title,
+    title: cleanTitle,
     date: new Date().toISOString(),
     url
   };

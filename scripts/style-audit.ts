@@ -8,7 +8,7 @@ const EXTENSIONS = ['.ts', '.tsx', '.js', '.jsx', '.astro', '.html', '.css', '.m
 interface Violation {
   file: string;
   line: number;
-  type: 'HEX_COLOR' | 'NON_STANDARD_SPACING';
+  type: 'HEX_COLOR' | 'NON_STANDARD_SPACING' | 'INLINE_STYLE';
   match: string;
   message: string;
 }
@@ -66,6 +66,20 @@ function scanFile(filePath: string): Violation[] {
             message: `Non-standard spacing value: ${spacingMatch[0]}. Use multiples of 4px (e.g., 4, 8, 12, 16) or standard Tailwind classes.`
           });
         }
+      }
+
+      // Check for Inline Styles with px values
+      const inlineStyleMatch = line.match(/style="[^"]*:\s*[^"]*px[^"]*"/g);
+      if (inlineStyleMatch) {
+         inlineStyleMatch.forEach(match => {
+            violations.push({
+              file: filePath,
+              line: index + 1,
+              type: 'INLINE_STYLE',
+              match: match,
+              message: `Inline style with pixel values found: ${match}. Use Tailwind classes instead.`
+            });
+         });
       }
     });
   } catch (error) {
