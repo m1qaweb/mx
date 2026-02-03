@@ -9,6 +9,7 @@
     "monitor:twitter": "ts-node scripts/monitor.ts --source twitter",
     "summary": "ts-node scripts/generate-summary.ts",
     "check-links": "ts-node scripts/check-links.ts",
+    "lint:styles": "ts-node scripts/style-audit.ts",
     "audit": "ts-node scripts/dependency-audit.ts",
     "archive": "ts-node scripts/archive-old-news.ts",
     "verify-data": "ts-node scripts/verify-data.ts",
