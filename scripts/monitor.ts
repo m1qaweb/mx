@@ -1,4 +1,4 @@
-import { chromium, Browser, Page } from 'playwright';
+import { chromium, Browser, Page, ElementHandle } from 'playwright';
 import * as fs from 'fs';
 import * as path from 'path';
 import { v4 as uuidv4 } from 'uuid';
@@ -21,11 +21,18 @@ interface NewsItem {
   url: string;
 }
 
+interface ScrapedItem {
+  title: string;
+  link: string;
+  date?: string;
+}
+
 interface ScrapedResult {
   url: string;
   source: string;
   name: string;
-  content: string | null;
+  content: string | null; // Kept for logging/summary (titles joined)
+  items: ScrapedItem[];    // New field for structured items
   timestamp: string;
   error?: string;
 }
@@ -42,7 +49,7 @@ const DEFAULT_SELECTORS: Record<string, string> = {
   'kiro.dev': 'h2',
   'cursor.com': 'h2',
   'antigravity.google': 'h3',
-  'developers.googleblog.com': '.post-title'
+  'developers.googleblog.com': '.post-title, h2, h3'
 };
 
 function parseArgs(): MonitorArgs {
@@ -82,11 +89,6 @@ function parseArgs(): MonitorArgs {
     process.exit(1);
   }
 
-  if (result.source === 'web' && !result.selector) {
-    // Allow missing selector if we might have defaults
-    // We will validate per-URL in main()
-  }
-
   return result as MonitorArgs;
 }
 
@@ -123,14 +125,14 @@ function isDuplicate(news: NewsItem[], title: string, url: string): boolean {
   );
 }
 
-function createNewsItem(source: string, title: string, url: string): NewsItem {
+function createNewsItem(source: string, title: string, url: string, date?: string): NewsItem {
   // Clean title: remove newlines and excessive whitespace
   const cleanTitle = title.replace(/\s+/g, ' ').trim();
   return {
     id: uuidv4(),
     source,
     title: cleanTitle,
-    date: new Date().toISOString(),
+    date: date || new Date().toISOString(),
     url
   };
 }
@@ -139,55 +141,96 @@ async function sleep(ms: number): Promise<void> {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
 
-async function scrapeTwitter(page: Page, url: string): Promise<string | null> {
+// Helper to extract link from an element (ancestor, self, or descendant)
+async function extractLink(element: ElementHandle, baseUrl: string): Promise<string | null> {
+  try {
+    // Check if element itself is <a>
+    const tagName = await element.evaluate((el: any) => el.tagName.toLowerCase());
+    if (tagName === 'a') {
+      const href = await element.getAttribute('href');
+      if (href) return new URL(href, baseUrl).toString();
+    }
+
+    // Check ancestors
+    const ancestorHandle = await element.evaluateHandle((el: any) => el.closest('a'));
+    const ancestorElement = ancestorHandle.asElement();
+    if (ancestorElement) {
+      const href = await ancestorElement.getAttribute('href');
+      if (href) return new URL(href, baseUrl).toString();
+    }
+
+    // Check descendants (pick first)
+    const descendantLink = await element.$('a');
+    if (descendantLink) {
+      const href = await descendantLink.getAttribute('href');
+      if (href) return new URL(href, baseUrl).toString();
+    }
+  } catch (e) {
+    // Ignore errors in link extraction
+  }
+  return null;
+}
+
+async function scrapeTwitter(page: Page, url: string): Promise<ScrapedItem | null> {
   try {
     await page.goto(url, { waitUntil: 'domcontentloaded', timeout: REQUEST_TIMEOUT_MS });
     
-    // Wait for tweets to load with extended timeout for Twitter's slow loading
+    // Wait for tweets
     await page.waitForSelector('[data-testid="tweet"]', { timeout: 15000 });
     
-    // Try to find pinned tweet first (per AGENTS.md requirement)
-    const pinnedTweet = await page.$('[data-testid="tweet"]:has([aria-label*="Pinned"])');
+    let tweetElement = await page.$('[data-testid="tweet"]:has([aria-label*="Pinned"])');
     
-    if (pinnedTweet) {
-      const tweetText = await pinnedTweet.$('[data-testid="tweetText"]');
-      if (tweetText) {
-        return await tweetText.innerText();
+    if (!tweetElement) {
+       // Fallback to latest
+       tweetElement = await page.$('[data-testid="tweet"]');
+    }
+
+    if (tweetElement) {
+      const textEl = await tweetElement.$('[data-testid="tweetText"]');
+      const text = textEl ? await textEl.innerText() : '';
+
+      // Extract permalink from <time> parent
+      let link = url;
+      const timeEl = await tweetElement.$('time');
+      if (timeEl) {
+        const linkHref = await extractLink(timeEl, url);
+        if (linkHref) link = linkHref;
+      }
+
+      if (text) {
+        return {
+          title: text,
+          link: link
+        };
       }
     }
-    
-    // Fallback to latest tweet
-    const latestTweet = await page.$('[data-testid="tweet"] [data-testid="tweetText"]');
-    if (latestTweet) {
-      return await latestTweet.innerText();
-    }
   } catch (error) {
-    // Twitter often blocks scraping, this is expected
-    console.log(`Note: Twitter scraping may be blocked for ${url}`);
+    console.log(`Note: Twitter scraping may be blocked or failed for ${url}`);
   }
   
   return null;
 }
 
-async function scrapeWeb(page: Page, url: string, selector: string): Promise<string[]> {
+async function scrapeWeb(page: Page, url: string, selector: string): Promise<ScrapedItem[]> {
   await page.goto(url, { waitUntil: 'domcontentloaded', timeout: REQUEST_TIMEOUT_MS });
   
-  // Wait for the selector to ensure elements are present
-  // If this times out, it will throw and trigger the retry mechanism
   await page.waitForSelector(selector, { timeout: 10000 });
 
-  // Get all matching elements to find multiple news items
   const elements = await page.$$(selector);
-  const results: string[] = [];
+  const items: ScrapedItem[] = [];
   
   for (const element of elements) {
     const text = await element.innerText();
     if (text && text.trim()) {
-      results.push(text.trim());
+      const link = await extractLink(element, url);
+      items.push({
+        title: text.trim(),
+        link: link || url // Fallback to page URL if specific link not found
+      });
     }
   }
   
-  return results;
+  return items;
 }
 
 async function scrapeWithRetry<T>(
@@ -202,7 +245,7 @@ async function scrapeWithRetry<T>(
       console.log(`Attempt ${attempt}/${retries} failed: ${errorMessage}`);
       
       if (attempt < retries) {
-        const delay = RETRY_DELAY_MS * Math.pow(2, attempt - 1); // Exponential backoff
+        const delay = RETRY_DELAY_MS * Math.pow(2, attempt - 1);
         console.log(`Retrying in ${delay}ms...`);
         await sleep(delay);
       }
@@ -215,7 +258,6 @@ async function main() {
   const args = parseArgs();
   const results: ScrapedResult[] = [];
   
-  // Read existing news items
   const existingNews = readNewsJson();
   const newItems: NewsItem[] = [];
   let addedCount = 0;
@@ -248,20 +290,23 @@ async function main() {
         source: currentSource,
         name: args.name,
         content: null,
+        items: [],
         timestamp: new Date().toISOString()
       };
       
       try {
         if (currentSource === 'twitter') {
-          const content = await scrapeWithRetry(() => scrapeTwitter(page, url));
-          result.content = content;
+          const item = await scrapeWithRetry(() => scrapeTwitter(page, url));
           
-          if (content) {
-            // For Twitter, use the tweet text as both title and content
-            const title = content.slice(0, 100) + (content.length > 100 ? '...' : '');
+          if (item) {
+            result.items.push(item);
+            result.content = item.title;
+
+            // Use tweet text as title (truncated)
+            const title = item.title.slice(0, 100) + (item.title.length > 100 ? '...' : '');
             
-            if (!isDuplicate([...existingNews, ...newItems], title, url)) {
-              newItems.push(createNewsItem(args.name, title, url));
+            if (!isDuplicate([...existingNews, ...newItems], title, item.link)) {
+              newItems.push(createNewsItem(args.name, title, item.link));
               addedCount++;
               console.log(`Added: "${title}" from ${args.name}`);
             } else {
@@ -283,31 +328,28 @@ async function main() {
 
           if (!selector) {
             console.log(`Skipping ${url}: No selector provided and no default found`);
-            results.push({
-              url,
-              source: currentSource,
-              name: args.name,
-              content: null,
-              timestamp: new Date().toISOString(),
-              error: 'Missing selector'
-            });
+            result.error = 'Missing selector';
+            results.push(result);
             continue;
           }
 
-          const contents = await scrapeWithRetry(() => scrapeWeb(page, url, selector));
+          const items = await scrapeWithRetry(() => scrapeWeb(page, url, selector));
           
-          if (contents && contents.length > 0) {
-            result.content = contents.join(' | ');
+          if (items && items.length > 0) {
+            result.items = items;
+            result.content = items.map(i => i.title).join(' | ');
             
-            // Add each scraped title as a potential news item
-            for (const title of contents) {
-              if (!isDuplicate([...existingNews, ...newItems], title, url)) {
-                newItems.push(createNewsItem(args.name, title, url));
+            for (const item of items) {
+               // If link is fallback URL, checking duplicates against item.link is correct
+               // but allows only one item per page if they all fallback.
+               // If extractLink works, we get unique links.
+              if (!isDuplicate([...existingNews, ...newItems], item.title, item.link)) {
+                newItems.push(createNewsItem(args.name, item.title, item.link));
                 addedCount++;
-                console.log(`Added: "${title}" from ${args.name}`);
+                console.log(`Added: "${item.title}" from ${args.name}`);
               } else {
                 skippedCount++;
-                console.log(`Skipped duplicate: "${title}"`);
+                console.log(`Skipped duplicate: "${item.title}"`);
               }
             }
           }
@@ -318,8 +360,6 @@ async function main() {
       }
       
       results.push(result);
-      
-      // Add delay between requests to avoid rate limiting
       await sleep(1000);
     }
   } finally {
@@ -328,7 +368,6 @@ async function main() {
     }
   }
   
-  // Write updated news to file
   if (newItems.length > 0) {
     const updatedNews = [...existingNews, ...newItems];
     writeNewsJson(updatedNews);
@@ -339,7 +378,6 @@ async function main() {
     console.log(`Total items in news.json: ${existingNews.length}`);
   }
   
-  // Output results for debugging
   console.log('\nScraping Results:');
   console.log(JSON.stringify(results, null, 2));
 }
