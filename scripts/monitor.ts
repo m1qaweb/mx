@@ -139,27 +139,70 @@ async function sleep(ms: number): Promise<void> {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
 
-async function scrapeTwitter(page: Page, url: string): Promise<string | null> {
+// Helper to create a slug from text for hash generation
+function slugify(text: string): string {
+  return text
+    .toString()
+    .toLowerCase()
+    .trim()
+    .replace(/\s+/g, '-')     // Replace spaces with -
+    .replace(/[^\w\-]+/g, '') // Remove all non-word chars
+    .replace(/\-\-+/g, '-')   // Replace multiple - with single -
+    .slice(0, 50);            // Limit length
+}
+
+interface ScrapeResult {
+  text: string;
+  link: string | null;
+}
+
+async function scrapeTwitter(page: Page, url: string): Promise<ScrapeResult | null> {
   try {
     await page.goto(url, { waitUntil: 'domcontentloaded', timeout: REQUEST_TIMEOUT_MS });
     
     // Wait for tweets to load with extended timeout for Twitter's slow loading
     await page.waitForSelector('[data-testid="tweet"]', { timeout: 15000 });
     
+    let tweetElement = null;
+
     // Try to find pinned tweet first (per AGENTS.md requirement)
     const pinnedTweet = await page.$('[data-testid="tweet"]:has([aria-label*="Pinned"])');
     
     if (pinnedTweet) {
-      const tweetText = await pinnedTweet.$('[data-testid="tweetText"]');
-      if (tweetText) {
-        return await tweetText.innerText();
-      }
+      tweetElement = pinnedTweet;
+    } else {
+      // Fallback to latest tweet container
+      tweetElement = await page.$('[data-testid="tweet"]');
     }
-    
-    // Fallback to latest tweet
-    const latestTweet = await page.$('[data-testid="tweet"] [data-testid="tweetText"]');
-    if (latestTweet) {
-      return await latestTweet.innerText();
+
+    if (tweetElement) {
+      const tweetTextElement = await tweetElement.$('[data-testid="tweetText"]');
+      const text = tweetTextElement ? await tweetTextElement.innerText() : null;
+
+      if (text) {
+        // Try to find the link (time element usually contains it)
+        let link: string | null = null;
+
+        // Strategy 1: Look for any link containing /status/ inside the tweet
+        const statusLink = await tweetElement.$('a[href*="/status/"]');
+        if (statusLink) {
+          const href = await statusLink.getAttribute('href');
+          if (href) {
+            try {
+              link = new URL(href, 'https://x.com').toString();
+            } catch (e) {
+              // Ignore invalid URLs
+            }
+          }
+        }
+
+        // Fallback to input URL if no specific status link found
+        if (!link) {
+          link = url;
+        }
+
+        return { text, link };
+      }
     }
   } catch (error) {
     // Twitter often blocks scraping, this is expected
@@ -169,7 +212,7 @@ async function scrapeTwitter(page: Page, url: string): Promise<string | null> {
   return null;
 }
 
-async function scrapeWeb(page: Page, url: string, selector: string): Promise<string[]> {
+async function scrapeWeb(page: Page, url: string, selector: string): Promise<ScrapeResult[]> {
   await page.goto(url, { waitUntil: 'domcontentloaded', timeout: REQUEST_TIMEOUT_MS });
   
   // Wait for the selector to ensure elements are present
@@ -178,12 +221,48 @@ async function scrapeWeb(page: Page, url: string, selector: string): Promise<str
 
   // Get all matching elements to find multiple news items
   const elements = await page.$$(selector);
-  const results: string[] = [];
+  const results: ScrapeResult[] = [];
   
   for (const element of elements) {
     const text = await element.innerText();
     if (text && text.trim()) {
-      results.push(text.trim());
+      let link: string | null = null;
+
+      // 1. Try to find href in the element itself (if it's an 'a')
+      const hrefHandle = await element.getAttribute('href');
+      if (hrefHandle) {
+          link = hrefHandle;
+      } else {
+          // 2. Try to find 'a' tag inside
+          const anchor = await element.$('a[href]');
+          if (anchor) {
+              link = await anchor.getAttribute('href');
+          }
+      }
+
+      // Resolve relative URLs
+      if (link) {
+          try {
+              link = new URL(link, url).toString();
+          } catch (e) {
+              link = null;
+          }
+      }
+
+      // 3. Try to find id for anchor
+      if (!link) {
+          const id = await element.getAttribute('id');
+          if (id) {
+              link = `${url}#${id}`;
+          }
+      }
+
+      // 4. Fallback to title slug hash to ensure unique URL
+      if (!link) {
+           link = `${url}#${slugify(text.trim())}`;
+      }
+
+      results.push({ text: text.trim(), link });
     }
   }
   
@@ -253,15 +332,17 @@ async function main() {
       
       try {
         if (currentSource === 'twitter') {
-          const content = await scrapeWithRetry(() => scrapeTwitter(page, url));
-          result.content = content;
+          const scrapeResult = await scrapeWithRetry(() => scrapeTwitter(page, url));
+          result.content = scrapeResult ? scrapeResult.text : null;
           
-          if (content) {
+          if (scrapeResult) {
             // For Twitter, use the tweet text as both title and content
-            const title = content.slice(0, 100) + (content.length > 100 ? '...' : '');
+            const title = scrapeResult.text.slice(0, 100) + (scrapeResult.text.length > 100 ? '...' : '');
+            // Use extracted link or fallback to profile URL
+            const itemUrl = scrapeResult.link || url;
             
-            if (!isDuplicate([...existingNews, ...newItems], title, url)) {
-              newItems.push(createNewsItem(args.name, title, url));
+            if (!isDuplicate([...existingNews, ...newItems], title, itemUrl)) {
+              newItems.push(createNewsItem(args.name, title, itemUrl));
               addedCount++;
               console.log(`Added: "${title}" from ${args.name}`);
             } else {
@@ -294,20 +375,21 @@ async function main() {
             continue;
           }
 
-          const contents = await scrapeWithRetry(() => scrapeWeb(page, url, selector));
+          const scrapedItems = await scrapeWithRetry(() => scrapeWeb(page, url, selector));
           
-          if (contents && contents.length > 0) {
-            result.content = contents.join(' | ');
+          if (scrapedItems && scrapedItems.length > 0) {
+            result.content = scrapedItems.map(i => i.text).join(' | ');
             
             // Add each scraped title as a potential news item
-            for (const title of contents) {
-              if (!isDuplicate([...existingNews, ...newItems], title, url)) {
-                newItems.push(createNewsItem(args.name, title, url));
+            for (const item of scrapedItems) {
+              const itemUrl = item.link || url;
+              if (!isDuplicate([...existingNews, ...newItems], item.text, itemUrl)) {
+                newItems.push(createNewsItem(args.name, item.text, itemUrl));
                 addedCount++;
-                console.log(`Added: "${title}" from ${args.name}`);
+                console.log(`Added: "${item.text}" from ${args.name}`);
               } else {
                 skippedCount++;
-                console.log(`Skipped duplicate: "${title}"`);
+                console.log(`Skipped duplicate: "${item.text}"`);
               }
             }
           }
