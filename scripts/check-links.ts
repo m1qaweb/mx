@@ -3,6 +3,7 @@ import * as fs from 'fs';
 
 // Default site URL - should be configured for actual deployment
 const DEFAULT_SITE_URL = process.env.SITE_URL || 'http://localhost:4321';
+const EXCLUDE_DIRS = ['node_modules', '.git', 'dist', 'build', 'data', 'reports', '.cache'];
 
 interface LinkCheckResult {
   url: string | string[];
@@ -17,13 +18,15 @@ function findMarkdownFiles(dir: string): string[] {
   try {
     const list = fs.readdirSync(dir);
     list.forEach(file => {
-      file = path.join(dir, file);
-      const stat = fs.statSync(file);
+      if (EXCLUDE_DIRS.includes(file)) return;
+
+      const fullPath = path.join(dir, file);
+      const stat = fs.statSync(fullPath);
       if (stat && stat.isDirectory()) {
-        results = results.concat(findMarkdownFiles(file));
+        results = results.concat(findMarkdownFiles(fullPath));
       } else {
         if (file.endsWith('.md')) {
-          results.push(file);
+          results.push(fullPath);
         }
       }
     });
@@ -198,12 +201,7 @@ async function main() {
   let target = process.argv[2];
 
   if (!target) {
-    const dailyDir = path.join(__dirname, '..', 'src', 'pages', 'daily');
-    if (fs.existsSync(dailyDir)) {
-      target = dailyDir;
-    } else {
-      target = DEFAULT_SITE_URL;
-    }
+    target = path.join(__dirname, '..');
   }
 
   console.log('Running broken link check...\n');

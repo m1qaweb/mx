@@ -1,8 +1,9 @@
 import * as fs from 'fs';
 import * as path from 'path';
 
-const SRC_DIR = path.join(__dirname, '..', 'src');
-const EXCLUDE_DIRS = ['data'];
+const SRC_DIR = path.join(__dirname, '..');
+const EXCLUDE_DIRS = ['data', 'node_modules', '.git', 'dist', 'build', '.cache', 'reports'];
+const EXCLUDE_FILES = ['tailwind.config.js', 'style-audit.ts', 'daily-polish.ts'];
 const EXTENSIONS = ['.ts', '.tsx', '.js', '.jsx', '.astro', '.html', '.css', '.md'];
 
 interface Violation {
@@ -100,7 +101,7 @@ function walkDir(dir: string): string[] {
           results = results.concat(walkDir(fullPath));
         }
       } else {
-        if (EXTENSIONS.includes(path.extname(file))) {
+        if (EXTENSIONS.includes(path.extname(file)) && !EXCLUDE_FILES.includes(file)) {
           results.push(fullPath);
         }
       }
