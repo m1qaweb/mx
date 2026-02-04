@@ -82,5 +82,180 @@
     "title": "NEW LABS EXPERIMENT - Introducing Project Genie, an experimental prototype that lets you create and e...",
     "date": "2026-02-02T06:30:12.790Z",
     "url": "https://x.com/GoogleLabs"
+  },
+  {
+    "id": "fef8b81f-c529-4c74-8ffe-a32f49c5f617",
+    "source": "Models_Web",
+    "title": "News",
+    "date": "2026-02-04T06:14:08.548Z",
+    "url": "https://openai.com/news/company-announcements/"
+  },
+  {
+    "id": "3bb0fb8e-955d-41d7-b01b-8fbfa2efb921",
+    "source": "Models_Web",
+    "title": "Research",
+    "date": "2026-02-04T06:14:08.549Z",
+    "url": "https://openai.com/news/research/"
+  },
+  {
+    "id": "f352a1f0-6776-42bf-ad8d-1ffce0de0b1a",
+    "source": "Models_Web",
+    "title": "Product",
+    "date": "2026-02-04T06:14:08.549Z",
+    "url": "https://openai.com/news/product-releases/"
+  },
+  {
+    "id": "783d244d-9b72-4e01-9690-5980a3ccbba9",
+    "source": "Models_Web",
+    "title": "Safety",
+    "date": "2026-02-04T06:14:08.549Z",
+    "url": "https://openai.com/news/safety-alignment/"
+  },
+  {
+    "id": "efbc82df-94ed-4135-a42e-5e1bd0253a3f",
+    "source": "Models_Web",
+    "title": "Engineering",
+    "date": "2026-02-04T06:14:08.549Z",
+    "url": "https://openai.com/news/engineering/"
+  },
+  {
+    "id": "fbe4f71b-4d67-426c-9116-a4451cb90d9d",
+    "source": "Models_Web",
+    "title": "Security",
+    "date": "2026-02-04T06:14:08.549Z",
+    "url": "https://openai.com/news/security/"
+  },
+  {
+    "id": "d502f03d-04b2-4cdf-9a7c-e76b00e9b1e2",
+    "source": "Models_Web",
+    "title": "Global Affairs",
+    "date": "2026-02-04T06:14:08.549Z",
+    "url": "https://openai.com/news/global-affairs/"
+  },
+  {
+    "id": "a00709f6-13d8-41b6-ad08-647307149e28",
+    "source": "Models_Web",
+    "title": "All",
+    "date": "2026-02-04T06:14:08.549Z",
+    "url": "https://openai.com/news/"
+  },
+  {
+    "id": "954ddda3-2213-4215-a90f-f260767ddd3c",
+    "source": "Models_Web",
+    "title": "RSS",
+    "date": "2026-02-04T06:14:08.549Z",
+    "url": "https://openai.com/news/rss.xml"
+  },
+  {
+    "id": "00ef7335-a1e8-4862-9132-b3344d5c5630",
+    "source": "Models_Web",
+    "title": "Introducing Claude Opus 4.5",
+    "date": "2026-02-04T06:14:14.843Z",
+    "url": "https://www.anthropic.com/news/claude-opus-4-5"
+  },
+  {
+    "id": "47a04e55-d517-44e6-8aa3-fcc53bb23afd",
+    "source": "Models_Web",
+    "title": "Introducing Claude Sonnet 4.5",
+    "date": "2026-02-04T06:14:14.843Z",
+    "url": "https://www.anthropic.com/news/claude-sonnet-4-5"
+  },
+  {
+    "id": "1a5fdd98-c1c2-4d4b-84fc-a55368f12700",
+    "source": "Models_Web",
+    "title": "Introducing Claude Haiku 4.5",
+    "date": "2026-02-04T06:14:14.843Z",
+    "url": "https://www.anthropic.com/news/claude-haiku-4-5"
+  },
+  {
+    "id": "d277df46-20df-4c3e-9c6b-663d6e12768b",
+    "source": "Models_Web",
+    "title": "Anthropic raises $13B Series F at $183B post-money valuation",
+    "date": "2026-02-04T06:14:14.843Z",
+    "url": "https://www.anthropic.com/news/anthropic-raises-series-f-at-usd183b-post-money-valuation"
+  },
+  {
+    "id": "2fba28e2-fb59-4507-92f9-664e777cefb0",
+    "source": "Models_Web",
+    "title": "Apple’s Xcode now supports the Claude Agent SDK",
+    "date": "2026-02-04T06:14:14.843Z",
+    "url": "https://www.anthropic.com/news/apple-xcode-claude-agent-sdk"
+  },
+  {
+    "id": "17941838-885b-4a13-b2ad-cb8a0554dba0",
+    "source": "Models_Web",
+    "title": "Anthropic partners with Allen Institute and Howard Hughes Medical Institute to accelerate scientific discovery",
+    "date": "2026-02-04T06:14:14.843Z",
+    "url": "https://www.anthropic.com/news/anthropic-partners-with-allen-institute-and-howard-hughes-medical-institute"
+  },
+  {
+    "id": "179aae93-3eb6-4635-ad37-1af825f41323",
+    "source": "Models_Web",
+    "title": "ServiceNow chooses Claude to power customer apps and increase internal productivity",
+    "date": "2026-02-04T06:14:14.843Z",
+    "url": "https://www.anthropic.com/news/servicenow-anthropic-claude"
+  },
+  {
+    "id": "f076c7ee-87d2-45fa-97b3-26e76fe70e97",
+    "source": "Models_Web",
+    "title": "Anthropic partners with the UK Government to bring AI assistance to GOV.UK services",
+    "date": "2026-02-04T06:14:14.843Z",
+    "url": "https://www.anthropic.com/news/gov-UK-partnership"
+  },
+  {
+    "id": "9dd84c9c-7028-4230-b087-1847dfe34cdd",
+    "source": "Models_Web",
+    "title": "Claude's new constitution",
+    "date": "2026-02-04T06:14:14.843Z",
+    "url": "https://www.anthropic.com/news/claude-new-constitution"
+  },
+  {
+    "id": "415255cd-8f00-4b4c-b95b-d03d9f25625a",
+    "source": "Models_Web",
+    "title": "Mariano-Florentino Cuéllar appointed to Anthropic’s Long-Term Benefit Trust",
+    "date": "2026-02-04T06:14:14.843Z",
+    "url": "https://www.anthropic.com/news/mariano-florentino-long-term-benefit-trust"
+  },
+  {
+    "id": "758dbd50-7b59-45eb-a573-f9aeca11a9a8",
+    "source": "Models_Web",
+    "title": "Anthropic and Teach For All launch global AI training initiative for educators",
+    "date": "2026-02-04T06:14:14.843Z",
+    "url": "https://www.anthropic.com/news/anthropic-teach-for-all"
+  },
+  {
+    "id": "ead0566a-10d6-4f04-bdf5-45510f39f207",
+    "source": "Models_Web",
+    "title": "Anthropic appoints Irina Ghose as Managing Director of India ahead of Bengaluru office opening",
+    "date": "2026-02-04T06:14:14.843Z",
+    "url": "https://www.anthropic.com/news/anthropic-appoints-irina-ghose-as-managing-director-of-india"
+  },
+  {
+    "id": "717bde7c-5e9d-4c46-bf1d-06e6302fb891",
+    "source": "Models_Web",
+    "title": "How scientists are using Claude to accelerate research and discovery",
+    "date": "2026-02-04T06:14:14.843Z",
+    "url": "https://www.anthropic.com/news/accelerating-scientific-research"
+  },
+  {
+    "id": "37f08187-12bf-4f58-8803-5ef74d755bbf",
+    "source": "Models_Web",
+    "title": "Anthropic Economic Index: New building blocks for understanding AI use",
+    "date": "2026-02-04T06:14:14.843Z",
+    "url": "https://www.anthropic.com/research/economic-index-primitives"
+  },
+  {
+    "id": "830a7bb5-133d-456f-962f-dd51a1d48b34",
+    "source": "Models_Social",
+    "title": "Introducing the Codex app—a powerful command center for building with agents. Now available on macO...",
+    "date": "2026-02-04T06:14:38.667Z",
+    "url": "https://x.com/OpenAI/status/2018385565289267236"
+  },
+  {
+    "id": "c995d753-a3c9-4e7d-9046-3f2301a91e3b",
+    "source": "Models_Social",
+    "title": "On December 8, the Perseverance rover safely trundled across the surface of Mars. This was the firs...",
+    "date": "2026-02-04T06:14:44.100Z",
+    "url": "https://x.com/AnthropicAI/status/2017313346375004487"
   }
 ]

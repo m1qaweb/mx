@@ -1,4 +1,4 @@
-import { chromium, Browser, Page } from 'playwright';
+import { chromium, Browser, Page, ElementHandle } from 'playwright';
 import * as fs from 'fs';
 import * as path from 'path';
 import { v4 as uuidv4 } from 'uuid';
@@ -139,7 +139,15 @@ async function sleep(ms: number): Promise<void> {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
 
-async function scrapeTwitter(page: Page, url: string): Promise<string | null> {
+function resolveUrl(base: string, relative: string): string {
+  try {
+    return new URL(relative, base).href;
+  } catch (e) {
+    return relative;
+  }
+}
+
+async function scrapeTwitter(page: Page, url: string): Promise<{ title: string, url: string } | null> {
   try {
     await page.goto(url, { waitUntil: 'domcontentloaded', timeout: REQUEST_TIMEOUT_MS });
     
@@ -147,19 +155,34 @@ async function scrapeTwitter(page: Page, url: string): Promise<string | null> {
     await page.waitForSelector('[data-testid="tweet"]', { timeout: 15000 });
     
     // Try to find pinned tweet first (per AGENTS.md requirement)
-    const pinnedTweet = await page.$('[data-testid="tweet"]:has([aria-label*="Pinned"])');
-    
-    if (pinnedTweet) {
-      const tweetText = await pinnedTweet.$('[data-testid="tweetText"]');
-      if (tweetText) {
-        return await tweetText.innerText();
-      }
+    let tweetElement = await page.$('[data-testid="tweet"]:has([aria-label*="Pinned"])');
+    if (!tweetElement) {
+        // Fallback to latest tweet
+        tweetElement = await page.$('[data-testid="tweet"]');
     }
     
-    // Fallback to latest tweet
-    const latestTweet = await page.$('[data-testid="tweet"] [data-testid="tweetText"]');
-    if (latestTweet) {
-      return await latestTweet.innerText();
+    if (tweetElement) {
+      const textEl = await tweetElement.$('[data-testid="tweetText"]');
+      if (textEl) {
+        const text = await textEl.innerText();
+
+        // Find link to the specific tweet
+        let tweetUrl = url;
+        const timeEl = await tweetElement.$('time');
+        if (timeEl) {
+            // Usually the time element is inside an anchor or is one, linking to the tweet
+            const anchor = await timeEl.evaluateHandle(el => el.closest('a'));
+            const anchorEl = anchor.asElement();
+            if (anchorEl) {
+                const href = await anchorEl.getAttribute('href');
+                if (href) {
+                    tweetUrl = resolveUrl('https://x.com', href);
+                }
+            }
+        }
+
+        return { title: text, url: tweetUrl };
+      }
     }
   } catch (error) {
     // Twitter often blocks scraping, this is expected
@@ -169,7 +192,7 @@ async function scrapeTwitter(page: Page, url: string): Promise<string | null> {
   return null;
 }
 
-async function scrapeWeb(page: Page, url: string, selector: string): Promise<string[]> {
+async function scrapeWeb(page: Page, url: string, selector: string): Promise<{ title: string, url: string }[]> {
   await page.goto(url, { waitUntil: 'domcontentloaded', timeout: REQUEST_TIMEOUT_MS });
   
   // Wait for the selector to ensure elements are present
@@ -178,13 +201,31 @@ async function scrapeWeb(page: Page, url: string, selector: string): Promise<str
 
   // Get all matching elements to find multiple news items
   const elements = await page.$$(selector);
-  const results: string[] = [];
+  const results: { title: string, url: string }[] = [];
   
   for (const element of elements) {
     const text = await element.innerText();
-    if (text && text.trim()) {
-      results.push(text.trim());
+    if (!text || !text.trim()) continue;
+
+    let href = await element.getAttribute('href');
+    if (!href) {
+        // Check ancestor
+        const parentA = await element.evaluateHandle(el => el.closest('a'));
+        const parentAEl = parentA.asElement();
+        if (parentAEl) {
+             href = await parentAEl.getAttribute('href');
+        }
     }
+    if (!href) {
+        // Check descendant
+        const childA = await element.$('a');
+        if (childA) {
+             href = await childA.getAttribute('href');
+        }
+    }
+
+    const fullUrl = href ? resolveUrl(url, href) : url;
+    results.push({ title: text.trim(), url: fullUrl });
   }
   
   return results;
@@ -253,15 +294,15 @@ async function main() {
       
       try {
         if (currentSource === 'twitter') {
-          const content = await scrapeWithRetry(() => scrapeTwitter(page, url));
-          result.content = content;
+          const item = await scrapeWithRetry(() => scrapeTwitter(page, url));
           
-          if (content) {
+          if (item) {
+            result.content = item.title;
             // For Twitter, use the tweet text as both title and content
-            const title = content.slice(0, 100) + (content.length > 100 ? '...' : '');
+            const title = item.title.slice(0, 100) + (item.title.length > 100 ? '...' : '');
             
-            if (!isDuplicate([...existingNews, ...newItems], title, url)) {
-              newItems.push(createNewsItem(args.name, title, url));
+            if (!isDuplicate([...existingNews, ...newItems], title, item.url)) {
+              newItems.push(createNewsItem(args.name, title, item.url));
               addedCount++;
               console.log(`Added: "${title}" from ${args.name}`);
             } else {
@@ -297,17 +338,17 @@ async function main() {
           const contents = await scrapeWithRetry(() => scrapeWeb(page, url, selector));
           
           if (contents && contents.length > 0) {
-            result.content = contents.join(' | ');
+            result.content = contents.map(c => c.title).join(' | ');
             
-            // Add each scraped title as a potential news item
-            for (const title of contents) {
-              if (!isDuplicate([...existingNews, ...newItems], title, url)) {
-                newItems.push(createNewsItem(args.name, title, url));
+            // Add each scraped item
+            for (const item of contents) {
+              if (!isDuplicate([...existingNews, ...newItems], item.title, item.url)) {
+                newItems.push(createNewsItem(args.name, item.title, item.url));
                 addedCount++;
-                console.log(`Added: "${title}" from ${args.name}`);
+                console.log(`Added: "${item.title}" from ${args.name}`);
               } else {
                 skippedCount++;
-                console.log(`Skipped duplicate: "${title}"`);
+                console.log(`Skipped duplicate: "${item.title}"`);
               }
             }
           }
