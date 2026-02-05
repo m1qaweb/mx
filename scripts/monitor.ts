@@ -52,6 +52,12 @@ const DEFAULT_SELECTORS: Record<string, string> = {
   'developers.googleblog.com': '.post-title, h2, h3'
 };
 
+const INVALID_TITLES = [
+  "Sorry, the page you're looking for doesn't exist.",
+  "404 Not Found",
+  "Page Not Found"
+];
+
 function parseArgs(): MonitorArgs {
   const args = process.argv.slice(2);
   const result: Partial<MonitorArgs> = {};
@@ -222,9 +228,14 @@ async function scrapeWeb(page: Page, url: string, selector: string): Promise<Scr
   for (const element of elements) {
     const text = await element.innerText();
     if (text && text.trim()) {
+      const cleanText = text.trim();
+      if (INVALID_TITLES.some(t => cleanText.includes(t))) {
+        continue;
+      }
+
       const link = await extractLink(element, url);
       items.push({
-        title: text.trim(),
+        title: cleanText,
         link: link || url // Fallback to page URL if specific link not found
       });
     }
