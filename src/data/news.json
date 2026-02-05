@@ -89,5 +89,180 @@
     "title": "NEW LABS EXPERIMENT Introducing Project Genie, an experimental prototype that lets you create and e...",
     "date": "2026-02-04T06:16:48.596Z",
     "url": "https://x.com/GoogleLabs/status/2016922876059013255"
+  },
+  {
+    "id": "7e3a2e95-6b3f-435b-9987-bfe1bfc8486c",
+    "source": "Models_Web",
+    "title": "News",
+    "date": "2026-02-05T06:22:03.133Z",
+    "url": "https://openai.com/news/company-announcements/"
+  },
+  {
+    "id": "40b8fdc3-e5ae-4b3c-984f-58f24c53b0da",
+    "source": "Models_Web",
+    "title": "Research",
+    "date": "2026-02-05T06:22:03.134Z",
+    "url": "https://openai.com/news/research/"
+  },
+  {
+    "id": "527a4425-c374-4479-81b9-0a50c81d77a4",
+    "source": "Models_Web",
+    "title": "Product",
+    "date": "2026-02-05T06:22:03.134Z",
+    "url": "https://openai.com/news/product-releases/"
+  },
+  {
+    "id": "6da07fb7-f11f-49ef-a7d2-b1fb910056e3",
+    "source": "Models_Web",
+    "title": "Safety",
+    "date": "2026-02-05T06:22:03.134Z",
+    "url": "https://openai.com/news/safety-alignment/"
+  },
+  {
+    "id": "b3716520-2a2d-408c-87fa-c90c2f8a25e6",
+    "source": "Models_Web",
+    "title": "Engineering",
+    "date": "2026-02-05T06:22:03.134Z",
+    "url": "https://openai.com/news/engineering/"
+  },
+  {
+    "id": "1eeaf202-9f54-4d59-86d2-57e1de563eea",
+    "source": "Models_Web",
+    "title": "Security",
+    "date": "2026-02-05T06:22:03.134Z",
+    "url": "https://openai.com/news/security/"
+  },
+  {
+    "id": "eb3a1f9e-f80c-46b5-ae98-c3d0d178bf78",
+    "source": "Models_Web",
+    "title": "Global Affairs",
+    "date": "2026-02-05T06:22:03.135Z",
+    "url": "https://openai.com/news/global-affairs/"
+  },
+  {
+    "id": "d513e90a-8226-42a6-bba3-9de4d69875ee",
+    "source": "Models_Web",
+    "title": "All",
+    "date": "2026-02-05T06:22:03.135Z",
+    "url": "https://openai.com/news/"
+  },
+  {
+    "id": "3d9cf5f1-6b4f-492d-bf6b-4fc15c7f86c0",
+    "source": "Models_Web",
+    "title": "RSS",
+    "date": "2026-02-05T06:22:03.135Z",
+    "url": "https://openai.com/news/rss.xml"
+  },
+  {
+    "id": "a24c1374-06ee-469c-bcd7-03b4bc3ce7c8",
+    "source": "Models_Web",
+    "title": "Claude on Mars",
+    "date": "2026-02-05T06:22:10.995Z",
+    "url": "https://www.anthropic.com/mars"
+  },
+  {
+    "id": "c84b4e78-9e76-4344-ab2b-1e3f05cfcb10",
+    "source": "Models_Web",
+    "title": "Introducing Claude Opus 4.5",
+    "date": "2026-02-05T06:22:10.995Z",
+    "url": "https://www.anthropic.com/news/claude-opus-4-5"
+  },
+  {
+    "id": "fb9b6338-d762-4e21-b01d-1a9b185c1d4b",
+    "source": "Models_Web",
+    "title": "Introducing Claude Sonnet 4.5",
+    "date": "2026-02-05T06:22:10.995Z",
+    "url": "https://www.anthropic.com/news/claude-sonnet-4-5"
+  },
+  {
+    "id": "2db72c36-9a50-43dc-9beb-a3bc91de0a82",
+    "source": "Models_Web",
+    "title": "Introducing Claude Haiku 4.5",
+    "date": "2026-02-05T06:22:10.995Z",
+    "url": "https://www.anthropic.com/news/claude-haiku-4-5"
+  },
+  {
+    "id": "e401d8ac-bbce-4842-8cac-0134eeff9fa0",
+    "source": "Models_Web",
+    "title": "Claude is a space to think",
+    "date": "2026-02-05T06:22:10.995Z",
+    "url": "https://www.anthropic.com/news/claude-is-a-space-to-think"
+  },
+  {
+    "id": "33375a4d-3796-4a1a-9299-b1938dd25d59",
+    "source": "Models_Web",
+    "title": "Apple’s Xcode now supports the Claude Agent SDK",
+    "date": "2026-02-05T06:22:10.995Z",
+    "url": "https://www.anthropic.com/news/apple-xcode-claude-agent-sdk"
+  },
+  {
+    "id": "710f6541-dda5-4515-a396-89a1d6f1628e",
+    "source": "Models_Web",
+    "title": "Anthropic partners with Allen Institute and Howard Hughes Medical Institute to accelerate scientific discovery",
+    "date": "2026-02-05T06:22:10.996Z",
+    "url": "https://www.anthropic.com/news/anthropic-partners-with-allen-institute-and-howard-hughes-medical-institute"
+  },
+  {
+    "id": "49de8ad4-d700-4315-a00b-8668699dc2d5",
+    "source": "Models_Web",
+    "title": "ServiceNow chooses Claude to power customer apps and increase internal productivity",
+    "date": "2026-02-05T06:22:10.996Z",
+    "url": "https://www.anthropic.com/news/servicenow-anthropic-claude"
+  },
+  {
+    "id": "b56f8336-c7a4-4465-b979-5e22c247a4e3",
+    "source": "Models_Web",
+    "title": "Anthropic partners with the UK Government to bring AI assistance to GOV.UK services",
+    "date": "2026-02-05T06:22:10.996Z",
+    "url": "https://www.anthropic.com/news/gov-UK-partnership"
+  },
+  {
+    "id": "e8a2a7e2-8ae3-4da1-8829-1355ebf60417",
+    "source": "Models_Web",
+    "title": "Claude's new constitution",
+    "date": "2026-02-05T06:22:10.996Z",
+    "url": "https://www.anthropic.com/news/claude-new-constitution"
+  },
+  {
+    "id": "5d37d168-5d15-41fc-9003-e521462819c3",
+    "source": "Models_Web",
+    "title": "Mariano-Florentino Cuéllar appointed to Anthropic’s Long-Term Benefit Trust",
+    "date": "2026-02-05T06:22:10.996Z",
+    "url": "https://www.anthropic.com/news/mariano-florentino-long-term-benefit-trust"
+  },
+  {
+    "id": "8d310ab3-6429-4294-aa5f-ca7aa2414de5",
+    "source": "Models_Web",
+    "title": "Anthropic and Teach For All launch global AI training initiative for educators",
+    "date": "2026-02-05T06:22:10.996Z",
+    "url": "https://www.anthropic.com/news/anthropic-teach-for-all"
+  },
+  {
+    "id": "a70b72ee-6bb1-4dea-97a3-fb985dc9581b",
+    "source": "Models_Web",
+    "title": "Anthropic appoints Irina Ghose as Managing Director of India ahead of Bengaluru office opening",
+    "date": "2026-02-05T06:22:10.996Z",
+    "url": "https://www.anthropic.com/news/anthropic-appoints-irina-ghose-as-managing-director-of-india"
+  },
+  {
+    "id": "ac6d3a81-954c-4e1c-a321-7f5646f247c3",
+    "source": "Models_Web",
+    "title": "How scientists are using Claude to accelerate research and discovery",
+    "date": "2026-02-05T06:22:10.996Z",
+    "url": "https://www.anthropic.com/news/accelerating-scientific-research"
+  },
+  {
+    "id": "f4f61c1e-5ce2-4fdb-8744-834895cf7a94",
+    "source": "Models_Social",
+    "title": "Introducing the Codex app—a powerful command center for building with agents. Now available on macO...",
+    "date": "2026-02-05T06:22:33.824Z",
+    "url": "https://x.com/OpenAI/status/2018385565289267236"
+  },
+  {
+    "id": "426728c5-99b1-401a-9db0-979d9a1da26d",
+    "source": "Models_Social",
+    "title": "Ads are coming to AI. But not to Claude. Keep thinking.",
+    "date": "2026-02-05T06:22:39.617Z",
+    "url": "https://x.com/claudeai/status/2019071113741906403"
   }
 ]
