@@ -89,5 +89,1125 @@
     "title": "NEW LABS EXPERIMENT Introducing Project Genie, an experimental prototype that lets you create and e...",
     "date": "2026-02-04T06:16:48.596Z",
     "url": "https://x.com/GoogleLabs/status/2016922876059013255"
+  },
+  {
+    "id": "a2d7cc43-1d8b-4101-ab7b-2bb5fafb06b5",
+    "source": "Coding_Tools",
+    "title": "Plan Mode",
+    "date": "2026-02-05T06:09:23.429Z",
+    "url": "https://windsurf.com/changelog#plan-mode"
+  },
+  {
+    "id": "3d73d832-2bd6-4823-a877-b1c9b15274c3",
+    "source": "Coding_Tools",
+    "title": "SWE-1.5 Free",
+    "date": "2026-02-05T06:09:23.430Z",
+    "url": "https://windsurf.com/changelog#swe-15-free"
+  },
+  {
+    "id": "17429696-6d81-453c-9ccb-b37856d30e54",
+    "source": "Coding_Tools",
+    "title": "Git Worktree Support",
+    "date": "2026-02-05T06:09:23.430Z",
+    "url": "https://windsurf.com/changelog#git-worktree-support"
+  },
+  {
+    "id": "88782f07-daca-4022-911a-28892db05d8a",
+    "source": "Coding_Tools",
+    "title": "Multi-Cascade Panes & Tabs",
+    "date": "2026-02-05T06:09:23.430Z",
+    "url": "https://windsurf.com/changelog#multi-cascade-panes--tabs"
+  },
+  {
+    "id": "4f3f81e4-0d06-4f8e-afcc-9890df016b60",
+    "source": "Coding_Tools",
+    "title": "Cascade Dedicated Terminal (Beta)",
+    "date": "2026-02-05T06:09:23.430Z",
+    "url": "https://windsurf.com/changelog#cascade-dedicated-terminal-beta"
+  },
+  {
+    "id": "a6723a9f-5e1c-4e61-89ad-8a50138c2f9c",
+    "source": "Coding_Tools",
+    "title": "Context Window Indicator",
+    "date": "2026-02-05T06:09:23.431Z",
+    "url": "https://windsurf.com/changelog#context-window-indicator"
+  },
+  {
+    "id": "08e4c5be-143a-4b6f-a777-912c300ad0f7",
+    "source": "Coding_Tools",
+    "title": "Cascade Hooks",
+    "date": "2026-02-05T06:09:23.431Z",
+    "url": "https://windsurf.com/changelog#cascade-hooks"
+  },
+  {
+    "id": "7ae111b7-fad4-49ca-b8f1-cf05f5d4e110",
+    "source": "Coding_Tools",
+    "title": "System-level Rules & Workflows",
+    "date": "2026-02-05T06:09:23.431Z",
+    "url": "https://windsurf.com/changelog#system-level-rules--workflows"
+  },
+  {
+    "id": "420c3f6e-506e-4004-8bea-24ed76ab0ee7",
+    "source": "Coding_Tools",
+    "title": "Agents & Tool Execution",
+    "date": "2026-02-05T06:09:23.432Z",
+    "url": "https://windsurf.com/changelog#agents--tool-execution"
+  },
+  {
+    "id": "f8b6a289-6839-41f2-91d8-4626f4e193a9",
+    "source": "Coding_Tools",
+    "title": "UI & Rendering",
+    "date": "2026-02-05T06:09:23.432Z",
+    "url": "https://windsurf.com/changelog#ui--rendering"
+  },
+  {
+    "id": "2bac2805-b6a8-4070-8789-77b27ebe8ba6",
+    "source": "Coding_Tools",
+    "title": "Platform & Messaging",
+    "date": "2026-02-05T06:09:23.432Z",
+    "url": "https://windsurf.com/changelog#platform--messaging"
+  },
+  {
+    "id": "88c50fa2-b2a8-4973-a364-772e7cfe4fe1",
+    "source": "Coding_Tools",
+    "title": "Workspace & Onboarding",
+    "date": "2026-02-05T06:09:23.432Z",
+    "url": "https://windsurf.com/changelog#workspace--onboarding"
+  },
+  {
+    "id": "5840515c-5da5-4b36-bd52-4e76ff47cd43",
+    "source": "Coding_Tools",
+    "title": "Cascade Hooks on User Prompts",
+    "date": "2026-02-05T06:09:23.432Z",
+    "url": "https://windsurf.com/changelog#cascade-hooks-on-user-prompts"
+  },
+  {
+    "id": "276c4ab4-a842-4ffc-aacf-00726412d739",
+    "source": "Coding_Tools",
+    "title": "MCP Servers",
+    "date": "2026-02-05T06:09:23.432Z",
+    "url": "https://windsurf.com/changelog#mcp-servers"
+  },
+  {
+    "id": "8c2f6dca-f958-4511-bcbc-187a058b2563",
+    "source": "Coding_Tools",
+    "title": "Gemini 3 Pro",
+    "date": "2026-02-05T06:09:23.432Z",
+    "url": "https://windsurf.com/changelog#gemini-3-pro"
+  },
+  {
+    "id": "96bf4b6c-713b-4c2b-9f68-3ad6595cb17e",
+    "source": "Coding_Tools",
+    "title": "SWE-1.5",
+    "date": "2026-02-05T06:09:23.433Z",
+    "url": "https://windsurf.com/changelog#swe-15"
+  },
+  {
+    "id": "d433d7a5-59a8-4bd6-8dfd-6d615ac227ee",
+    "source": "Coding_Tools",
+    "title": "Sonnet 4.5",
+    "date": "2026-02-05T06:09:23.433Z",
+    "url": "https://windsurf.com/changelog#sonnet-45"
+  },
+  {
+    "id": "f45b5da8-ae40-40ae-a4e9-f199c25927a3",
+    "source": "Coding_Tools",
+    "title": "GPT-5.1 Codex and Codex Mini",
+    "date": "2026-02-05T06:09:23.433Z",
+    "url": "https://windsurf.com/changelog#gpt-51-codex-and-codex-mini"
+  },
+  {
+    "id": "a26cd1cd-bf27-42f6-b630-2d9deb96e055",
+    "source": "Coding_Tools",
+    "title": "Codemaps",
+    "date": "2026-02-05T06:09:23.433Z",
+    "url": "https://windsurf.com/changelog#codemaps"
+  },
+  {
+    "id": "953c1f77-d425-43da-9f3b-8055ae6fecdf",
+    "source": "Coding_Tools",
+    "title": "Tab Completion",
+    "date": "2026-02-05T06:09:23.433Z",
+    "url": "https://windsurf.com/changelog#tab-completion"
+  },
+  {
+    "id": "8fea2d0d-7227-48ec-9b4c-fdc2e17db691",
+    "source": "Coding_Tools",
+    "title": "Vibe and Replace",
+    "date": "2026-02-05T06:09:23.433Z",
+    "url": "https://windsurf.com/changelog#vibe-and-replace"
+  },
+  {
+    "id": "146eba01-e0df-4576-93a3-69e7cf656166",
+    "source": "Coding_Tools",
+    "title": "Fast Context",
+    "date": "2026-02-05T06:09:23.433Z",
+    "url": "https://windsurf.com/changelog#fast-context"
+  },
+  {
+    "id": "30a6b865-a7f9-4a86-88c7-33d5d11022ad",
+    "source": "Coding_Tools",
+    "title": "MCP Improvements",
+    "date": "2026-02-05T06:09:23.433Z",
+    "url": "https://windsurf.com/changelog#mcp-improvements"
+  },
+  {
+    "id": "41414538-7477-4f92-90d7-2b0a20973150",
+    "source": "Coding_Tools",
+    "title": "SWE 1.5 Image Support",
+    "date": "2026-02-05T06:09:23.433Z",
+    "url": "https://windsurf.com/changelog#swe-15-image-support"
+  },
+  {
+    "id": "00c59dcb-a46c-4323-bf66-b20e29f13e10",
+    "source": "Coding_Tools",
+    "title": "Removed Features",
+    "date": "2026-02-05T06:09:23.434Z",
+    "url": "https://windsurf.com/changelog#removed-features"
+  },
+  {
+    "id": "541b0617-95bf-477a-ad01-4430a2eb8194",
+    "source": "Coding_Tools",
+    "title": "Bug Fixes",
+    "date": "2026-02-05T06:09:23.434Z",
+    "url": "https://windsurf.com/changelog#bug-fixes"
+  },
+  {
+    "id": "18519df9-8a0c-4d7b-bc73-fd688a9f2643",
+    "source": "Coding_Tools",
+    "title": "Shortcuts",
+    "date": "2026-02-05T06:09:23.434Z",
+    "url": "https://windsurf.com/changelog#shortcuts"
+  },
+  {
+    "id": "6c827eea-5b4f-42fe-bf7f-7c4d4e6b2792",
+    "source": "Coding_Tools",
+    "title": "Expanded Codemaps",
+    "date": "2026-02-05T06:09:23.434Z",
+    "url": "https://windsurf.com/changelog#expanded-codemaps"
+  },
+  {
+    "id": "05622bb6-f13a-48de-a697-0d53c2c8f8fd",
+    "source": "Coding_Tools",
+    "title": "Cascade Summarization Fix",
+    "date": "2026-02-05T06:09:23.434Z",
+    "url": "https://windsurf.com/changelog#cascade-summarization-fix"
+  },
+  {
+    "id": "bc9dd012-806c-473d-a3aa-f889a0dffde4",
+    "source": "Coding_Tools",
+    "title": "MCP Enhancements",
+    "date": "2026-02-05T06:09:23.435Z",
+    "url": "https://windsurf.com/changelog#mcp-enhancements"
+  },
+  {
+    "id": "690473ed-44f8-4dc2-a89a-ffd23e4337f1",
+    "source": "Coding_Tools",
+    "title": "Performance Improvements",
+    "date": "2026-02-05T06:09:23.435Z",
+    "url": "https://windsurf.com/changelog#performance-improvements"
+  },
+  {
+    "id": "5798753b-0641-4cb6-8431-7d46a0bf29c2",
+    "source": "Coding_Tools",
+    "title": "Terminal Fixes",
+    "date": "2026-02-05T06:09:23.435Z",
+    "url": "https://windsurf.com/changelog#terminal-fixes"
+  },
+  {
+    "id": "78413e39-20fe-41aa-9031-47869698fa63",
+    "source": "Coding_Tools",
+    "title": "Editor Stability",
+    "date": "2026-02-05T06:09:23.435Z",
+    "url": "https://windsurf.com/changelog#editor-stability"
+  },
+  {
+    "id": "e1031e1a-b7d4-41f2-b200-1c1bf3fa32f0",
+    "source": "Coding_Tools",
+    "title": "Queued messages",
+    "date": "2026-02-05T06:09:23.435Z",
+    "url": "https://windsurf.com/changelog#queued-messages"
+  },
+  {
+    "id": "c0063677-7aad-4f15-aaaf-08a39de684b6",
+    "source": "Coding_Tools",
+    "title": "Mermaid diagram support",
+    "date": "2026-02-05T06:09:23.435Z",
+    "url": "https://windsurf.com/changelog#mermaid-diagram-support"
+  },
+  {
+    "id": "d165a89f-7ea5-4969-87e6-0ee852dbc523",
+    "source": "Coding_Tools",
+    "title": "Voice",
+    "date": "2026-02-05T06:09:23.435Z",
+    "url": "https://windsurf.com/changelog#voice"
+  },
+  {
+    "id": "9522f31b-6a0f-4c45-ba17-ed46f1a887c7",
+    "source": "Coding_Tools",
+    "title": "@-mentioning conversations",
+    "date": "2026-02-05T06:09:23.435Z",
+    "url": "https://windsurf.com/changelog#-mentioning-conversations"
+  },
+  {
+    "id": "c772c5a7-e0a9-4aba-b39d-143217f7a68f",
+    "source": "Coding_Tools",
+    "title": "Deeper Browser integration",
+    "date": "2026-02-05T06:09:23.435Z",
+    "url": "https://windsurf.com/changelog#deeper-browser-integration"
+  },
+  {
+    "id": "e6b59e2d-7bf4-41b2-ab59-934b49162d98",
+    "source": "Coding_Tools",
+    "title": "JetBrains improvements",
+    "date": "2026-02-05T06:09:23.435Z",
+    "url": "https://windsurf.com/changelog#jetbrains-improvements"
+  },
+  {
+    "id": "7259294f-adb6-40b9-babc-0d982720a966",
+    "source": "Coding_Tools",
+    "title": "Improvements",
+    "date": "2026-02-05T06:09:23.436Z",
+    "url": "https://windsurf.com/changelog#improvements"
+  },
+  {
+    "id": "f931db36-2fe7-420a-9452-ea317c1e1fe3",
+    "source": "Coding_Tools",
+    "title": "Fixes",
+    "date": "2026-02-05T06:09:23.436Z",
+    "url": "https://windsurf.com/changelog#fixes"
+  },
+  {
+    "id": "4013d42d-4d83-42fe-8aca-73804df26073",
+    "source": "Coding_Tools",
+    "title": "Terminal Improvements",
+    "date": "2026-02-05T06:09:23.436Z",
+    "url": "https://windsurf.com/changelog#terminal-improvements"
+  },
+  {
+    "id": "043aca2a-ad27-456e-bed6-df9e28aa7c02",
+    "source": "Coding_Tools",
+    "title": "Legacy Mode Removal",
+    "date": "2026-02-05T06:09:23.436Z",
+    "url": "https://windsurf.com/changelog#legacy-mode-removal"
+  },
+  {
+    "id": "7f9977c5-058c-47d6-aa98-dfaf031544d6",
+    "source": "Coding_Tools",
+    "title": "BYOK (Anthropic Key)",
+    "date": "2026-02-05T06:09:23.436Z",
+    "url": "https://windsurf.com/changelog#byok-anthropic-key"
+  },
+  {
+    "id": "0bdcc27f-adba-4b2b-8a49-b873d81abf34",
+    "source": "Coding_Tools",
+    "title": "SWE-1",
+    "date": "2026-02-05T06:09:23.436Z",
+    "url": "https://windsurf.com/changelog#swe-1"
+  },
+  {
+    "id": "26bc6790-ae5a-41a9-b0e1-2409d5e791c1",
+    "source": "Coding_Tools",
+    "title": "SWE-1-lite",
+    "date": "2026-02-05T06:09:23.436Z",
+    "url": "https://windsurf.com/changelog#swe-1-lite"
+  },
+  {
+    "id": "27fdfdf1-9e41-41ef-8908-4425e2facf47",
+    "source": "Coding_Tools",
+    "title": "SWE-1-mini",
+    "date": "2026-02-05T06:09:23.436Z",
+    "url": "https://windsurf.com/changelog#swe-1-mini"
+  },
+  {
+    "id": "68aa78d4-1565-4f06-9a0b-301692136dc2",
+    "source": "Coding_Tools",
+    "title": "Misc",
+    "date": "2026-02-05T06:09:23.436Z",
+    "url": "https://windsurf.com/changelog#misc"
+  },
+  {
+    "id": "c5881457-88ff-4766-8240-768d0142500e",
+    "source": "Coding_Tools",
+    "title": "Cascade UX Improvements",
+    "date": "2026-02-05T06:09:23.436Z",
+    "url": "https://windsurf.com/changelog#cascade-ux-improvements"
+  },
+  {
+    "id": "e9dcfcab-a68c-4dfe-8254-a685fa43eb6f",
+    "source": "Coding_Tools",
+    "title": "Custom Workflows",
+    "date": "2026-02-05T06:09:23.437Z",
+    "url": "https://windsurf.com/changelog#custom-workflows"
+  },
+  {
+    "id": "ef4ca2df-5e3e-44a8-8259-10918de4ff82",
+    "source": "Coding_Tools",
+    "title": "File-Based Rules",
+    "date": "2026-02-05T06:09:23.437Z",
+    "url": "https://windsurf.com/changelog#file-based-rules"
+  },
+  {
+    "id": "ab4c0815-bdb0-4312-a678-48b564fb3347",
+    "source": "Coding_Tools",
+    "title": "Simultaneous Cascades",
+    "date": "2026-02-05T06:09:23.437Z",
+    "url": "https://windsurf.com/changelog#simultaneous-cascades"
+  },
+  {
+    "id": "61f4baa3-68fe-46de-84c5-ca661f243d74",
+    "source": "Coding_Tools",
+    "title": "Cascade Plugins",
+    "date": "2026-02-05T06:09:23.437Z",
+    "url": "https://windsurf.com/changelog#cascade-plugins"
+  },
+  {
+    "id": "ffc119d0-cbd1-42a5-bc36-a68a87ee20e3",
+    "source": "Coding_Tools",
+    "title": "Teams: Windsurf Reviews",
+    "date": "2026-02-05T06:09:23.437Z",
+    "url": "https://windsurf.com/changelog#teams-windsurf-reviews"
+  },
+  {
+    "id": "efafa5ad-1057-4173-95d1-03c9b2a9d9fd",
+    "source": "Coding_Tools",
+    "title": "Teams: Conversation Sharing",
+    "date": "2026-02-05T06:09:23.437Z",
+    "url": "https://windsurf.com/changelog#teams-conversation-sharing"
+  },
+  {
+    "id": "3b726dd6-915d-436e-a3f7-92a5c0142276",
+    "source": "Coding_Tools",
+    "title": "Teams: Knowledge",
+    "date": "2026-02-05T06:09:23.437Z",
+    "url": "https://windsurf.com/changelog#teams-knowledge"
+  },
+  {
+    "id": "446c0fc9-091d-45fc-8606-cdf1aa8a938f",
+    "source": "Coding_Tools",
+    "title": "Teams Deploys",
+    "date": "2026-02-05T06:09:23.437Z",
+    "url": "https://windsurf.com/changelog#teams-deploys"
+  },
+  {
+    "id": "cdd0a5a9-28e1-4e0e-b791-a6f7e2d488f2",
+    "source": "Coding_Tools",
+    "title": "Teams Analytics",
+    "date": "2026-02-05T06:09:23.437Z",
+    "url": "https://windsurf.com/changelog#teams-analytics"
+  },
+  {
+    "id": "fef72604-7b9d-4d22-b04c-135deebbe654",
+    "source": "Coding_Tools",
+    "title": "New App Icon",
+    "date": "2026-02-05T06:09:23.438Z",
+    "url": "https://windsurf.com/changelog#new-app-icon"
+  },
+  {
+    "id": "5abb95fe-5531-4a88-86b4-23f75e4d0100",
+    "source": "Coding_Tools",
+    "title": "Upgraded Free Tier",
+    "date": "2026-02-05T06:09:23.438Z",
+    "url": "https://windsurf.com/changelog#upgraded-free-tier"
+  },
+  {
+    "id": "1585dd95-eff1-4114-8bd4-baf3e060f412",
+    "source": "Coding_Tools",
+    "title": "We're getting rid of Flow Action Credits",
+    "date": "2026-02-05T06:09:23.438Z",
+    "url": "https://windsurf.com/changelog#were-getting-rid-of-flow-action-credits"
+  },
+  {
+    "id": "e76f2157-b72a-42bb-bc1f-dc32815fb42c",
+    "source": "Coding_Tools",
+    "title": "User Prompt Credits",
+    "date": "2026-02-05T06:09:23.438Z",
+    "url": "https://windsurf.com/changelog#user-prompt-credits"
+  },
+  {
+    "id": "689ea9f3-1983-4a2b-a1fd-a5a2a853e297",
+    "source": "Coding_Tools",
+    "title": "Existing Plans",
+    "date": "2026-02-05T06:09:23.438Z",
+    "url": "https://windsurf.com/changelog#existing-plans"
+  },
+  {
+    "id": "03c4ca29-2f85-4b62-adcd-ba3b587f5e50",
+    "source": "Coding_Tools",
+    "title": "New o4-mini models available and Free (Limited Time)",
+    "date": "2026-02-05T06:09:23.438Z",
+    "url": "https://windsurf.com/changelog#new-o4-mini-models-available-and-free-limited-time"
+  },
+  {
+    "id": "82a8ad85-f268-4586-a0f3-18969426c856",
+    "source": "Coding_Tools",
+    "title": "New GPT 4.1 Model available and Free (Limited Time)",
+    "date": "2026-02-05T06:09:23.438Z",
+    "url": "https://windsurf.com/changelog#new-gpt-41-model-available-and-free-limited-time"
+  },
+  {
+    "id": "fb90bbf5-760d-4c9b-8fe0-8829de7a655e",
+    "source": "Coding_Tools",
+    "title": "Cascade is now available on JetBrains IDEs",
+    "date": "2026-02-05T06:09:23.439Z",
+    "url": "https://windsurf.com/changelog#cascade-is-now-available-on-jetbrains-ides"
+  },
+  {
+    "id": "c0a0661d-59fd-49e4-9ce6-b608de2cc29c",
+    "source": "Coding_Tools",
+    "title": "Deploys (Beta)",
+    "date": "2026-02-05T06:09:23.439Z",
+    "url": "https://windsurf.com/changelog#deploys-beta"
+  },
+  {
+    "id": "7ac4d5c9-5ba2-436d-a8b8-f3549fa7dcd2",
+    "source": "Coding_Tools",
+    "title": "Commit Message Generation (Beta)",
+    "date": "2026-02-05T06:09:23.439Z",
+    "url": "https://windsurf.com/changelog#commit-message-generation-beta"
+  },
+  {
+    "id": "26176c14-d8d3-40c4-8cb7-d4caeaf6ecdb",
+    "source": "Coding_Tools",
+    "title": "Improvements to Memories",
+    "date": "2026-02-05T06:09:23.439Z",
+    "url": "https://windsurf.com/changelog#improvements-to-memories"
+  },
+  {
+    "id": "b6dc1b20-c6f8-43c7-9e04-e5e991202ae6",
+    "source": "Coding_Tools",
+    "title": "Improvements to Long Conversations",
+    "date": "2026-02-05T06:09:23.439Z",
+    "url": "https://windsurf.com/changelog#improvements-to-long-conversations"
+  },
+  {
+    "id": "a314300a-a4c5-4ad9-9a00-6d09ebe37ed5",
+    "source": "Coding_Tools",
+    "title": "Improvements to Windsurf Tab",
+    "date": "2026-02-05T06:09:23.439Z",
+    "url": "https://windsurf.com/changelog#improvements-to-windsurf-tab"
+  },
+  {
+    "id": "43c01631-9272-459c-b122-5efca8e25547",
+    "source": "Coding_Tools",
+    "title": "Gemini 2.5 Pro (Beta)",
+    "date": "2026-02-05T06:09:23.439Z",
+    "url": "https://windsurf.com/changelog#gemini-25-pro-beta"
+  },
+  {
+    "id": "465515b0-0260-487a-92e4-befeb1e3ca8e",
+    "source": "Coding_Tools",
+    "title": "New Windsurf Tab Experience",
+    "date": "2026-02-05T06:09:23.439Z",
+    "url": "https://windsurf.com/changelog#new-windsurf-tab-experience"
+  },
+  {
+    "id": "3e11cc01-86e7-4ce4-a4c6-1db10cda5e23",
+    "source": "Coding_Tools",
+    "title": "Context Improvements",
+    "date": "2026-02-05T06:09:23.440Z",
+    "url": "https://windsurf.com/changelog#context-improvements"
+  },
+  {
+    "id": "4a0654a3-bb3a-4296-83c5-085ac97ea958",
+    "source": "Coding_Tools",
+    "title": "Quality Improvements",
+    "date": "2026-02-05T06:09:23.440Z",
+    "url": "https://windsurf.com/changelog#quality-improvements"
+  },
+  {
+    "id": "19249608-65d3-4633-81db-436fbc2bf6ca",
+    "source": "Coding_Tools",
+    "title": "Speed Improvements",
+    "date": "2026-02-05T06:09:23.440Z",
+    "url": "https://windsurf.com/changelog#speed-improvements"
+  },
+  {
+    "id": "33f978aa-d938-4fc3-8044-d80ef2ab55b9",
+    "source": "Coding_Tools",
+    "title": "Tab UX Improvements",
+    "date": "2026-02-05T06:09:23.440Z",
+    "url": "https://windsurf.com/changelog#tab-ux-improvements"
+  },
+  {
+    "id": "17f10be7-4a95-40c8-a30f-a8c8ef6e75ee",
+    "source": "Coding_Tools",
+    "title": "Misc Improvements",
+    "date": "2026-02-05T06:09:23.440Z",
+    "url": "https://windsurf.com/changelog#misc-improvements"
+  },
+  {
+    "id": "779ad387-fa1c-460e-9ee2-fd7f8e4cb482",
+    "source": "Coding_Tools",
+    "title": "Patch Fixes",
+    "date": "2026-02-05T06:09:23.440Z",
+    "url": "https://windsurf.com/changelog#patch-fixes"
+  },
+  {
+    "id": "1e9f1183-2917-407b-b315-21522896bb4e",
+    "source": "Coding_Tools",
+    "title": "Windsurf Previews, Auto-Linter, and new MCP servers",
+    "date": "2026-02-05T06:09:23.440Z",
+    "url": "https://windsurf.com/changelog#windsurf-previews-auto-linter-and-new-mcp-servers"
+  },
+  {
+    "id": "94f9c666-d5e8-4475-a3fa-234bd75833a9",
+    "source": "Coding_Tools",
+    "title": "Windsurf Previews (Beta)",
+    "date": "2026-02-05T06:09:23.441Z",
+    "url": "https://windsurf.com/changelog#windsurf-previews-beta"
+  },
+  {
+    "id": "905468f7-009c-4173-8d1f-a71ee859aa6c",
+    "source": "Coding_Tools",
+    "title": "Cascade Auto-Linter",
+    "date": "2026-02-05T06:09:23.441Z",
+    "url": "https://windsurf.com/changelog#cascade-auto-linter"
+  },
+  {
+    "id": "b683e831-3440-49ab-a37b-b41db7d58b68",
+    "source": "Coding_Tools",
+    "title": "New MCP Server Integration",
+    "date": "2026-02-05T06:09:23.441Z",
+    "url": "https://windsurf.com/changelog#new-mcp-server-integration"
+  },
+  {
+    "id": "6453517e-00ee-46d2-8124-5cd57b120228",
+    "source": "Coding_Tools",
+    "title": "Tab-to-Import",
+    "date": "2026-02-05T06:09:23.441Z",
+    "url": "https://windsurf.com/changelog#tab-to-import"
+  },
+  {
+    "id": "4f439675-32fe-4469-894e-715bef5eb308",
+    "source": "Coding_Tools",
+    "title": "Suggested Actions",
+    "date": "2026-02-05T06:09:23.441Z",
+    "url": "https://windsurf.com/changelog#suggested-actions"
+  },
+  {
+    "id": "aa4fc1b6-a160-48cd-9b4c-19e29b13a611",
+    "source": "Coding_Tools",
+    "title": "Drag and Drop Files as Context",
+    "date": "2026-02-05T06:09:23.441Z",
+    "url": "https://windsurf.com/changelog#drag-and-drop-files-as-context"
+  },
+  {
+    "id": "19eda0a9-f8d1-4f07-92ab-354dc032fb21",
+    "source": "Coding_Tools",
+    "title": "Model Option Admin Control",
+    "date": "2026-02-05T06:09:23.441Z",
+    "url": "https://windsurf.com/changelog#model-option-admin-control"
+  },
+  {
+    "id": "49c00522-9dfa-4f3d-a75b-fa6a18937c65",
+    "source": "Coding_Tools",
+    "title": "Improvements to Claude Sonnet 3.7",
+    "date": "2026-02-05T06:09:23.441Z",
+    "url": "https://windsurf.com/changelog#improvements-to-claude-sonnet-37"
+  },
+  {
+    "id": "46a99fe0-a46b-4bf0-a25f-3c5512108703",
+    "source": "Coding_Tools",
+    "title": "Support For Windows ARM",
+    "date": "2026-02-05T06:09:23.441Z",
+    "url": "https://windsurf.com/changelog#support-for-windows-arm"
+  },
+  {
+    "id": "8640e290-d0b4-400f-93da-4bc3584d81af",
+    "source": "Coding_Tools",
+    "title": "New Cascade Models",
+    "date": "2026-02-05T06:09:23.442Z",
+    "url": "https://windsurf.com/changelog#new-cascade-models"
+  },
+  {
+    "id": "ce38fc85-479b-48f0-b4ae-f60a24cf2c3f",
+    "source": "Coding_Tools",
+    "title": "Model Context Protocol",
+    "date": "2026-02-05T06:09:23.442Z",
+    "url": "https://windsurf.com/changelog#model-context-protocol"
+  },
+  {
+    "id": "929f4f4d-a62e-4de8-8342-9664e86cc52b",
+    "source": "Coding_Tools",
+    "title": "New Customizable App Icons",
+    "date": "2026-02-05T06:09:23.442Z",
+    "url": "https://windsurf.com/changelog#new-customizable-app-icons"
+  },
+  {
+    "id": "1d1a65cf-38f5-40fc-8717-2fdb8ea0f08d",
+    "source": "Coding_Tools",
+    "title": "Improvements to Completions",
+    "date": "2026-02-05T06:09:23.442Z",
+    "url": "https://windsurf.com/changelog#improvements-to-completions"
+  },
+  {
+    "id": "667273f4-8567-45c5-b558-fabdf0699141",
+    "source": "Coding_Tools",
+    "title": "Cascade Turbo Mode",
+    "date": "2026-02-05T06:09:23.442Z",
+    "url": "https://windsurf.com/changelog#cascade-turbo-mode"
+  },
+  {
+    "id": "bcd90531-0893-4f1f-aef6-96a079fa1088",
+    "source": "Coding_Tools",
+    "title": "Cascade Drag and Drop Image Support",
+    "date": "2026-02-05T06:09:23.442Z",
+    "url": "https://windsurf.com/changelog#cascade-drag-and-drop-image-support"
+  },
+  {
+    "id": "8421bb11-5e6d-40c1-82e8-7f97fc11715e",
+    "source": "Coding_Tools",
+    "title": "Credit Visibility",
+    "date": "2026-02-05T06:09:23.442Z",
+    "url": "https://windsurf.com/changelog#credit-visibility"
+  },
+  {
+    "id": "74759458-afc6-47a0-841e-0f1f6fd3c594",
+    "source": "Coding_Tools",
+    "title": "New Models",
+    "date": "2026-02-05T06:09:23.443Z",
+    "url": "https://windsurf.com/changelog#new-models"
+  },
+  {
+    "id": "58d9fd74-3998-49d7-a704-e176059ff3c0",
+    "source": "Coding_Tools",
+    "title": "Models",
+    "date": "2026-02-05T06:09:23.443Z",
+    "url": "https://windsurf.com/changelog#models"
+  },
+  {
+    "id": "00c69b28-8861-4b6f-b23e-35bfe53b0525",
+    "source": "Coding_Tools",
+    "title": "Web and Docs Search",
+    "date": "2026-02-05T06:09:23.443Z",
+    "url": "https://windsurf.com/changelog#web-and-docs-search"
+  },
+  {
+    "id": "f71aac94-61a5-42de-bcaf-54b51282b789",
+    "source": "Coding_Tools",
+    "title": "Cascade Auto-Generated Memories",
+    "date": "2026-02-05T06:09:23.443Z",
+    "url": "https://windsurf.com/changelog#cascade-auto-generated-memories"
+  },
+  {
+    "id": "36908ce9-6385-43e4-95e3-14b27fc3176f",
+    "source": "Coding_Tools",
+    "title": "Improvements to Dev Container Support (Beta)",
+    "date": "2026-02-05T06:09:23.443Z",
+    "url": "https://windsurf.com/changelog#improvements-to-dev-container-support-beta"
+  },
+  {
+    "id": "4e18fe43-2840-40cf-aa91-cfcea697880d",
+    "source": "Coding_Tools",
+    "title": "Product Improvements",
+    "date": "2026-02-05T06:09:23.443Z",
+    "url": "https://windsurf.com/changelog#product-improvements"
+  },
+  {
+    "id": "3a7b160f-3bd2-49c2-8630-472bd41162c1",
+    "source": "Coding_Tools",
+    "title": "Cascade Memories",
+    "date": "2026-02-05T06:09:23.443Z",
+    "url": "https://windsurf.com/changelog#cascade-memories-1"
+  },
+  {
+    "id": "eabddc11-6dce-49a1-bd7e-a09e788265b2",
+    "source": "Coding_Tools",
+    "title": "Cascade Auto Run Commands",
+    "date": "2026-02-05T06:09:23.444Z",
+    "url": "https://windsurf.com/changelog#cascade-auto-run-commands"
+  },
+  {
+    "id": "327df320-49b4-4f3c-9374-1fc237cde4d4",
+    "source": "Coding_Tools",
+    "title": "Extensions",
+    "date": "2026-02-05T06:09:23.444Z",
+    "url": "https://windsurf.com/changelog#extensions"
+  },
+  {
+    "id": "1d252260-23d4-40a4-9dc2-dfe09f19e495",
+    "source": "Coding_Tools",
+    "title": "Usage Transparency and Pricing",
+    "date": "2026-02-05T06:09:23.444Z",
+    "url": "https://windsurf.com/changelog#usage-transparency-and-pricing"
+  },
+  {
+    "id": "db771bdc-a4e1-4a02-8218-966ee3e7c96a",
+    "source": "Coding_Tools",
+    "title": "Cascade Image Uploads",
+    "date": "2026-02-05T06:09:23.444Z",
+    "url": "https://windsurf.com/changelog#cascade-image-uploads"
+  },
+  {
+    "id": "42ec80c7-4eda-4ed2-b964-8b004aa1df5e",
+    "source": "Coding_Tools",
+    "title": "Improved Language support for Python",
+    "date": "2026-02-05T06:09:23.444Z",
+    "url": "https://windsurf.com/changelog#improved-language-support-for-python"
+  },
+  {
+    "id": "0d4d1d9b-62e7-4537-a4d4-e64b99d3bc8d",
+    "source": "Coding_Tools",
+    "title": "Upload Images to Cascade",
+    "date": "2026-02-05T06:09:23.444Z",
+    "url": "https://windsurf.com/changelog#upload-images-to-cascade"
+  },
+  {
+    "id": "6a9ca9fc-fc4c-4ea4-b1f8-a0a2c859d983",
+    "source": "Coding_Tools",
+    "title": "New keybindings",
+    "date": "2026-02-05T06:09:23.444Z",
+    "url": "https://windsurf.com/changelog#new-keybindings"
+  },
+  {
+    "id": "cb0b6b0f-d861-42a2-bbe1-f08f9eee3f50",
+    "source": "Coding_Tools",
+    "title": "Explain & fix problem",
+    "date": "2026-02-05T06:09:23.445Z",
+    "url": "https://windsurf.com/changelog#explain--fix-problem"
+  },
+  {
+    "id": "693ce08f-2256-41b6-95a1-3a58b962fb5c",
+    "source": "Coding_Tools",
+    "title": "Import from Cursor",
+    "date": "2026-02-05T06:09:23.445Z",
+    "url": "https://windsurf.com/changelog#import-from-cursor"
+  },
+  {
+    "id": "54659034-016e-40f7-be5b-43ab7cfbda22",
+    "source": "Coding_Tools",
+    "title": "Improved Command",
+    "date": "2026-02-05T06:09:23.445Z",
+    "url": "https://windsurf.com/changelog#improved-command"
+  },
+  {
+    "id": "34eb17d4-2435-4238-9353-119f5ea065ac",
+    "source": "Coding_Tools",
+    "title": "Improved diff views",
+    "date": "2026-02-05T06:09:23.445Z",
+    "url": "https://windsurf.com/changelog#improved-diff-views"
+  },
+  {
+    "id": "114bcfb1-9acd-4277-8016-f7bb2eaefad7",
+    "source": "Coding_Tools",
+    "title": "ACP Integration, Help Agent, and Tool Improvements",
+    "date": "2026-02-05T06:09:31.837Z",
+    "url": "https://kiro.dev/changelog/cli/1-25/"
+  },
+  {
+    "id": "3a749375-158a-4e98-99dc-24d14a757b61",
+    "source": "Coding_Tools",
+    "title": "Agent Client Protocol (ACP) Support",
+    "date": "2026-02-05T06:09:31.837Z",
+    "url": "https://kiro.dev/changelog/cli/1-25#agent-client-protocol-acp-support"
+  },
+  {
+    "id": "b2bed61c-6235-4033-9eb7-4414eeffa372",
+    "source": "Coding_Tools",
+    "title": "Help Agent",
+    "date": "2026-02-05T06:09:31.837Z",
+    "url": "https://kiro.dev/changelog/cli/1-25#help-agent"
+  },
+  {
+    "id": "5fd51079-6a5d-4364-ad46-fdea6edffe54",
+    "source": "Coding_Tools",
+    "title": "Enterprise Web Tools Governance",
+    "date": "2026-02-05T06:09:31.837Z",
+    "url": "https://kiro.dev/changelog/cli/1-25#enterprise-web-tools-governance"
+  },
+  {
+    "id": "89925b66-a157-40d8-8209-27c5476bcb0f",
+    "source": "Coding_Tools",
+    "title": "Subagent Access Control",
+    "date": "2026-02-05T06:09:31.837Z",
+    "url": "https://kiro.dev/changelog/cli/1-25#subagent-access-control"
+  },
+  {
+    "id": "2ec76a42-ec02-46b6-a821-5d36abd18285",
+    "source": "Coding_Tools",
+    "title": "Exit Codes for CI/CD",
+    "date": "2026-02-05T06:09:31.837Z",
+    "url": "https://kiro.dev/changelog/cli/1-25#exit-codes-for-cicd"
+  },
+  {
+    "id": "98425589-8879-44d1-aa26-77f6cbfec1bf",
+    "source": "Coding_Tools",
+    "title": "Web tools",
+    "date": "2026-02-05T06:09:31.837Z",
+    "url": "https://kiro.dev/changelog/ide/0-8#web-tools"
+  },
+  {
+    "id": "b47a4df8-9eba-4ead-b9f3-7f3c3bf9a180",
+    "source": "Coding_Tools",
+    "title": "Contextual hooks",
+    "date": "2026-02-05T06:09:31.837Z",
+    "url": "https://kiro.dev/changelog/ide/0-8#contextual-hooks"
+  },
+  {
+    "id": "dcdfe5c3-0911-48e8-a83e-bb670b07ab6d",
+    "source": "Coding_Tools",
+    "title": "Subagents",
+    "date": "2026-02-05T06:09:31.837Z",
+    "url": "https://kiro.dev/changelog/ide/0-8#subagents"
+  },
+  {
+    "id": "89afdfac-b284-4e1a-bd4a-1e038beef0dd",
+    "source": "Coding_Tools",
+    "title": "Enhanced Supervised Mode",
+    "date": "2026-02-05T06:09:31.837Z",
+    "url": "https://kiro.dev/changelog/ide/0-8#enhanced-supervised-mode"
+  },
+  {
+    "id": "b89b32d2-8872-4b2d-97b8-131259e76bb9",
+    "source": "Coding_Tools",
+    "title": "Skills, Custom Diff Tools, Improved Code Intelligence, and Conversation Compaction",
+    "date": "2026-02-05T06:09:31.837Z",
+    "url": "https://kiro.dev/changelog/cli/1-24/"
+  },
+  {
+    "id": "333eb6a4-63b7-4df2-abc8-787096726a57",
+    "source": "Coding_Tools",
+    "title": "Progressive Context Loading with Skills",
+    "date": "2026-02-05T06:09:31.837Z",
+    "url": "https://kiro.dev/changelog/cli/1-24#progressive-context-loading-with-skills"
+  },
+  {
+    "id": "4ade58d5-b813-4222-bb07-203112cc73dc",
+    "source": "Coding_Tools",
+    "title": "Custom diff tools",
+    "date": "2026-02-05T06:09:31.837Z",
+    "url": "https://kiro.dev/changelog/cli/1-24#custom-diff-tools"
+  },
+  {
+    "id": "f408d877-01fe-4696-9c51-b2e201f2f1e6",
+    "source": "Coding_Tools",
+    "title": "Precise Refactoring with AST Pattern Tools",
+    "date": "2026-02-05T06:09:31.837Z",
+    "url": "https://kiro.dev/changelog/cli/1-24#precise-refactoring-with-ast-pattern-tools"
+  },
+  {
+    "id": "3ccb7b27-d0f7-46b6-a1a7-ce2894045451",
+    "source": "Coding_Tools",
+    "title": "Improved Code Intelligence",
+    "date": "2026-02-05T06:09:31.837Z",
+    "url": "https://kiro.dev/changelog/cli/1-24#improved-code-intelligence"
+  },
+  {
+    "id": "96768f23-2c20-4a99-bc42-8028e32fc8cc",
+    "source": "Coding_Tools",
+    "title": "Conversation Compaction",
+    "date": "2026-02-05T06:09:31.837Z",
+    "url": "https://kiro.dev/changelog/cli/1-24#conversation-compaction"
+  },
+  {
+    "id": "f48f1a1b-1fe0-4109-a63f-a0b265c34424",
+    "source": "Coding_Tools",
+    "title": "Granular URL Permissions for web_fetch tool",
+    "date": "2026-02-05T06:09:31.837Z",
+    "url": "https://kiro.dev/changelog/cli/1-24#granular-url-permissions-for-web_fetch-tool"
+  },
+  {
+    "id": "906a31ea-d560-43ea-9859-f87d09b63c37",
+    "source": "Coding_Tools",
+    "title": "Remote Authentication",
+    "date": "2026-02-05T06:09:31.837Z",
+    "url": "https://kiro.dev/changelog/cli/1-24#remote-authentication"
+  },
+  {
+    "id": "2e81ab9f-cb78-4382-95c3-87e9d9010cf3",
+    "source": "Coding_Tools",
+    "title": "Subagents, Plan Agent, Grep/Glob Tools, and MCP Registry",
+    "date": "2026-02-05T06:09:31.838Z",
+    "url": "https://kiro.dev/changelog/cli/1-23/"
+  },
+  {
+    "id": "63dfe81b-3595-4a45-b985-6ee9f2785be4",
+    "source": "Coding_Tools",
+    "title": "Plan agent",
+    "date": "2026-02-05T06:09:31.838Z",
+    "url": "https://kiro.dev/changelog/cli/1-23#plan-agent"
+  },
+  {
+    "id": "879a025f-8248-4ed0-9d1f-860c4bf5b360",
+    "source": "Coding_Tools",
+    "title": "Grep and Glob Tools",
+    "date": "2026-02-05T06:09:31.838Z",
+    "url": "https://kiro.dev/changelog/cli/1-23#grep-and-glob-tools"
+  },
+  {
+    "id": "7011a439-7e0c-41b1-a430-c2cc65a0c618",
+    "source": "Coding_Tools",
+    "title": "Multi-Session Support",
+    "date": "2026-02-05T06:09:31.838Z",
+    "url": "https://kiro.dev/changelog/cli/1-23#multi-session-support"
+  },
+  {
+    "id": "f5e6ca68-dc9d-485c-b328-4a4864d98a97",
+    "source": "Coding_Tools",
+    "title": "MCP Registry Support",
+    "date": "2026-02-05T06:09:31.838Z",
+    "url": "https://kiro.dev/changelog/cli/1-23#mcp-registry-support"
+  },
+  {
+    "id": "ffa77a1d-963a-41ff-a6b5-4567b885e737",
+    "source": "Coding_Tools",
+    "title": "Claude Opus 4.5 support for AWS IAM Identity Center users",
+    "date": "2026-02-05T06:09:31.838Z",
+    "url": "https://kiro.dev/changelog/models/claude-opus-4-5-support-for-aws-iam-identity-center-users/"
+  },
+  {
+    "id": "65f8ec73-e021-450e-a5ef-4862c1fb6d50",
+    "source": "Coding_Tools",
+    "title": "Powers, Auto Summarization and Slash Commands",
+    "date": "2026-02-05T06:09:31.838Z",
+    "url": "https://kiro.dev/changelog/ide/0-7/"
+  },
+  {
+    "id": "c62e1ec5-46a8-4716-8eca-e38ce96b83b0",
+    "source": "Coding_Tools",
+    "title": "Powers",
+    "date": "2026-02-05T06:09:31.838Z",
+    "url": "https://kiro.dev/changelog/ide/0-7#powers"
+  },
+  {
+    "id": "eec05210-77d7-492b-8725-870ca79e3e21",
+    "source": "Coding_Tools",
+    "title": "Summarization",
+    "date": "2026-02-05T06:09:31.838Z",
+    "url": "https://kiro.dev/changelog/ide/0-7#summarization"
+  },
+  {
+    "id": "949517ce-7e6c-4576-90d6-6ebfc22c7e93",
+    "source": "Coding_Tools",
+    "title": "Slash commands",
+    "date": "2026-02-05T06:09:31.838Z",
+    "url": "https://kiro.dev/changelog/ide/0-7#slash-commands"
+  },
+  {
+    "id": "9ec2fde1-4289-4965-9c0e-30e9eb73e583",
+    "source": "Coding_Tools",
+    "title": "Code Intelligence and Knowledge Index",
+    "date": "2026-02-05T06:09:31.838Z",
+    "url": "https://kiro.dev/changelog/cli/1-22/"
+  },
+  {
+    "id": "f993b9c8-a736-48bb-b27d-bf95ebef940b",
+    "source": "Coding_Tools",
+    "title": "Code Intelligence",
+    "date": "2026-02-05T06:09:31.838Z",
+    "url": "https://kiro.dev/changelog/cli/1-22#code-intelligence"
+  },
+  {
+    "id": "e7051370-311d-46d1-a176-4a68ffda5539",
+    "source": "Coding_Tools",
+    "title": "Knowledge Index",
+    "date": "2026-02-05T06:09:31.838Z",
+    "url": "https://kiro.dev/changelog/cli/1-22#knowledge-index"
+  },
+  {
+    "id": "cf5d0971-6b45-477b-9a9e-826214cfeb17",
+    "source": "Coding_Tools",
+    "title": "Introducing Kiro autonomous agent",
+    "date": "2026-02-05T06:09:31.838Z",
+    "url": "https://kiro.dev/changelog/autonomous-agent/introducing-kiro-autonomous-agent/"
+  },
+  {
+    "id": "fe4d3098-b07b-443c-8689-66b005086856",
+    "source": "Coding_Tools",
+    "title": "Spec correctness, new Kiro CLI, enterprise billing, multi-root workspace support, and checkpointing",
+    "date": "2026-02-05T06:09:31.838Z",
+    "url": "https://kiro.dev/changelog/ide/0-6/"
+  },
+  {
+    "id": "8e8d5907-44c0-44b8-9917-c19502e4e804",
+    "source": "Coding_Tools",
+    "title": "Spec correctness with property-based tests",
+    "date": "2026-02-05T06:09:31.838Z",
+    "url": "https://kiro.dev/changelog/ide/0-6#spec-correctness-with-property-based-tests"
+  },
+  {
+    "id": "59cb73c1-c129-4626-8323-b05040a75f1a",
+    "source": "Coding_Tools",
+    "title": "Enterprise support",
+    "date": "2026-02-05T06:09:31.838Z",
+    "url": "https://kiro.dev/changelog/ide/0-6#enterprise-support"
+  },
+  {
+    "id": "a0bc8cf9-24f2-4bf0-b1f1-1b1183a09a1f",
+    "source": "Coding_Tools",
+    "title": "Kiro CLI",
+    "date": "2026-02-05T06:09:31.838Z",
+    "url": "https://kiro.dev/changelog/ide/0-6#kiro-cli"
+  },
+  {
+    "id": "a75fe8e6-6ef1-4536-83f9-80518c314a59",
+    "source": "Coding_Tools",
+    "title": "Multi-root workspace support",
+    "date": "2026-02-05T06:09:31.838Z",
+    "url": "https://kiro.dev/changelog/ide/0-6#multi-root-workspace-support"
+  },
+  {
+    "id": "de101190-73f8-4254-a380-670bc08ff4e3",
+    "source": "Coding_Tools",
+    "title": "Checkpointing",
+    "date": "2026-02-05T06:09:31.838Z",
+    "url": "https://kiro.dev/changelog/ide/0-6#checkpointing"
+  },
+  {
+    "id": "c25adb05-bb8a-43c1-8bd2-ec203ec7da9b",
+    "source": "Coding_Tools",
+    "title": "Settings for context providers",
+    "date": "2026-02-05T06:09:31.838Z",
+    "url": "https://kiro.dev/changelog/ide/0-6#settings-for-context-providers"
+  },
+  {
+    "id": "3eee1cb4-7434-4876-a47e-38925a7a9830",
+    "source": "Coding_Tools",
+    "title": "Chat file context line ranges",
+    "date": "2026-02-05T06:09:31.838Z",
+    "url": "https://kiro.dev/changelog/ide/0-6#chat-file-context-line-ranges"
+  },
+  {
+    "id": "e440e9aa-8041-4ac6-85e7-8fccd02fba4f",
+    "source": "Coding_Tools",
+    "title": "Kiro web dashboard",
+    "date": "2026-02-05T06:09:31.838Z",
+    "url": "https://kiro.dev/changelog/ide/0-6#kiro-web-dashboard"
+  },
+  {
+    "id": "627aaf22-b2ee-431d-94b8-bc101cee783f",
+    "source": "Coding_Tools",
+    "title": "Web search and fetch for Kiro CLI",
+    "date": "2026-02-05T06:09:31.838Z",
+    "url": "https://kiro.dev/changelog/cli/1-21/"
+  },
+  {
+    "id": "772b368b-32f4-4b65-b820-a46daba7ed62",
+    "source": "Coding_Tools",
+    "title": "#Shared agent transcripts",
+    "date": "2026-02-05T06:09:34.110Z",
+    "url": "https://cursor.com/changelog#shared-agent-transcripts"
+  },
+  {
+    "id": "e841858b-943d-4e7a-bd1f-f60ec10aa22e",
+    "source": "Coding_Tools",
+    "title": "#Billing groups",
+    "date": "2026-02-05T06:09:34.111Z",
+    "url": "https://cursor.com/changelog#billing-groups"
+  },
+  {
+    "id": "46354b9b-f67a-4821-957a-94a0a5d2497b",
+    "source": "Coding_Tools",
+    "title": "#Linux sandboxing for agents",
+    "date": "2026-02-05T06:09:34.112Z",
+    "url": "https://cursor.com/changelog#linux-sandboxing-for-agents"
+  },
+  {
+    "id": "1f8aac73-471c-40eb-b0e5-94d7e3e59282",
+    "source": "Coding_Tools",
+    "title": "#Service accounts",
+    "date": "2026-02-05T06:09:34.112Z",
+    "url": "https://cursor.com/changelog#service-accounts"
   }
 ]
