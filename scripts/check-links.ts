@@ -9,6 +9,7 @@ interface LinkCheckResult {
   url: string | string[];
   brokenLinks: number;
   totalLinks: number;
+  skippedLinks?: number;
   success: boolean;
   output: string;
 }
@@ -94,12 +95,16 @@ async function checkLinksWithLinkinator(links: string[]): Promise<LinkCheckResul
 
   fs.writeFileSync(tempFile, htmlContent);
 
+  let skippedCount = 0;
+
   try {
     const results = await checker.check({
       path: tempFile,
       recurse: false,
       linksToSkip: async (link) => {
-        return /twitter\.com/.test(link) || /x\.com/.test(link);
+        const shouldSkip = /twitter\.com/.test(link) || /x\.com/.test(link);
+        if (shouldSkip) skippedCount++;
+        return shouldSkip;
       }
     });
 
@@ -125,6 +130,7 @@ async function checkLinksWithLinkinator(links: string[]): Promise<LinkCheckResul
       url: 'Markdown Files',
       brokenLinks: brokenLinks.length,
       totalLinks: checkedLinks.length,
+      skippedLinks: skippedCount,
       success: results.passed,
       output
     };
@@ -143,11 +149,15 @@ async function runLinkinator(target: string): Promise<LinkCheckResult> {
 
   console.log(`Scanning URL ${target} ...`);
 
+  let skippedCount = 0;
+
   const results = await checker.check({
     path: target,
     recurse: true,
     linksToSkip: async (link) => {
-      return /twitter\.com/.test(link) || /x\.com/.test(link);
+      const shouldSkip = /twitter\.com/.test(link) || /x\.com/.test(link);
+      if (shouldSkip) skippedCount++;
+      return shouldSkip;
     }
   });
 
@@ -170,6 +180,7 @@ async function runLinkinator(target: string): Promise<LinkCheckResult> {
     url: target,
     brokenLinks: brokenLinks.length,
     totalLinks: results.links.length,
+    skippedLinks: skippedCount,
     success: results.passed,
     output
   };
@@ -189,7 +200,15 @@ function generateReport(result: LinkCheckResult): string {
   } else {
     report += `## Status: ❌ ISSUES FOUND\n\n`;
     report += `**Broken Links:** ${result.brokenLinks}\n`;
-    report += `**Total Links Checked:** ${result.totalLinks}\n\n`;
+  }
+
+  report += `**Total Links Checked:** ${result.totalLinks}\n`;
+  if (result.skippedLinks !== undefined) {
+    report += `**Skipped Links (Twitter/X):** ${result.skippedLinks}\n`;
+  }
+  report += `\n`;
+
+  if (!result.success) {
     report += `### Details\n\n`;
     report += '```\n' + result.output + '\n```\n';
   }
@@ -259,6 +278,9 @@ async function main() {
     console.log('\n---\n');
     console.log('Summary:');
     console.log(`- Total links checked: ${result.totalLinks}`);
+    if (result.skippedLinks !== undefined) {
+      console.log(`- Skipped links: ${result.skippedLinks}`);
+    }
     console.log(`- Broken links found: ${result.brokenLinks}`);
     console.log(`- Status: ${result.success ? 'PASSED' : 'FAILED'}`);
 

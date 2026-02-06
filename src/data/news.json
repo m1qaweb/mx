@@ -9,7 +9,7 @@
   {
     "id": "d3a6d8d0-56b5-4665-bfd4-2ca800c641d2",
     "source": "Cursor",
-    "title": "#Conversation insights",
+    "title": "Conversation insights",
     "date": "2026-01-30T18:32:33.780Z",
     "url": "https://cursor.com/changelog"
   },
@@ -1185,28 +1185,28 @@
   {
     "id": "772b368b-32f4-4b65-b820-a46daba7ed62",
     "source": "Coding_Tools",
-    "title": "#Shared agent transcripts",
+    "title": "Shared agent transcripts",
     "date": "2026-02-05T06:09:34.110Z",
     "url": "https://cursor.com/changelog#shared-agent-transcripts"
   },
   {
     "id": "e841858b-943d-4e7a-bd1f-f60ec10aa22e",
     "source": "Coding_Tools",
-    "title": "#Billing groups",
+    "title": "Billing groups",
     "date": "2026-02-05T06:09:34.111Z",
     "url": "https://cursor.com/changelog#billing-groups"
   },
   {
     "id": "46354b9b-f67a-4821-957a-94a0a5d2497b",
     "source": "Coding_Tools",
-    "title": "#Linux sandboxing for agents",
+    "title": "Linux sandboxing for agents",
     "date": "2026-02-05T06:09:34.112Z",
     "url": "https://cursor.com/changelog#linux-sandboxing-for-agents"
   },
   {
     "id": "1f8aac73-471c-40eb-b0e5-94d7e3e59282",
     "source": "Coding_Tools",
-    "title": "#Service accounts",
+    "title": "Service accounts",
     "date": "2026-02-05T06:09:34.112Z",
     "url": "https://cursor.com/changelog#service-accounts"
   }
