@@ -1209,5 +1209,61 @@
     "title": "#Service accounts",
     "date": "2026-02-05T06:09:34.112Z",
     "url": "https://cursor.com/changelog#service-accounts"
+  },
+  {
+    "id": "75823b2c-66d3-4b73-b293-ce40709863f5",
+    "source": "Coding_Tools",
+    "title": "Claude Opus 4.6 support",
+    "date": "2026-02-06T06:13:13.282Z",
+    "url": "https://kiro.dev/changelog/models/claude-opus-4-6-support/"
+  },
+  {
+    "id": "9a16856b-ba3c-42e4-a6f6-ee4d020d6af8",
+    "source": "Coding_Tools",
+    "title": "Custom Subagents, Agent Skills, and New Hook Triggers",
+    "date": "2026-02-06T06:13:13.282Z",
+    "url": "https://kiro.dev/changelog/ide/0-9/"
+  },
+  {
+    "id": "5d57f95a-2047-41e0-85e3-1bd630a7d6b5",
+    "source": "Coding_Tools",
+    "title": "Custom Subagents",
+    "date": "2026-02-06T06:13:13.282Z",
+    "url": "https://kiro.dev/changelog/ide/0-9#custom-subagents"
+  },
+  {
+    "id": "bff0f34f-6a83-4284-be92-331a1cd9b212",
+    "source": "Coding_Tools",
+    "title": "Agent Skills",
+    "date": "2026-02-06T06:13:13.282Z",
+    "url": "https://kiro.dev/changelog/ide/0-9#agent-skills"
+  },
+  {
+    "id": "f4fba817-ae58-4323-8fe6-e6d6546eedb8",
+    "source": "Coding_Tools",
+    "title": "Pre and Post Tool Use Hooks",
+    "date": "2026-02-06T06:13:13.282Z",
+    "url": "https://kiro.dev/changelog/ide/0-9#pre-and-post-tool-use-hooks"
+  },
+  {
+    "id": "b5ae95d5-f15b-4c71-b46e-24570378c94b",
+    "source": "Coding_Tools",
+    "title": "Web Tools Governance",
+    "date": "2026-02-06T06:13:13.282Z",
+    "url": "https://kiro.dev/changelog/ide/0-9#web-tools-governance"
+  },
+  {
+    "id": "216b2a0d-f731-4b90-9d95-cdd8c013af7f",
+    "source": "Coding_Tools",
+    "title": "# Conversation insights",
+    "date": "2026-02-06T06:13:15.638Z",
+    "url": "https://cursor.com/changelog#conversation-insights"
+  },
+  {
+    "id": "c1886262-67a9-4b42-b53b-04e1684d6638",
+    "source": "Coding_Social",
+    "title": "Opus 4.6 is now available in Cursor! It's highly effective at long-running tasks and reviewing code...",
+    "date": "2026-02-06T06:13:55.095Z",
+    "url": "https://x.com/cursor_ai/status/2019468487610008040"
   }
 ]
