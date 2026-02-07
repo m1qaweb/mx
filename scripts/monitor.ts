@@ -302,6 +302,7 @@ async function main() {
         } else {
           currentSource = 'web';
         }
+        console.log(`[Mixed Mode] Processing ${url} as ${currentSource}`);
       }
 
       const result: ScrapedResult = {
