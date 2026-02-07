@@ -46,7 +46,7 @@ const DEFAULT_SELECTORS: Record<string, string> = {
   'openai.com': 'h3, a[href*="/news/"]',
   'anthropic.com': '[class*="title"], h3',
   'windsurf.com': 'h2',
-  'kiro.dev': 'h2',
+  'kiro.dev': 'h2, h3',
   'cursor.com': 'h2',
   'antigravity.google': 'h3',
   'developers.googleblog.com': '.post-title, h2, h3'
@@ -55,7 +55,15 @@ const DEFAULT_SELECTORS: Record<string, string> = {
 const INVALID_TITLES = [
   "Sorry, the page you're looking for doesn't exist.",
   "404 Not Found",
-  "Page Not Found"
+  "Page Not Found",
+  "Select your cookie preferences",
+  "Customize cookie preferences",
+  "Your privacy choices",
+  "Unable to save cookie preferences",
+  "Advertising",
+  "Functional",
+  "Performance",
+  "Essential"
 ];
 
 function parseArgs(): MonitorArgs {
