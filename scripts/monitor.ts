@@ -186,40 +186,37 @@ async function extractLink(element: ElementHandle, baseUrl: string): Promise<str
 }
 
 async function scrapeTwitter(page: Page, url: string): Promise<ScrapedItem | null> {
-  try {
-    await page.goto(url, { waitUntil: 'domcontentloaded', timeout: REQUEST_TIMEOUT_MS });
-    
-    // Wait for tweets
-    await page.waitForSelector('[data-testid="tweet"]', { timeout: 15000 });
-    
-    let tweetElement = await page.$('[data-testid="tweet"]:has([aria-label*="Pinned"])');
-    
-    if (!tweetElement) {
-       // Fallback to latest
-       tweetElement = await page.$('[data-testid="tweet"]');
+  // Let errors propagate to scrapeWithRetry for automatic retries
+  await page.goto(url, { waitUntil: 'domcontentloaded', timeout: REQUEST_TIMEOUT_MS });
+
+  // Wait for tweets
+  await page.waitForSelector('[data-testid="tweet"]', { timeout: 15000 });
+
+  let tweetElement = await page.$('[data-testid="tweet"]:has([aria-label*="Pinned"])');
+
+  if (!tweetElement) {
+     // Fallback to latest
+     tweetElement = await page.$('[data-testid="tweet"]');
+  }
+
+  if (tweetElement) {
+    const textEl = await tweetElement.$('[data-testid="tweetText"]');
+    const text = textEl ? await textEl.innerText() : '';
+
+    // Extract permalink from <time> parent
+    let link = url;
+    const timeEl = await tweetElement.$('time');
+    if (timeEl) {
+      const linkHref = await extractLink(timeEl, url);
+      if (linkHref) link = linkHref;
     }
 
-    if (tweetElement) {
-      const textEl = await tweetElement.$('[data-testid="tweetText"]');
-      const text = textEl ? await textEl.innerText() : '';
-
-      // Extract permalink from <time> parent
-      let link = url;
-      const timeEl = await tweetElement.$('time');
-      if (timeEl) {
-        const linkHref = await extractLink(timeEl, url);
-        if (linkHref) link = linkHref;
-      }
-
-      if (text) {
-        return {
-          title: text,
-          link: link
-        };
-      }
+    if (text) {
+      return {
+        title: text,
+        link: link
+      };
     }
-  } catch (error) {
-    console.log(`Note: Twitter scraping may be blocked or failed for ${url}`);
   }
   
   return null;
