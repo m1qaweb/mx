@@ -71,7 +71,9 @@ function extractLinksFromNewsJson(): string[] {
 
 async function checkLinksWithLinkinator(links: string[]): Promise<LinkCheckResult> {
   // Dynamic import for ESM-only package
-  const { LinkChecker } = await import('linkinator');
+  // Cast to any to bypass TS resolution issues in CJS environment
+  const linkinator = await import('linkinator') as any;
+  const { LinkChecker } = linkinator;
   const checker = new LinkChecker();
 
   console.log(`Checking ${links.length} links using Linkinator...`);
@@ -98,19 +100,19 @@ async function checkLinksWithLinkinator(links: string[]): Promise<LinkCheckResul
     const results = await checker.check({
       path: tempFile,
       recurse: false,
-      linksToSkip: async (link) => {
+      linksToSkip: async (link: string) => {
         return /twitter\.com/.test(link) || /x\.com/.test(link);
       }
     });
 
     // Filter out the temp file itself from results if it appears
-    const checkedLinks = results.links.filter(l => l.url !== `file://${tempFile}` && l.url !== tempFile);
+    const checkedLinks = results.links.filter((l: any) => l.url !== `file://${tempFile}` && l.url !== tempFile);
 
-    const brokenLinks = checkedLinks.filter(link => link.state === 'BROKEN');
+    const brokenLinks = checkedLinks.filter((link: any) => link.state === 'BROKEN');
 
     let output = '';
     if (brokenLinks.length > 0) {
-      output = brokenLinks.map(link => `[${link.status}] ${link.url} (from Markdown)`).join('\n');
+      output = brokenLinks.map((link: any) => `[${link.status}] ${link.url} (from Markdown)`).join('\n');
     }
 
     // Print results
@@ -138,7 +140,9 @@ async function checkLinksWithLinkinator(links: string[]): Promise<LinkCheckResul
 
 async function runLinkinator(target: string): Promise<LinkCheckResult> {
   // Dynamic import for ESM-only package
-  const { LinkChecker } = await import('linkinator');
+  // Cast to any to bypass TS resolution issues in CJS environment
+  const linkinator = await import('linkinator') as any;
+  const { LinkChecker } = linkinator;
   const checker = new LinkChecker();
 
   console.log(`Scanning URL ${target} ...`);
@@ -146,16 +150,16 @@ async function runLinkinator(target: string): Promise<LinkCheckResult> {
   const results = await checker.check({
     path: target,
     recurse: true,
-    linksToSkip: async (link) => {
+    linksToSkip: async (link: string) => {
       return /twitter\.com/.test(link) || /x\.com/.test(link);
     }
   });
 
-  const brokenLinks = results.links.filter(link => link.state === 'BROKEN');
+  const brokenLinks = results.links.filter((link: any) => link.state === 'BROKEN');
 
   let output = '';
   if (brokenLinks.length > 0) {
-    output = brokenLinks.map(link => `[${link.status}] ${link.url} (on ${link.parent})`).join('\n');
+    output = brokenLinks.map((link: any) => `[${link.status}] ${link.url} (on ${link.parent})`).join('\n');
   }
 
   // Also print to console
