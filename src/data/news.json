@@ -9,7 +9,7 @@
   {
     "id": "d3a6d8d0-56b5-4665-bfd4-2ca800c641d2",
     "source": "Cursor",
-    "title": "#Conversation insights",
+    "title": "Conversation insights",
     "date": "2026-01-30T18:32:33.780Z",
     "url": "https://cursor.com/changelog"
   },
@@ -1185,28 +1185,28 @@
   {
     "id": "772b368b-32f4-4b65-b820-a46daba7ed62",
     "source": "Coding_Tools",
-    "title": "#Shared agent transcripts",
+    "title": "Shared agent transcripts",
     "date": "2026-02-05T06:09:34.110Z",
     "url": "https://cursor.com/changelog#shared-agent-transcripts"
   },
   {
     "id": "e841858b-943d-4e7a-bd1f-f60ec10aa22e",
     "source": "Coding_Tools",
-    "title": "#Billing groups",
+    "title": "Billing groups",
     "date": "2026-02-05T06:09:34.111Z",
     "url": "https://cursor.com/changelog#billing-groups"
   },
   {
     "id": "46354b9b-f67a-4821-957a-94a0a5d2497b",
     "source": "Coding_Tools",
-    "title": "#Linux sandboxing for agents",
+    "title": "Linux sandboxing for agents",
     "date": "2026-02-05T06:09:34.112Z",
     "url": "https://cursor.com/changelog#linux-sandboxing-for-agents"
   },
   {
     "id": "1f8aac73-471c-40eb-b0e5-94d7e3e59282",
     "source": "Coding_Tools",
-    "title": "#Service accounts",
+    "title": "Service accounts",
     "date": "2026-02-05T06:09:34.112Z",
     "url": "https://cursor.com/changelog#service-accounts"
   },
@@ -1311,7 +1311,7 @@
   {
     "id": "1a3e395b-247f-496a-aa0b-7398e90ba611",
     "source": "Models_Web",
-    "title": "Apple’s Xcode now supports the Claude Agent SDK",
+    "title": "Apple\u2019s Xcode now supports the Claude Agent SDK",
     "date": "2026-02-06T06:30:29.305Z",
     "url": "https://www.anthropic.com/news/apple-xcode-claude-agent-sdk"
   },
@@ -1346,7 +1346,7 @@
   {
     "id": "0197dc6f-40c8-4d1b-a778-5b731ecec227",
     "source": "Models_Web",
-    "title": "Mariano-Florentino Cuéllar appointed to Anthropic’s Long-Term Benefit Trust",
+    "title": "Mariano-Florentino Cu\u00e9llar appointed to Anthropic\u2019s Long-Term Benefit Trust",
     "date": "2026-02-06T06:30:29.305Z",
     "url": "https://www.anthropic.com/news/mariano-florentino-long-term-benefit-trust"
   },
@@ -1381,7 +1381,7 @@
   {
     "id": "a4316849-247b-4398-af90-33b6edbbe15e",
     "source": "Coding_Tools",
-    "title": "# Conversation insights",
+    "title": "Conversation insights",
     "date": "2026-02-07T06:32:21.137Z",
     "url": "https://cursor.com/changelog#conversation-insights"
   },
@@ -1433,5 +1433,12 @@
     "title": "Opus 4.6 is now available in Cursor! It's highly effective at long-running tasks and reviewing code...",
     "date": "2026-02-07T06:35:00.044Z",
     "url": "https://x.com/cursor_ai/status/2019468487610008040"
+  },
+  {
+    "id": "0b75b5f5-397a-446a-8adf-a7ebf0b59a53",
+    "source": "Coding_Social",
+    "title": "Opus 4.6 (fast mode) is now available in Cursor! It's 2.5x as fast in research preview.",
+    "date": "2026-02-08T06:16:47.048Z",
+    "url": "https://x.com/cursor_ai/status/2020208132207845576"
   }
 ]

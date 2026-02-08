@@ -132,20 +132,26 @@ function writeNewsJson(news: NewsItem[]): void {
   }
 }
 
+function cleanTitle(title: string): string {
+  // Clean title: remove leading hash, newlines and excessive whitespace
+  let cleaned = title.replace(/^\s*#\s*/, '');
+  cleaned = cleaned.replace(/\s+/g, ' ').trim();
+  return cleaned;
+}
+
 function isDuplicate(news: NewsItem[], title: string, url: string): boolean {
+  const cleanedInput = cleanTitle(title);
   return news.some(item => 
-    item.title.toLowerCase() === title.toLowerCase() || 
+    item.title.toLowerCase() === cleanedInput.toLowerCase() ||
     item.url === url
   );
 }
 
 function createNewsItem(source: string, title: string, url: string, date?: string): NewsItem {
-  // Clean title: remove newlines and excessive whitespace
-  const cleanTitle = title.replace(/\s+/g, ' ').trim();
   return {
     id: uuidv4(),
     source,
-    title: cleanTitle,
+    title: cleanTitle(title),
     date: date || new Date().toISOString(),
     url
   };
