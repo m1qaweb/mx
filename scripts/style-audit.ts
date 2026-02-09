@@ -82,6 +82,31 @@ function scanFile(filePath: string): Violation[] {
             });
          });
       }
+
+      // Check for Raw CSS Properties with px values (e.g. padding: 13px) in .css files
+      if (filePath.endsWith('.css')) {
+        const cssPropertyRegex = /(padding|margin|width|height|gap|top|bottom|left|right|font-size|line-height|border-radius|border-width)(?:-[a-z]+)?\s*:\s*([^;]+)/g;
+        let cssMatch;
+        while ((cssMatch = cssPropertyRegex.exec(line)) !== null) {
+          const propertyName = cssMatch[0].split(':')[0].trim();
+          const valueString = cssMatch[2];
+
+          const pxRegex = /([0-9\.]+)px/g;
+          let pxMatch;
+          while ((pxMatch = pxRegex.exec(valueString)) !== null) {
+            const value = parseFloat(pxMatch[1]);
+            if (value % 4 !== 0) {
+              violations.push({
+                file: filePath,
+                line: index + 1,
+                type: 'NON_STANDARD_SPACING',
+                match: `${propertyName}: ${pxMatch[0]}`,
+                message: `Non-standard CSS spacing value: ${pxMatch[0]}. Use multiples of 4px.`
+              });
+            }
+          }
+        }
+      }
     });
   } catch (error) {
     console.error(`Error reading ${filePath}:`, error);
