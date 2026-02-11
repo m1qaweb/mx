@@ -1482,5 +1482,33 @@
     "title": "Composer 1.5 is now available. We’ve found it to strike a strong balance between intelligence and s...",
     "date": "2026-02-10T06:18:35.158Z",
     "url": "https://x.com/cursor_ai/status/2020968661142380971"
+  },
+  {
+    "id": "bd27b6d3-0756-4c18-b34b-0f77467f7e26",
+    "source": "Coding_Tools",
+    "title": "DeepSeek, MiniMax, and Qwen now available as open weight model options",
+    "date": "2026-02-11T06:11:11.265Z",
+    "url": "https://kiro.dev/changelog/models/deepseek-minimax-and-qwen-now-available-as-open-weight-model-options/"
+  },
+  {
+    "id": "d750624f-1628-4ba7-8f2d-bc6f8e85350a",
+    "source": "Coding_Tools",
+    "title": "DeepSeek 3.2",
+    "date": "2026-02-11T06:11:11.265Z",
+    "url": "https://kiro.dev/changelog/models/deepseek-minimax-and-qwen-now-available-as-open-weight-model-options#deepseek-32"
+  },
+  {
+    "id": "8dbb0a93-fdac-4c3c-914a-d84a40151e12",
+    "source": "Coding_Tools",
+    "title": "Minimax 2.1",
+    "date": "2026-02-11T06:11:11.266Z",
+    "url": "https://kiro.dev/changelog/models/deepseek-minimax-and-qwen-now-available-as-open-weight-model-options#minimax-21"
+  },
+  {
+    "id": "faca0967-4e24-4759-9761-2d44bf8858bb",
+    "source": "Coding_Tools",
+    "title": "Qwen3 Coder Next",
+    "date": "2026-02-11T06:11:11.266Z",
+    "url": "https://kiro.dev/changelog/models/deepseek-minimax-and-qwen-now-available-as-open-weight-model-options#qwen3-coder-next"
   }
 ]
