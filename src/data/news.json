@@ -1489,5 +1489,40 @@
     "title": "Genie 3 @Waymo The Waymo World Model generates photorealistic, interactive environments to trai...",
     "date": "2026-02-11T06:28:42.266Z",
     "url": "https://x.com/GoogleDeepMind/status/2019808426675843105"
+  },
+  {
+    "id": "11859c66-02f2-4e56-bdfd-461b8130e475",
+    "source": "Coding_Tools",
+    "title": "DeepSeek, MiniMax, and Qwen now available as open weight model options",
+    "date": "2026-02-12T06:07:08.316Z",
+    "url": "https://kiro.dev/changelog/models/deepseek-minimax-and-qwen-now-available-as-open-weight-model-options/"
+  },
+  {
+    "id": "2bd1d29e-cc20-461a-912c-a98c5afd5f53",
+    "source": "Coding_Tools",
+    "title": "DeepSeek 3.2",
+    "date": "2026-02-12T06:07:08.316Z",
+    "url": "https://kiro.dev/changelog/models/deepseek-minimax-and-qwen-now-available-as-open-weight-model-options#deepseek-32"
+  },
+  {
+    "id": "30e21110-6d19-4fb3-a19b-fd6a4b7c4bb6",
+    "source": "Coding_Tools",
+    "title": "Minimax 2.1",
+    "date": "2026-02-12T06:07:08.316Z",
+    "url": "https://kiro.dev/changelog/models/deepseek-minimax-and-qwen-now-available-as-open-weight-model-options#minimax-21"
+  },
+  {
+    "id": "e655b5e2-5c04-4759-be52-da9078ceda25",
+    "source": "Coding_Tools",
+    "title": "Qwen3 Coder Next",
+    "date": "2026-02-12T06:07:08.316Z",
+    "url": "https://kiro.dev/changelog/models/deepseek-minimax-and-qwen-now-available-as-open-weight-model-options#qwen3-coder-next"
+  },
+  {
+    "id": "187f4001-a56c-445b-b421-33cf95463c8a",
+    "source": "Coding_Social",
+    "title": "We've raised limits for Auto and Composer 1.5 for all individual plans. Individual plans now have 3...",
+    "date": "2026-02-12T06:08:36.017Z",
+    "url": "https://x.com/cursor_ai/status/2021765377085308938"
   }
 ]
