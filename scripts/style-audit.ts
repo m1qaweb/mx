@@ -137,6 +137,36 @@ function walkDir(dir: string): string[] {
   return results;
 }
 
+function generateReport(violations: Violation[]) {
+  const timestamp = new Date().toISOString().split('T')[0];
+  const reportPath = path.join(__dirname, '..', 'reports', `style-audit-${timestamp}.md`);
+
+  let report = `# Style Audit Report\n\n`;
+  report += `**Date:** ${new Date().toISOString()}\n`;
+
+  if (violations.length === 0) {
+    report += `## Status: ✅ PASSED\n\n`;
+    report += `No style violations found.\n`;
+  } else {
+    report += `## Status: ❌ ISSUES FOUND\n\n`;
+    report += `**Total Violations:** ${violations.length}\n\n`;
+    report += `### Details\n\n`;
+    violations.forEach(v => {
+      const relativePath = path.relative(path.join(__dirname, '..'), v.file);
+      report += `- **[${v.type}]** \`${relativePath}:${v.line}\`: ${v.message} (Match: \`${v.match}\`)\n`;
+    });
+  }
+
+  // Ensure reports directory exists
+  const reportsDir = path.dirname(reportPath);
+  if (!fs.existsSync(reportsDir)) {
+      fs.mkdirSync(reportsDir, { recursive: true });
+  }
+
+  fs.writeFileSync(reportPath, report);
+  console.log(`Report written to ${reportPath}`);
+}
+
 function main() {
   console.log('Starting Style Audit...');
   console.log(`Scanning ${SRC_DIR}...\n`);
@@ -148,6 +178,8 @@ function main() {
     const violations = scanFile(file);
     allViolations = allViolations.concat(violations);
   });
+
+  generateReport(allViolations);
 
   if (allViolations.length > 0) {
     console.log(`❌ Found ${allViolations.length} violations:\n`);
