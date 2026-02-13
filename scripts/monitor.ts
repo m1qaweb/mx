@@ -47,7 +47,7 @@ const DEFAULT_SELECTORS: Record<string, string> = {
   'anthropic.com': '[class*="title"], h3',
   'windsurf.com': 'h2',
   'kiro.dev': 'h2, h3',
-  'cursor.com': 'h2',
+  'cursor.com': "h1, h2, h3, a[href^='/changelog']",
   'antigravity.google': 'h3',
   'developers.googleblog.com': '.post-title, h2, h3'
 };
@@ -63,7 +63,14 @@ const INVALID_TITLES = [
   "Advertising",
   "Functional",
   "Performance",
-  "Essential"
+  "Essential",
+  "Product",
+  "Resources",
+  "Company",
+  "Legal",
+  "Connect",
+  "Next →Older posts",
+  "Changelog"
 ];
 
 function parseArgs(): MonitorArgs {

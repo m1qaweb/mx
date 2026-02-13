@@ -301,13 +301,6 @@
     "url": "https://windsurf.com/changelog#mcp-enhancements"
   },
   {
-    "id": "690473ed-44f8-4dc2-a89a-ffd23e4337f1",
-    "source": "Coding_Tools",
-    "title": "Performance Improvements",
-    "date": "2026-02-05T06:09:23.435Z",
-    "url": "https://windsurf.com/changelog#performance-improvements"
-  },
-  {
     "id": "5798753b-0641-4cb6-8431-7d46a0bf29c2",
     "source": "Coding_Tools",
     "title": "Terminal Fixes",
@@ -798,13 +791,6 @@
     "url": "https://windsurf.com/changelog#improvements-to-dev-container-support-beta"
   },
   {
-    "id": "4e18fe43-2840-40cf-aa91-cfcea697880d",
-    "source": "Coding_Tools",
-    "title": "Product Improvements",
-    "date": "2026-02-05T06:09:23.443Z",
-    "url": "https://windsurf.com/changelog#product-improvements"
-  },
-  {
     "id": "3a7b160f-3bd2-49c2-8630-472bd41162c1",
     "source": "Coding_Tools",
     "title": "Cascade Memories",
@@ -1225,13 +1211,6 @@
     "url": "https://openai.com/news/research/"
   },
   {
-    "id": "6b74d59b-bcf1-4fad-95f3-5c316eac519d",
-    "source": "Models_Web",
-    "title": "Product",
-    "date": "2026-02-06T06:30:23.443Z",
-    "url": "https://openai.com/news/product-releases/"
-  },
-  {
     "id": "59887805-8802-4409-8d89-5e4a6c79a525",
     "source": "Models_Web",
     "title": "Safety",
@@ -1510,5 +1489,201 @@
     "title": "We're committing to cover electricity price increases from our data centers. To ensure ratepayers a...",
     "date": "2026-02-12T06:13:03.161Z",
     "url": "https://x.com/AnthropicAI/status/2021694494215901314"
+  },
+  {
+    "id": "a29610f2-b1dd-4290-8048-cc0b27ce4d7a",
+    "source": "Coding_Tools",
+    "title": "External Identity Provider Support for Kiro IDE",
+    "date": "2026-02-13T06:20:34.673Z",
+    "url": "https://kiro.dev/changelog/ide/external-identity-provider-support-for-kiro-ide/"
+  },
+  {
+    "id": "a2b2143c-d393-4146-aa54-890eec30d5ad",
+    "source": "Coding_Tools",
+    "title": "Enterprise SSO with Okta and Entra ID",
+    "date": "2026-02-13T06:20:34.673Z",
+    "url": "https://kiro.dev/changelog/ide/external-identity-provider-support-for-kiro-ide#enterprise-sso-with-okta-and-entra-id"
+  },
+  {
+    "id": "85549248-394c-4693-a740-5f890eaf86c8",
+    "source": "Coding_Tools",
+    "title": "External Identity Provider Support for Kiro CLI",
+    "date": "2026-02-13T06:20:34.673Z",
+    "url": "https://kiro.dev/changelog/cli/external-identity-provider-support-for-kiro-cli/"
+  },
+  {
+    "id": "d620891b-bf0b-4279-a6b6-871984c2cfbe",
+    "source": "Coding_Tools",
+    "title": "DeepSeek, MiniMax, and Qwen now available as open weight model options",
+    "date": "2026-02-13T06:20:34.673Z",
+    "url": "https://kiro.dev/changelog/models/deepseek-minimax-and-qwen-now-available-as-open-weight-model-options/"
+  },
+  {
+    "id": "8cd6f247-8d40-49d2-9312-86d8ec9dbc9b",
+    "source": "Coding_Tools",
+    "title": "DeepSeek 3.2",
+    "date": "2026-02-13T06:20:34.673Z",
+    "url": "https://kiro.dev/changelog/models/deepseek-minimax-and-qwen-now-available-as-open-weight-model-options#deepseek-32"
+  },
+  {
+    "id": "af2273ce-be15-4a26-b21d-1186d363a991",
+    "source": "Coding_Tools",
+    "title": "Minimax 2.1",
+    "date": "2026-02-13T06:20:34.673Z",
+    "url": "https://kiro.dev/changelog/models/deepseek-minimax-and-qwen-now-available-as-open-weight-model-options#minimax-21"
+  },
+  {
+    "id": "fba28b95-e2bc-42ca-bea1-8a2e5aae65cc",
+    "source": "Coding_Tools",
+    "title": "Qwen3 Coder Next",
+    "date": "2026-02-13T06:20:34.673Z",
+    "url": "https://kiro.dev/changelog/models/deepseek-minimax-and-qwen-now-available-as-open-weight-model-options#qwen3-coder-next"
+  },
+  {
+    "id": "d424129d-8495-4231-ad26-77287b1316a1",
+    "source": "Coding_Tools",
+    "title": "Feb 12, 2026",
+    "date": "2026-02-13T06:22:44.697Z",
+    "url": "https://cursor.com/changelog/02-12-26"
+  },
+  {
+    "id": "62b83b37-4e26-4da0-860c-9fa38320793a",
+    "source": "Coding_Tools",
+    "title": "2.4 Jan 22, 2026",
+    "date": "2026-02-13T06:22:44.697Z",
+    "url": "https://cursor.com/changelog/2-4"
+  },
+  {
+    "id": "1dca78f0-96bc-4707-9c51-0b3d950c162f",
+    "source": "Coding_Tools",
+    "title": "#Subagents",
+    "date": "2026-02-13T06:22:44.697Z",
+    "url": "https://cursor.com/changelog#subagents"
+  },
+  {
+    "id": "94a5cdec-bf56-42e6-aa07-fdfc74a01445",
+    "source": "Coding_Tools",
+    "title": "#Skills",
+    "date": "2026-02-13T06:22:44.697Z",
+    "url": "https://cursor.com/changelog#skills"
+  },
+  {
+    "id": "abb9a362-e1d8-4ad6-96f3-6b61774f9547",
+    "source": "Coding_Tools",
+    "title": "#Image generation",
+    "date": "2026-02-13T06:22:44.697Z",
+    "url": "https://cursor.com/changelog#image-generation"
+  },
+  {
+    "id": "91ab5399-1868-44d2-8e8b-0b31dd8a3aac",
+    "source": "Coding_Tools",
+    "title": "#Cursor Blame",
+    "date": "2026-02-13T06:22:44.697Z",
+    "url": "https://cursor.com/changelog#cursor-blame"
+  },
+  {
+    "id": "2a1fb97c-35ac-4356-923f-a38039f055c3",
+    "source": "Coding_Tools",
+    "title": "#Clarification questions from the agent",
+    "date": "2026-02-13T06:22:44.697Z",
+    "url": "https://cursor.com/changelog#clarification-questions-from-the-agent"
+  },
+  {
+    "id": "7b9231f3-f79d-4e44-89df-8c20be153f5b",
+    "source": "Coding_Tools",
+    "title": "Jan 16, 2026",
+    "date": "2026-02-13T06:22:44.697Z",
+    "url": "https://cursor.com/changelog/cli-jan-16-2026"
+  },
+  {
+    "id": "53b17ce2-eac5-4a0a-b117-fbf9cb34b319",
+    "source": "Coding_Tools",
+    "title": "#Plan mode in CLI",
+    "date": "2026-02-13T06:22:44.698Z",
+    "url": "https://cursor.com/changelog#plan-mode-in-cli"
+  },
+  {
+    "id": "f7dc5a6a-7ac1-49f1-898d-d42e13a1a46b",
+    "source": "Coding_Tools",
+    "title": "#Ask mode in CLI",
+    "date": "2026-02-13T06:22:44.698Z",
+    "url": "https://cursor.com/changelog#ask-mode-in-cli"
+  },
+  {
+    "id": "94e9b728-50fa-4f5b-9769-7e52c284a341",
+    "source": "Coding_Tools",
+    "title": "#Handoff to Cloud Agents",
+    "date": "2026-02-13T06:22:44.698Z",
+    "url": "https://cursor.com/changelog#handoff-to-cloud-agents"
+  },
+  {
+    "id": "51c5e0a4-5c48-4548-ae49-066ac0bb079a",
+    "source": "Coding_Tools",
+    "title": "#Word-level Inline Diffs",
+    "date": "2026-02-13T06:22:44.698Z",
+    "url": "https://cursor.com/changelog#word-level-inline-diffs"
+  },
+  {
+    "id": "9d515c64-34ba-4ce0-8282-50c93d5dbc21",
+    "source": "Coding_Tools",
+    "title": "#One-click MCP authentication",
+    "date": "2026-02-13T06:22:44.698Z",
+    "url": "https://cursor.com/changelog#one-click-mcp-authentication"
+  },
+  {
+    "id": "a8bc5e9b-6610-439c-aed7-978b1b79e2d8",
+    "source": "Coding_Tools",
+    "title": "Jan 8, 2026",
+    "date": "2026-02-13T06:22:44.698Z",
+    "url": "https://cursor.com/changelog/cli-jan-08-2026"
+  },
+  {
+    "id": "08e60426-bf0f-4f66-8c99-ac7b884c7876",
+    "source": "Coding_Tools",
+    "title": "#Model list and selection",
+    "date": "2026-02-13T06:22:44.698Z",
+    "url": "https://cursor.com/changelog#model-list-and-selection"
+  },
+  {
+    "id": "a46a17be-d0a5-4431-8c8f-549fae578285",
+    "source": "Coding_Tools",
+    "title": "#Rules generation and management",
+    "date": "2026-02-13T06:22:44.698Z",
+    "url": "https://cursor.com/changelog#rules-generation-and-management"
+  },
+  {
+    "id": "5cfd065f-9f51-439a-8bef-724210e5f93e",
+    "source": "Coding_Tools",
+    "title": "#Enabling MCP servers",
+    "date": "2026-02-13T06:22:44.698Z",
+    "url": "https://cursor.com/changelog#enabling-mcp-servers"
+  },
+  {
+    "id": "a067e441-fa7e-4832-8664-24f10b60c482",
+    "source": "Coding_Tools",
+    "title": "2.3 Dec 22, 2025",
+    "date": "2026-02-13T06:22:44.698Z",
+    "url": "https://cursor.com/changelog/2-3"
+  },
+  {
+    "id": "c403ae02-4aaf-4527-8bc8-1e6caa30e27a",
+    "source": "Coding_Tools",
+    "title": "#Stability improvements",
+    "date": "2026-02-13T06:22:44.698Z",
+    "url": "https://cursor.com/changelog#stability-improvements"
+  },
+  {
+    "id": "656188ce-e0bb-4057-a3e9-b58465d3de0f",
+    "source": "Coding_Tools",
+    "title": "#Layout customization",
+    "date": "2026-02-13T06:22:44.699Z",
+    "url": "https://cursor.com/changelog#layout-customization"
+  },
+  {
+    "id": "19ba3989-b93d-4c63-95a1-6dfb2023d0af",
+    "source": "Coding_Social",
+    "title": "Long-running agents are now available at http:// cursor.com/agents for Ultra, Teams, and Enterprise...",
+    "date": "2026-02-13T06:24:06.380Z",
+    "url": "https://x.com/cursor_ai/status/2022046178708492445"
   }
 ]
