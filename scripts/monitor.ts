@@ -197,7 +197,7 @@ async function scrapeTwitter(page: Page, url: string): Promise<ScrapedItem | nul
   await page.goto(url, { waitUntil: 'domcontentloaded', timeout: REQUEST_TIMEOUT_MS });
 
   // Wait for tweets
-  await page.waitForSelector('[data-testid="tweet"]', { timeout: 15000 });
+  await page.waitForSelector('[data-testid="tweet"]', { timeout: 20000 });
 
   let tweetElement = await page.$('[data-testid="tweet"]:has([aria-label*="Pinned"])');
 
@@ -300,6 +300,8 @@ async function main() {
     
     for (const url of args.urls) {
       let currentSource = args.source;
+
+      // Handle mixed source mode: dynamically select scraper based on URL pattern
       if (currentSource === 'mixed') {
         if (url.includes('twitter.com') || url.includes('x.com')) {
           currentSource = 'twitter';
