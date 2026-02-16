@@ -101,7 +101,7 @@ async function checkLinksWithLinkinator(links: string[]): Promise<LinkCheckResul
       path: tempFile,
       recurse: false,
       linksToSkip: async (link: string) => {
-        return /twitter\.com/.test(link) || /x\.com/.test(link);
+        return /twitter\.com/.test(link) || /x\.com/.test(link) || /anthropic\.com/.test(link);
       }
     });
 
@@ -151,7 +151,7 @@ async function runLinkinator(target: string): Promise<LinkCheckResult> {
     path: target,
     recurse: true,
     linksToSkip: async (link: string) => {
-      return /twitter\.com/.test(link) || /x\.com/.test(link);
+      return /twitter\.com/.test(link) || /x\.com/.test(link) || /anthropic\.com/.test(link);
     }
   });
 
