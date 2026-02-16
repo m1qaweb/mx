@@ -246,9 +246,12 @@ async function scrapeWeb(page: Page, url: string, selector: string): Promise<Scr
       }
 
       const link = await extractLink(element, url);
+      // Use synthesized link with hash if no real link found, to avoid duplicates
+      const finalLink = link || `${url}#${cleanText.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`;
+
       items.push({
         title: cleanText,
-        link: link || url // Fallback to page URL if specific link not found
+        link: finalLink
       });
     }
   }
