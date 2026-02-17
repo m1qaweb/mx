@@ -1755,5 +1755,131 @@
     "title": "Introducing Google Antigravity",
     "date": "2026-02-16T06:40:18.586Z",
     "url": "https://antigravity.google/blog#introducing-google-antigravity"
+  },
+  {
+    "id": "72c090d6-b600-4816-833d-dc1b46390b8e",
+    "source": "Coding_Tools",
+    "title": "File References, Model Selection, Tool Insights, and more",
+    "date": "2026-02-17T06:08:36.548Z",
+    "url": "https://kiro.dev/changelog/cli/1-26/"
+  },
+  {
+    "id": "a2c754ff-e0b2-4eec-9bbf-61cfaa142f49",
+    "source": "Coding_Tools",
+    "title": "File and Directory References",
+    "date": "2026-02-17T06:08:36.548Z",
+    "url": "https://kiro.dev/changelog/cli/1-26#file-and-directory-references"
+  },
+  {
+    "id": "e527566a-1f74-4219-8bec-681a70d2f4cc",
+    "source": "Coding_Tools",
+    "title": "Dynamic Model Selection",
+    "date": "2026-02-17T06:08:36.548Z",
+    "url": "https://kiro.dev/changelog/cli/1-26#dynamic-model-selection"
+  },
+  {
+    "id": "2ccd8e3f-d978-489b-9443-18774004a99b",
+    "source": "Coding_Tools",
+    "title": "Tool Context Insights",
+    "date": "2026-02-17T06:08:36.548Z",
+    "url": "https://kiro.dev/changelog/cli/1-26#tool-context-insights"
+  },
+  {
+    "id": "4810a575-9504-486c-821f-3e091a0f8fad",
+    "source": "Coding_Tools",
+    "title": "Patches",
+    "date": "2026-02-17T06:08:36.550Z",
+    "url": "https://kiro.dev/changelog/#patches"
+  },
+  {
+    "id": "d8f2074c-37da-4ad0-965f-ff78a7e7d5de",
+    "source": "Coding_Tools",
+    "title": "Improvements (29)↓↑",
+    "date": "2026-02-17T06:08:40.231Z",
+    "url": "https://cursor.com/changelog#improvements-29-"
+  },
+  {
+    "id": "22272987-415a-4d11-b274-34a558399533",
+    "source": "Coding_Tools",
+    "title": "Bug Fixes (14)↓↑",
+    "date": "2026-02-17T06:08:40.231Z",
+    "url": "https://cursor.com/changelog#bug-fixes-14-"
+  },
+  {
+    "id": "f2672246-5ff5-4cbb-88f3-59ee177aaa4d",
+    "source": "Coding_Tools",
+    "title": "Improvements (8)↓↑",
+    "date": "2026-02-17T06:08:40.231Z",
+    "url": "https://cursor.com/changelog#improvements-8-"
+  },
+  {
+    "id": "1305f6e8-f052-42ec-9ff8-ee35c12d9658",
+    "source": "Coding_Tools",
+    "title": "Changes (2)↓↑",
+    "date": "2026-02-17T06:08:40.231Z",
+    "url": "https://cursor.com/changelog#changes-2-"
+  },
+  {
+    "id": "52e9a58e-18a7-4c6a-9712-8dd8e6676ae2",
+    "source": "Coding_Tools",
+    "title": "Bug Fixes (2)↓↑",
+    "date": "2026-02-17T06:08:40.232Z",
+    "url": "https://cursor.com/changelog#bug-fixes-2-"
+  },
+  {
+    "id": "d052423b-0967-41aa-a235-4f2d269c1a3b",
+    "source": "Coding_Tools",
+    "title": "New Features (7)↓↑",
+    "date": "2026-02-17T06:08:40.232Z",
+    "url": "https://cursor.com/changelog#new-features-7-"
+  },
+  {
+    "id": "3cf0abd6-09ed-4b71-a3bd-feeb599adbd0",
+    "source": "Coding_Tools",
+    "title": "Hooks (3)↓↑",
+    "date": "2026-02-17T06:08:40.232Z",
+    "url": "https://cursor.com/changelog#hooks-3-"
+  },
+  {
+    "id": "78ba5c4f-a162-4e58-9a60-4ce8b89d367c",
+    "source": "Coding_Tools",
+    "title": "Improvements & Bug Fixes (7)↓↑",
+    "date": "2026-02-17T06:08:40.232Z",
+    "url": "https://cursor.com/changelog#improvements-bug-fixes-7-"
+  },
+  {
+    "id": "e6fe804e-3d6e-408b-9433-a47bb5e33192",
+    "source": "Coding_Tools",
+    "title": "Stability (7)↓↑",
+    "date": "2026-02-17T06:08:40.232Z",
+    "url": "https://cursor.com/changelog#stability-7-"
+  },
+  {
+    "id": "9990d369-117d-48c5-913c-2e645a492086",
+    "source": "Coding_Tools",
+    "title": "Agents (15)↓↑",
+    "date": "2026-02-17T06:08:40.232Z",
+    "url": "https://cursor.com/changelog#agents-15-"
+  },
+  {
+    "id": "98980f16-c1bd-47f5-bee2-d41c6dcd33f7",
+    "source": "Coding_Tools",
+    "title": "Layout controls (11)↓↑",
+    "date": "2026-02-17T06:08:40.232Z",
+    "url": "https://cursor.com/changelog#layout-controls-11-"
+  },
+  {
+    "id": "b80d1afc-cdd2-4444-a466-58decf5fdc1d",
+    "source": "Coding_Tools",
+    "title": "Code review (4)↓↑",
+    "date": "2026-02-17T06:08:40.233Z",
+    "url": "https://cursor.com/changelog#code-review-4-"
+  },
+  {
+    "id": "d06de211-c5a8-4c66-8df6-9bed155dcbc0",
+    "source": "Coding_Tools",
+    "title": "MCP (2)↓↑",
+    "date": "2026-02-17T06:08:40.233Z",
+    "url": "https://cursor.com/changelog#mcp-2-"
   }
 ]
