@@ -1769,5 +1769,40 @@
     "title": "We’re officially opening our Bengaluru office—our new home base in India, and Anthropic's second off...",
     "date": "2026-02-17T06:13:30.844Z",
     "url": "https://x.com/AnthropicAI/status/2023322514206957688"
+  },
+  {
+    "id": "ed3e09d9-7c01-40eb-81ac-f2176a3499db",
+    "source": "Models_Web",
+    "title": "Anthropic and the Government of Rwanda sign MOU for AI in health and education",
+    "date": "2026-02-18T06:20:31.189Z",
+    "url": "https://www.anthropic.com/news/anthropic-rwanda-mou"
+  },
+  {
+    "id": "98231ceb-3eb9-4e62-883d-074e8cb1a69a",
+    "source": "Models_Web",
+    "title": "Introducing Claude Sonnet 4.6",
+    "date": "2026-02-18T06:20:31.189Z",
+    "url": "https://www.anthropic.com/news/claude-sonnet-4-6"
+  },
+  {
+    "id": "2657e773-f34d-4bc4-ad02-e969dfca40db",
+    "source": "Models_Web",
+    "title": "Anthropic and Infosys collaborate to build AI agents for telecommunications and other regulated industries",
+    "date": "2026-02-18T06:20:31.189Z",
+    "url": "https://www.anthropic.com/news/anthropic-infosys"
+  },
+  {
+    "id": "a4f11a07-b7fe-4b03-827d-a7339273e047",
+    "source": "Models_Social",
+    "title": "This is Claude Sonnet 4.6: our most capable Sonnet model yet. It’s a full upgrade across coding, co...",
+    "date": "2026-02-18T06:21:32.925Z",
+    "url": "https://x.com/claudeai/status/2023817132581208353"
+  },
+  {
+    "id": "d65f9f9f-7387-4117-b74f-b8fa9c930c11",
+    "source": "Models_Social",
+    "title": "It's been a huge month for Codex. 5.3, Spark, Codex app, OpenClaw. We're accelerating. Looking for ...",
+    "date": "2026-02-18T06:22:48.242Z",
+    "url": "https://x.com/ajambrosino/status/2023850810183217184"
   }
 ]
