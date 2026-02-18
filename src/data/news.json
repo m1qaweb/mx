@@ -1769,5 +1769,152 @@
     "title": "We’re officially opening our Bengaluru office—our new home base in India, and Anthropic's second off...",
     "date": "2026-02-17T06:13:30.844Z",
     "url": "https://x.com/AnthropicAI/status/2023322514206957688"
+  },
+  {
+    "id": "894075d7-2b75-45cf-8f6a-52d7a1e295f6",
+    "source": "Coding_Tools",
+    "title": "Patches",
+    "date": "2026-02-18T06:04:01.586Z",
+    "url": "https://kiro.dev/changelog/#patches"
+  },
+  {
+    "id": "e32a4077-8c30-4b2c-ac48-f6bd27713023",
+    "source": "Coding_Tools",
+    "title": "Claude Sonnet 4.6 is now available in Kiro",
+    "date": "2026-02-18T06:04:01.586Z",
+    "url": "https://kiro.dev/changelog/models/claude-sonnet-4-6-is-now-available-in-kiro/"
+  },
+  {
+    "id": "0d1f96fc-dd8d-433a-80c7-bc956feffbb2",
+    "source": "Coding_Tools",
+    "title": "File References, Model Selection, Tool Insights, and more",
+    "date": "2026-02-18T06:04:01.586Z",
+    "url": "https://kiro.dev/changelog/cli/1-26/"
+  },
+  {
+    "id": "2fd7dc90-fefd-4365-b034-a83d41ff2842",
+    "source": "Coding_Tools",
+    "title": "File and Directory References",
+    "date": "2026-02-18T06:04:01.586Z",
+    "url": "https://kiro.dev/changelog/cli/1-26#file-and-directory-references"
+  },
+  {
+    "id": "e4d62645-275b-4dc7-93d8-fa0222e1b16a",
+    "source": "Coding_Tools",
+    "title": "Dynamic Model Selection",
+    "date": "2026-02-18T06:04:01.586Z",
+    "url": "https://kiro.dev/changelog/cli/1-26#dynamic-model-selection"
+  },
+  {
+    "id": "155ee52e-dda8-4751-929b-3cc8f8b7a42f",
+    "source": "Coding_Tools",
+    "title": "Tool Context Insights",
+    "date": "2026-02-18T06:04:01.586Z",
+    "url": "https://kiro.dev/changelog/cli/1-26#tool-context-insights"
+  },
+  {
+    "id": "e5679e49-845f-411f-96dd-cba9e40cd0d6",
+    "source": "Coding_Tools",
+    "title": "2.5 Feb 17, 2026",
+    "date": "2026-02-18T06:04:04.677Z",
+    "url": "https://cursor.com/changelog/2-5"
+  },
+  {
+    "id": "8d149831-4e9f-4962-a1dc-b3131568985f",
+    "source": "Coding_Tools",
+    "title": "#Plugins on the Cursor Marketplace",
+    "date": "2026-02-18T06:04:04.677Z",
+    "url": "https://cursor.com/changelog#plugins-on-the-cursor-marketplace"
+  },
+  {
+    "id": "b82cebca-d570-403e-949e-854cd96f9987",
+    "source": "Coding_Tools",
+    "title": "#Sandbox network access controls",
+    "date": "2026-02-18T06:04:04.677Z",
+    "url": "https://cursor.com/changelog#sandbox-network-access-controls"
+  },
+  {
+    "id": "7d0f917d-9b2c-4de1-b3f8-20389941ec5e",
+    "source": "Coding_Tools",
+    "title": "#Async subagents",
+    "date": "2026-02-18T06:04:04.678Z",
+    "url": "https://cursor.com/changelog#async-subagents"
+  },
+  {
+    "id": "37f68f1f-e212-4780-9091-ad720ac90f8a",
+    "source": "Coding_Tools",
+    "title": "Improvements (16)↓↑",
+    "date": "2026-02-18T06:04:04.678Z",
+    "url": "https://cursor.com/changelog#improvements-16-"
+  },
+  {
+    "id": "fca58cce-2562-4806-9b9c-b9718b075317",
+    "source": "Coding_Tools",
+    "title": "Bug Fixes (7)↓↑",
+    "date": "2026-02-18T06:04:04.678Z",
+    "url": "https://cursor.com/changelog#bug-fixes-7-"
+  },
+  {
+    "id": "712363ea-9312-446c-b855-e884c05d2aa0",
+    "source": "Coding_Tools",
+    "title": "Improvements (29)↓↑",
+    "date": "2026-02-18T06:04:04.678Z",
+    "url": "https://cursor.com/changelog#improvements-29-"
+  },
+  {
+    "id": "45082990-1956-44a1-8354-b25336933980",
+    "source": "Coding_Tools",
+    "title": "Bug Fixes (14)↓↑",
+    "date": "2026-02-18T06:04:04.678Z",
+    "url": "https://cursor.com/changelog#bug-fixes-14-"
+  },
+  {
+    "id": "99fbc73f-c378-48c4-8182-8da496af51d2",
+    "source": "Coding_Tools",
+    "title": "Improvements (8)↓↑",
+    "date": "2026-02-18T06:04:04.679Z",
+    "url": "https://cursor.com/changelog#improvements-8-"
+  },
+  {
+    "id": "3388b811-1475-404b-b42b-c27465480374",
+    "source": "Coding_Tools",
+    "title": "Changes (2)↓↑",
+    "date": "2026-02-18T06:04:04.679Z",
+    "url": "https://cursor.com/changelog#changes-2-"
+  },
+  {
+    "id": "c70cecb1-ed24-4319-8561-7e1697a73a1c",
+    "source": "Coding_Tools",
+    "title": "Bug Fixes (2)↓↑",
+    "date": "2026-02-18T06:04:04.679Z",
+    "url": "https://cursor.com/changelog#bug-fixes-2-"
+  },
+  {
+    "id": "0c984393-7f42-47bd-8a31-fbdafe9c8b61",
+    "source": "Coding_Tools",
+    "title": "New Features (7)↓↑",
+    "date": "2026-02-18T06:04:04.679Z",
+    "url": "https://cursor.com/changelog#new-features-7-"
+  },
+  {
+    "id": "a8bf8222-3e87-47b1-b1fa-0212e2a197a4",
+    "source": "Coding_Tools",
+    "title": "Hooks (3)↓↑",
+    "date": "2026-02-18T06:04:04.679Z",
+    "url": "https://cursor.com/changelog#hooks-3-"
+  },
+  {
+    "id": "ba5d5f3d-17cc-4300-8380-face4ef6d786",
+    "source": "Coding_Tools",
+    "title": "Improvements & Bug Fixes (7)↓↑",
+    "date": "2026-02-18T06:04:04.679Z",
+    "url": "https://cursor.com/changelog#improvements-bug-fixes-7-"
+  },
+  {
+    "id": "f2c202ac-7a93-4df5-af5e-6ce922f13f03",
+    "source": "Coding_Social",
+    "title": "Sonnet 4.6 is now available in Cursor. Our benchmarks show it as a notable improvement over Sonnet ...",
+    "date": "2026-02-18T06:05:52.261Z",
+    "url": "https://x.com/cursor_ai/status/2023841746577485894"
   }
 ]
