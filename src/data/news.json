@@ -1804,5 +1804,250 @@
     "title": "It's been a huge month for Codex. 5.3, Spark, Codex app, OpenClaw. We're accelerating. Looking for ...",
     "date": "2026-02-18T06:22:48.242Z",
     "url": "https://x.com/ajambrosino/status/2023850810183217184"
+  },
+  {
+    "id": "0b108198-d21e-4050-95f7-dd6362837dc6",
+    "source": "Coding_Tools",
+    "title": "New Spec Workflows, Hunk-Based Edits, Task Hooks, and MCP Prompts",
+    "date": "2026-02-19T06:23:11.336Z",
+    "url": "https://kiro.dev/changelog/ide/0-10/"
+  },
+  {
+    "id": "19369c24-883b-4b31-b6ee-c3975d6de14c",
+    "source": "Coding_Tools",
+    "title": "Design-First Feature Specs",
+    "date": "2026-02-19T06:23:11.336Z",
+    "url": "https://kiro.dev/changelog/ide/0-10#design-first-feature-specs"
+  },
+  {
+    "id": "5507fc2a-c826-45c2-a217-64400b172700",
+    "source": "Coding_Tools",
+    "title": "Bugfix Specs",
+    "date": "2026-02-19T06:23:11.336Z",
+    "url": "https://kiro.dev/changelog/ide/0-10#bugfix-specs"
+  },
+  {
+    "id": "967bc3da-0994-48ac-8227-68924c972a3d",
+    "source": "Coding_Tools",
+    "title": "Hunk-Based Review in Supervised Mode",
+    "date": "2026-02-19T06:23:11.336Z",
+    "url": "https://kiro.dev/changelog/ide/0-10#hunk-based-review-in-supervised-mode"
+  },
+  {
+    "id": "115fc0e9-587a-4a15-807d-e418ede425ae",
+    "source": "Coding_Tools",
+    "title": "Pre and Post Task Execution Hooks",
+    "date": "2026-02-19T06:23:11.336Z",
+    "url": "https://kiro.dev/changelog/ide/0-10#pre-and-post-task-execution-hooks"
+  },
+  {
+    "id": "c11ed877-8b07-473d-bd85-7fc9b11a1b43",
+    "source": "Coding_Tools",
+    "title": "MCP Prompts, Resource Templates, and Elicitation",
+    "date": "2026-02-19T06:23:11.336Z",
+    "url": "https://kiro.dev/changelog/ide/0-10#mcp-prompts-resource-templates-and-elicitation"
+  },
+  {
+    "id": "5aa1a7a5-78e0-4a7e-a955-adc29a404cd1",
+    "source": "Coding_Tools",
+    "title": "AWS GovCloud Support",
+    "date": "2026-02-19T06:23:11.336Z",
+    "url": "https://kiro.dev/changelog/ide/aws-govcloud-support/"
+  },
+  {
+    "id": "3de9bedd-ea83-4b15-81e4-65f73ca1f38a",
+    "source": "Coding_Tools",
+    "title": "GovCloud Authentication",
+    "date": "2026-02-19T06:23:11.336Z",
+    "url": "https://kiro.dev/changelog/ide/aws-govcloud-support#govcloud-authentication"
+  },
+  {
+    "id": "d44c159e-dee2-4ed6-b319-4d8ef051713b",
+    "source": "Coding_Tools",
+    "title": "Inference Routing",
+    "date": "2026-02-19T06:23:11.336Z",
+    "url": "https://kiro.dev/changelog/ide/aws-govcloud-support#inference-routing"
+  },
+  {
+    "id": "3c371053-a1d1-42e6-8373-48f6cb7f11bf",
+    "source": "Coding_Tools",
+    "title": "Patches",
+    "date": "2026-02-19T06:23:11.337Z",
+    "url": "https://kiro.dev/changelog/#patches"
+  },
+  {
+    "id": "eacdb6da-0ab1-44e3-b89a-533600d83213",
+    "source": "Coding_Tools",
+    "title": "Claude Sonnet 4.6 is now available in Kiro",
+    "date": "2026-02-19T06:23:11.337Z",
+    "url": "https://kiro.dev/changelog/models/claude-sonnet-4-6-is-now-available-in-kiro/"
+  },
+  {
+    "id": "f1a7b034-31a7-4b0d-83a5-1aa4f9aa76bc",
+    "source": "Coding_Tools",
+    "title": "File References, Model Selection, Tool Insights, and more",
+    "date": "2026-02-19T06:23:11.337Z",
+    "url": "https://kiro.dev/changelog/cli/1-26/"
+  },
+  {
+    "id": "d9b5f329-6883-4458-9517-90df2e263b1d",
+    "source": "Coding_Tools",
+    "title": "File and Directory References",
+    "date": "2026-02-19T06:23:11.337Z",
+    "url": "https://kiro.dev/changelog/cli/1-26#file-and-directory-references"
+  },
+  {
+    "id": "a521941e-de17-4545-89be-9a53ae743a60",
+    "source": "Coding_Tools",
+    "title": "Dynamic Model Selection",
+    "date": "2026-02-19T06:23:11.337Z",
+    "url": "https://kiro.dev/changelog/cli/1-26#dynamic-model-selection"
+  },
+  {
+    "id": "f734d058-e9b7-4241-9a0e-049eb18025af",
+    "source": "Coding_Tools",
+    "title": "Tool Context Insights",
+    "date": "2026-02-19T06:23:11.337Z",
+    "url": "https://kiro.dev/changelog/cli/1-26#tool-context-insights"
+  },
+  {
+    "id": "318cae45-da2d-4476-b9ee-1f8a817fd582",
+    "source": "Coding_Tools",
+    "title": "Feb 18, 2026",
+    "date": "2026-02-19T06:23:14.463Z",
+    "url": "https://cursor.com/changelog/cli-feb-18-2026"
+  },
+  {
+    "id": "59fd6efa-daf3-4ed9-93ab-fd38fdb50c3c",
+    "source": "Coding_Tools",
+    "title": "#Plan mode improvements in CLI",
+    "date": "2026-02-19T06:23:14.464Z",
+    "url": "https://cursor.com/changelog#plan-mode-improvements-in-cli"
+  },
+  {
+    "id": "1f24e465-7726-404e-86d3-d73407aa6ad6",
+    "source": "Coding_Tools",
+    "title": "#Mermaid ASCII diagrams in CLI",
+    "date": "2026-02-19T06:23:14.464Z",
+    "url": "https://cursor.com/changelog#mermaid-ascii-diagrams-in-cli"
+  },
+  {
+    "id": "7bedbc54-cf52-427a-85dd-69b9335ec1be",
+    "source": "Coding_Tools",
+    "title": "#Other improvements",
+    "date": "2026-02-19T06:23:14.464Z",
+    "url": "https://cursor.com/changelog#other-improvements"
+  },
+  {
+    "id": "84f8b862-4b45-4e17-ba76-9e60fde04e90",
+    "source": "Coding_Tools",
+    "title": "General (6)↓↑",
+    "date": "2026-02-19T06:23:14.464Z",
+    "url": "https://cursor.com/changelog#general-6-"
+  },
+  {
+    "id": "201aee8f-65b7-475f-97bf-ed4bcd94fee7",
+    "source": "Coding_Tools",
+    "title": "Tools (5)↓↑",
+    "date": "2026-02-19T06:23:14.464Z",
+    "url": "https://cursor.com/changelog#tools-5-"
+  },
+  {
+    "id": "102afce7-a297-40c5-8dc8-7ea01b108ec9",
+    "source": "Coding_Tools",
+    "title": "UX (14)↓↑",
+    "date": "2026-02-19T06:23:14.464Z",
+    "url": "https://cursor.com/changelog#ux-14-"
+  },
+  {
+    "id": "dca5f1cd-e465-4aa0-9b6e-70380dcb44d8",
+    "source": "Coding_Tools",
+    "title": "Reliability and Bug Fixes (17)↓↑",
+    "date": "2026-02-19T06:23:14.464Z",
+    "url": "https://cursor.com/changelog#reliability-and-bug-fixes-17-"
+  },
+  {
+    "id": "f988f00e-2282-4b50-b270-0549ecc7fd6d",
+    "source": "Coding_Tools",
+    "title": "2.5 Feb 17, 2026",
+    "date": "2026-02-19T06:23:14.464Z",
+    "url": "https://cursor.com/changelog/2-5"
+  },
+  {
+    "id": "d5ad4684-9f72-43f7-99cd-31e2a01c23b2",
+    "source": "Coding_Tools",
+    "title": "#Plugins on the Cursor Marketplace",
+    "date": "2026-02-19T06:23:14.464Z",
+    "url": "https://cursor.com/changelog#plugins-on-the-cursor-marketplace"
+  },
+  {
+    "id": "7716dfd1-c379-44ad-b5ab-d8d8ac312ad7",
+    "source": "Coding_Tools",
+    "title": "#Sandbox network access controls",
+    "date": "2026-02-19T06:23:14.464Z",
+    "url": "https://cursor.com/changelog#sandbox-network-access-controls"
+  },
+  {
+    "id": "eb67760f-f177-4531-a64b-db17de10aada",
+    "source": "Coding_Tools",
+    "title": "#Async subagents",
+    "date": "2026-02-19T06:23:14.465Z",
+    "url": "https://cursor.com/changelog#async-subagents"
+  },
+  {
+    "id": "c347d64e-1c77-4187-9844-e2a4020bd150",
+    "source": "Coding_Tools",
+    "title": "Improvements (16)↓↑",
+    "date": "2026-02-19T06:23:14.465Z",
+    "url": "https://cursor.com/changelog#improvements-16-"
+  },
+  {
+    "id": "f0ce5b67-cade-4906-b227-b961f10e701a",
+    "source": "Coding_Tools",
+    "title": "Bug Fixes (7)↓↑",
+    "date": "2026-02-19T06:23:14.465Z",
+    "url": "https://cursor.com/changelog#bug-fixes-7-"
+  },
+  {
+    "id": "bf7564a5-7928-4f4b-821e-7cba6774c55d",
+    "source": "Coding_Tools",
+    "title": "Improvements (29)↓↑",
+    "date": "2026-02-19T06:23:14.465Z",
+    "url": "https://cursor.com/changelog#improvements-29-"
+  },
+  {
+    "id": "bbf1ef33-c2e2-428d-b380-7e0e0a813920",
+    "source": "Coding_Tools",
+    "title": "Bug Fixes (14)↓↑",
+    "date": "2026-02-19T06:23:14.465Z",
+    "url": "https://cursor.com/changelog#bug-fixes-14-"
+  },
+  {
+    "id": "4a98500c-9455-4875-b527-ee28aebed982",
+    "source": "Coding_Tools",
+    "title": "Improvements (8)↓↑",
+    "date": "2026-02-19T06:23:14.466Z",
+    "url": "https://cursor.com/changelog#improvements-8-"
+  },
+  {
+    "id": "366d3039-f9ae-4aab-ac1b-2a9d2ddc28b1",
+    "source": "Coding_Tools",
+    "title": "Changes (2)↓↑",
+    "date": "2026-02-19T06:23:14.466Z",
+    "url": "https://cursor.com/changelog#changes-2-"
+  },
+  {
+    "id": "0a7b9a8e-2ed1-4665-806f-357a44e2651d",
+    "source": "Coding_Tools",
+    "title": "Bug Fixes (2)↓↑",
+    "date": "2026-02-19T06:23:14.466Z",
+    "url": "https://cursor.com/changelog#bug-fixes-2-"
+  },
+  {
+    "id": "32a1ff52-8b41-42b7-b93e-44ff091547aa",
+    "source": "Coding_Social",
+    "title": "Cursor can now use past conversations as context.",
+    "date": "2026-02-19T06:25:08.902Z",
+    "url": "https://x.com/cursor_ai/status/2024222146642497713"
   }
 ]
