@@ -2049,5 +2049,33 @@
     "title": "Cursor can now use past conversations as context.",
     "date": "2026-02-19T06:25:08.902Z",
     "url": "https://x.com/cursor_ai/status/2024222146642497713"
+  },
+  {
+    "id": "e6f62452-4ffb-41e1-be76-e08614ba3a4d",
+    "source": "Google_Ecosystem",
+    "title": "Gemini 3.1 Pro in Google Antigravity",
+    "date": "2026-02-20T06:29:14.451Z",
+    "url": "https://antigravity.google/blog#gemini-3-1-pro-in-google-antigravity"
+  },
+  {
+    "id": "cdffe44c-1338-48bf-994d-a9bce693367d",
+    "source": "Google_Ecosystem",
+    "title": "Gemini 3.1 Pro is here. We’ve significantly improved the model’s overall intelligence so it can sol...",
+    "date": "2026-02-20T06:29:22.506Z",
+    "url": "https://x.com/GoogleDeepMind/status/2024516464892334129"
+  },
+  {
+    "id": "753ad86f-324f-4f05-995b-d976c2b12907",
+    "source": "Google_Ecosystem",
+    "title": "Introducing Gemini 3.1 Pro 3.1 Pro represents a major step forward in core reasoning. It scored 77...",
+    "date": "2026-02-20T06:29:27.700Z",
+    "url": "https://x.com/GoogleAI/status/2024573281680887823"
+  },
+  {
+    "id": "abb2196c-7f6a-4cbd-8a68-3e43f967daae",
+    "source": "Google_Ecosystem",
+    "title": "Today, we’re introducing Pomelli’s latest feature update, ‘Photoshoot’ With Photoshoot, you can st...",
+    "date": "2026-02-20T06:29:32.354Z",
+    "url": "https://x.com/GoogleLabs/status/2024529795548102667"
   }
 ]
