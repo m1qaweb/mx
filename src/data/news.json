@@ -2084,5 +2084,19 @@
     "title": "Over the last three months, we've rolled out agent sandboxing on macOS, Linux, and Windows. Sandbox...",
     "date": "2026-02-21T06:21:24.067Z",
     "url": "https://x.com/cursor_ai/status/2024544628687687879"
+  },
+  {
+    "id": "9dd2cc64-d8fc-4417-987f-f01e3ad4e576",
+    "source": "Models_Web",
+    "title": "Making frontier cybersecurity capabilities available to defenders",
+    "date": "2026-02-22T06:20:50.053Z",
+    "url": "https://www.anthropic.com/news/claude-code-security"
+  },
+  {
+    "id": "14314929-4ace-4152-aad8-483130dfc58b",
+    "source": "Models_Social",
+    "title": "Introducing Claude Code Security, now in limited research preview. It scans codebases for vulnerabi...",
+    "date": "2026-02-22T06:22:56.865Z",
+    "url": "https://x.com/claudeai/status/2024907535145468326"
   }
 ]
