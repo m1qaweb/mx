@@ -2091,5 +2091,19 @@
     "title": "Yesterday, @GoogleLabs ' Pomelli launched Photoshoot, a new feature that generates on-brand, campai...",
     "date": "2026-02-22T06:29:51.629Z",
     "url": "https://x.com/GoogleAI/status/2024974516720484678"
+  },
+  {
+    "id": "dd7b57d4-aa52-4972-99cd-dd55300a36e3",
+    "source": "Models_Web",
+    "title": "Making frontier cybersecurity capabilities available to defenders",
+    "date": "2026-02-23T06:19:00.111Z",
+    "url": "https://www.anthropic.com/news/claude-code-security"
+  },
+  {
+    "id": "3acafef3-6ed2-4c56-b28d-7b17e28e908b",
+    "source": "Models_Social",
+    "title": "Introducing Claude Code Security, now in limited research preview. It scans codebases for vulnerabi...",
+    "date": "2026-02-23T06:19:48.870Z",
+    "url": "https://x.com/claudeai/status/2024907535145468326"
   }
 ]
