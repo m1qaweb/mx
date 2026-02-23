@@ -70,7 +70,12 @@ const INVALID_TITLES = [
   "Legal",
   "Connect",
   "Next →Older posts",
-  "Changelog"
+  "Changelog",
+  "Solutions",
+  "Claude Developer Platform",
+  "Learn",
+  "Help and security",
+  "Terms and policies"
 ];
 
 function parseArgs(): MonitorArgs {
