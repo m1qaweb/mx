@@ -2105,5 +2105,495 @@
     "title": "Introducing Claude Code Security, now in limited research preview. It scans codebases for vulnerabi...",
     "date": "2026-02-23T06:19:48.870Z",
     "url": "https://x.com/claudeai/status/2024907535145468326"
+  },
+  {
+    "id": "dd140825-1f19-42e1-98cf-cfd756172cd4",
+    "source": "Coding_Tools",
+    "title": "Bug Fixes and Improvements",
+    "date": "2026-02-24T06:19:17.975Z",
+    "url": "https://windsurf.com/changelog#bug-fixes-and-improvements"
+  },
+  {
+    "id": "2cd74465-3abc-478a-8554-3f46e8e8c4db",
+    "source": "Coding_Tools",
+    "title": "Gemini 3.1 Pro",
+    "date": "2026-02-24T06:19:17.976Z",
+    "url": "https://windsurf.com/changelog#gemini-31-pro"
+  },
+  {
+    "id": "74032bb7-382b-4d1b-b241-518d45594b15",
+    "source": "Coding_Tools",
+    "title": "Claude Sonnet 4.6",
+    "date": "2026-02-24T06:19:17.976Z",
+    "url": "https://windsurf.com/changelog#claude-sonnet-46"
+  },
+  {
+    "id": "d034845f-58b7-4468-b04e-e1b8104d91d7",
+    "source": "Coding_Tools",
+    "title": "GLM-5 and Minimax M2.5",
+    "date": "2026-02-24T06:19:17.976Z",
+    "url": "https://windsurf.com/changelog#glm-5-and-minimax-m25"
+  },
+  {
+    "id": "cc6d2485-805c-457e-8fcb-40cdd50c7219",
+    "source": "Coding_Tools",
+    "title": "Cascade Improvements",
+    "date": "2026-02-24T06:19:17.976Z",
+    "url": "https://windsurf.com/changelog#cascade-improvements"
+  },
+  {
+    "id": "a7282817-9f01-4a27-9f44-4c90048a4055",
+    "source": "Coding_Tools",
+    "title": "Linux ARM64 Support",
+    "date": "2026-02-24T06:19:17.977Z",
+    "url": "https://windsurf.com/changelog#linux-arm64-support"
+  },
+  {
+    "id": "c79c0584-2624-467d-aee9-11d0ff88c78f",
+    "source": "Coding_Tools",
+    "title": "Enterprise & Team Improvements",
+    "date": "2026-02-24T06:19:17.977Z",
+    "url": "https://windsurf.com/changelog#enterprise--team-improvements"
+  },
+  {
+    "id": "4207a136-94b4-4769-ab9c-ef6ff988b390",
+    "source": "Coding_Tools",
+    "title": "Claude Opus 4.6 (fast mode)",
+    "date": "2026-02-24T06:19:17.977Z",
+    "url": "https://windsurf.com/changelog#claude-opus-46-fast-mode"
+  },
+  {
+    "id": "5f39178f-6c5e-4d84-a5d8-e4c30e34253d",
+    "source": "Coding_Tools",
+    "title": "Claude Opus 4.6",
+    "date": "2026-02-24T06:19:17.978Z",
+    "url": "https://windsurf.com/changelog#claude-opus-46"
+  },
+  {
+    "id": "e604d6a5-54bd-4a94-b9b4-eac614441002",
+    "source": "Coding_Tools",
+    "title": "Wave 14: Arena Mode",
+    "date": "2026-02-24T06:19:17.978Z",
+    "url": "https://windsurf.com/changelog#wave-14-arena-mode"
+  },
+  {
+    "id": "af5546fe-32d1-4156-85e9-b2b1f463e860",
+    "source": "Coding_Tools",
+    "title": "Enterprise Features",
+    "date": "2026-02-24T06:19:17.978Z",
+    "url": "https://windsurf.com/changelog#enterprise-features"
+  },
+  {
+    "id": "393a604f-d6ca-4b15-9f22-85d9941ed51f",
+    "source": "Coding_Tools",
+    "title": "GPT-5.2-Codex",
+    "date": "2026-02-24T06:19:17.979Z",
+    "url": "https://windsurf.com/changelog#gpt-52-codex"
+  },
+  {
+    "id": "6a4181f2-f463-4c2c-ade8-ef1f3a63d9c3",
+    "source": "Coding_Tools",
+    "title": "New Features and Improvements",
+    "date": "2026-02-24T06:19:17.979Z",
+    "url": "https://windsurf.com/changelog#new-features-and-improvements"
+  },
+  {
+    "id": "1033920b-abff-497d-8868-8bccaea11441",
+    "source": "Coding_Tools",
+    "title": "Gemini 3 Flash",
+    "date": "2026-02-24T06:19:17.979Z",
+    "url": "https://windsurf.com/changelog#gemini-3-flash"
+  },
+  {
+    "id": "ffd04531-d657-4ee1-b8af-f257b5efb38d",
+    "source": "Coding_Tools",
+    "title": "Wave 13: Merry Shipmas",
+    "date": "2026-02-24T06:19:17.979Z",
+    "url": "https://windsurf.com/changelog#wave-13-merry-shipmas"
+  },
+  {
+    "id": "dcdedc4e-111f-43d9-a066-d976e4c5483c",
+    "source": "Coding_Tools",
+    "title": "Features",
+    "date": "2026-02-24T06:19:17.980Z",
+    "url": "https://windsurf.com/changelog#features"
+  },
+  {
+    "id": "f0dfe44d-0d64-4b7b-af08-3bad146a8cad",
+    "source": "Coding_Tools",
+    "title": "Patch Fixes and Improvements",
+    "date": "2026-02-24T06:19:17.980Z",
+    "url": "https://windsurf.com/changelog#patch-fixes-and-improvements"
+  },
+  {
+    "id": "e6db31a9-77a7-4022-85bb-5c8555ff7a68",
+    "source": "Coding_Tools",
+    "title": "GPT-5.2",
+    "date": "2026-02-24T06:19:17.980Z",
+    "url": "https://windsurf.com/changelog#gpt-52"
+  },
+  {
+    "id": "f6f0759e-22c5-45c1-b11e-899c6adf83cb",
+    "source": "Coding_Tools",
+    "title": "Features & Tools",
+    "date": "2026-02-24T06:19:17.980Z",
+    "url": "https://windsurf.com/changelog#features--tools"
+  },
+  {
+    "id": "02ff6079-3984-4c6e-bb09-b46fa602a6d8",
+    "source": "Coding_Tools",
+    "title": "Diff Zones",
+    "date": "2026-02-24T06:19:17.980Z",
+    "url": "https://windsurf.com/changelog#diff-zones"
+  },
+  {
+    "id": "de6e277e-a677-4128-8fe8-6342740f1e80",
+    "source": "Coding_Tools",
+    "title": "Tab (Supercomplete)",
+    "date": "2026-02-24T06:19:17.980Z",
+    "url": "https://windsurf.com/changelog#tab-supercomplete"
+  },
+  {
+    "id": "ac40b247-051e-4126-8f64-c19d771bfd9b",
+    "source": "Coding_Tools",
+    "title": "GPT-5.1-Codex Max",
+    "date": "2026-02-24T06:19:17.980Z",
+    "url": "https://windsurf.com/changelog#gpt-51-codex-max"
+  },
+  {
+    "id": "f314fe5d-34f5-4083-b6b8-9944cfb442c2",
+    "source": "Coding_Tools",
+    "title": "Claude Opus 4.5",
+    "date": "2026-02-24T06:19:17.980Z",
+    "url": "https://windsurf.com/changelog#claude-opus-45"
+  },
+  {
+    "id": "00994c9f-4084-4c1f-a187-9126cd13f4f2",
+    "source": "Coding_Tools",
+    "title": "AI Models",
+    "date": "2026-02-24T06:19:17.980Z",
+    "url": "https://windsurf.com/changelog#ai-models"
+  },
+  {
+    "id": "38282311-7acf-4be1-973e-11e704efaf36",
+    "source": "Coding_Tools",
+    "title": "General Improvements",
+    "date": "2026-02-24T06:19:17.981Z",
+    "url": "https://windsurf.com/changelog#general-improvements"
+  },
+  {
+    "id": "00622979-e93b-4ef3-b61f-c0ebe3b05b62",
+    "source": "Coding_Tools",
+    "title": "Gemini 3 Pro Preview",
+    "date": "2026-02-24T06:19:17.981Z",
+    "url": "https://windsurf.com/changelog#gemini-3-pro-preview"
+  },
+  {
+    "id": "980cd13c-c9a4-4664-aa80-54caebf55cec",
+    "source": "Coding_Tools",
+    "title": "GPT-5.1 Priority Mode",
+    "date": "2026-02-24T06:19:17.981Z",
+    "url": "https://windsurf.com/changelog#gpt-51-priority-mode"
+  },
+  {
+    "id": "b49d053f-853b-444d-afdc-0094650df6af",
+    "source": "Coding_Tools",
+    "title": "GPT-5.1 and GPT-5.1-Codex",
+    "date": "2026-02-24T06:19:17.981Z",
+    "url": "https://windsurf.com/changelog#gpt-51-and-gpt-51-codex"
+  },
+  {
+    "id": "2d3acc7b-a164-4da4-848d-14a4a1bac901",
+    "source": "Coding_Tools",
+    "title": "Falcon Alpha",
+    "date": "2026-02-24T06:19:17.981Z",
+    "url": "https://windsurf.com/changelog#falcon-alpha"
+  },
+  {
+    "id": "4d7e1922-a4dd-4924-a2d5-f6ecde45eeca",
+    "source": "Coding_Tools",
+    "title": "Dependencies",
+    "date": "2026-02-24T06:19:17.982Z",
+    "url": "https://windsurf.com/changelog#dependencies"
+  },
+  {
+    "id": "e73b56dd-a69d-43d3-aef0-6e260da5b395",
+    "source": "Coding_Tools",
+    "title": "New Features",
+    "date": "2026-02-24T06:19:17.982Z",
+    "url": "https://windsurf.com/changelog#new-features"
+  },
+  {
+    "id": "90ccc7f1-39b4-4193-a3ba-8b1c6723373c",
+    "source": "Coding_Tools",
+    "title": "Claude Sonnet 4.5",
+    "date": "2026-02-24T06:19:17.982Z",
+    "url": "https://windsurf.com/changelog#claude-sonnet-45"
+  },
+  {
+    "id": "75cea439-0189-49d6-baae-435a9a09f23c",
+    "source": "Coding_Tools",
+    "title": "GPT-5-Codex is now in Windsurf!",
+    "date": "2026-02-24T06:19:17.982Z",
+    "url": "https://windsurf.com/changelog#gpt-5-codex-is-now-in-windsurf"
+  },
+  {
+    "id": "4d4bcabf-79e8-47e6-8823-b5c9692edd9f",
+    "source": "Coding_Tools",
+    "title": "Deprecation",
+    "date": "2026-02-24T06:19:17.982Z",
+    "url": "https://windsurf.com/changelog#deprecation"
+  },
+  {
+    "id": "bd34394b-0dba-489e-a7f4-6aa9bdfeb48a",
+    "source": "Coding_Tools",
+    "title": "Deprecation Notice",
+    "date": "2026-02-24T06:19:17.982Z",
+    "url": "https://windsurf.com/changelog#deprecation-notice"
+  },
+  {
+    "id": "bb601258-e399-457b-876f-b3a9baba84c7",
+    "source": "Coding_Tools",
+    "title": "Grok Code Fast is now in Windsurf!",
+    "date": "2026-02-24T06:19:17.982Z",
+    "url": "https://windsurf.com/changelog#grok-code-fast-is-now-in-windsurf"
+  },
+  {
+    "id": "e9f98207-2a8c-449a-8fc1-f2a6fec8b5b8",
+    "source": "Coding_Tools",
+    "title": "GPT-5 Pricing Changes",
+    "date": "2026-02-24T06:19:17.982Z",
+    "url": "https://windsurf.com/changelog#gpt-5-pricing-changes"
+  },
+  {
+    "id": "73a5e931-4e35-4663-bfed-b5a73de1f197",
+    "source": "Coding_Tools",
+    "title": "Devin features in Windsurf, stability improvements, and a brand new UI",
+    "date": "2026-02-24T06:19:17.982Z",
+    "url": "https://windsurf.com/changelog#devin-features-in-windsurf-stability-improvements-and-a-brand-new-ui"
+  },
+  {
+    "id": "94dad960-cc03-4f7c-ba1e-29850c4b9b13",
+    "source": "Coding_Tools",
+    "title": "GPT-5 Available",
+    "date": "2026-02-24T06:19:17.983Z",
+    "url": "https://windsurf.com/changelog#gpt-5-available"
+  },
+  {
+    "id": "736b7999-a8ec-4433-b36d-007c327246e5",
+    "source": "Coding_Tools",
+    "title": "Kimi K2 Available",
+    "date": "2026-02-24T06:19:17.983Z",
+    "url": "https://windsurf.com/changelog#kimi-k2-available"
+  },
+  {
+    "id": "c88a7349-e77e-4ed4-9aa8-e33bd3242fad",
+    "source": "Coding_Tools",
+    "title": "Speak to Cascade",
+    "date": "2026-02-24T06:19:17.983Z",
+    "url": "https://windsurf.com/changelog#speak-to-cascade"
+  },
+  {
+    "id": "6ca6d7d5-44de-455e-95d5-229d572a8b4c",
+    "source": "Coding_Tools",
+    "title": "Linux Fixes",
+    "date": "2026-02-24T06:19:17.983Z",
+    "url": "https://windsurf.com/changelog#linux-fixes"
+  },
+  {
+    "id": "64b79831-f735-4e1f-8d2f-53a98c2ded40",
+    "source": "Coding_Tools",
+    "title": "Browser Fixes",
+    "date": "2026-02-24T06:19:17.983Z",
+    "url": "https://windsurf.com/changelog#browser-fixes"
+  },
+  {
+    "id": "865a23fb-bb6b-4000-b5ec-4f0bf931c763",
+    "source": "Coding_Tools",
+    "title": "Windsurf Browser",
+    "date": "2026-02-24T06:19:17.983Z",
+    "url": "https://windsurf.com/changelog#windsurf-browser"
+  },
+  {
+    "id": "7deaa5fb-e41c-4456-b1c7-d8521286cb16",
+    "source": "Coding_Tools",
+    "title": "Planning Mode",
+    "date": "2026-02-24T06:19:17.983Z",
+    "url": "https://windsurf.com/changelog#planning-mode"
+  },
+  {
+    "id": "84248159-ae3b-4b13-b378-f21eadf8b73d",
+    "source": "Coding_Tools",
+    "title": "Bring your Own Anthropic Key",
+    "date": "2026-02-24T06:19:17.983Z",
+    "url": "https://windsurf.com/changelog#bring-your-own-anthropic-key"
+  },
+  {
+    "id": "14845783-a516-4523-8f39-8e2e617adebc",
+    "source": "Coding_Tools",
+    "title": "SWE-1 Improvements",
+    "date": "2026-02-24T06:19:17.983Z",
+    "url": "https://windsurf.com/changelog#swe-1-improvements"
+  },
+  {
+    "id": "ee860669-90d9-4a6e-b780-e2e4aca4cc59",
+    "source": "Coding_Tools",
+    "title": "New Family of SWE-1 Models",
+    "date": "2026-02-24T06:19:17.984Z",
+    "url": "https://windsurf.com/changelog#new-family-of-swe-1-models"
+  },
+  {
+    "id": "efbc32f7-eb75-4a72-93a0-adfcbc7cacf7",
+    "source": "Coding_Tools",
+    "title": "Cascade Customization",
+    "date": "2026-02-24T06:19:17.984Z",
+    "url": "https://windsurf.com/changelog#cascade-customization"
+  },
+  {
+    "id": "14414414-2ae4-4bd7-a31c-2448be8f6b4a",
+    "source": "Coding_Tools",
+    "title": "Teams Features",
+    "date": "2026-02-24T06:19:17.984Z",
+    "url": "https://windsurf.com/changelog#teams-features"
+  },
+  {
+    "id": "6e637215-cae0-4185-9816-12aab71ee747",
+    "source": "Coding_Tools",
+    "title": "New App Icon & Upgraded Free Tier",
+    "date": "2026-02-24T06:19:17.984Z",
+    "url": "https://windsurf.com/changelog#new-app-icon--upgraded-free-tier"
+  },
+  {
+    "id": "8ce11d4f-0a7d-4c07-994b-0e20fa5bc9cf",
+    "source": "Coding_Tools",
+    "title": "Updated & Simplified Pricing",
+    "date": "2026-02-24T06:19:17.984Z",
+    "url": "https://windsurf.com/changelog#updated--simplified-pricing"
+  },
+  {
+    "id": "cbd73610-8931-4712-9a0b-10a1d0f0bc96",
+    "source": "Coding_Tools",
+    "title": "o4-mini Available",
+    "date": "2026-02-24T06:19:17.984Z",
+    "url": "https://windsurf.com/changelog#o4-mini-available"
+  },
+  {
+    "id": "7fd89a53-1d08-4819-ba8a-7bc6aceb6811",
+    "source": "Coding_Tools",
+    "title": "GPT 4.1 Available",
+    "date": "2026-02-24T06:19:17.984Z",
+    "url": "https://windsurf.com/changelog#gpt-41-available"
+  },
+  {
+    "id": "bcd5e39a-c6fc-4230-8793-4089d7cc8dec",
+    "source": "Coding_Tools",
+    "title": "Cascade on JetBrains",
+    "date": "2026-02-24T06:19:17.988Z",
+    "url": "https://windsurf.com/changelog#cascade-on-jetbrains"
+  },
+  {
+    "id": "67a6fe08-4d00-4496-8d86-0b3a927e3cc4",
+    "source": "Coding_Tools",
+    "title": "Codeium is Now Windsurf",
+    "date": "2026-02-24T06:19:17.988Z",
+    "url": "https://windsurf.com/changelog#codeium-is-now-windsurf"
+  },
+  {
+    "id": "aa295ac1-e6fb-478f-967c-62410424f854",
+    "source": "Coding_Tools",
+    "title": "Deploys",
+    "date": "2026-02-24T06:19:17.988Z",
+    "url": "https://windsurf.com/changelog#deploys"
+  },
+  {
+    "id": "2e91db7a-21cc-4334-b69a-f7de171021fe",
+    "source": "Coding_Tools",
+    "title": "New Mac Icons",
+    "date": "2026-02-24T06:19:17.988Z",
+    "url": "https://windsurf.com/changelog#new-mac-icons"
+  },
+  {
+    "id": "494f25a4-11c8-4465-ae6d-b91bd2ee7a43",
+    "source": "Coding_Tools",
+    "title": "New Model",
+    "date": "2026-02-24T06:19:17.988Z",
+    "url": "https://windsurf.com/changelog#new-model"
+  },
+  {
+    "id": "29d8ad22-b563-4f36-9d54-ca2d5fbc93a0",
+    "source": "Coding_Tools",
+    "title": "Windsurf Tab",
+    "date": "2026-02-24T06:19:17.988Z",
+    "url": "https://windsurf.com/changelog#windsurf-tab"
+  },
+  {
+    "id": "de17bf74-be24-45f4-b061-f2b9e54b95c5",
+    "source": "Coding_Tools",
+    "title": "Claude 3.7",
+    "date": "2026-02-24T06:19:17.989Z",
+    "url": "https://windsurf.com/changelog#claude-37"
+  },
+  {
+    "id": "c26996b6-0159-49b5-924c-9d8e02bed839",
+    "source": "Coding_Tools",
+    "title": "Model Context Protocol, Custom App Icons, and Tab to Jump",
+    "date": "2026-02-24T06:19:17.989Z",
+    "url": "https://windsurf.com/changelog#model-context-protocol-custom-app-icons-and-tab-to-jump"
+  },
+  {
+    "id": "5508421f-1e42-46b0-8be6-4711615f4b3e",
+    "source": "Coding_Tools",
+    "title": "New Models: DeepSeek-R1, DeepSeek-V3 and o3-mini",
+    "date": "2026-02-24T06:19:17.990Z",
+    "url": "https://windsurf.com/changelog#new-models-deepseek-r1-deepseek-v3-and-o3-mini"
+  },
+  {
+    "id": "e50eff8f-2d75-40f9-8c37-777848d2df29",
+    "source": "Coding_Tools",
+    "title": "Quick Updates",
+    "date": "2026-02-24T06:19:17.990Z",
+    "url": "https://windsurf.com/changelog#quick-updates"
+  },
+  {
+    "id": "41ba583a-14c2-481d-905a-745ab04f6bd7",
+    "source": "Coding_Tools",
+    "title": "Cascade Memories, Web Search and Docs",
+    "date": "2026-02-24T06:19:17.990Z",
+    "url": "https://windsurf.com/changelog#cascade-memories-web-search-and-docs"
+  },
+  {
+    "id": "a6aa1c44-4305-46c6-976f-dc058048c301",
+    "source": "Coding_Tools",
+    "title": "Usage Transparency",
+    "date": "2026-02-24T06:19:17.990Z",
+    "url": "https://windsurf.com/changelog#usage-transparency"
+  },
+  {
+    "id": "0df75e52-9202-44bd-ae80-192a46913737",
+    "source": "Coding_Tools",
+    "title": "Image Upload",
+    "date": "2026-02-24T06:19:17.990Z",
+    "url": "https://windsurf.com/changelog#image-upload"
+  },
+  {
+    "id": "2afc19c5-3231-473d-bf2d-71f12333f68d",
+    "source": "Coding_Tools",
+    "title": "Cascade Explain & Fix Problem",
+    "date": "2026-02-24T06:19:17.991Z",
+    "url": "https://windsurf.com/changelog#cascade-explain--fix-problem"
+  },
+  {
+    "id": "9e639f58-fc59-484e-bb23-a3a0790cea36",
+    "source": "Coding_Tools",
+    "title": "Improvements & fixes",
+    "date": "2026-02-24T06:19:17.991Z",
+    "url": "https://windsurf.com/changelog#improvements--fixes"
+  },
+  {
+    "id": "cbc79b8a-e027-4ea3-bcff-7df3968c7f01",
+    "source": "Coding_Tools",
+    "title": "Windsurf Launch",
+    "date": "2026-02-24T06:19:17.991Z",
+    "url": "https://windsurf.com/changelog#windsurf-launch"
   }
 ]
