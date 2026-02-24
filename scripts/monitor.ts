@@ -386,6 +386,8 @@ async function main() {
                 console.log(`Skipped duplicate: "${item.title}"`);
               }
             }
+          } else {
+            console.log(`No items found for ${url}`);
           }
         }
       } catch (error) {
