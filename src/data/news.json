@@ -2105,5 +2105,19 @@
     "title": "Introducing Claude Code Security, now in limited research preview. It scans codebases for vulnerabi...",
     "date": "2026-02-23T06:19:48.870Z",
     "url": "https://x.com/claudeai/status/2024907535145468326"
+  },
+  {
+    "id": "76c1f240-8a3b-4337-b813-17c9378a65a8",
+    "source": "Models_Web",
+    "title": "Detecting and preventing distillation attacks",
+    "date": "2026-02-24T06:29:25.843Z",
+    "url": "https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks"
+  },
+  {
+    "id": "001f34d3-3953-4576-a6eb-07ae04466a35",
+    "source": "Models_Social",
+    "title": "We're proud to support @LACMA 's Art + Technology Lab—a program that empowers artists to prototype ...",
+    "date": "2026-02-24T06:29:58.915Z",
+    "url": "https://x.com/AnthropicAI/status/2026096054253564002"
   }
 ]
