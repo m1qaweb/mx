@@ -2175,5 +2175,96 @@
     "title": "Software is changing.",
     "date": "2026-02-26T06:31:14.509Z",
     "url": "https://x.com/cursor_ai/status/2026717494426173917"
+  },
+  {
+    "id": "825e4b9b-3b3b-41b6-80ab-a06ce451cdcc",
+    "source": "Google_Ecosystem",
+    "title": "We’re launching Nano Banana 2, built on the latest Gemini Flash model. It’s state-of-the-art for ...",
+    "date": "2026-02-27T06:25:48.336Z",
+    "url": "https://x.com/GoogleDeepMind/status/2027051577899380991"
+  },
+  {
+    "id": "8a75ab8f-2f77-4673-99d5-37c28c638e81",
+    "source": "Google_Ecosystem",
+    "title": "More than a billion images generated later, we love seeing what you create with Nano Banana. Today, ...",
+    "date": "2026-02-27T06:25:53.547Z",
+    "url": "https://x.com/GoogleAI/status/2027051670350287166"
+  },
+  {
+    "id": "e0e0ebbb-fc5c-45aa-9093-6a88be51b232",
+    "source": "Google_Ecosystem",
+    "title": "NEW LABS EXPERIMENT Introducing Pomelli, an experimental AI marketing tool designed to help you e...",
+    "date": "2026-02-27T06:25:59.004Z",
+    "url": "https://x.com/GoogleLabs/status/1983204018567426312"
+  },
+  {
+    "id": "7a8d808c-2ee4-4e64-9c4b-6f0c0de34ab0",
+    "source": "Google_Ecosystem",
+    "title": "On-Device Function Calling in Google AI Edge Gallery",
+    "date": "2026-02-27T06:26:09.109Z",
+    "url": "https://developers.googleblog.com/en/on-device-function-calling-in-google-ai-edge-gallery/"
+  },
+  {
+    "id": "0fd3f31d-d3bc-48d9-884b-04dbdf3c8c0c",
+    "source": "Google_Ecosystem",
+    "title": "Turn creative prompts into interactive XR experiences with Gemini",
+    "date": "2026-02-27T06:26:09.109Z",
+    "url": "https://developers.googleblog.com/en/turn-creative-prompts-into-interactive-xr-experiences-with-gemini/"
+  },
+  {
+    "id": "2ce3d825-054d-4875-ace2-6be2917208b1",
+    "source": "Google_Ecosystem",
+    "title": "Get ready for Google I/O 2026",
+    "date": "2026-02-27T06:26:09.109Z",
+    "url": "https://developers.googleblog.com/en/get-ready-for-google-io-2026/"
+  },
+  {
+    "id": "ad2c13c4-64f0-4467-90dd-172210813ac0",
+    "source": "Google_Ecosystem",
+    "title": "Conductor Update: Introducing Automated Reviews",
+    "date": "2026-02-27T06:26:09.109Z",
+    "url": "https://developers.googleblog.com/en/conductor-update-introducing-automated-reviews/"
+  },
+  {
+    "id": "2ef87ba4-7f92-4750-b4a1-6e135093d2be",
+    "source": "Google_Ecosystem",
+    "title": "Making Gemini CLI extensions easier to use",
+    "date": "2026-02-27T06:26:09.109Z",
+    "url": "https://developers.googleblog.com/en/making-gemini-cli-extensions-easier-to-use/"
+  },
+  {
+    "id": "26b3c30e-9f06-4326-8fe6-75c95be9c178",
+    "source": "Google_Ecosystem",
+    "title": "Access public data insights faster: Data Commons MCP is now hosted on Google Cloud",
+    "date": "2026-02-27T06:26:09.109Z",
+    "url": "https://developers.googleblog.com/en/access-public-data-insights-faster-data-commons-mcp-is-now-hosted-on-google-cloud/"
+  },
+  {
+    "id": "df3ffaf6-9f3e-43ef-ba68-1ca91163fc98",
+    "source": "Google_Ecosystem",
+    "title": "Introducing the Developer Knowledge API and MCP Server",
+    "date": "2026-02-27T06:26:09.109Z",
+    "url": "https://developers.googleblog.com/en/introducing-the-developer-knowledge-api-and-mcp-server/"
+  },
+  {
+    "id": "6b203c45-b7fd-44ee-bc97-ad909a71529e",
+    "source": "Google_Ecosystem",
+    "title": "Easy FunctionGemma finetuning with Tunix on Google TPUs",
+    "date": "2026-02-27T06:26:09.110Z",
+    "url": "https://developers.googleblog.com/en/easy-functiongemma-finetuning-with-tunix-on-google-tpus/"
+  },
+  {
+    "id": "1c2068ad-2225-4e86-b4dc-395755bd3d1b",
+    "source": "Google_Ecosystem",
+    "title": "Beyond the Chatbot: A Blueprint for Trustable AI",
+    "date": "2026-02-27T06:26:09.110Z",
+    "url": "https://developers.googleblog.com/en/beyond-the-chatbot-a-blueprint-for-trustable-ai/"
+  },
+  {
+    "id": "f16b3c07-245c-4f08-91bd-408594aec980",
+    "source": "Google_Ecosystem",
+    "title": "Tailor Gemini CLI to your workflow with hooks",
+    "date": "2026-02-27T06:26:09.110Z",
+    "url": "https://developers.googleblog.com/en/tailor-gemini-cli-to-your-workflow-with-hooks/"
   }
 ]
