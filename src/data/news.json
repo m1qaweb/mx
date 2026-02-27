@@ -2175,5 +2175,19 @@
     "title": "Software is changing.",
     "date": "2026-02-26T06:31:14.509Z",
     "url": "https://x.com/cursor_ai/status/2026717494426173917"
+  },
+  {
+    "id": "c42f1045-49ca-4a89-b735-b95882a58346",
+    "source": "Coding_Tools",
+    "title": "Feb 26, 2026",
+    "date": "2026-02-27T06:29:15.503Z",
+    "url": "https://cursor.com/changelog/02-26-26"
+  },
+  {
+    "id": "89b57b41-f5c5-4656-a608-1dffef902ea0",
+    "source": "Coding_Social",
+    "title": "Cursor can now automatically fix issues it finds in PRs with Bugbot Autofix.",
+    "date": "2026-02-27T06:30:52.899Z",
+    "url": "https://x.com/cursor_ai/status/2027079876948484200"
   }
 ]
