@@ -75,7 +75,8 @@ const INVALID_TITLES = [
   "Claude Developer Platform",
   "Learn",
   "Help and security",
-  "Terms and policies"
+  "Terms and policies",
+  "Search"
 ];
 
 function parseArgs(): MonitorArgs {
