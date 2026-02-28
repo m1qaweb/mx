@@ -2189,5 +2189,33 @@
     "title": "Cursor can now automatically fix issues it finds in PRs with Bugbot Autofix.",
     "date": "2026-02-27T06:30:52.899Z",
     "url": "https://x.com/cursor_ai/status/2027079876948484200"
+  },
+  {
+    "id": "cbbd86a7-3c23-4cb2-aefa-663548145bf0",
+    "source": "Models_Web",
+    "title": "Statement from Dario Amodei on our discussions with the Department of War",
+    "date": "2026-02-28T06:16:26.889Z",
+    "url": "https://www.anthropic.com/news/statement-department-of-war"
+  },
+  {
+    "id": "0b325fa8-0ec1-4247-9222-8cdd7e1b06d7",
+    "source": "Models_Web",
+    "title": "Statement on the comments from Secretary of War Pete Hegseth",
+    "date": "2026-02-28T06:16:26.890Z",
+    "url": "https://www.anthropic.com/news/statement-comments-secretary-war"
+  },
+  {
+    "id": "38f8b8aa-8859-4119-bce9-ea799e86e1cb",
+    "source": "Models_Web",
+    "title": "Anthropic acquires Vercept to advance Claude's computer use capabilities",
+    "date": "2026-02-28T06:16:26.890Z",
+    "url": "https://www.anthropic.com/news/acquires-vercept"
+  },
+  {
+    "id": "bc570d2c-204c-4ba2-9fe2-0103c7a371d5",
+    "source": "Models_Social",
+    "title": "A statement on the comments from Secretary of War Pete Hegseth.",
+    "date": "2026-02-28T06:16:50.206Z",
+    "url": "https://x.com/AnthropicAI/status/2027555481699446918"
   }
 ]
