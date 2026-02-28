@@ -2189,5 +2189,96 @@
     "title": "Cursor can now automatically fix issues it finds in PRs with Bugbot Autofix.",
     "date": "2026-02-27T06:30:52.899Z",
     "url": "https://x.com/cursor_ai/status/2027079876948484200"
+  },
+  {
+    "id": "49961f54-69ff-4245-9f26-6736738748c9",
+    "source": "Google_Ecosystem",
+    "title": "Supercharge your AI agents: The New ADK Integrations Ecosystem",
+    "date": "2026-02-28T06:28:05.282Z",
+    "url": "https://developers.googleblog.com/en/supercharge-your-ai-agents-adk-integrations-ecosystem/"
+  },
+  {
+    "id": "7ba2ded2-2bd6-4abb-a9fe-9643247e82a4",
+    "source": "Google_Ecosystem",
+    "title": "On-Device Function Calling in Google AI Edge Gallery",
+    "date": "2026-02-28T06:28:05.282Z",
+    "url": "https://developers.googleblog.com/en/on-device-function-calling-in-google-ai-edge-gallery/"
+  },
+  {
+    "id": "92a37883-5f86-41ea-8651-dbc70698ab31",
+    "source": "Google_Ecosystem",
+    "title": "Turn creative prompts into interactive XR experiences with Gemini",
+    "date": "2026-02-28T06:28:05.283Z",
+    "url": "https://developers.googleblog.com/en/turn-creative-prompts-into-interactive-xr-experiences-with-gemini/"
+  },
+  {
+    "id": "f53fd5dd-ddb7-4e5e-8cf6-0007a0ba64a6",
+    "source": "Google_Ecosystem",
+    "title": "Get ready for Google I/O 2026",
+    "date": "2026-02-28T06:28:05.283Z",
+    "url": "https://developers.googleblog.com/en/get-ready-for-google-io-2026/"
+  },
+  {
+    "id": "ad2859cc-4146-49e0-8f61-56785b204f86",
+    "source": "Google_Ecosystem",
+    "title": "Conductor Update: Introducing Automated Reviews",
+    "date": "2026-02-28T06:28:05.283Z",
+    "url": "https://developers.googleblog.com/en/conductor-update-introducing-automated-reviews/"
+  },
+  {
+    "id": "6f51eb20-bd6d-4afc-b4f8-a822f1af230c",
+    "source": "Google_Ecosystem",
+    "title": "Making Gemini CLI extensions easier to use",
+    "date": "2026-02-28T06:28:05.283Z",
+    "url": "https://developers.googleblog.com/en/making-gemini-cli-extensions-easier-to-use/"
+  },
+  {
+    "id": "0e577583-cd3d-42d2-9986-f29c54b36af4",
+    "source": "Google_Ecosystem",
+    "title": "Access public data insights faster: Data Commons MCP is now hosted on Google Cloud",
+    "date": "2026-02-28T06:28:05.283Z",
+    "url": "https://developers.googleblog.com/en/access-public-data-insights-faster-data-commons-mcp-is-now-hosted-on-google-cloud/"
+  },
+  {
+    "id": "0953d726-6724-4123-913b-c012f3de3c49",
+    "source": "Google_Ecosystem",
+    "title": "Introducing the Developer Knowledge API and MCP Server",
+    "date": "2026-02-28T06:28:05.283Z",
+    "url": "https://developers.googleblog.com/en/introducing-the-developer-knowledge-api-and-mcp-server/"
+  },
+  {
+    "id": "3a04efd0-4572-4f7b-95e8-a480f20750da",
+    "source": "Google_Ecosystem",
+    "title": "Easy FunctionGemma finetuning with Tunix on Google TPUs",
+    "date": "2026-02-28T06:28:05.283Z",
+    "url": "https://developers.googleblog.com/en/easy-functiongemma-finetuning-with-tunix-on-google-tpus/"
+  },
+  {
+    "id": "a933d229-d46e-432c-a4b8-a04792798fcb",
+    "source": "Google_Ecosystem",
+    "title": "Beyond the Chatbot: A Blueprint for Trustable AI",
+    "date": "2026-02-28T06:28:05.284Z",
+    "url": "https://developers.googleblog.com/en/beyond-the-chatbot-a-blueprint-for-trustable-ai/"
+  },
+  {
+    "id": "6ae88988-5f42-499b-af40-b98c133abde6",
+    "source": "Google_Ecosystem",
+    "title": "We’re launching Nano Banana 2, built on the latest Gemini Flash model. It’s state-of-the-art for ...",
+    "date": "2026-02-28T06:28:11.741Z",
+    "url": "https://x.com/GoogleDeepMind/status/2027051577899380991"
+  },
+  {
+    "id": "50050287-0e68-44b9-85a6-e45d92818852",
+    "source": "Google_Ecosystem",
+    "title": "More than a billion images generated later, we love seeing what you create with Nano Banana. Today, ...",
+    "date": "2026-02-28T06:28:16.912Z",
+    "url": "https://x.com/GoogleAI/status/2027051670350287166"
+  },
+  {
+    "id": "bd06c64e-e83f-4cdb-ac5b-e0a985b58606",
+    "source": "Google_Ecosystem",
+    "title": "NEW LABS EXPERIMENT Introducing Pomelli, an experimental AI marketing tool designed to help you e...",
+    "date": "2026-02-28T06:28:22.287Z",
+    "url": "https://x.com/GoogleLabs/status/1983204018567426312"
   }
 ]
