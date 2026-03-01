@@ -307,7 +307,13 @@ async function main() {
     });
     const page = await context.newPage();
     
-    for (const url of args.urls) {
+    for (let url of args.urls) {
+      // Intercept and rewrite obsolete Gemini label search
+      if (url === 'https://developers.googleblog.com/search/label/Gemini') {
+        url = 'https://developers.googleblog.com/en/search?q=Gemini';
+        console.log(`[Redirect] Rewriting obsolete URL to ${url}`);
+      }
+
       let currentSource = args.source;
 
       // Handle mixed source mode: dynamically select scraper based on URL pattern
