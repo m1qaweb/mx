@@ -2336,5 +2336,82 @@
     "title": "Smarter. Faster. Gemini 3.1 Flash-Lite is here The model offers uncompromising speed & intelligence...",
     "date": "2026-03-04T06:28:03.298Z",
     "url": "https://x.com/GoogleAI/status/2028873512203489483"
+  },
+  {
+    "id": "e0674047-90d2-4ca2-b355-fb411032a7b8",
+    "source": "Coding_Tools",
+    "title": "Simplified Agent Creation, Granular Tool Trust and Session Settings",
+    "date": "2026-03-05T06:09:41.932Z",
+    "url": "https://kiro.dev/changelog/cli/1-27/"
+  },
+  {
+    "id": "7ab07aa1-1113-48a6-b37e-6b7eb51659c3",
+    "source": "Coding_Tools",
+    "title": "Simplified Agent Creation",
+    "date": "2026-03-05T06:09:41.933Z",
+    "url": "https://kiro.dev/changelog/cli/1-27#simplified-agent-creation"
+  },
+  {
+    "id": "5e4e282f-68f1-49db-acc5-4a335db12fa6",
+    "source": "Coding_Tools",
+    "title": "Granular Tool Trust",
+    "date": "2026-03-05T06:09:41.933Z",
+    "url": "https://kiro.dev/changelog/cli/1-27#granular-tool-trust"
+  },
+  {
+    "id": "d9f7c934-4e4c-43ca-8228-ecd5b921df51",
+    "source": "Coding_Tools",
+    "title": "Session Settings Tool",
+    "date": "2026-03-05T06:09:41.933Z",
+    "url": "https://kiro.dev/changelog/cli/1-27#session-settings-tool"
+  },
+  {
+    "id": "054ec8c4-9e44-486a-abb2-2c7ae54523cc",
+    "source": "Coding_Tools",
+    "title": "Mar 4, 2026",
+    "date": "2026-03-05T06:09:45.225Z",
+    "url": "https://cursor.com/changelog/03-04-26"
+  },
+  {
+    "id": "c58eb44a-babb-4d86-9e05-22a210c9503b",
+    "source": "Coding_Tools",
+    "title": "2.6 Mar 3, 2026",
+    "date": "2026-03-05T06:09:45.225Z",
+    "url": "https://cursor.com/changelog/2-6"
+  },
+  {
+    "id": "7c04b85a-2715-45f3-9ea6-b5f043e32dcd",
+    "source": "Coding_Tools",
+    "title": "#MCP Apps",
+    "date": "2026-03-05T06:09:45.225Z",
+    "url": "https://cursor.com/changelog#mcp-apps"
+  },
+  {
+    "id": "f1facf20-d254-4366-8e61-371b7d3c7ab8",
+    "source": "Coding_Tools",
+    "title": "#Team marketplaces for plugins",
+    "date": "2026-03-05T06:09:45.225Z",
+    "url": "https://cursor.com/changelog#team-marketplaces-for-plugins"
+  },
+  {
+    "id": "f6ea46c6-0515-49a0-8f45-94d184b72c3a",
+    "source": "Coding_Tools",
+    "title": "Desktop Improvements (15)↓↑",
+    "date": "2026-03-05T06:09:45.226Z",
+    "url": "https://cursor.com/changelog#desktop-improvements-15-"
+  },
+  {
+    "id": "f2b04652-fd70-468e-bb42-626551b8e1d0",
+    "source": "Coding_Tools",
+    "title": "Desktop Bug Fixes (10)↓↑",
+    "date": "2026-03-05T06:09:45.226Z",
+    "url": "https://cursor.com/changelog#desktop-bug-fixes-10-"
+  },
+  {
+    "id": "2afb5191-fecf-476e-acef-4d321897d202",
+    "source": "Coding_Tools",
+    "title": "Web Improvements & Fixes (2)↓↑",
+    "date": "2026-03-05T06:09:45.226Z",
+    "url": "https://cursor.com/changelog#web-improvements-fixes-2-"
   }
 ]
