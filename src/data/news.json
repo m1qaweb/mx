@@ -2343,5 +2343,96 @@
     "title": "GPT-5.3 Instant in ChatGPT is now rolling out to everyone. More accurate, less cringe.",
     "date": "2026-03-05T06:19:12.183Z",
     "url": "https://x.com/OpenAI/status/2028893701427302559"
+  },
+  {
+    "id": "86541938-8e3f-4603-8fe4-9b59e1da82c2",
+    "source": "Coding_Tools",
+    "title": "Simplified Agent Creation, Granular Tool Trust and Session Settings",
+    "date": "2026-03-06T06:06:19.696Z",
+    "url": "https://kiro.dev/changelog/cli/1-27/"
+  },
+  {
+    "id": "ac65ad4a-eec8-43d3-ae37-c5288f4d31e8",
+    "source": "Coding_Tools",
+    "title": "Simplified Agent Creation",
+    "date": "2026-03-06T06:06:19.696Z",
+    "url": "https://kiro.dev/changelog/cli/1-27#simplified-agent-creation"
+  },
+  {
+    "id": "e3fe2be5-ca9f-4950-b432-045088f48416",
+    "source": "Coding_Tools",
+    "title": "Granular Tool Trust",
+    "date": "2026-03-06T06:06:19.696Z",
+    "url": "https://kiro.dev/changelog/cli/1-27#granular-tool-trust"
+  },
+  {
+    "id": "10dd6169-6eed-4ee2-b9bf-e5cc76060cf4",
+    "source": "Coding_Tools",
+    "title": "Session Settings Tool",
+    "date": "2026-03-06T06:06:19.696Z",
+    "url": "https://kiro.dev/changelog/cli/1-27#session-settings-tool"
+  },
+  {
+    "id": "afe5e608-b23c-45ae-9a96-627750c2f120",
+    "source": "Coding_Tools",
+    "title": "Mar 5, 2026",
+    "date": "2026-03-06T06:06:23.132Z",
+    "url": "https://cursor.com/changelog/03-05-26"
+  },
+  {
+    "id": "95b87e12-d0a5-4c54-abf9-b1202a6c7063",
+    "source": "Coding_Tools",
+    "title": "Mar 4, 2026",
+    "date": "2026-03-06T06:06:23.133Z",
+    "url": "https://cursor.com/changelog/03-04-26"
+  },
+  {
+    "id": "d2e0bfd1-7683-4d61-ab35-a8c346569249",
+    "source": "Coding_Tools",
+    "title": "2.6 Mar 3, 2026",
+    "date": "2026-03-06T06:06:23.133Z",
+    "url": "https://cursor.com/changelog/2-6"
+  },
+  {
+    "id": "e0329680-3e9b-4a7b-abcf-c9fc288e17ca",
+    "source": "Coding_Tools",
+    "title": "#MCP Apps",
+    "date": "2026-03-06T06:06:23.133Z",
+    "url": "https://cursor.com/changelog#mcp-apps"
+  },
+  {
+    "id": "bf5b9b36-9070-4d96-bbbe-520e4d9fe0ed",
+    "source": "Coding_Tools",
+    "title": "#Team marketplaces for plugins",
+    "date": "2026-03-06T06:06:23.133Z",
+    "url": "https://cursor.com/changelog#team-marketplaces-for-plugins"
+  },
+  {
+    "id": "67cb1328-4703-45ec-b4f6-2624792af27f",
+    "source": "Coding_Tools",
+    "title": "Desktop Improvements (15)↓↑",
+    "date": "2026-03-06T06:06:23.133Z",
+    "url": "https://cursor.com/changelog#desktop-improvements-15-"
+  },
+  {
+    "id": "b6781689-fab5-4a0f-b883-4cba09d5f8c1",
+    "source": "Coding_Tools",
+    "title": "Desktop Bug Fixes (10)↓↑",
+    "date": "2026-03-06T06:06:23.134Z",
+    "url": "https://cursor.com/changelog#desktop-bug-fixes-10-"
+  },
+  {
+    "id": "d61e9c30-eda8-4228-b88b-99b19857357e",
+    "source": "Coding_Tools",
+    "title": "Web Improvements & Fixes (2)↓↑",
+    "date": "2026-03-06T06:06:23.134Z",
+    "url": "https://cursor.com/changelog#web-improvements-fixes-2-"
+  },
+  {
+    "id": "4ac8932b-7108-47a4-a574-a2bac17f8ced",
+    "source": "Coding_Social",
+    "title": "We're introducing Cursor Automations to build always-on agents.",
+    "date": "2026-03-06T06:08:01.984Z",
+    "url": "https://x.com/cursor_ai/status/2029604182286856663"
   }
 ]
