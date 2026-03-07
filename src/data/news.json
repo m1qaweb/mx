@@ -2350,5 +2350,96 @@
     "title": "You can't stream the energy: A developer's guide to Google Cloud Next '26 in Vegas",
     "date": "2026-03-06T06:16:38.642Z",
     "url": "https://developers.googleblog.com/en/you-cant-stream-the-energy-a-developers-guide-to-google-cloud-next-26-in-vegas/"
+  },
+  {
+    "id": "d83bd6ca-bb89-4902-a0d1-fb15c52b4bdf",
+    "source": "Coding_Tools",
+    "title": "Simplified Agent Creation, Granular Tool Trust and Session Settings",
+    "date": "2026-03-07T06:18:51.338Z",
+    "url": "https://kiro.dev/changelog/cli/1-27/"
+  },
+  {
+    "id": "bcbf0bd3-6743-4a4f-8d81-7edeb63f21ad",
+    "source": "Coding_Tools",
+    "title": "Simplified Agent Creation",
+    "date": "2026-03-07T06:18:51.338Z",
+    "url": "https://kiro.dev/changelog/cli/1-27#simplified-agent-creation"
+  },
+  {
+    "id": "34381268-1587-4e24-bde1-832142e442e8",
+    "source": "Coding_Tools",
+    "title": "Granular Tool Trust",
+    "date": "2026-03-07T06:18:51.338Z",
+    "url": "https://kiro.dev/changelog/cli/1-27#granular-tool-trust"
+  },
+  {
+    "id": "9c757027-a344-4542-9529-7dce449c722e",
+    "source": "Coding_Tools",
+    "title": "Session Settings Tool",
+    "date": "2026-03-07T06:18:51.338Z",
+    "url": "https://kiro.dev/changelog/cli/1-27#session-settings-tool"
+  },
+  {
+    "id": "95d7a6d6-b549-4778-aca0-3d28cf29c118",
+    "source": "Coding_Tools",
+    "title": "Mar 5, 2026",
+    "date": "2026-03-07T06:18:54.778Z",
+    "url": "https://cursor.com/changelog/03-05-26"
+  },
+  {
+    "id": "e243afad-42c8-4271-b562-8bf7f2c1fafa",
+    "source": "Coding_Tools",
+    "title": "Mar 4, 2026",
+    "date": "2026-03-07T06:18:54.778Z",
+    "url": "https://cursor.com/changelog/03-04-26"
+  },
+  {
+    "id": "ba397f89-edde-4512-bf1b-dce78be9a9c5",
+    "source": "Coding_Tools",
+    "title": "2.6 Mar 3, 2026",
+    "date": "2026-03-07T06:18:54.779Z",
+    "url": "https://cursor.com/changelog/2-6"
+  },
+  {
+    "id": "e6d341c2-1252-4dd6-8525-376bed1c13ca",
+    "source": "Coding_Tools",
+    "title": "#MCP Apps",
+    "date": "2026-03-07T06:18:54.779Z",
+    "url": "https://cursor.com/changelog#mcp-apps"
+  },
+  {
+    "id": "9e42ab0b-ca07-4c58-a5c5-4af0561a1f02",
+    "source": "Coding_Tools",
+    "title": "#Team marketplaces for plugins",
+    "date": "2026-03-07T06:18:54.779Z",
+    "url": "https://cursor.com/changelog#team-marketplaces-for-plugins"
+  },
+  {
+    "id": "2c45d643-f2f8-439d-b4a2-a41c7be542a7",
+    "source": "Coding_Tools",
+    "title": "Desktop Improvements (15)↓↑",
+    "date": "2026-03-07T06:18:54.780Z",
+    "url": "https://cursor.com/changelog#desktop-improvements-15-"
+  },
+  {
+    "id": "8fbded48-ec39-4599-babc-8607385fc59e",
+    "source": "Coding_Tools",
+    "title": "Desktop Bug Fixes (10)↓↑",
+    "date": "2026-03-07T06:18:54.780Z",
+    "url": "https://cursor.com/changelog#desktop-bug-fixes-10-"
+  },
+  {
+    "id": "0e177cf3-3faa-4b38-9f5f-f4b4c8f38ca3",
+    "source": "Coding_Tools",
+    "title": "Web Improvements & Fixes (2)↓↑",
+    "date": "2026-03-07T06:18:54.780Z",
+    "url": "https://cursor.com/changelog#web-improvements-fixes-2-"
+  },
+  {
+    "id": "335924dc-c917-459e-ae9b-e086ec9cd67d",
+    "source": "Coding_Social",
+    "title": "We're introducing Cursor Automations to build always-on agents.",
+    "date": "2026-03-07T06:20:29.434Z",
+    "url": "https://x.com/cursor_ai/status/2029604182286856663"
   }
 ]
