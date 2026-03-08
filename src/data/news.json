@@ -2385,5 +2385,96 @@
     "title": "A statement from Anthropic CEO Dario Amodei:",
     "date": "2026-03-07T06:26:11.587Z",
     "url": "https://x.com/AnthropicAI/status/2029719864533721481"
+  },
+  {
+    "id": "1d2810b4-b234-429b-8487-b4de4e6fb541",
+    "source": "Coding_Tools",
+    "title": "Simplified Agent Creation, Granular Tool Trust and Session Settings",
+    "date": "2026-03-08T06:19:44.885Z",
+    "url": "https://kiro.dev/changelog/cli/1-27/"
+  },
+  {
+    "id": "1291c913-50e0-4cdf-8b21-ec12aeb226c6",
+    "source": "Coding_Tools",
+    "title": "Simplified Agent Creation",
+    "date": "2026-03-08T06:19:44.885Z",
+    "url": "https://kiro.dev/changelog/cli/1-27#simplified-agent-creation"
+  },
+  {
+    "id": "2dd3ea70-f3ea-4971-ba94-30760f3a40ae",
+    "source": "Coding_Tools",
+    "title": "Granular Tool Trust",
+    "date": "2026-03-08T06:19:44.885Z",
+    "url": "https://kiro.dev/changelog/cli/1-27#granular-tool-trust"
+  },
+  {
+    "id": "1a94eadc-30af-4070-8b65-ddde1639ba73",
+    "source": "Coding_Tools",
+    "title": "Session Settings Tool",
+    "date": "2026-03-08T06:19:44.885Z",
+    "url": "https://kiro.dev/changelog/cli/1-27#session-settings-tool"
+  },
+  {
+    "id": "97704f19-bf25-49b1-8104-410a7aa0733f",
+    "source": "Coding_Tools",
+    "title": "Mar 5, 2026",
+    "date": "2026-03-08T06:19:47.755Z",
+    "url": "https://cursor.com/changelog/03-05-26"
+  },
+  {
+    "id": "7c1d5aa4-25e4-4db7-9532-6c3a91408b79",
+    "source": "Coding_Tools",
+    "title": "Mar 4, 2026",
+    "date": "2026-03-08T06:19:47.755Z",
+    "url": "https://cursor.com/changelog/03-04-26"
+  },
+  {
+    "id": "009171d5-3df2-48ed-9ab5-7cf96d6ee207",
+    "source": "Coding_Tools",
+    "title": "2.6 Mar 3, 2026",
+    "date": "2026-03-08T06:19:47.756Z",
+    "url": "https://cursor.com/changelog/2-6"
+  },
+  {
+    "id": "21e0bfb9-4bed-42ca-b987-988a6c757542",
+    "source": "Coding_Tools",
+    "title": "#MCP Apps",
+    "date": "2026-03-08T06:19:47.756Z",
+    "url": "https://cursor.com/changelog#mcp-apps"
+  },
+  {
+    "id": "c87e07f9-61f3-4e93-ba33-bf4b3660451f",
+    "source": "Coding_Tools",
+    "title": "#Team marketplaces for plugins",
+    "date": "2026-03-08T06:19:47.757Z",
+    "url": "https://cursor.com/changelog#team-marketplaces-for-plugins"
+  },
+  {
+    "id": "a9d717af-9ad8-4b0a-96e1-b9890734b1d1",
+    "source": "Coding_Tools",
+    "title": "Desktop Improvements (15)↓↑",
+    "date": "2026-03-08T06:19:47.757Z",
+    "url": "https://cursor.com/changelog#desktop-improvements-15-"
+  },
+  {
+    "id": "f9f6d497-5236-44e7-851d-f753c573e2e2",
+    "source": "Coding_Tools",
+    "title": "Desktop Bug Fixes (10)↓↑",
+    "date": "2026-03-08T06:19:47.758Z",
+    "url": "https://cursor.com/changelog#desktop-bug-fixes-10-"
+  },
+  {
+    "id": "4463e27f-cfe9-4927-8ab6-7bb35ae8216a",
+    "source": "Coding_Tools",
+    "title": "Web Improvements & Fixes (2)↓↑",
+    "date": "2026-03-08T06:19:47.758Z",
+    "url": "https://cursor.com/changelog#web-improvements-fixes-2-"
+  },
+  {
+    "id": "3506ccdc-85b0-4213-9639-36d4d01a4cc5",
+    "source": "Coding_Social",
+    "title": "We're introducing Cursor Automations to build always-on agents.",
+    "date": "2026-03-08T06:21:11.122Z",
+    "url": "https://x.com/cursor_ai/status/2029604182286856663"
   }
 ]
