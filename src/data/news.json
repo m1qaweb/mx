@@ -2471,13 +2471,6 @@
     "url": "https://cursor.com/changelog#web-improvements-fixes-2-"
   },
   {
-    "id": "3506ccdc-85b0-4213-9639-36d4d01a4cc5",
-    "source": "Coding_Social",
-    "title": "We're introducing Cursor Automations to build always-on agents.",
-    "date": "2026-03-08T06:21:11.122Z",
-    "url": "https://x.com/cursor_ai/status/2029604182286856663"
-  },
-  {
     "id": "01d4c4cd-2e91-4bb3-a2a4-0dc26ac0aad7",
     "source": "Google_Ecosystem",
     "title": "What's new in TensorFlow 2.21",
@@ -2490,5 +2483,26 @@
     "title": "Woah. It’s been a little over 2 months since the start of 2026. Here's what we’ve dropped so far: ...",
     "date": "2026-03-09T06:25:28.522Z",
     "url": "https://x.com/GoogleLabs/status/2029987336684196032"
+  },
+  {
+    "id": "ed178bae-e9ca-48c2-8cc3-c3ddac4f7974",
+    "source": "Coding_Tools",
+    "title": "Cascade",
+    "date": "2026-03-10T06:22:49.919Z",
+    "url": "https://windsurf.com/changelog#cascade"
+  },
+  {
+    "id": "024ee643-4880-49ab-8205-3cd971167970",
+    "source": "Coding_Tools",
+    "title": "MCP",
+    "date": "2026-03-10T06:22:49.919Z",
+    "url": "https://windsurf.com/changelog#mcp"
+  },
+  {
+    "id": "69a46e6c-cf6f-4285-9b62-c66ce17cc598",
+    "source": "Coding_Social",
+    "title": "We're introducing Cursor Automations to build always-on agents.",
+    "date": "2026-03-10T06:47:44.812Z",
+    "url": "https://x.com/cursor_ai/status/2029604182286856663"
   }
 ]

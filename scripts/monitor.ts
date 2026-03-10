@@ -203,7 +203,7 @@ async function scrapeTwitter(page: Page, url: string): Promise<ScrapedItem | nul
   await page.goto(url, { waitUntil: 'domcontentloaded', timeout: REQUEST_TIMEOUT_MS });
 
   // Wait for tweets
-  await page.waitForSelector('[data-testid="tweet"]', { timeout: 20000 });
+  await page.waitForSelector('[data-testid="tweet"]', { timeout: 60000 });
 
   let tweetElement = await page.$('[data-testid="tweet"]:has([aria-label*="Pinned"])');
 
