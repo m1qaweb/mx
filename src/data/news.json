@@ -21,13 +21,6 @@
     "url": "https://www.anthropic.com/news"
   },
   {
-    "id": "052df82a-f01c-4cb9-8f02-fca4523bd445",
-    "source": "Models_Social",
-    "title": "Introducing Prism, a free workspace for scientists to write and collaborate on research, powered by ...",
-    "date": "2026-01-31T06:04:28.485Z",
-    "url": "https://x.com/OpenAI"
-  },
-  {
     "id": "4c924cf2-da7b-4f03-8cca-636d2963b954",
     "source": "Models_Social",
     "title": "On December 8, the Perseverance rover safely trundled across the surface of Mars. This was the firs...",
@@ -2504,5 +2497,19 @@
     "title": "We're introducing Cursor Automations to build always-on agents.",
     "date": "2026-03-10T06:47:44.812Z",
     "url": "https://x.com/cursor_ai/status/2029604182286856663"
+  },
+  {
+    "id": "cdb2ff69-1785-4250-9736-b1f91a4d05af",
+    "source": "Models_Web",
+    "title": "Sydney will become Anthropic’s fourth office in Asia-Pacific",
+    "date": "2026-03-11T06:27:47.775Z",
+    "url": "https://www.anthropic.com/news/sydney-fourth-office-asia-pacific"
+  },
+  {
+    "id": "420a9de0-5bb0-4f92-b09e-569b76df998c",
+    "source": "Models_Web",
+    "title": "Claude Platform",
+    "date": "2026-03-11T06:27:47.776Z",
+    "url": "https://www.anthropic.com/news#claude-platform"
   }
 ]
