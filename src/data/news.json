@@ -2504,5 +2504,40 @@
     "title": "We're introducing Cursor Automations to build always-on agents.",
     "date": "2026-03-10T06:47:44.812Z",
     "url": "https://x.com/cursor_ai/status/2029604182286856663"
+  },
+  {
+    "id": "5aa0a936-ce60-414c-96ba-dc60ecca2577",
+    "source": "Google_Ecosystem",
+    "title": "Unleash Your Development Superpowers: Refining the Core Coding Experience",
+    "date": "2026-03-11T06:28:54.742Z",
+    "url": "https://developers.googleblog.com/en/unleash-your-development-superpowers-refining-the-core-coding-experience/"
+  },
+  {
+    "id": "79c72e9c-ccb5-479d-bfe1-bdff8a0db2da",
+    "source": "Google_Ecosystem",
+    "title": "Introducing Finish Changes and Outlines, now available in Gemini Code Assist extensions on IntelliJ and VS Code",
+    "date": "2026-03-11T06:28:54.742Z",
+    "url": "https://developers.googleblog.com/en/introducing-finish-changes-and-outlines-now-available-in-gemini-code-assist-extensions-on-intellij-and-vs-code/"
+  },
+  {
+    "id": "bfae1d2f-b955-4cec-843a-6093b04ab3bc",
+    "source": "Google_Ecosystem",
+    "title": "Introducing Wednesday Build Hour",
+    "date": "2026-03-11T06:28:54.742Z",
+    "url": "https://developers.googleblog.com/en/introducing-wednesday-build-hour/"
+  },
+  {
+    "id": "d9d20d09-6519-4869-a262-3ef0c49670ce",
+    "source": "Google_Ecosystem",
+    "title": "Ten years after AlphaGo, we’re still building on its foundations to advance AI. The techniques pion...",
+    "date": "2026-03-11T06:29:01.152Z",
+    "url": "https://x.com/GoogleDeepMind/status/2031399096267718847"
+  },
+  {
+    "id": "32d31c44-b21b-4d20-8a89-f3d20cdb38c8",
+    "source": "Google_Ecosystem",
+    "title": "Gemini in @GoogleWorkspace just got a lot more helpful. To do this, we had to tailor the model to ...",
+    "date": "2026-03-11T06:29:06.440Z",
+    "url": "https://x.com/GoogleAI/status/2031356471431077995"
   }
 ]
