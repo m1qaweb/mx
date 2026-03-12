@@ -2511,5 +2511,40 @@
     "title": "Claude Platform",
     "date": "2026-03-11T06:27:47.776Z",
     "url": "https://www.anthropic.com/news#claude-platform"
+  },
+  {
+    "id": "0780566b-0808-425f-a1d9-8b5fc573b463",
+    "source": "Coding_Tools",
+    "title": "MCP Registry Governance, Model Governance, and Document Attachments",
+    "date": "2026-03-12T06:07:44.208Z",
+    "url": "https://kiro.dev/changelog/ide/0-11/"
+  },
+  {
+    "id": "4faf65cc-03d5-4dfc-b0ff-1f9a0d75fe08",
+    "source": "Coding_Tools",
+    "title": "MCP Registry Governance",
+    "date": "2026-03-12T06:07:44.208Z",
+    "url": "https://kiro.dev/changelog/ide/0-11#mcp-registry-governance"
+  },
+  {
+    "id": "6155f91c-92be-492e-86f1-6964b86133b9",
+    "source": "Coding_Tools",
+    "title": "Model Governance",
+    "date": "2026-03-12T06:07:44.208Z",
+    "url": "https://kiro.dev/changelog/ide/0-11#model-governance"
+  },
+  {
+    "id": "05ad253e-093a-4adf-8ce3-9bcd16dbffb0",
+    "source": "Coding_Tools",
+    "title": "Document Attachments",
+    "date": "2026-03-12T06:07:44.208Z",
+    "url": "https://kiro.dev/changelog/ide/0-11#document-attachments"
+  },
+  {
+    "id": "d033061f-9872-48ee-b77b-50f1208bb625",
+    "source": "Coding_Tools",
+    "title": "Mar 11, 2026",
+    "date": "2026-03-12T06:07:47.448Z",
+    "url": "https://cursor.com/changelog/03-11-26"
   }
 ]
