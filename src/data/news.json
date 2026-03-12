@@ -2511,5 +2511,47 @@
     "title": "Claude Platform",
     "date": "2026-03-11T06:27:47.776Z",
     "url": "https://www.anthropic.com/news#claude-platform"
+  },
+  {
+    "id": "5e76ffd6-a1d4-4c78-9c9e-4b62d76dc85d",
+    "source": "Google_Ecosystem",
+    "title": "Plan mode is now available in Gemini CLI",
+    "date": "2026-03-12T06:11:43.853Z",
+    "url": "https://developers.googleblog.com/en/plan-mode-now-available-in-gemini-cli/"
+  },
+  {
+    "id": "80d65552-57fc-46fe-bd8b-6db99dade672",
+    "source": "Google_Ecosystem",
+    "title": "Introducing Finish Changes and Outlines, now available in Gemini Code Assist extensions on IntelliJ and VS Code",
+    "date": "2026-03-12T06:11:43.853Z",
+    "url": "https://developers.googleblog.com/en/introducing-finish-changes-and-outlines-now-available-in-gemini-code-assist-extensions-on-intellij-and-vs-code/"
+  },
+  {
+    "id": "8332c35c-d764-400b-be9a-bb7d338b9709",
+    "source": "Google_Ecosystem",
+    "title": "Unleash Your Development Superpowers: Refining the Core Coding Experience",
+    "date": "2026-03-12T06:11:43.853Z",
+    "url": "https://developers.googleblog.com/en/unleash-your-development-superpowers-refining-the-core-coding-experience/"
+  },
+  {
+    "id": "c94a4909-8452-4888-b179-ca17272a4d96",
+    "source": "Google_Ecosystem",
+    "title": "Introducing Wednesday Build Hour",
+    "date": "2026-03-12T06:11:43.854Z",
+    "url": "https://developers.googleblog.com/en/introducing-wednesday-build-hour/"
+  },
+  {
+    "id": "a984127b-b26f-44cd-8390-87f371db2479",
+    "source": "Google_Ecosystem",
+    "title": "Ten years after AlphaGo, we’re still building on its foundations to advance AI. The techniques pion...",
+    "date": "2026-03-12T06:11:51.287Z",
+    "url": "https://x.com/GoogleDeepMind/status/2031399096267718847"
+  },
+  {
+    "id": "f7d97444-ec60-4fa4-b922-8ab164bd92a6",
+    "source": "Google_Ecosystem",
+    "title": "Gemini in @GoogleWorkspace just got a lot more helpful. To do this, we had to tailor the model to ...",
+    "date": "2026-03-12T06:11:56.621Z",
+    "url": "https://x.com/GoogleAI/status/2031356471431077995"
   }
 ]
