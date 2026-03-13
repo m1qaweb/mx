@@ -2518,5 +2518,47 @@
     "title": "Introducing The Anthropic Institute",
     "date": "2026-03-12T06:36:06.091Z",
     "url": "https://www.anthropic.com/news/the-anthropic-institute"
+  },
+  {
+    "id": "88426481-94fc-4212-a954-535878e2df68",
+    "source": "Google_Ecosystem",
+    "title": "Plan mode is now available in Gemini CLI",
+    "date": "2026-03-13T06:24:42.743Z",
+    "url": "https://developers.googleblog.com/en/plan-mode-now-available-in-gemini-cli/"
+  },
+  {
+    "id": "1d942887-d389-4c20-ba16-93129a0c53d2",
+    "source": "Google_Ecosystem",
+    "title": "Introducing Finish Changes and Outlines, now available in Gemini Code Assist extensions on IntelliJ and VS Code",
+    "date": "2026-03-13T06:24:42.743Z",
+    "url": "https://developers.googleblog.com/en/introducing-finish-changes-and-outlines-now-available-in-gemini-code-assist-extensions-on-intellij-and-vs-code/"
+  },
+  {
+    "id": "f321472e-4d06-4dd8-8cf2-f491b18efb99",
+    "source": "Google_Ecosystem",
+    "title": "Unleash Your Development Superpowers: Refining the Core Coding Experience",
+    "date": "2026-03-13T06:24:42.743Z",
+    "url": "https://developers.googleblog.com/en/unleash-your-development-superpowers-refining-the-core-coding-experience/"
+  },
+  {
+    "id": "c90461d0-ced3-41a9-8a1a-814041918aa7",
+    "source": "Google_Ecosystem",
+    "title": "Introducing Wednesday Build Hour",
+    "date": "2026-03-13T06:24:42.743Z",
+    "url": "https://developers.googleblog.com/en/introducing-wednesday-build-hour/"
+  },
+  {
+    "id": "a4d75138-a0ff-47ab-8496-3f565c27fe95",
+    "source": "Google_Ecosystem",
+    "title": "Ten years after AlphaGo, we’re still building on its foundations to advance AI. The techniques pion...",
+    "date": "2026-03-13T06:24:50.423Z",
+    "url": "https://x.com/GoogleDeepMind/status/2031399096267718847"
+  },
+  {
+    "id": "ee55e392-2669-411e-9f06-211a609064b0",
+    "source": "Google_Ecosystem",
+    "title": "Gemini in @GoogleWorkspace just got a lot more helpful. To do this, we had to tailor the model to ...",
+    "date": "2026-03-13T06:24:56.347Z",
+    "url": "https://x.com/GoogleAI/status/2031356471431077995"
   }
 ]
