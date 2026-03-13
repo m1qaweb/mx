@@ -2518,5 +2518,40 @@
     "title": "Introducing The Anthropic Institute",
     "date": "2026-03-12T06:36:06.091Z",
     "url": "https://www.anthropic.com/news/the-anthropic-institute"
+  },
+  {
+    "id": "bfa75844-7384-43a3-b4b2-033d22cb98f0",
+    "source": "Coding_Tools",
+    "title": "MCP Registry Governance, Model Governance, and Document Attachments",
+    "date": "2026-03-13T06:02:55.237Z",
+    "url": "https://kiro.dev/changelog/ide/0-11/"
+  },
+  {
+    "id": "8fc64b36-76e4-4df0-8881-535839a63511",
+    "source": "Coding_Tools",
+    "title": "MCP Registry Governance",
+    "date": "2026-03-13T06:02:55.237Z",
+    "url": "https://kiro.dev/changelog/ide/0-11#mcp-registry-governance"
+  },
+  {
+    "id": "bbeb00a3-7f2c-4003-86ec-5c93be52dd8b",
+    "source": "Coding_Tools",
+    "title": "Model Governance",
+    "date": "2026-03-13T06:02:55.237Z",
+    "url": "https://kiro.dev/changelog/ide/0-11#model-governance"
+  },
+  {
+    "id": "c20407c7-cf12-47c9-bcf9-ce437e8ea907",
+    "source": "Coding_Tools",
+    "title": "Document Attachments",
+    "date": "2026-03-13T06:02:55.237Z",
+    "url": "https://kiro.dev/changelog/ide/0-11#document-attachments"
+  },
+  {
+    "id": "c7e222a1-fd46-4a3d-9bdb-7974f2d04f1b",
+    "source": "Coding_Tools",
+    "title": "Mar 11, 2026",
+    "date": "2026-03-13T06:02:58.298Z",
+    "url": "https://cursor.com/changelog/03-11-26"
   }
 ]
