@@ -2485,20 +2485,6 @@
     "url": "https://windsurf.com/changelog#cascade"
   },
   {
-    "id": "024ee643-4880-49ab-8205-3cd971167970",
-    "source": "Coding_Tools",
-    "title": "MCP",
-    "date": "2026-03-10T06:22:49.919Z",
-    "url": "https://windsurf.com/changelog#mcp"
-  },
-  {
-    "id": "f64e3544-5836-4cfe-b01a-0ea0bc4856bb",
-    "source": "Coding_Social",
-    "title": "We're introducing Cursor Automations to build always-on agents.",
-    "date": "2026-03-11T06:47:04.655Z",
-    "url": "https://x.com/cursor_ai/status/2029604182286856663"
-  },
-  {
     "id": "cdb2ff69-1785-4250-9736-b1f91a4d05af",
     "source": "Models_Web",
     "title": "Sydney will become Anthropic’s fourth office in Asia-Pacific",
@@ -2560,5 +2546,47 @@
     "title": "Gemini in @GoogleWorkspace just got a lot more helpful. To do this, we had to tailor the model to ...",
     "date": "2026-03-13T06:24:56.347Z",
     "url": "https://x.com/GoogleAI/status/2031356471431077995"
+  },
+  {
+    "id": "e00dae00-3f09-4080-84ad-bb63e9dbac72",
+    "source": "Coding_Tools",
+    "title": "MCP Registry Governance, Model Governance, and Document Attachments",
+    "date": "2026-03-14T06:06:18.362Z",
+    "url": "https://kiro.dev/changelog/ide/0-11/"
+  },
+  {
+    "id": "6d58c8ca-09cf-425f-9075-1a888f8a64e6",
+    "source": "Coding_Tools",
+    "title": "MCP Registry Governance",
+    "date": "2026-03-14T06:06:18.362Z",
+    "url": "https://kiro.dev/changelog/ide/0-11#mcp-registry-governance"
+  },
+  {
+    "id": "9d0959ec-ac00-44bb-9b04-8eee43cc2d49",
+    "source": "Coding_Tools",
+    "title": "Model Governance",
+    "date": "2026-03-14T06:06:18.362Z",
+    "url": "https://kiro.dev/changelog/ide/0-11#model-governance"
+  },
+  {
+    "id": "3811dd43-e744-4007-a617-9a430958746c",
+    "source": "Coding_Tools",
+    "title": "Document Attachments",
+    "date": "2026-03-14T06:06:18.362Z",
+    "url": "https://kiro.dev/changelog/ide/0-11#document-attachments"
+  },
+  {
+    "id": "75cf1856-3d99-4743-842a-221e4ac368f3",
+    "source": "Coding_Tools",
+    "title": "Mar 11, 2026",
+    "date": "2026-03-14T06:06:21.283Z",
+    "url": "https://cursor.com/changelog/03-11-26"
+  },
+  {
+    "id": "7084c103-f265-425a-98ee-b186553a9b40",
+    "source": "Coding_Social",
+    "title": "We're introducing Cursor Automations to build always-on agents.",
+    "date": "2026-03-14T06:31:18.667Z",
+    "url": "https://x.com/cursor_ai/status/2029604182286856663"
   }
 ]
