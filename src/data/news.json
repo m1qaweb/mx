@@ -2583,17 +2583,24 @@
     "url": "https://cursor.com/changelog/03-11-26"
   },
   {
-    "id": "7084c103-f265-425a-98ee-b186553a9b40",
-    "source": "Coding_Social",
-    "title": "We're introducing Cursor Automations to build always-on agents.",
-    "date": "2026-03-14T06:31:18.667Z",
-    "url": "https://x.com/cursor_ai/status/2029604182286856663"
-  },
-  {
     "id": "c28b474e-0ea2-45da-85fe-81fee612723d",
     "source": "Models_Web",
     "title": "Anthropic invests $100 million into the Claude Partner Network",
     "date": "2026-03-15T06:26:45.397Z",
     "url": "https://www.anthropic.com/news/claude-partner-network"
+  },
+  {
+    "id": "143ace3b-e97e-4a6d-a214-5ae4f8129c10",
+    "source": "Coding_Tools",
+    "title": "MCP",
+    "date": "2026-03-16T06:04:56.231Z",
+    "url": "https://windsurf.com/changelog#mcp"
+  },
+  {
+    "id": "801ee6c2-6210-4234-8cf0-d757a8c830fc",
+    "source": "Coding_Social",
+    "title": "We're introducing Cursor Automations to build always-on agents.",
+    "date": "2026-03-16T06:33:17.883Z",
+    "url": "https://x.com/cursor_ai/status/2029604182286856663"
   }
 ]
