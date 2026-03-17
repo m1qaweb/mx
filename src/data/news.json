@@ -14,13 +14,6 @@
     "url": "https://cursor.com/changelog"
   },
   {
-    "id": "bb5f3318-59d7-4211-b72a-a7fcdce694b0",
-    "source": "Models_Web",
-    "title": "Newsroom",
-    "date": "2026-01-31T06:03:59.332Z",
-    "url": "https://www.anthropic.com/news"
-  },
-  {
     "id": "4c924cf2-da7b-4f03-8cca-636d2963b954",
     "source": "Models_Social",
     "title": "On December 8, the Perseverance rover safely trundled across the surface of Mars. This was the firs...",
@@ -2366,13 +2359,6 @@
     "url": "https://www.anthropic.com/news/where-stand-department-war"
   },
   {
-    "id": "cc8bb508-5df7-40dc-9fd6-cfaa1f3eb873",
-    "source": "Models_Social",
-    "title": "GPT-5.4 Thinking and GPT-5.4 Pro are rolling out now in ChatGPT. GPT-5.4 is also now available in t...",
-    "date": "2026-03-07T06:26:06.398Z",
-    "url": "https://x.com/OpenAI/status/2029620619743219811"
-  },
-  {
     "id": "b1fda44f-d717-41b1-be6c-c4e352744279",
     "source": "Models_Social",
     "title": "A statement from Anthropic CEO Dario Amodei:",
@@ -2602,5 +2588,19 @@
     "title": "We're introducing Cursor Automations to build always-on agents.",
     "date": "2026-03-16T06:33:17.883Z",
     "url": "https://x.com/cursor_ai/status/2029604182286856663"
+  },
+  {
+    "id": "f2f74c6a-4175-4deb-8984-6c52827e2c01",
+    "source": "Models_Web",
+    "title": "Newsroom",
+    "date": "2026-03-17T06:33:00.452Z",
+    "url": "https://www.anthropic.com/news#newsroom"
+  },
+  {
+    "id": "7cfd7130-6b5c-4439-bae7-03d1441599ef",
+    "source": "Models_Social",
+    "title": "GPT-5.4 Thinking and GPT-5.4 Pro are rolling out now in ChatGPT. GPT-5.4 is also now available in t...",
+    "date": "2026-03-17T06:33:48.126Z",
+    "url": "https://x.com/OpenAI/status/2029620619743219811"
   }
 ]
