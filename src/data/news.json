@@ -2609,5 +2609,19 @@
     "title": "We’re excited to unveil the name of our new London building: Platform 37. The name honors both the...",
     "date": "2026-03-18T06:05:20.395Z",
     "url": "https://x.com/GoogleDeepMind/status/2032036893076930902"
+  },
+  {
+    "id": "d91cfbdb-2c5d-402b-b19d-e9371b16f581",
+    "source": "Coding_Tools",
+    "title": "MiniMax 2.5 now available as open weight model option",
+    "date": "2026-03-19T06:15:30.323Z",
+    "url": "https://kiro.dev/changelog/models/minimax-2-5-now-available-as-open-weight-model-option/"
+  },
+  {
+    "id": "78639242-00ac-4a1f-b8af-10e411e03d26",
+    "source": "Coding_Tools",
+    "title": "Open weight models now available for IAM Identity Center users",
+    "date": "2026-03-19T06:15:30.323Z",
+    "url": "https://kiro.dev/changelog/models/open-weight-models-now-available-for-iam-identity-center-users/"
   }
 ]
