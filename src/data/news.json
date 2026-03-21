@@ -2637,5 +2637,19 @@
     "title": "Composer 2 is now available in Cursor.",
     "date": "2026-03-20T06:36:06.463Z",
     "url": "https://x.com/cursor_ai/status/2034668943676244133"
+  },
+  {
+    "id": "b567933f-e23f-4e68-b718-a6d57ced7b27",
+    "source": "Coding_Tools",
+    "title": "Refreshed Terminal UI for Kiro CLI",
+    "date": "2026-03-21T06:02:31.587Z",
+    "url": "https://kiro.dev/changelog/cli/1-28/"
+  },
+  {
+    "id": "493f26bb-1341-4231-890b-c648c8386da9",
+    "source": "Coding_Tools",
+    "title": "New Terminal Experience",
+    "date": "2026-03-21T06:02:31.587Z",
+    "url": "https://kiro.dev/changelog/cli/1-28#new-terminal-experience"
   }
 ]
