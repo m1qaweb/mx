@@ -2665,5 +2665,19 @@
     "title": "We’re launching a brand new, full-stack vibe coding experience in @GoogleAIStudio , made possible b...",
     "date": "2026-03-22T06:21:05.090Z",
     "url": "https://x.com/GoogleAI/status/2034655173256122580"
+  },
+  {
+    "id": "4a5456fe-714f-4b9a-aba7-2d1015f0d1b7",
+    "source": "Coding_Tools",
+    "title": "Refreshed Terminal UI for Kiro CLI",
+    "date": "2026-03-23T06:22:33.443Z",
+    "url": "https://kiro.dev/changelog/cli/1-28/"
+  },
+  {
+    "id": "6e057b93-7329-489b-9c5d-1b4d2249cceb",
+    "source": "Coding_Tools",
+    "title": "New Terminal Experience",
+    "date": "2026-03-23T06:22:33.443Z",
+    "url": "https://kiro.dev/changelog/cli/1-28#new-terminal-experience"
   }
 ]
