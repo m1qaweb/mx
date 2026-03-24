@@ -2679,5 +2679,12 @@
     "title": "New Terminal Experience",
     "date": "2026-03-23T06:22:33.443Z",
     "url": "https://kiro.dev/changelog/cli/1-28#new-terminal-experience"
+  },
+  {
+    "id": "6c2da991-b65b-4df1-a7c7-9c8315730b24",
+    "source": "Google_Ecosystem",
+    "title": "Build a smart financial assistant with LlamaParse and Gemini 3.1",
+    "date": "2026-03-24T06:11:29.929Z",
+    "url": "https://developers.googleblog.com/en/build-a-smart-financial-assistant-with-llamaparse-and-gemini-31/"
   }
 ]
