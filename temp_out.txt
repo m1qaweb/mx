@@ -1,1069 +1,144 @@
-Skipped duplicate: "New Model Picker"
-Skipped duplicate: "Cascade Improvements"
-Skipped duplicate: "MCP Improvements"
-Skipped duplicate: "Platform Improvements"
-Skipped duplicate: "Bug Fixes and Improvements"
-Skipped duplicate: "Arena Mode"
-Skipped duplicate: "Plan Mode"
-Skipped duplicate: "SWE-1.5 Free"
-Skipped duplicate: "Git Worktree Support"
-Skipped duplicate: "Multi-Cascade Panes & Tabs"
-Skipped duplicate: "Cascade Dedicated Terminal (Beta)"
-Skipped duplicate: "Context Window Indicator"
-Skipped duplicate: "Cascade Hooks"
-Skipped duplicate: "System-level Rules & Workflows"
-Skipped duplicate: "Agents & Tool Execution"
-Skipped duplicate: "UI & Rendering"
-Skipped duplicate: "Platform & Messaging"
-Skipped duplicate: "Workspace & Onboarding"
-Skipped duplicate: "Cascade Hooks on User Prompts"
-Skipped duplicate: "MCP Servers"
-Skipped duplicate: "Gemini 3 Pro"
-Skipped duplicate: "SWE-1.5"
-Skipped duplicate: "Sonnet 4.5"
-Skipped duplicate: "GPT-5.1 Codex and Codex Mini"
-Skipped duplicate: "Codemaps"
-Skipped duplicate: "MCP Servers"
-Skipped duplicate: "Tab Completion"
-Skipped duplicate: "Vibe and Replace"
-Skipped duplicate: "Fast Context"
-Skipped duplicate: "MCP Improvements"
-Skipped duplicate: "Cascade Hooks"
-Skipped duplicate: "SWE 1.5 Image Support"
-Skipped duplicate: "Removed Features"
-Skipped duplicate: "Bug Fixes"
-Skipped duplicate: "Shortcuts"
-Skipped duplicate: "Expanded Codemaps"
-Skipped duplicate: "Cascade Summarization Fix"
-Skipped duplicate: "MCP Enhancements"
-Skipped duplicate: "Terminal Fixes"
-Skipped duplicate: "Editor Stability"
-Skipped duplicate: "Queued messages"
-Skipped duplicate: "Mermaid diagram support"
-Skipped duplicate: "Voice"
-Skipped duplicate: "@-mentioning conversations"
-Skipped duplicate: "Deeper Browser integration"
-Skipped duplicate: "JetBrains improvements"
-Skipped duplicate: "Improvements"
-Skipped duplicate: "Fixes"
-Skipped duplicate: "Terminal Improvements"
-Skipped duplicate: "Legacy Mode Removal"
-Skipped duplicate: "Improvements"
-Skipped duplicate: "BYOK (Anthropic Key)"
-Skipped duplicate: "SWE-1"
-Skipped duplicate: "SWE-1-lite"
-Skipped duplicate: "SWE-1-mini"
-Skipped duplicate: "Misc"
-Skipped duplicate: "Cascade UX Improvements"
-Skipped duplicate: "Custom Workflows"
-Skipped duplicate: "File-Based Rules"
-Skipped duplicate: "Simultaneous Cascades"
-Skipped duplicate: "Cascade Plugins"
-Skipped duplicate: "Fixes"
-Skipped duplicate: "Teams: Windsurf Reviews"
-Skipped duplicate: "Teams: Conversation Sharing"
-Skipped duplicate: "Teams: Knowledge"
-Skipped duplicate: "Teams Deploys"
-Skipped duplicate: "Teams Analytics"
-Skipped duplicate: "Misc"
-Skipped duplicate: "New App Icon"
-Skipped duplicate: "Upgraded Free Tier"
-Skipped duplicate: "Misc"
-Skipped duplicate: "We're getting rid of Flow Action Credits"
-Skipped duplicate: "User Prompt Credits"
-Skipped duplicate: "Existing Plans"
-Skipped duplicate: "New o4-mini models available and Free (Limited Time)"
-Skipped duplicate: "New GPT 4.1 Model available and Free (Limited Time)"
-Skipped duplicate: "Cascade is now available on JetBrains IDEs"
-Skipped duplicate: "Deploys (Beta)"
-Skipped duplicate: "Commit Message Generation (Beta)"
-Skipped duplicate: "Improvements to Memories"
-Skipped duplicate: "Improvements to Long Conversations"
-Skipped duplicate: "Improvements to Windsurf Tab"
-Skipped duplicate: "Gemini 2.5 Pro (Beta)"
-Skipped duplicate: "Fixes"
-Skipped duplicate: "New Windsurf Tab Experience"
-Skipped duplicate: "Context Improvements"
-Skipped duplicate: "Quality Improvements"
-Skipped duplicate: "Speed Improvements"
-Skipped duplicate: "Tab UX Improvements"
-Skipped duplicate: "Misc Improvements"
-Skipped duplicate: "Patch Fixes"
-Skipped duplicate: "Windsurf Previews, Auto-Linter, and new MCP servers"
-Skipped duplicate: "Windsurf Previews (Beta)"
-Skipped duplicate: "Cascade Auto-Linter"
-Skipped duplicate: "New MCP Server Integration"
-Skipped duplicate: "Tab-to-Import"
-Skipped duplicate: "Suggested Actions"
-Skipped duplicate: "Drag and Drop Files as Context"
-Skipped duplicate: "Model Option Admin Control"
-Skipped duplicate: "Improvements to Claude Sonnet 3.7"
-Skipped duplicate: "Support For Windows ARM"
-Skipped duplicate: "Misc"
-Skipped duplicate: "Patch Fixes"
-Skipped duplicate: "Patch Fixes"
-Skipped duplicate: "New Cascade Models"
-Skipped duplicate: "Fixes"
-Skipped duplicate: "Model Context Protocol"
-Skipped duplicate: "New Customizable App Icons"
-Skipped duplicate: "Improvements to Completions"
-Skipped duplicate: "Cascade Turbo Mode"
-Skipped duplicate: "Cascade Drag and Drop Image Support"
-Skipped duplicate: "Credit Visibility"
-Skipped duplicate: "Misc"
-Skipped duplicate: "Fixes"
-Skipped duplicate: "Fixes"
-Skipped duplicate: "New Models"
-Skipped duplicate: "Models"
-Skipped duplicate: "Fixes"
-Skipped duplicate: "Improvements"
-Skipped duplicate: "Fixes"
-Skipped duplicate: "Cascade Auto-Generated Memories"
-Skipped duplicate: "Improvements to Dev Container Support (Beta)"
-Skipped duplicate: "Fixes"
-Skipped duplicate: "Misc"
-Skipped duplicate: "Fixes"
-Skipped duplicate: "Fixes"
-Skipped duplicate: "Fixes"
-Skipped duplicate: "Cascade Memories"
-Skipped duplicate: "Cascade Auto Run Commands"
-Skipped duplicate: "Extensions"
-Skipped duplicate: "Misc"
-Skipped duplicate: "Usage Transparency and Pricing"
-Skipped duplicate: "Cascade Image Uploads"
-Skipped duplicate: "Improved Language support for Python"
-Skipped duplicate: "Upload Images to Cascade"
-Skipped duplicate: "New keybindings"
-Skipped duplicate: "Explain & fix problem"
-Skipped duplicate: "Import from Cursor"
-Skipped duplicate: "New keybindings"
-Skipped duplicate: "Improved Command"
-Skipped duplicate: "Improved diff views"
-Skipped duplicate: "Misc"
-Skipped duplicate: "New Spec Workflows, Hunk-Based Edits, Task Hooks, and MCP Prompts"
-Skipped duplicate: "Design-First Feature Specs"
-Skipped duplicate: "Bugfix Specs"
-Skipped duplicate: "Hunk-Based Review in Supervised Mode"
-Skipped duplicate: "Pre and Post Task Execution Hooks"
-Skipped duplicate: "MCP Prompts, Resource Templates, and Elicitation"
-Skipped duplicate: "Improvements"
-Skipped duplicate: "Fixes"
-Skipped duplicate: "Patches"
-Skipped duplicate: "AWS GovCloud Support"
-Skipped duplicate: "GovCloud Authentication"
-Skipped duplicate: "Inference Routing"
-Skipped duplicate: "Custom Subagents, Agent Skills, and New Hook Triggers"
-Skipped duplicate: "Custom Subagents"
-Skipped duplicate: "Agent Skills"
-Skipped duplicate: "Pre and Post Tool Use Hooks"
-Skipped duplicate: "Web Tools Governance"
-Skipped duplicate: "Custom Extension Registry"
-Skipped duplicate: "Improvements"
-Skipped duplicate: "Fixes"
-Skipped duplicate: "Patches"
-Skipped duplicate: "Claude Sonnet 4.6 is now available in Kiro"
-Skipped duplicate: "File References, Model Selection, Tool Insights, and more"
-Skipped duplicate: "File and Directory References"
-Skipped duplicate: "Dynamic Model Selection"
-Skipped duplicate: "Tool Context Insights"
-Skipped duplicate: "Improvements"
-Skipped duplicate: "Fixes"
-Skipped duplicate: "External Identity Provider Support for Kiro IDE"
-Skipped duplicate: "Enterprise SSO with Okta and Entra ID"
-Skipped duplicate: "External Identity Provider Support for Kiro CLI"
-Skipped duplicate: "Enterprise SSO with Okta and Entra ID"
-Skipped duplicate: "DeepSeek, MiniMax, and Qwen now available as open weight model options"
-Skipped duplicate: "DeepSeek 3.2"
-Skipped duplicate: "Minimax 2.1"
-Skipped duplicate: "Qwen3 Coder Next"
-Skipped duplicate: "Claude Opus 4.6 now available in eu-central-1"
-Skipped duplicate: "Claude Opus 4.6 support"
-Skipped duplicate: "Feb 26, 2026"
-Skipped duplicate: "Bugbot Autofix"
-Skipped duplicate: "Bugbot Autofix"
-Skipped duplicate: "Feb 24, 2026"
-Skipped duplicate: "Cloud Agents with Computer Use"
-Skipped duplicate: "Cloud Agents with Computer Use"
-Skipped duplicate: "Feb 18, 2026"
-Skipped duplicate: "CLI Improvements and Mermaid ASCII Diagrams"
-Skipped duplicate: "CLI Improvements and Mermaid ASCII Diagrams"
-Skipped duplicate: "#Plan mode improvements in CLI"
-Skipped duplicate: "#Mermaid ASCII diagrams in CLI"
-Skipped duplicate: "#Other improvements"
-Skipped duplicate: "General (6)↓↑"
-Skipped duplicate: "Tools (5)↓↑"
-Skipped duplicate: "UX (14)↓↑"
-Skipped duplicate: "Reliability and Bug Fixes (17)↓↑"
-Skipped duplicate: "2.5 Feb 17, 2026"
-Skipped duplicate: "Plugins, Sandbox Access Controls, and Async Subagents"
-Skipped duplicate: "Plugins, Sandbox Access Controls, and Async Subagents"
-Skipped duplicate: "#Plugins on the Cursor Marketplace"
-Skipped duplicate: "#Sandbox network access controls"
-Skipped duplicate: "#Async subagents"
-Skipped duplicate: "Improvements (16)↓↑"
-Skipped duplicate: "Bug Fixes (7)↓↑"
-Skipped duplicate: "Feb 12, 2026"
-Skipped duplicate: "Long-running Agents in Research Preview"
-Skipped duplicate: "Long-running Agents in Research Preview"
+[Mixed Mode] Processing https://antigravity.google/blog as web
+Skipped duplicate: "Gemini 3.1 Pro in Google Antigravity"
+Skipped duplicate: "Gemini 3 Flash in Google Antigravity"
+Skipped duplicate: "Nano Banana Pro in Google Antigravity"
+Skipped duplicate: "Introducing Google Antigravity"
+[Redirect] Rewriting obsolete URL to https://developers.googleblog.com/en/search?q=Gemini
+[Mixed Mode] Processing https://developers.googleblog.com/en/search?q=Gemini as web
+Added: "Jump to play: Building with Gemini & MediaPipe" from Google_Ecosystem
+Skipped duplicate: "Build a smart financial assistant with LlamaParse and Gemini 3.1"
+Skipped duplicate: "Developer’s Guide to AI Agent Protocols"
+Skipped duplicate: "Plan mode is now available in Gemini CLI"
+Skipped duplicate: "Introducing Finish Changes and Outlines, now available in Gemini Code Assist extensions on IntelliJ and VS Code"
+Skipped duplicate: "Unleash Your Development Superpowers: Refining the Core Coding Experience"
+Skipped duplicate: "Introducing Wednesday Build Hour"
+Skipped duplicate: "What's new in TensorFlow 2.21"
+Skipped duplicate: "You can't stream the energy: A developer's guide to Google Cloud Next '26 in Vegas"
+[Mixed Mode] Processing https://x.com/GoogleDeepMind as twitter
+Skipped duplicate: "How do we measure progress toward AGI? It takes a village – and a bit of healthy competition.
 
-Summary: No new items added, skipped 207 duplicates
-Total items in news.json: 331
+We’r..."
+[Mixed Mode] Processing https://x.com/GoogleAI as twitter
+Skipped duplicate: "We’re launching a brand new, full-stack vibe coding experience in
+@GoogleAIStudio
+, made possible b..."
+[Mixed Mode] Processing https://x.com/GoogleLabs as twitter
+Skipped duplicate: "Woah. It’s been a little over 2 months since the start of 2026. Here's what we’ve dropped so far:
+
+ ..."
+
+Summary: Added 1 new items, skipped 15 duplicates
+Total items in news.json: 385
 
 Scraping Results:
 [
   {
-    "url": "https://windsurf.com/changelog",
+    "url": "https://antigravity.google/blog",
     "source": "web",
-    "name": "Coding_Tools",
-    "content": "New Model Picker | Cascade Improvements | MCP Improvements | Platform Improvements | Bug Fixes and Improvements | Arena Mode | Plan Mode | SWE-1.5 Free | Git Worktree Support | Multi-Cascade Panes & Tabs | Cascade Dedicated Terminal (Beta) | Context Window Indicator | Cascade Hooks | System-level Rules & Workflows | Agents & Tool Execution | UI & Rendering | Platform & Messaging | Workspace & Onboarding | Cascade Hooks on User Prompts | MCP Servers | Gemini 3 Pro | SWE-1.5 | Sonnet 4.5 | GPT-5.1 Codex and Codex Mini | Codemaps | MCP Servers | Tab Completion | Vibe and Replace | Fast Context | MCP Improvements | Cascade Hooks | SWE 1.5 Image Support | Removed Features | Bug Fixes | Shortcuts | Expanded Codemaps | Cascade Summarization Fix | MCP Enhancements | Terminal Fixes | Editor Stability | Queued messages | Mermaid diagram support | Voice | @-mentioning conversations | Deeper Browser integration | JetBrains improvements | Improvements | Fixes | Terminal Improvements | Legacy Mode Removal | Improvements | BYOK (Anthropic Key) | SWE-1 | SWE-1-lite | SWE-1-mini | Misc | Cascade UX Improvements | Custom Workflows | File-Based Rules | Simultaneous Cascades | Cascade Plugins | Fixes | Teams: Windsurf Reviews | Teams: Conversation Sharing | Teams: Knowledge | Teams Deploys | Teams Analytics | Misc | New App Icon | Upgraded Free Tier | Misc | We're getting rid of Flow Action Credits | User Prompt Credits | Existing Plans | New o4-mini models available and Free (Limited Time) | New GPT 4.1 Model available and Free (Limited Time) | Cascade is now available on JetBrains IDEs | Deploys (Beta) | Commit Message Generation (Beta) | Improvements to Memories | Improvements to Long Conversations | Improvements to Windsurf Tab | Gemini 2.5 Pro (Beta) | Fixes | New Windsurf Tab Experience | Context Improvements | Quality Improvements | Speed Improvements | Tab UX Improvements | Misc Improvements | Patch Fixes | Windsurf Previews, Auto-Linter, and new MCP servers | Windsurf Previews (Beta) | Cascade Auto-Linter | New MCP Server Integration | Tab-to-Import | Suggested Actions | Drag and Drop Files as Context | Model Option Admin Control | Improvements to Claude Sonnet 3.7 | Support For Windows ARM | Misc | Patch Fixes | Patch Fixes | New Cascade Models | Fixes | Model Context Protocol | New Customizable App Icons | Improvements to Completions | Cascade Turbo Mode | Cascade Drag and Drop Image Support | Credit Visibility | Misc | Fixes | Fixes | New Models | Models | Fixes | Improvements | Fixes | Cascade Auto-Generated Memories | Improvements to Dev Container Support (Beta) | Fixes | Misc | Fixes | Fixes | Fixes | Cascade Memories | Cascade Auto Run Commands | Extensions | Misc | Usage Transparency and Pricing | Cascade Image Uploads | Improved Language support for Python | Upload Images to Cascade | New keybindings | Explain & fix problem | Import from Cursor | New keybindings | Improved Command | Improved diff views | Misc",
+    "name": "Google_Ecosystem",
+    "content": "Gemini 3.1 Pro in Google Antigravity | Gemini 3 Flash in Google Antigravity | Nano Banana Pro in Google Antigravity | Introducing Google Antigravity",
     "items": [
       {
-        "title": "New Model Picker",
-        "link": "https://windsurf.com/changelog#new-model-picker"
+        "title": "Gemini 3.1 Pro in Google Antigravity",
+        "link": "https://antigravity.google/blog#gemini-3-1-pro-in-google-antigravity"
       },
       {
-        "title": "Cascade Improvements",
-        "link": "https://windsurf.com/changelog#cascade-improvements"
+        "title": "Gemini 3 Flash in Google Antigravity",
+        "link": "https://antigravity.google/blog#gemini-3-flash-in-google-antigravity"
       },
       {
-        "title": "MCP Improvements",
-        "link": "https://windsurf.com/changelog#mcp-improvements"
+        "title": "Nano Banana Pro in Google Antigravity",
+        "link": "https://antigravity.google/blog#nano-banana-pro-in-google-antigravity"
       },
       {
-        "title": "Platform Improvements",
-        "link": "https://windsurf.com/changelog#platform-improvements"
-      },
-      {
-        "title": "Bug Fixes and Improvements",
-        "link": "https://windsurf.com/changelog#bug-fixes-and-improvements"
-      },
-      {
-        "title": "Arena Mode",
-        "link": "https://windsurf.com/changelog#arena-mode"
-      },
-      {
-        "title": "Plan Mode",
-        "link": "https://windsurf.com/changelog#plan-mode"
-      },
-      {
-        "title": "SWE-1.5 Free",
-        "link": "https://windsurf.com/changelog#swe-15-free"
-      },
-      {
-        "title": "Git Worktree Support",
-        "link": "https://windsurf.com/changelog#git-worktree-support"
-      },
-      {
-        "title": "Multi-Cascade Panes & Tabs",
-        "link": "https://windsurf.com/changelog#multi-cascade-panes--tabs"
-      },
-      {
-        "title": "Cascade Dedicated Terminal (Beta)",
-        "link": "https://windsurf.com/changelog#cascade-dedicated-terminal-beta"
-      },
-      {
-        "title": "Context Window Indicator",
-        "link": "https://windsurf.com/changelog#context-window-indicator"
-      },
-      {
-        "title": "Cascade Hooks",
-        "link": "https://windsurf.com/changelog#cascade-hooks"
-      },
-      {
-        "title": "System-level Rules & Workflows",
-        "link": "https://windsurf.com/changelog#system-level-rules--workflows"
-      },
-      {
-        "title": "Agents & Tool Execution",
-        "link": "https://windsurf.com/changelog#agents--tool-execution"
-      },
-      {
-        "title": "UI & Rendering",
-        "link": "https://windsurf.com/changelog#ui--rendering"
-      },
-      {
-        "title": "Platform & Messaging",
-        "link": "https://windsurf.com/changelog#platform--messaging"
-      },
-      {
-        "title": "Workspace & Onboarding",
-        "link": "https://windsurf.com/changelog#workspace--onboarding"
-      },
-      {
-        "title": "Cascade Hooks on User Prompts",
-        "link": "https://windsurf.com/changelog#cascade-hooks-on-user-prompts"
-      },
-      {
-        "title": "MCP Servers",
-        "link": "https://windsurf.com/changelog#mcp-servers"
-      },
-      {
-        "title": "Gemini 3 Pro",
-        "link": "https://windsurf.com/changelog#gemini-3-pro"
-      },
-      {
-        "title": "SWE-1.5",
-        "link": "https://windsurf.com/changelog#swe-15"
-      },
-      {
-        "title": "Sonnet 4.5",
-        "link": "https://windsurf.com/changelog#sonnet-45"
-      },
-      {
-        "title": "GPT-5.1 Codex and Codex Mini",
-        "link": "https://windsurf.com/changelog#gpt-51-codex-and-codex-mini"
-      },
-      {
-        "title": "Codemaps",
-        "link": "https://windsurf.com/changelog#codemaps"
-      },
-      {
-        "title": "MCP Servers",
-        "link": "https://windsurf.com/changelog#mcp-servers"
-      },
-      {
-        "title": "Tab Completion",
-        "link": "https://windsurf.com/changelog#tab-completion"
-      },
-      {
-        "title": "Vibe and Replace",
-        "link": "https://windsurf.com/changelog#vibe-and-replace"
-      },
-      {
-        "title": "Fast Context",
-        "link": "https://windsurf.com/changelog#fast-context"
-      },
-      {
-        "title": "MCP Improvements",
-        "link": "https://windsurf.com/changelog#mcp-improvements"
-      },
-      {
-        "title": "Cascade Hooks",
-        "link": "https://windsurf.com/changelog#cascade-hooks"
-      },
-      {
-        "title": "SWE 1.5 Image Support",
-        "link": "https://windsurf.com/changelog#swe-15-image-support"
-      },
-      {
-        "title": "Removed Features",
-        "link": "https://windsurf.com/changelog#removed-features"
-      },
-      {
-        "title": "Bug Fixes",
-        "link": "https://windsurf.com/changelog#bug-fixes"
-      },
-      {
-        "title": "Shortcuts",
-        "link": "https://windsurf.com/changelog#shortcuts"
-      },
-      {
-        "title": "Expanded Codemaps",
-        "link": "https://windsurf.com/changelog#expanded-codemaps"
-      },
-      {
-        "title": "Cascade Summarization Fix",
-        "link": "https://windsurf.com/changelog#cascade-summarization-fix"
-      },
-      {
-        "title": "MCP Enhancements",
-        "link": "https://windsurf.com/changelog#mcp-enhancements"
-      },
-      {
-        "title": "Terminal Fixes",
-        "link": "https://windsurf.com/changelog#terminal-fixes"
-      },
-      {
-        "title": "Editor Stability",
-        "link": "https://windsurf.com/changelog#editor-stability"
-      },
-      {
-        "title": "Queued messages",
-        "link": "https://windsurf.com/changelog#queued-messages"
-      },
-      {
-        "title": "Mermaid diagram support",
-        "link": "https://windsurf.com/changelog#mermaid-diagram-support"
-      },
-      {
-        "title": "Voice",
-        "link": "https://windsurf.com/changelog#voice"
-      },
-      {
-        "title": "@-mentioning conversations",
-        "link": "https://windsurf.com/changelog#-mentioning-conversations"
-      },
-      {
-        "title": "Deeper Browser integration",
-        "link": "https://windsurf.com/changelog#deeper-browser-integration"
-      },
-      {
-        "title": "JetBrains improvements",
-        "link": "https://windsurf.com/changelog#jetbrains-improvements"
-      },
-      {
-        "title": "Improvements",
-        "link": "https://windsurf.com/changelog#improvements"
-      },
-      {
-        "title": "Fixes",
-        "link": "https://windsurf.com/changelog#fixes"
-      },
-      {
-        "title": "Terminal Improvements",
-        "link": "https://windsurf.com/changelog#terminal-improvements"
-      },
-      {
-        "title": "Legacy Mode Removal",
-        "link": "https://windsurf.com/changelog#legacy-mode-removal"
-      },
-      {
-        "title": "Improvements",
-        "link": "https://windsurf.com/changelog#improvements"
-      },
-      {
-        "title": "BYOK (Anthropic Key)",
-        "link": "https://windsurf.com/changelog#byok-anthropic-key"
-      },
-      {
-        "title": "SWE-1",
-        "link": "https://windsurf.com/changelog#swe-1"
-      },
-      {
-        "title": "SWE-1-lite",
-        "link": "https://windsurf.com/changelog#swe-1-lite"
-      },
-      {
-        "title": "SWE-1-mini",
-        "link": "https://windsurf.com/changelog#swe-1-mini"
-      },
-      {
-        "title": "Misc",
-        "link": "https://windsurf.com/changelog#misc"
-      },
-      {
-        "title": "Cascade UX Improvements",
-        "link": "https://windsurf.com/changelog#cascade-ux-improvements"
-      },
-      {
-        "title": "Custom Workflows",
-        "link": "https://windsurf.com/changelog#custom-workflows"
-      },
-      {
-        "title": "File-Based Rules",
-        "link": "https://windsurf.com/changelog#file-based-rules"
-      },
-      {
-        "title": "Simultaneous Cascades",
-        "link": "https://windsurf.com/changelog#simultaneous-cascades"
-      },
-      {
-        "title": "Cascade Plugins",
-        "link": "https://windsurf.com/changelog#cascade-plugins"
-      },
-      {
-        "title": "Fixes",
-        "link": "https://windsurf.com/changelog#fixes"
-      },
-      {
-        "title": "Teams: Windsurf Reviews",
-        "link": "https://windsurf.com/changelog#teams-windsurf-reviews"
-      },
-      {
-        "title": "Teams: Conversation Sharing",
-        "link": "https://windsurf.com/changelog#teams-conversation-sharing"
-      },
-      {
-        "title": "Teams: Knowledge",
-        "link": "https://windsurf.com/changelog#teams-knowledge"
-      },
-      {
-        "title": "Teams Deploys",
-        "link": "https://windsurf.com/changelog#teams-deploys"
-      },
-      {
-        "title": "Teams Analytics",
-        "link": "https://windsurf.com/changelog#teams-analytics"
-      },
-      {
-        "title": "Misc",
-        "link": "https://windsurf.com/changelog#misc"
-      },
-      {
-        "title": "New App Icon",
-        "link": "https://windsurf.com/changelog#new-app-icon"
-      },
-      {
-        "title": "Upgraded Free Tier",
-        "link": "https://windsurf.com/changelog#upgraded-free-tier"
-      },
-      {
-        "title": "Misc",
-        "link": "https://windsurf.com/changelog#misc"
-      },
-      {
-        "title": "We're getting rid of Flow Action Credits",
-        "link": "https://windsurf.com/changelog#were-getting-rid-of-flow-action-credits"
-      },
-      {
-        "title": "User Prompt Credits",
-        "link": "https://windsurf.com/changelog#user-prompt-credits"
-      },
-      {
-        "title": "Existing Plans",
-        "link": "https://windsurf.com/changelog#existing-plans"
-      },
-      {
-        "title": "New o4-mini models available and Free (Limited Time)",
-        "link": "https://windsurf.com/changelog#new-o4-mini-models-available-and-free-limited-time"
-      },
-      {
-        "title": "New GPT 4.1 Model available and Free (Limited Time)",
-        "link": "https://windsurf.com/changelog#new-gpt-41-model-available-and-free-limited-time"
-      },
-      {
-        "title": "Cascade is now available on JetBrains IDEs",
-        "link": "https://windsurf.com/changelog#cascade-is-now-available-on-jetbrains-ides"
-      },
-      {
-        "title": "Deploys (Beta)",
-        "link": "https://windsurf.com/changelog#deploys-beta"
-      },
-      {
-        "title": "Commit Message Generation (Beta)",
-        "link": "https://windsurf.com/changelog#commit-message-generation-beta"
-      },
-      {
-        "title": "Improvements to Memories",
-        "link": "https://windsurf.com/changelog#improvements-to-memories"
-      },
-      {
-        "title": "Improvements to Long Conversations",
-        "link": "https://windsurf.com/changelog#improvements-to-long-conversations"
-      },
-      {
-        "title": "Improvements to Windsurf Tab",
-        "link": "https://windsurf.com/changelog#improvements-to-windsurf-tab"
-      },
-      {
-        "title": "Gemini 2.5 Pro (Beta)",
-        "link": "https://windsurf.com/changelog#gemini-25-pro-beta"
-      },
-      {
-        "title": "Fixes",
-        "link": "https://windsurf.com/changelog#fixes"
-      },
-      {
-        "title": "New Windsurf Tab Experience",
-        "link": "https://windsurf.com/changelog#new-windsurf-tab-experience"
-      },
-      {
-        "title": "Context Improvements",
-        "link": "https://windsurf.com/changelog#context-improvements"
-      },
-      {
-        "title": "Quality Improvements",
-        "link": "https://windsurf.com/changelog#quality-improvements"
-      },
-      {
-        "title": "Speed Improvements",
-        "link": "https://windsurf.com/changelog#speed-improvements"
-      },
-      {
-        "title": "Tab UX Improvements",
-        "link": "https://windsurf.com/changelog#tab-ux-improvements"
-      },
-      {
-        "title": "Misc Improvements",
-        "link": "https://windsurf.com/changelog#misc-improvements"
-      },
-      {
-        "title": "Patch Fixes",
-        "link": "https://windsurf.com/changelog#patch-fixes"
-      },
-      {
-        "title": "Windsurf Previews, Auto-Linter, and new MCP servers",
-        "link": "https://windsurf.com/changelog#windsurf-previews-auto-linter-and-new-mcp-servers"
-      },
-      {
-        "title": "Windsurf Previews (Beta)",
-        "link": "https://windsurf.com/changelog#windsurf-previews-beta"
-      },
-      {
-        "title": "Cascade Auto-Linter",
-        "link": "https://windsurf.com/changelog#cascade-auto-linter"
-      },
-      {
-        "title": "New MCP Server Integration",
-        "link": "https://windsurf.com/changelog#new-mcp-server-integration"
-      },
-      {
-        "title": "Tab-to-Import",
-        "link": "https://windsurf.com/changelog#tab-to-import"
-      },
-      {
-        "title": "Suggested Actions",
-        "link": "https://windsurf.com/changelog#suggested-actions"
-      },
-      {
-        "title": "Drag and Drop Files as Context",
-        "link": "https://windsurf.com/changelog#drag-and-drop-files-as-context"
-      },
-      {
-        "title": "Model Option Admin Control",
-        "link": "https://windsurf.com/changelog#model-option-admin-control"
-      },
-      {
-        "title": "Improvements to Claude Sonnet 3.7",
-        "link": "https://windsurf.com/changelog#improvements-to-claude-sonnet-37"
-      },
-      {
-        "title": "Support For Windows ARM",
-        "link": "https://windsurf.com/changelog#support-for-windows-arm"
-      },
-      {
-        "title": "Misc",
-        "link": "https://windsurf.com/changelog#misc"
-      },
-      {
-        "title": "Patch Fixes",
-        "link": "https://windsurf.com/changelog#patch-fixes"
-      },
-      {
-        "title": "Patch Fixes",
-        "link": "https://windsurf.com/changelog#patch-fixes-1"
-      },
-      {
-        "title": "New Cascade Models",
-        "link": "https://windsurf.com/changelog#new-cascade-models"
-      },
-      {
-        "title": "Fixes",
-        "link": "https://windsurf.com/changelog#fixes"
-      },
-      {
-        "title": "Model Context Protocol",
-        "link": "https://windsurf.com/changelog#model-context-protocol"
-      },
-      {
-        "title": "New Customizable App Icons",
-        "link": "https://windsurf.com/changelog#new-customizable-app-icons"
-      },
-      {
-        "title": "Improvements to Completions",
-        "link": "https://windsurf.com/changelog#improvements-to-completions"
-      },
-      {
-        "title": "Cascade Turbo Mode",
-        "link": "https://windsurf.com/changelog#cascade-turbo-mode"
-      },
-      {
-        "title": "Cascade Drag and Drop Image Support",
-        "link": "https://windsurf.com/changelog#cascade-drag-and-drop-image-support"
-      },
-      {
-        "title": "Credit Visibility",
-        "link": "https://windsurf.com/changelog#credit-visibility"
-      },
-      {
-        "title": "Misc",
-        "link": "https://windsurf.com/changelog#misc"
-      },
-      {
-        "title": "Fixes",
-        "link": "https://windsurf.com/changelog#fixes"
-      },
-      {
-        "title": "Fixes",
-        "link": "https://windsurf.com/changelog#fixes"
-      },
-      {
-        "title": "New Models",
-        "link": "https://windsurf.com/changelog#new-models"
-      },
-      {
-        "title": "Models",
-        "link": "https://windsurf.com/changelog#models"
-      },
-      {
-        "title": "Fixes",
-        "link": "https://windsurf.com/changelog#fixes"
-      },
-      {
-        "title": "Improvements",
-        "link": "https://windsurf.com/changelog#improvements"
-      },
-      {
-        "title": "Fixes",
-        "link": "https://windsurf.com/changelog#fixes"
-      },
-      {
-        "title": "Cascade Auto-Generated Memories",
-        "link": "https://windsurf.com/changelog#cascade-auto-generated-memories"
-      },
-      {
-        "title": "Improvements to Dev Container Support (Beta)",
-        "link": "https://windsurf.com/changelog#improvements-to-dev-container-support-beta"
-      },
-      {
-        "title": "Fixes",
-        "link": "https://windsurf.com/changelog#fixes"
-      },
-      {
-        "title": "Misc",
-        "link": "https://windsurf.com/changelog#misc"
-      },
-      {
-        "title": "Fixes",
-        "link": "https://windsurf.com/changelog#fixes"
-      },
-      {
-        "title": "Fixes",
-        "link": "https://windsurf.com/changelog#fixes"
-      },
-      {
-        "title": "Fixes",
-        "link": "https://windsurf.com/changelog#fixes"
-      },
-      {
-        "title": "Cascade Memories",
-        "link": "https://windsurf.com/changelog#cascade-memories-1"
-      },
-      {
-        "title": "Cascade Auto Run Commands",
-        "link": "https://windsurf.com/changelog#cascade-auto-run-commands"
-      },
-      {
-        "title": "Extensions",
-        "link": "https://windsurf.com/changelog#extensions"
-      },
-      {
-        "title": "Misc",
-        "link": "https://windsurf.com/changelog#misc"
-      },
-      {
-        "title": "Usage Transparency and Pricing",
-        "link": "https://windsurf.com/changelog#usage-transparency-and-pricing"
-      },
-      {
-        "title": "Cascade Image Uploads",
-        "link": "https://windsurf.com/changelog#cascade-image-uploads"
-      },
-      {
-        "title": "Improved Language support for Python",
-        "link": "https://windsurf.com/changelog#improved-language-support-for-python"
-      },
-      {
-        "title": "Upload Images to Cascade",
-        "link": "https://windsurf.com/changelog#upload-images-to-cascade"
-      },
-      {
-        "title": "New keybindings",
-        "link": "https://windsurf.com/changelog#new-keybindings"
-      },
-      {
-        "title": "Explain & fix problem",
-        "link": "https://windsurf.com/changelog#explain--fix-problem"
-      },
-      {
-        "title": "Import from Cursor",
-        "link": "https://windsurf.com/changelog#import-from-cursor"
-      },
-      {
-        "title": "New keybindings",
-        "link": "https://windsurf.com/changelog#new-keybindings"
-      },
-      {
-        "title": "Improved Command",
-        "link": "https://windsurf.com/changelog#improved-command"
-      },
-      {
-        "title": "Improved diff views",
-        "link": "https://windsurf.com/changelog#improved-diff-views"
-      },
-      {
-        "title": "Misc",
-        "link": "https://windsurf.com/changelog#misc"
+        "title": "Introducing Google Antigravity",
+        "link": "https://antigravity.google/blog#introducing-google-antigravity"
       }
     ],
-    "timestamp": "2026-03-02T06:58:11.758Z"
+    "timestamp": "2026-03-25T06:24:03.042Z"
   },
   {
-    "url": "https://kiro.dev/changelog/",
+    "url": "https://developers.googleblog.com/en/search?q=Gemini",
     "source": "web",
-    "name": "Coding_Tools",
-    "content": "New Spec Workflows, Hunk-Based Edits, Task Hooks, and MCP Prompts | Design-First Feature Specs | Bugfix Specs | Hunk-Based Review in Supervised Mode | Pre and Post Task Execution Hooks | MCP Prompts, Resource Templates, and Elicitation | Improvements | Fixes | Patches | AWS GovCloud Support | GovCloud Authentication | Inference Routing | Custom Subagents, Agent Skills, and New Hook Triggers | Custom Subagents | Agent Skills | Pre and Post Tool Use Hooks | Web Tools Governance | Custom Extension Registry | Improvements | Fixes | Patches | Claude Sonnet 4.6 is now available in Kiro | File References, Model Selection, Tool Insights, and more | File and Directory References | Dynamic Model Selection | Tool Context Insights | Improvements | Fixes | External Identity Provider Support for Kiro IDE | Enterprise SSO with Okta and Entra ID | External Identity Provider Support for Kiro CLI | Enterprise SSO with Okta and Entra ID | DeepSeek, MiniMax, and Qwen now available as open weight model options | DeepSeek 3.2 | Minimax 2.1 | Qwen3 Coder Next | Claude Opus 4.6 now available in eu-central-1 | Claude Opus 4.6 support",
+    "name": "Google_Ecosystem",
+    "content": "Jump to play: Building with Gemini & MediaPipe | Build a smart financial assistant with LlamaParse and Gemini 3.1 | Developer’s Guide to AI Agent Protocols | Plan mode is now available in Gemini CLI | Introducing Finish Changes and Outlines, now available in Gemini Code Assist extensions on IntelliJ and VS Code | Unleash Your Development Superpowers: Refining the Core Coding Experience | Introducing Wednesday Build Hour | What's new in TensorFlow 2.21 | You can't stream the energy: A developer's guide to Google Cloud Next '26 in Vegas",
     "items": [
       {
-        "title": "New Spec Workflows, Hunk-Based Edits, Task Hooks, and MCP Prompts",
-        "link": "https://kiro.dev/changelog/ide/0-10/"
+        "title": "Jump to play: Building with Gemini & MediaPipe",
+        "link": "https://developers.googleblog.com/en/jump-to-play-building-with-gemini-mediapipe/"
       },
       {
-        "title": "Design-First Feature Specs",
-        "link": "https://kiro.dev/changelog/ide/0-10#design-first-feature-specs"
+        "title": "Build a smart financial assistant with LlamaParse and Gemini 3.1",
+        "link": "https://developers.googleblog.com/en/build-a-smart-financial-assistant-with-llamaparse-and-gemini-31/"
       },
       {
-        "title": "Bugfix Specs",
-        "link": "https://kiro.dev/changelog/ide/0-10#bugfix-specs"
+        "title": "Developer’s Guide to AI Agent Protocols",
+        "link": "https://developers.googleblog.com/en/developers-guide-to-ai-agent-protocols/"
       },
       {
-        "title": "Hunk-Based Review in Supervised Mode",
-        "link": "https://kiro.dev/changelog/ide/0-10#hunk-based-review-in-supervised-mode"
+        "title": "Plan mode is now available in Gemini CLI",
+        "link": "https://developers.googleblog.com/en/plan-mode-now-available-in-gemini-cli/"
       },
       {
-        "title": "Pre and Post Task Execution Hooks",
-        "link": "https://kiro.dev/changelog/ide/0-10#pre-and-post-task-execution-hooks"
+        "title": "Introducing Finish Changes and Outlines, now available in Gemini Code Assist extensions on IntelliJ and VS Code",
+        "link": "https://developers.googleblog.com/en/introducing-finish-changes-and-outlines-now-available-in-gemini-code-assist-extensions-on-intellij-and-vs-code/"
       },
       {
-        "title": "MCP Prompts, Resource Templates, and Elicitation",
-        "link": "https://kiro.dev/changelog/ide/0-10#mcp-prompts-resource-templates-and-elicitation"
+        "title": "Unleash Your Development Superpowers: Refining the Core Coding Experience",
+        "link": "https://developers.googleblog.com/en/unleash-your-development-superpowers-refining-the-core-coding-experience/"
       },
       {
-        "title": "Improvements",
-        "link": "https://kiro.dev/changelog/#improvements"
+        "title": "Introducing Wednesday Build Hour",
+        "link": "https://developers.googleblog.com/en/introducing-wednesday-build-hour/"
       },
       {
-        "title": "Fixes",
-        "link": "https://kiro.dev/changelog/#fixes"
+        "title": "What's new in TensorFlow 2.21",
+        "link": "https://developers.googleblog.com/en/whats-new-in-tensorflow-221/"
       },
       {
-        "title": "Patches",
-        "link": "https://kiro.dev/changelog/#patches"
-      },
-      {
-        "title": "AWS GovCloud Support",
-        "link": "https://kiro.dev/changelog/ide/aws-govcloud-support/"
-      },
-      {
-        "title": "GovCloud Authentication",
-        "link": "https://kiro.dev/changelog/ide/aws-govcloud-support#govcloud-authentication"
-      },
-      {
-        "title": "Inference Routing",
-        "link": "https://kiro.dev/changelog/ide/aws-govcloud-support#inference-routing"
-      },
-      {
-        "title": "Custom Subagents, Agent Skills, and New Hook Triggers",
-        "link": "https://kiro.dev/changelog/ide/0-9/"
-      },
-      {
-        "title": "Custom Subagents",
-        "link": "https://kiro.dev/changelog/ide/0-9#custom-subagents"
-      },
-      {
-        "title": "Agent Skills",
-        "link": "https://kiro.dev/changelog/ide/0-9#agent-skills"
-      },
-      {
-        "title": "Pre and Post Tool Use Hooks",
-        "link": "https://kiro.dev/changelog/ide/0-9#pre-and-post-tool-use-hooks"
-      },
-      {
-        "title": "Web Tools Governance",
-        "link": "https://kiro.dev/changelog/ide/0-9#web-tools-governance"
-      },
-      {
-        "title": "Custom Extension Registry",
-        "link": "https://kiro.dev/changelog/ide/0-9#custom-extension-registry"
-      },
-      {
-        "title": "Improvements",
-        "link": "https://kiro.dev/changelog/#improvements"
-      },
-      {
-        "title": "Fixes",
-        "link": "https://kiro.dev/changelog/#fixes"
-      },
-      {
-        "title": "Patches",
-        "link": "https://kiro.dev/changelog/#patches"
-      },
-      {
-        "title": "Claude Sonnet 4.6 is now available in Kiro",
-        "link": "https://kiro.dev/changelog/models/claude-sonnet-4-6-is-now-available-in-kiro/"
-      },
-      {
-        "title": "File References, Model Selection, Tool Insights, and more",
-        "link": "https://kiro.dev/changelog/cli/1-26/"
-      },
-      {
-        "title": "File and Directory References",
-        "link": "https://kiro.dev/changelog/cli/1-26#file-and-directory-references"
-      },
-      {
-        "title": "Dynamic Model Selection",
-        "link": "https://kiro.dev/changelog/cli/1-26#dynamic-model-selection"
-      },
-      {
-        "title": "Tool Context Insights",
-        "link": "https://kiro.dev/changelog/cli/1-26#tool-context-insights"
-      },
-      {
-        "title": "Improvements",
-        "link": "https://kiro.dev/changelog/#improvements"
-      },
-      {
-        "title": "Fixes",
-        "link": "https://kiro.dev/changelog/#fixes"
-      },
-      {
-        "title": "External Identity Provider Support for Kiro IDE",
-        "link": "https://kiro.dev/changelog/ide/external-identity-provider-support-for-kiro-ide/"
-      },
-      {
-        "title": "Enterprise SSO with Okta and Entra ID",
-        "link": "https://kiro.dev/changelog/ide/external-identity-provider-support-for-kiro-ide#enterprise-sso-with-okta-and-entra-id"
-      },
-      {
-        "title": "External Identity Provider Support for Kiro CLI",
-        "link": "https://kiro.dev/changelog/cli/external-identity-provider-support-for-kiro-cli/"
-      },
-      {
-        "title": "Enterprise SSO with Okta and Entra ID",
-        "link": "https://kiro.dev/changelog/cli/external-identity-provider-support-for-kiro-cli#enterprise-sso-with-okta-and-entra-id"
-      },
-      {
-        "title": "DeepSeek, MiniMax, and Qwen now available as open weight model options",
-        "link": "https://kiro.dev/changelog/models/deepseek-minimax-and-qwen-now-available-as-open-weight-model-options/"
-      },
-      {
-        "title": "DeepSeek 3.2",
-        "link": "https://kiro.dev/changelog/models/deepseek-minimax-and-qwen-now-available-as-open-weight-model-options#deepseek-32"
-      },
-      {
-        "title": "Minimax 2.1",
-        "link": "https://kiro.dev/changelog/models/deepseek-minimax-and-qwen-now-available-as-open-weight-model-options#minimax-21"
-      },
-      {
-        "title": "Qwen3 Coder Next",
-        "link": "https://kiro.dev/changelog/models/deepseek-minimax-and-qwen-now-available-as-open-weight-model-options#qwen3-coder-next"
-      },
-      {
-        "title": "Claude Opus 4.6 now available in eu-central-1",
-        "link": "https://kiro.dev/changelog/models/claude-opus-4-6-now-available-in-eu-central-1/"
-      },
-      {
-        "title": "Claude Opus 4.6 support",
-        "link": "https://kiro.dev/changelog/models/claude-opus-4-6-support/"
+        "title": "You can't stream the energy: A developer's guide to Google Cloud Next '26 in Vegas",
+        "link": "https://developers.googleblog.com/en/you-cant-stream-the-energy-a-developers-guide-to-google-cloud-next-26-in-vegas/"
       }
     ],
-    "timestamp": "2026-03-02T06:58:21.475Z"
+    "timestamp": "2026-03-25T06:24:06.792Z"
   },
   {
-    "url": "https://cursor.com/changelog",
-    "source": "web",
-    "name": "Coding_Tools",
-    "content": "Feb 26, 2026 | Bugbot Autofix | Bugbot Autofix | Feb 24, 2026 | Cloud Agents with Computer Use | Cloud Agents with Computer Use | Feb 18, 2026 | CLI Improvements and Mermaid ASCII Diagrams | CLI Improvements and Mermaid ASCII Diagrams | #Plan mode improvements in CLI | #Mermaid ASCII diagrams in CLI | #Other improvements | General (6)↓↑ | Tools (5)↓↑ | UX (14)↓↑ | Reliability and Bug Fixes (17)↓↑ | 2.5 Feb 17, 2026 | Plugins, Sandbox Access Controls, and Async Subagents | Plugins, Sandbox Access Controls, and Async Subagents | #Plugins on the Cursor Marketplace | #Sandbox network access controls | #Async subagents | Improvements (16)↓↑ | Bug Fixes (7)↓↑ | Feb 12, 2026 | Long-running Agents in Research Preview | Long-running Agents in Research Preview",
+    "url": "https://x.com/GoogleDeepMind",
+    "source": "twitter",
+    "name": "Google_Ecosystem",
+    "content": "How do we measure progress toward AGI? It takes a village – and a bit of healthy competition. \n\nWe’re launching a global hackathon with \n@Kaggle\n to build new cognitive evaluations for AI. With $200k in prizes up for grabs, help us put our framework to the test.\n\nJoin the",
     "items": [
       {
-        "title": "Feb 26, 2026",
-        "link": "https://cursor.com/changelog/02-26-26"
-      },
-      {
-        "title": "Bugbot Autofix",
-        "link": "https://cursor.com/changelog/02-26-26"
-      },
-      {
-        "title": "Bugbot Autofix",
-        "link": "https://cursor.com/changelog/02-26-26"
-      },
-      {
-        "title": "Feb 24, 2026",
-        "link": "https://cursor.com/changelog/02-24-26"
-      },
-      {
-        "title": "Cloud Agents with Computer Use",
-        "link": "https://cursor.com/changelog/02-24-26"
-      },
-      {
-        "title": "Cloud Agents with Computer Use",
-        "link": "https://cursor.com/changelog/02-24-26"
-      },
-      {
-        "title": "Feb 18, 2026",
-        "link": "https://cursor.com/changelog/cli-feb-18-2026"
-      },
-      {
-        "title": "CLI Improvements and Mermaid ASCII Diagrams",
-        "link": "https://cursor.com/changelog/cli-feb-18-2026"
-      },
-      {
-        "title": "CLI Improvements and Mermaid ASCII Diagrams",
-        "link": "https://cursor.com/changelog/cli-feb-18-2026"
-      },
-      {
-        "title": "#Plan mode improvements in CLI",
-        "link": "https://cursor.com/changelog#plan-mode-improvements-in-cli"
-      },
-      {
-        "title": "#Mermaid ASCII diagrams in CLI",
-        "link": "https://cursor.com/changelog#mermaid-ascii-diagrams-in-cli"
-      },
-      {
-        "title": "#Other improvements",
-        "link": "https://cursor.com/changelog#other-improvements"
-      },
-      {
-        "title": "General (6)↓↑",
-        "link": "https://cursor.com/changelog#general-6-"
-      },
-      {
-        "title": "Tools (5)↓↑",
-        "link": "https://cursor.com/changelog#tools-5-"
-      },
-      {
-        "title": "UX (14)↓↑",
-        "link": "https://cursor.com/changelog#ux-14-"
-      },
-      {
-        "title": "Reliability and Bug Fixes (17)↓↑",
-        "link": "https://cursor.com/changelog#reliability-and-bug-fixes-17-"
-      },
-      {
-        "title": "2.5 Feb 17, 2026",
-        "link": "https://cursor.com/changelog/2-5"
-      },
-      {
-        "title": "Plugins, Sandbox Access Controls, and Async Subagents",
-        "link": "https://cursor.com/changelog/2-5"
-      },
-      {
-        "title": "Plugins, Sandbox Access Controls, and Async Subagents",
-        "link": "https://cursor.com/changelog/2-5"
-      },
-      {
-        "title": "#Plugins on the Cursor Marketplace",
-        "link": "https://cursor.com/changelog#plugins-on-the-cursor-marketplace"
-      },
-      {
-        "title": "#Sandbox network access controls",
-        "link": "https://cursor.com/changelog#sandbox-network-access-controls"
-      },
-      {
-        "title": "#Async subagents",
-        "link": "https://cursor.com/changelog#async-subagents"
-      },
-      {
-        "title": "Improvements (16)↓↑",
-        "link": "https://cursor.com/changelog#improvements-16-"
-      },
-      {
-        "title": "Bug Fixes (7)↓↑",
-        "link": "https://cursor.com/changelog#bug-fixes-7-"
-      },
-      {
-        "title": "Feb 12, 2026",
-        "link": "https://cursor.com/changelog/02-12-26"
-      },
-      {
-        "title": "Long-running Agents in Research Preview",
-        "link": "https://cursor.com/changelog/02-12-26"
-      },
-      {
-        "title": "Long-running Agents in Research Preview",
-        "link": "https://cursor.com/changelog/02-12-26"
+        "title": "How do we measure progress toward AGI? It takes a village – and a bit of healthy competition. \n\nWe’re launching a global hackathon with \n@Kaggle\n to build new cognitive evaluations for AI. With $200k in prizes up for grabs, help us put our framework to the test.\n\nJoin the",
+        "link": "https://x.com/GoogleDeepMind/status/2034014385941975298"
       }
     ],
-    "timestamp": "2026-03-02T06:58:25.482Z"
+    "timestamp": "2026-03-25T06:24:08.943Z"
+  },
+  {
+    "url": "https://x.com/GoogleAI",
+    "source": "twitter",
+    "name": "Google_Ecosystem",
+    "content": "We’re launching a brand new, full-stack vibe coding experience in \n@GoogleAIStudio\n, made possible by integrations with the \n@Antigravity\n coding agent and \n@Firebase\n backends.\n\nThis unlocks:\n\n— Full-stack multiplayer experiences: Create complex, multiplayer apps with fully-featured",
+    "items": [
+      {
+        "title": "We’re launching a brand new, full-stack vibe coding experience in \n@GoogleAIStudio\n, made possible by integrations with the \n@Antigravity\n coding agent and \n@Firebase\n backends.\n\nThis unlocks:\n\n— Full-stack multiplayer experiences: Create complex, multiplayer apps with fully-featured",
+        "link": "https://x.com/GoogleAI/status/2034655173256122580"
+      }
+    ],
+    "timestamp": "2026-03-25T06:24:16.270Z"
+  },
+  {
+    "url": "https://x.com/GoogleLabs",
+    "source": "twitter",
+    "name": "Google_Ecosystem",
+    "content": "Woah. It’s been a little over 2 months since the start of 2026. Here's what we’ve dropped so far:\n\n \n@FlowbyGoogle\n: Our biggest update yet. We’ve redesigned the interface, bringing image generation to the forefront, making it easier to manage assets, and giving you more precise",
+    "items": [
+      {
+        "title": "Woah. It’s been a little over 2 months since the start of 2026. Here's what we’ve dropped so far:\n\n \n@FlowbyGoogle\n: Our biggest update yet. We’ve redesigned the interface, bringing image generation to the forefront, making it easier to manage assets, and giving you more precise",
+        "link": "https://x.com/GoogleLabs/status/2029987336684196032"
+      }
+    ],
+    "timestamp": "2026-03-25T06:24:21.639Z"
   }
 ]
