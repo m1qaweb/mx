@@ -2693,5 +2693,47 @@
     "title": "Jump to play: Building with Gemini & MediaPipe",
     "date": "2026-03-25T06:24:07.942Z",
     "url": "https://developers.googleblog.com/en/jump-to-play-building-with-gemini-mediapipe/"
+  },
+  {
+    "id": "5ef11569-8b61-4ee8-b49b-bd33f7afad75",
+    "source": "Coding_Tools",
+    "title": "Claude Opus 4.6 and Sonnet 4.6 upgraded to 1M context window",
+    "date": "2026-03-26T06:28:11.467Z",
+    "url": "https://kiro.dev/changelog/models/claude-opus-4-6-and-sonnet-4-6-upgraded-to-1m-context-window/"
+  },
+  {
+    "id": "0236953f-4314-4597-bbdc-77bcfdbdaf3c",
+    "source": "Coding_Tools",
+    "title": "MiniMax 2.5 now available in eu-central-1",
+    "date": "2026-03-26T06:28:11.467Z",
+    "url": "https://kiro.dev/changelog/models/minimax-2-5-now-available-in-eu-central-1/"
+  },
+  {
+    "id": "5002d2e2-0575-4169-8126-e8a7bc218171",
+    "source": "Coding_Tools",
+    "title": "Kiro for Students",
+    "date": "2026-03-26T06:28:11.468Z",
+    "url": "https://kiro.dev/changelog/general/kiro-for-students/"
+  },
+  {
+    "id": "56b04506-5e06-4594-8c5f-a70ba1cb3a9b",
+    "source": "Coding_Tools",
+    "title": "What's included",
+    "date": "2026-03-26T06:28:11.468Z",
+    "url": "https://kiro.dev/changelog/general/kiro-for-students#whats-included"
+  },
+  {
+    "id": "61381b0f-210e-4930-9823-1cb79041f5b3",
+    "source": "Coding_Tools",
+    "title": "How to get started:",
+    "date": "2026-03-26T06:28:11.468Z",
+    "url": "https://kiro.dev/changelog/general/kiro-for-students#how-to-get-started"
+  },
+  {
+    "id": "12154530-6990-425a-8f93-abb78cd26e87",
+    "source": "Coding_Tools",
+    "title": "Mar 25, 2026",
+    "date": "2026-03-26T06:28:14.262Z",
+    "url": "https://cursor.com/changelog/03-25-26"
   }
 ]
