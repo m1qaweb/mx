@@ -2749,5 +2749,12 @@
     "title": "Mar 25, 2026",
     "date": "2026-03-27T06:18:09.887Z",
     "url": "https://cursor.com/changelog/03-25-26"
+  },
+  {
+    "id": "d03337f9-07ec-4053-825b-03de38661436",
+    "source": "Coding_Tools",
+    "title": "Download subscription data as CSV from the Kiro Console",
+    "date": "2026-03-28T06:07:13.612Z",
+    "url": "https://kiro.dev/changelog/general/download-subscription-data-as-csv-from-the-kiro-console/"
   }
 ]
