@@ -2784,5 +2784,26 @@
     "title": "Australian government and Anthropic sign MOU for AI safety and research",
     "date": "2026-04-01T06:27:55.460Z",
     "url": "https://www.anthropic.com/news/australia-MOU"
+  },
+  {
+    "id": "1ff5a32d-300f-4bfc-9c5a-0f21bded3f4c",
+    "source": "Google_Ecosystem",
+    "title": "Developer’s Guide to Building ADK Agents with Skills",
+    "date": "2026-04-02T06:27:57.993Z",
+    "url": "https://developers.googleblog.com/en/developers-guide-to-building-adk-agents-with-skills/"
+  },
+  {
+    "id": "1cc4e643-e37c-40ff-a2d0-e34652dbb349",
+    "source": "Google_Ecosystem",
+    "title": "Boost Training Goodput: How Continuous Checkpointing Optimizes Reliability in Orbax and MaxText",
+    "date": "2026-04-02T06:27:57.993Z",
+    "url": "https://developers.googleblog.com/en/boost-training-goodput-how-continuous-checkpointing-optimizes-reliability-in-orbax-and-maxtext/"
+  },
+  {
+    "id": "858a976c-0f2d-4877-9f74-379d8d7fe101",
+    "source": "Google_Ecosystem",
+    "title": "ADK Go 1.0 Arrives!",
+    "date": "2026-04-02T06:27:57.993Z",
+    "url": "https://developers.googleblog.com/en/adk-go-10-arrives/"
   }
 ]
