@@ -2805,5 +2805,82 @@
     "title": "ADK Go 1.0 Arrives!",
     "date": "2026-04-02T06:27:57.993Z",
     "url": "https://developers.googleblog.com/en/adk-go-10-arrives/"
+  },
+  {
+    "id": "26c2a800-f0b0-4ced-ac93-5962a042f6aa",
+    "source": "Coding_Tools",
+    "title": "GLM-5 Now Available in Kiro",
+    "date": "2026-04-03T06:16:43.793Z",
+    "url": "https://kiro.dev/changelog/models/glm-5-now-available-in-kiro/"
+  },
+  {
+    "id": "6c16c14a-ccba-4674-a9a3-a80e986e5ab3",
+    "source": "Coding_Tools",
+    "title": "3.0 Apr 2, 2026",
+    "date": "2026-04-03T06:16:47.459Z",
+    "url": "https://cursor.com/changelog/3-0"
+  },
+  {
+    "id": "c813993d-498f-4b1d-b55f-cbe08e261a9a",
+    "source": "Coding_Tools",
+    "title": "#Agents Window",
+    "date": "2026-04-03T06:16:47.460Z",
+    "url": "https://cursor.com/changelog#agents-window"
+  },
+  {
+    "id": "05241a00-09ab-4649-a779-baba925ed57b",
+    "source": "Coding_Tools",
+    "title": "#Design Mode",
+    "date": "2026-04-03T06:16:47.460Z",
+    "url": "https://cursor.com/changelog#design-mode"
+  },
+  {
+    "id": "49dad95f-505a-4107-a251-3772ff007705",
+    "source": "Coding_Tools",
+    "title": "#Agent Tabs in the Editor",
+    "date": "2026-04-03T06:16:47.460Z",
+    "url": "https://cursor.com/changelog#agent-tabs-in-the-editor"
+  },
+  {
+    "id": "d434a626-ef08-4286-9916-1f146f27fff4",
+    "source": "Coding_Tools",
+    "title": "Editor (5)↓↑",
+    "date": "2026-04-03T06:16:47.460Z",
+    "url": "https://cursor.com/changelog#editor-5-"
+  },
+  {
+    "id": "cdb64386-9ce6-405a-8f85-8f44c7831eeb",
+    "source": "Coding_Tools",
+    "title": "Plugins & MCP (2)↓↑",
+    "date": "2026-04-03T06:16:47.460Z",
+    "url": "https://cursor.com/changelog#plugins-mcp-2-"
+  },
+  {
+    "id": "32d90cdc-17be-4e7e-bcce-4f7c28519ce3",
+    "source": "Coding_Tools",
+    "title": "Enterprise & Teams (3)↓↑",
+    "date": "2026-04-03T06:16:47.460Z",
+    "url": "https://cursor.com/changelog#enterprise-teams-3-"
+  },
+  {
+    "id": "0fe8ea12-aba8-4417-813f-8a795de17fb2",
+    "source": "Coding_Tools",
+    "title": "Other Improvements (8)↓↑",
+    "date": "2026-04-03T06:16:47.461Z",
+    "url": "https://cursor.com/changelog#other-improvements-8-"
+  },
+  {
+    "id": "13c93d10-36cf-4e9a-87c8-ea2f4c7a05bc",
+    "source": "Coding_Tools",
+    "title": "Bug Fixes (8)↓↑",
+    "date": "2026-04-03T06:16:47.461Z",
+    "url": "https://cursor.com/changelog#bug-fixes-8-"
+  },
+  {
+    "id": "614a4dc8-25af-47f8-a0e6-8aa237fe2a93",
+    "source": "Coding_Social",
+    "title": "We’re introducing Cursor 3. It is simpler, more powerful, and built for a world where all code is wr...",
+    "date": "2026-04-03T06:20:25.403Z",
+    "url": "https://x.com/cursor_ai/status/2039768512894505086"
   }
 ]
