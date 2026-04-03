@@ -2805,5 +2805,26 @@
     "title": "ADK Go 1.0 Arrives!",
     "date": "2026-04-02T06:27:57.993Z",
     "url": "https://developers.googleblog.com/en/adk-go-10-arrives/"
+  },
+  {
+    "id": "3247efa5-e905-4c3f-8178-f2d66ed2a513",
+    "source": "Google_Ecosystem",
+    "title": "Supporting Google Account username change in your app",
+    "date": "2026-04-03T06:21:10.275Z",
+    "url": "https://developers.googleblog.com/en/supporting-google-account-username-change-in-your-app/"
+  },
+  {
+    "id": "e29e4d88-ddf2-4461-aa9f-a4bc1b8d05ee",
+    "source": "Google_Ecosystem",
+    "title": "Bring state-of-the-art agentic skills to the edge with Gemma 4",
+    "date": "2026-04-03T06:21:10.275Z",
+    "url": "https://developers.googleblog.com/en/bring-state-of-the-art-agentic-skills-to-the-edge-with-gemma-4/"
+  },
+  {
+    "id": "60bd432a-9b7d-493a-948a-b1b57569446a",
+    "source": "Google_Ecosystem",
+    "title": "Meet Gemma 4: our new family of open models you can run on your own hardware. Built for advanced re...",
+    "date": "2026-04-03T06:21:16.950Z",
+    "url": "https://x.com/GoogleDeepMind/status/2039735446628925907"
   }
 ]
