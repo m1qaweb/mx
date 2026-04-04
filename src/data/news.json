@@ -2812,5 +2812,26 @@
     "title": "OpenAI Acquires TBPN",
     "date": "2026-04-03T06:27:50.970Z",
     "url": "https://x.com/tbpn/status/2039763992105935141"
+  },
+  {
+    "id": "2beabe3a-ecdf-4ee0-a3c8-043eafa222e5",
+    "source": "Google_Ecosystem",
+    "title": "Supporting Google Account username change in your app",
+    "date": "2026-04-04T06:20:57.194Z",
+    "url": "https://developers.googleblog.com/en/supporting-google-account-username-change-in-your-app/"
+  },
+  {
+    "id": "4fbffa6b-e222-40bd-883a-26929cfe2bc2",
+    "source": "Google_Ecosystem",
+    "title": "Bring state-of-the-art agentic skills to the edge with Gemma 4",
+    "date": "2026-04-04T06:20:57.194Z",
+    "url": "https://developers.googleblog.com/en/bring-state-of-the-art-agentic-skills-to-the-edge-with-gemma-4/"
+  },
+  {
+    "id": "4d66292a-f1ff-4100-8bda-69852fa10c51",
+    "source": "Google_Ecosystem",
+    "title": "Meet Gemma 4: our new family of open models you can run on your own hardware. Built for advanced re...",
+    "date": "2026-04-04T06:21:04.089Z",
+    "url": "https://x.com/GoogleDeepMind/status/2039735446628925907"
   }
 ]
