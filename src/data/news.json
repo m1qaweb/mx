@@ -2812,5 +2812,82 @@
     "title": "OpenAI Acquires TBPN",
     "date": "2026-04-03T06:27:50.970Z",
     "url": "https://x.com/tbpn/status/2039763992105935141"
+  },
+  {
+    "id": "1d80e539-f2b6-42b6-9e99-fb7c6212e847",
+    "source": "Coding_Tools",
+    "title": "GLM-5 Now Available in Kiro",
+    "date": "2026-04-04T06:12:31.244Z",
+    "url": "https://kiro.dev/changelog/models/glm-5-now-available-in-kiro/"
+  },
+  {
+    "id": "50eebf42-dee5-4da1-a95b-c81b9886c936",
+    "source": "Coding_Tools",
+    "title": "3.0 Apr 2, 2026",
+    "date": "2026-04-04T06:12:34.832Z",
+    "url": "https://cursor.com/changelog/3-0"
+  },
+  {
+    "id": "7f4ce1a8-d877-4382-a3cc-e8ff9a6ab81f",
+    "source": "Coding_Tools",
+    "title": "#Agents Window",
+    "date": "2026-04-04T06:12:34.833Z",
+    "url": "https://cursor.com/changelog#agents-window"
+  },
+  {
+    "id": "cb282781-9293-43e2-9c8f-e91648a1d01f",
+    "source": "Coding_Tools",
+    "title": "#Design Mode",
+    "date": "2026-04-04T06:12:34.833Z",
+    "url": "https://cursor.com/changelog#design-mode"
+  },
+  {
+    "id": "203ad386-e817-42fd-9003-9b9c432592f7",
+    "source": "Coding_Tools",
+    "title": "#Agent Tabs in the Editor",
+    "date": "2026-04-04T06:12:34.833Z",
+    "url": "https://cursor.com/changelog#agent-tabs-in-the-editor"
+  },
+  {
+    "id": "22cea9f4-0c08-420e-a34b-43dc3b861ed0",
+    "source": "Coding_Tools",
+    "title": "Editor (4)↓↑",
+    "date": "2026-04-04T06:12:34.833Z",
+    "url": "https://cursor.com/changelog#editor-4-"
+  },
+  {
+    "id": "14b2e6bb-4f6f-4656-b241-f9ab81c357cc",
+    "source": "Coding_Tools",
+    "title": "Plugins & MCP (2)↓↑",
+    "date": "2026-04-04T06:12:34.833Z",
+    "url": "https://cursor.com/changelog#plugins-mcp-2-"
+  },
+  {
+    "id": "92ff2697-3b9d-4612-b2af-7d2be51dc3c7",
+    "source": "Coding_Tools",
+    "title": "Enterprise & Teams (3)↓↑",
+    "date": "2026-04-04T06:12:34.833Z",
+    "url": "https://cursor.com/changelog#enterprise-teams-3-"
+  },
+  {
+    "id": "f84ec4a0-f586-49df-99fd-52077df4d3c0",
+    "source": "Coding_Tools",
+    "title": "Other Improvements (10)↓↑",
+    "date": "2026-04-04T06:12:34.833Z",
+    "url": "https://cursor.com/changelog#other-improvements-10-"
+  },
+  {
+    "id": "ad3d543c-c2d4-4750-973d-e001e8643085",
+    "source": "Coding_Tools",
+    "title": "Bug Fixes (8)↓↑",
+    "date": "2026-04-04T06:12:34.834Z",
+    "url": "https://cursor.com/changelog#bug-fixes-8-"
+  },
+  {
+    "id": "132ea59d-e1c7-4c5f-a27c-1ef7c888eee5",
+    "source": "Coding_Social",
+    "title": "We’re introducing Cursor 3. It is simpler, more powerful, and built for a world where all code is wr...",
+    "date": "2026-04-04T06:16:10.897Z",
+    "url": "https://x.com/cursor_ai/status/2039768512894505086"
   }
 ]
