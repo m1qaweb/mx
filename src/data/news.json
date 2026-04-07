@@ -2910,5 +2910,26 @@
     "title": "We’re introducing Cursor 3. It is simpler, more powerful, and built for a world where all code is wr...",
     "date": "2026-04-05T06:28:55.061Z",
     "url": "https://x.com/cursor_ai/status/2039768512894505086"
+  },
+  {
+    "id": "c3830862-34e0-465d-a548-faf3002a536a",
+    "source": "Coding_Tools",
+    "title": "Adaptive Model Visibility",
+    "date": "2026-04-07T06:11:42.364Z",
+    "url": "https://windsurf.com/changelog#adaptive-model-visibility"
+  },
+  {
+    "id": "90e9dae4-14b2-4e4c-aba6-ed08e2a39605",
+    "source": "Coding_Tools",
+    "title": "Adaptive Model Router",
+    "date": "2026-04-07T06:11:42.365Z",
+    "url": "https://windsurf.com/changelog#adaptive-model-router"
+  },
+  {
+    "id": "609e169b-fe64-4838-b444-6f16f696cee3",
+    "source": "Coding_Tools",
+    "title": "Updated Model Picker with Pricing Context",
+    "date": "2026-04-07T06:11:42.365Z",
+    "url": "https://windsurf.com/changelog#updated-model-picker-with-pricing-context"
   }
 ]
