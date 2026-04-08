@@ -2924,5 +2924,19 @@
     "title": "Introducing the OpenAI Safety Fellowship, a new program supporting independent research on AI safety...",
     "date": "2026-04-07T06:19:54.889Z",
     "url": "https://x.com/OpenAI/status/2041202511647019251"
+  },
+  {
+    "id": "93d50b52-f87e-486b-9a1d-ed6788349d78",
+    "source": "Google_Ecosystem",
+    "title": "TorchTPU: Running PyTorch Natively on TPUs at Google Scale",
+    "date": "2026-04-08T06:27:37.493Z",
+    "url": "https://developers.googleblog.com/en/torchtpu-running-pytorch-natively-on-tpus-at-google-scale/"
+  },
+  {
+    "id": "4a786aab-7cc1-430d-9abd-51d5b6f769dd",
+    "source": "Google_Ecosystem",
+    "title": "Today, we’re launching Gemma 4, our most intelligent open models to date. Built with the same breakt...",
+    "date": "2026-04-08T06:27:49.947Z",
+    "url": "https://x.com/GoogleAI/status/2039735543068504476"
   }
 ]
