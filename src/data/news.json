@@ -2924,5 +2924,33 @@
     "title": "Introducing the OpenAI Safety Fellowship, a new program supporting independent research on AI safety...",
     "date": "2026-04-07T06:19:54.889Z",
     "url": "https://x.com/OpenAI/status/2041202511647019251"
+  },
+  {
+    "id": "52f867e0-fcfb-47b0-b61c-e4a7c727f940",
+    "source": "Coding_Tools",
+    "title": "Adaptive Fix",
+    "date": "2026-04-08T06:33:57.196Z",
+    "url": "https://windsurf.com/changelog#adaptive-fix"
+  },
+  {
+    "id": "de7201c0-55ca-46b7-8492-516eefa4eb6e",
+    "source": "Coding_Tools",
+    "title": "Adaptive Model Visibility",
+    "date": "2026-04-08T06:33:57.197Z",
+    "url": "https://windsurf.com/changelog#adaptive-model-visibility"
+  },
+  {
+    "id": "3305e90c-a487-4f20-a0a5-b159001929cb",
+    "source": "Coding_Tools",
+    "title": "Adaptive Model Router",
+    "date": "2026-04-08T06:33:57.197Z",
+    "url": "https://windsurf.com/changelog#adaptive-model-router"
+  },
+  {
+    "id": "3f24a399-4f29-4f44-a3ca-db3ecd9582c8",
+    "source": "Coding_Tools",
+    "title": "Updated Model Picker with Pricing Context",
+    "date": "2026-04-08T06:33:57.197Z",
+    "url": "https://windsurf.com/changelog#updated-model-picker-with-pricing-context"
   }
 ]
