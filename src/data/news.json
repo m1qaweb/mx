@@ -2952,5 +2952,26 @@
     "title": "Updated Model Picker with Pricing Context",
     "date": "2026-04-08T06:33:57.197Z",
     "url": "https://windsurf.com/changelog#updated-model-picker-with-pricing-context"
+  },
+  {
+    "id": "44a7d538-3e95-4bfb-bfba-3e5f0c53e3c7",
+    "source": "Models_Web",
+    "title": "What 81,000 people want from AI",
+    "date": "2026-04-09T06:32:16.745Z",
+    "url": "https://www.anthropic.com/81k-interviews"
+  },
+  {
+    "id": "7f8e3331-a626-433b-8765-29aa014059ba",
+    "source": "Models_Social",
+    "title": "Three million people are now using Codex weekly - up from two million a little under a month ago. In...",
+    "date": "2026-04-09T06:32:40.302Z",
+    "url": "https://x.com/thsottiaux/status/2041655710346572085"
+  },
+  {
+    "id": "7e9251a1-cff4-43c9-ba24-b657a6146edd",
+    "source": "Models_Social",
+    "title": "New on the Engineering Blog: Building Managed Agents—our hosted service for long-running agents—me...",
+    "date": "2026-04-09T06:32:45.249Z",
+    "url": "https://x.com/AnthropicAI/status/2041929199976640948"
   }
 ]
