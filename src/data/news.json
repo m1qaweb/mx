@@ -2952,5 +2952,19 @@
     "title": "Updated Model Picker with Pricing Context",
     "date": "2026-04-08T06:33:57.197Z",
     "url": "https://windsurf.com/changelog#updated-model-picker-with-pricing-context"
+  },
+  {
+    "id": "ca1ca0d3-cd23-4431-96ff-db61592698e2",
+    "source": "Google_Ecosystem",
+    "title": "TorchTPU: Running PyTorch Natively on TPUs at Google Scale",
+    "date": "2026-04-09T06:29:23.796Z",
+    "url": "https://developers.googleblog.com/en/torchtpu-running-pytorch-natively-on-tpus-at-google-scale/"
+  },
+  {
+    "id": "563e6c1a-3d94-4535-94d6-9c324b32503b",
+    "source": "Google_Ecosystem",
+    "title": "Today, we’re launching Gemma 4, our most intelligent open models to date. Built with the same breakt...",
+    "date": "2026-04-09T06:29:36.467Z",
+    "url": "https://x.com/GoogleAI/status/2039735543068504476"
   }
 ]
