@@ -2973,5 +2973,19 @@
     "title": "New on the Engineering Blog: Building Managed Agents—our hosted service for long-running agents—me...",
     "date": "2026-04-09T06:32:45.249Z",
     "url": "https://x.com/AnthropicAI/status/2041929199976640948"
+  },
+  {
+    "id": "570a4382-4cbb-4066-b667-97c82df30692",
+    "source": "Google_Ecosystem",
+    "title": "TorchTPU: Running PyTorch Natively on TPUs at Google Scale",
+    "date": "2026-04-10T06:16:11.837Z",
+    "url": "https://developers.googleblog.com/en/torchtpu-running-pytorch-natively-on-tpus-at-google-scale/"
+  },
+  {
+    "id": "41c1c759-3cb9-4a4f-baa9-fccc75e7e6b9",
+    "source": "Google_Ecosystem",
+    "title": "Today, we’re launching Gemma 4, our most intelligent open models to date. Built with the same breakt...",
+    "date": "2026-04-10T06:16:23.777Z",
+    "url": "https://x.com/GoogleAI/status/2039735543068504476"
   }
 ]
