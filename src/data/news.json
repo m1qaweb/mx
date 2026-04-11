@@ -3001,5 +3001,19 @@
     "title": "Bugbot Bug Fixes (2)↓↑",
     "date": "2026-04-10T06:15:24.762Z",
     "url": "https://cursor.com/changelog#bugbot-bug-fixes-2-"
+  },
+  {
+    "id": "47e84f7d-930f-49ef-9a4e-a01bc613d4ac",
+    "source": "Google_Ecosystem",
+    "title": "TorchTPU: Running PyTorch Natively on TPUs at Google Scale",
+    "date": "2026-04-11T06:24:33.987Z",
+    "url": "https://developers.googleblog.com/en/torchtpu-running-pytorch-natively-on-tpus-at-google-scale/"
+  },
+  {
+    "id": "c8a402c5-0c9f-4e85-a5ff-a86b99751d9d",
+    "source": "Google_Ecosystem",
+    "title": "Today, we’re launching Gemma 4, our most intelligent open models to date. Built with the same breakt...",
+    "date": "2026-04-11T06:24:45.440Z",
+    "url": "https://x.com/GoogleAI/status/2039735543068504476"
   }
 ]
