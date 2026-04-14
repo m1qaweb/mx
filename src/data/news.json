@@ -3022,5 +3022,89 @@
     "title": "Hi! Getting a lot of questions on Pro plan rate limits, so I wanted to clarify a few things: - Your...",
     "date": "2026-04-12T06:24:46.822Z",
     "url": "https://x.com/thsottiaux/status/2043075353242218768"
+  },
+  {
+    "id": "e020f355-dfdb-46ca-b3c3-76829856c1a2",
+    "source": "Coding_Tools",
+    "title": "Windows Support, Headless Mode, and Terminal UI",
+    "date": "2026-04-14T06:31:11.091Z",
+    "url": "https://kiro.dev/changelog/cli/2-0/"
+  },
+  {
+    "id": "8b4a9756-fdda-41e4-8cff-f634ed812ecd",
+    "source": "Coding_Tools",
+    "title": "Windows Support",
+    "date": "2026-04-14T06:31:11.091Z",
+    "url": "https://kiro.dev/changelog/cli/2-0#windows-support"
+  },
+  {
+    "id": "7dbeed76-e5e7-4011-9459-5f82e222100a",
+    "source": "Coding_Tools",
+    "title": "Headless Mode",
+    "date": "2026-04-14T06:31:11.091Z",
+    "url": "https://kiro.dev/changelog/cli/2-0#headless-mode"
+  },
+  {
+    "id": "9e589de2-f89f-4a7c-b864-7f6e257d5fe6",
+    "source": "Coding_Tools",
+    "title": "Terminal UI as Default",
+    "date": "2026-04-14T06:31:11.091Z",
+    "url": "https://kiro.dev/changelog/cli/2-0#terminal-ui-as-default"
+  },
+  {
+    "id": "9f1f265b-406a-41d9-8569-695b427e8b32",
+    "source": "Coding_Tools",
+    "title": "3.1 Apr 13, 2026",
+    "date": "2026-04-14T06:31:17.942Z",
+    "url": "https://cursor.com/changelog/3-1"
+  },
+  {
+    "id": "801e8001-0d60-4921-928f-f4d52eda926f",
+    "source": "Coding_Tools",
+    "title": "#Tiled layout",
+    "date": "2026-04-14T06:31:17.944Z",
+    "url": "https://cursor.com/changelog#tiled-layout"
+  },
+  {
+    "id": "d6e52ad2-cf92-490e-98aa-0ad440e755f2",
+    "source": "Coding_Tools",
+    "title": "#Upgraded voice input",
+    "date": "2026-04-14T06:31:17.946Z",
+    "url": "https://cursor.com/changelog#upgraded-voice-input"
+  },
+  {
+    "id": "e6a32803-a9d1-4d3e-b200-59c1f48b8807",
+    "source": "Coding_Tools",
+    "title": "#Branch selection in empty state",
+    "date": "2026-04-14T06:31:17.946Z",
+    "url": "https://cursor.com/changelog#branch-selection-in-empty-state"
+  },
+  {
+    "id": "9f8ff5a9-f9ce-48f0-b9b8-a3c874c30ca3",
+    "source": "Coding_Tools",
+    "title": "#Diff to file navigation",
+    "date": "2026-04-14T06:31:17.947Z",
+    "url": "https://cursor.com/changelog#diff-to-file-navigation"
+  },
+  {
+    "id": "51d19127-dde4-455b-8bef-3c5db60630e5",
+    "source": "Coding_Tools",
+    "title": "#Filters for searching files",
+    "date": "2026-04-14T06:31:17.950Z",
+    "url": "https://cursor.com/changelog#filters-for-searching-files"
+  },
+  {
+    "id": "b38ea199-dca4-49ac-9811-cf2d53d1acc1",
+    "source": "Coding_Tools",
+    "title": "Agents Window Improvements↓↑",
+    "date": "2026-04-14T06:31:17.952Z",
+    "url": "https://cursor.com/changelog#agents-window-improvements-"
+  },
+  {
+    "id": "916542c4-8452-4bb1-aa89-66aa89d803dc",
+    "source": "Coding_Tools",
+    "title": "Agents Window Bug Fixes↓↑",
+    "date": "2026-04-14T06:31:17.953Z",
+    "url": "https://cursor.com/changelog#agents-window-bug-fixes-"
   }
 ]
