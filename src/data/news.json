@@ -3127,5 +3127,47 @@
     "title": "New Anthropic Fellows research: developing an Automated Alignment Researcher. We ran an experiment ...",
     "date": "2026-04-15T06:12:17.199Z",
     "url": "https://x.com/AnthropicAI/status/2044138481790648323"
+  },
+  {
+    "id": "67a03a5a-50b3-4d59-b396-b3d93d7810e4",
+    "source": "Google_Ecosystem",
+    "title": "New enhancements for merchant initiated transactions with the Google Pay API",
+    "date": "2026-04-16T06:03:53.821Z",
+    "url": "https://developers.googleblog.com/en/new-enhancements-for-merchant-initiated-transactions-with-the-google-pay-api/"
+  },
+  {
+    "id": "c1f21360-8a51-4a44-a291-196ad435fcfa",
+    "source": "Google_Ecosystem",
+    "title": "Subagents have arrived in Gemini CLI",
+    "date": "2026-04-16T06:03:53.821Z",
+    "url": "https://developers.googleblog.com/en/subagents-have-arrived-in-gemini-cli/"
+  },
+  {
+    "id": "b4dccb1d-3802-4f1d-9b1d-25ca7ad60f89",
+    "source": "Google_Ecosystem",
+    "title": "Build Better AI Agents: 5 Developer Tips from the Agent Bake-Off",
+    "date": "2026-04-16T06:03:53.821Z",
+    "url": "https://developers.googleblog.com/en/build-better-ai-agents-5-developer-tips-from-the-agent-bake-off/"
+  },
+  {
+    "id": "b6a01b47-0818-4561-8985-3b4094ca0af7",
+    "source": "Google_Ecosystem",
+    "title": "Get ready for Google I/O: Livestream schedule revealed",
+    "date": "2026-04-16T06:03:53.822Z",
+    "url": "https://developers.googleblog.com/en/get-ready-for-google-io-livestream-schedule-revealed/"
+  },
+  {
+    "id": "bdef96ba-3c59-45c5-bb99-e19ef9db68a4",
+    "source": "Google_Ecosystem",
+    "title": "We’re rolling out an upgrade designed to help robots reason about the physical world. Gemini Robot...",
+    "date": "2026-04-16T06:03:59.447Z",
+    "url": "https://x.com/GoogleDeepMind/status/2044069878781390929"
+  },
+  {
+    "id": "26ab1125-6c22-41fe-a5aa-fc982e3f808e",
+    "source": "Google_Ecosystem",
+    "title": "Today we launched Gemini 3.1 Flash TTS, our most expressive and controllable text-to-speech model ye...",
+    "date": "2026-04-16T06:04:05.113Z",
+    "url": "https://x.com/GoogleAI/status/2044447560384102592"
   }
 ]
