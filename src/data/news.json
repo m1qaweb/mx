@@ -3155,5 +3155,19 @@
     "title": "Apr 15, 2026",
     "date": "2026-04-16T06:17:58.534Z",
     "url": "https://cursor.com/changelog/04-15-26"
+  },
+  {
+    "id": "ab47776e-23f4-4e87-8f7c-26185fe3b15b",
+    "source": "Coding_Tools",
+    "title": "Claude Opus 4.7 Now Available",
+    "date": "2026-04-17T06:28:25.122Z",
+    "url": "https://kiro.dev/changelog/models/claude-opus-4-7-now-available/"
+  },
+  {
+    "id": "078af201-53c9-4bef-83dc-39af98a8a99d",
+    "source": "Coding_Tools",
+    "title": "View user emails in the Kiro console",
+    "date": "2026-04-17T06:28:25.122Z",
+    "url": "https://kiro.dev/changelog/general/view-user-emails-in-the-kiro-console/"
   }
 ]
