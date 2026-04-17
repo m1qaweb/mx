@@ -3155,5 +3155,54 @@
     "title": "Apr 15, 2026",
     "date": "2026-04-16T06:17:58.534Z",
     "url": "https://cursor.com/changelog/04-15-26"
+  },
+  {
+    "id": "6cc4cb4e-37a5-491c-9d89-75d54e6eeaea",
+    "source": "Google_Ecosystem",
+    "title": "MaxText Expands Post-Training Capabilities: Introducing SFT and RL on Single-Host TPUs",
+    "date": "2026-04-17T06:28:53.406Z",
+    "url": "https://developers.googleblog.com/en/maxtext-expands-post-training-capabilities-introducing-sft-and-rl-on-single-host-tpus/"
+  },
+  {
+    "id": "6579da1f-5226-48ee-9816-9ea26a934aa0",
+    "source": "Google_Ecosystem",
+    "title": "New enhancements for merchant initiated transactions with the Google Pay API",
+    "date": "2026-04-17T06:28:53.406Z",
+    "url": "https://developers.googleblog.com/en/new-enhancements-for-merchant-initiated-transactions-with-the-google-pay-api/"
+  },
+  {
+    "id": "f650e896-7d42-4fdb-bfb3-e48c28d70804",
+    "source": "Google_Ecosystem",
+    "title": "Subagents have arrived in Gemini CLI",
+    "date": "2026-04-17T06:28:53.406Z",
+    "url": "https://developers.googleblog.com/en/subagents-have-arrived-in-gemini-cli/"
+  },
+  {
+    "id": "a733b412-5058-43dc-a78b-bb9a111ba4d1",
+    "source": "Google_Ecosystem",
+    "title": "Get ready for Google I/O: Livestream schedule revealed",
+    "date": "2026-04-17T06:28:53.406Z",
+    "url": "https://developers.googleblog.com/en/get-ready-for-google-io-livestream-schedule-revealed/"
+  },
+  {
+    "id": "4d64a52f-be22-495c-b922-29040654eb28",
+    "source": "Google_Ecosystem",
+    "title": "Build Better AI Agents: 5 Developer Tips from the Agent Bake-Off",
+    "date": "2026-04-17T06:28:53.407Z",
+    "url": "https://developers.googleblog.com/en/build-better-ai-agents-5-developer-tips-from-the-agent-bake-off/"
+  },
+  {
+    "id": "368bd656-ce0c-484d-a377-45bf522f4e5a",
+    "source": "Google_Ecosystem",
+    "title": "We’re rolling out an upgrade designed to help robots reason about the physical world. Gemini Robot...",
+    "date": "2026-04-17T06:28:59.371Z",
+    "url": "https://x.com/GoogleDeepMind/status/2044069878781390929"
+  },
+  {
+    "id": "1c1f6725-1089-4ed7-9d24-51acf19eee3c",
+    "source": "Google_Ecosystem",
+    "title": "Today we launched Gemini 3.1 Flash TTS, our most expressive and controllable text-to-speech model ye...",
+    "date": "2026-04-17T06:29:04.423Z",
+    "url": "https://x.com/GoogleAI/status/2044447560384102592"
   }
 ]
