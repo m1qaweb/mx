@@ -3155,5 +3155,33 @@
     "title": "Apr 15, 2026",
     "date": "2026-04-16T06:17:58.534Z",
     "url": "https://cursor.com/changelog/04-15-26"
+  },
+  {
+    "id": "6b4e1f66-0be9-4b5f-8f92-9f01c3b977d0",
+    "source": "Models_Web",
+    "title": "Project Glasswing",
+    "date": "2026-04-17T06:09:33.350Z",
+    "url": "https://www.anthropic.com/glasswing"
+  },
+  {
+    "id": "971d9a51-d11d-4617-9423-b6f17c5e2999",
+    "source": "Models_Web",
+    "title": "Introducing Claude Opus 4.7",
+    "date": "2026-04-17T06:09:33.350Z",
+    "url": "https://www.anthropic.com/news/claude-opus-4-7"
+  },
+  {
+    "id": "75f22124-3a1e-409f-b25c-0d696ff9208b",
+    "source": "Models_Social",
+    "title": "Codex for (almost) everything. It can now use apps on your Mac, connect to more of your tools, crea...",
+    "date": "2026-04-17T06:09:46.380Z",
+    "url": "https://x.com/OpenAI/status/2044827705406062670"
+  },
+  {
+    "id": "e87ad363-4e93-40fa-b9de-a2dbcb860379",
+    "source": "Models_Social",
+    "title": "Introducing Claude Opus 4.7, our most capable Opus model yet. It handles long-running tasks with mo...",
+    "date": "2026-04-17T06:09:50.758Z",
+    "url": "https://x.com/claudeai/status/2044785261393977612"
   }
 ]
