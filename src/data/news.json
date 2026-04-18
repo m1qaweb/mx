@@ -3169,5 +3169,68 @@
     "title": "View user emails in the Kiro console",
     "date": "2026-04-17T06:28:25.122Z",
     "url": "https://kiro.dev/changelog/general/view-user-emails-in-the-kiro-console/"
+  },
+  {
+    "id": "b1eee4e1-f168-4778-aa80-00b0a2413742",
+    "source": "Google_Ecosystem",
+    "title": "A2UI v0.9: The New Standard for Portable, Framework-Agnostic Generative UI",
+    "date": "2026-04-18T06:17:24.196Z",
+    "url": "https://developers.googleblog.com/en/a2ui-v0-9-generative-ui/"
+  },
+  {
+    "id": "d498e638-4962-417a-ac3a-60ef6e2d437b",
+    "source": "Google_Ecosystem",
+    "title": "MaxText Expands Post-Training Capabilities: Introducing SFT and RL on Single-Host TPUs",
+    "date": "2026-04-18T06:17:24.197Z",
+    "url": "https://developers.googleblog.com/en/maxtext-expands-post-training-capabilities-introducing-sft-and-rl-on-single-host-tpus/"
+  },
+  {
+    "id": "f563051b-c79e-4149-8c06-6884af09ebb7",
+    "source": "Google_Ecosystem",
+    "title": "New enhancements for merchant initiated transactions with the Google Pay API",
+    "date": "2026-04-18T06:17:24.197Z",
+    "url": "https://developers.googleblog.com/en/new-enhancements-for-merchant-initiated-transactions-with-the-google-pay-api/"
+  },
+  {
+    "id": "b2c207bf-fc1b-4689-8168-31ca6388aa88",
+    "source": "Google_Ecosystem",
+    "title": "Subagents have arrived in Gemini CLI",
+    "date": "2026-04-18T06:17:24.197Z",
+    "url": "https://developers.googleblog.com/en/subagents-have-arrived-in-gemini-cli/"
+  },
+  {
+    "id": "7d506293-9ea0-4833-ac85-6c19937a68dd",
+    "source": "Google_Ecosystem",
+    "title": "Get ready for Google I/O: Livestream schedule revealed",
+    "date": "2026-04-18T06:17:24.197Z",
+    "url": "https://developers.googleblog.com/en/get-ready-for-google-io-livestream-schedule-revealed/"
+  },
+  {
+    "id": "77409883-6112-4351-9ad2-3f365bb1b759",
+    "source": "Google_Ecosystem",
+    "title": "Build Better AI Agents: 5 Developer Tips from the Agent Bake-Off",
+    "date": "2026-04-18T06:17:24.197Z",
+    "url": "https://developers.googleblog.com/en/build-better-ai-agents-5-developer-tips-from-the-agent-bake-off/"
+  },
+  {
+    "id": "6bfb6946-225a-48a0-ab38-cdbbd6e9f476",
+    "source": "Google_Ecosystem",
+    "title": "We’re rolling out an upgrade designed to help robots reason about the physical world. Gemini Robot...",
+    "date": "2026-04-18T06:17:29.940Z",
+    "url": "https://x.com/GoogleDeepMind/status/2044069878781390929"
+  },
+  {
+    "id": "f7c4914a-c8d0-416a-88cd-6cbd7f7f17b3",
+    "source": "Google_Ecosystem",
+    "title": "Today we launched Gemini 3.1 Flash TTS, our most expressive and controllable text-to-speech model ye...",
+    "date": "2026-04-18T06:17:34.753Z",
+    "url": "https://x.com/GoogleAI/status/2044447560384102592"
+  },
+  {
+    "id": "528a5109-c83d-45c5-97ab-423f24b15c67",
+    "source": "Google_Ecosystem",
+    "title": "We’ve watched you create the impossible with @FlowbyGoogle … today, the Flow family is growing. M...",
+    "date": "2026-04-18T06:17:39.544Z",
+    "url": "https://x.com/GoogleLabs/status/2045250788864495874"
   }
 ]
