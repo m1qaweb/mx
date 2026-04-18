@@ -3169,5 +3169,40 @@
     "title": "View user emails in the Kiro console",
     "date": "2026-04-17T06:28:25.122Z",
     "url": "https://kiro.dev/changelog/general/view-user-emails-in-the-kiro-console/"
+  },
+  {
+    "id": "8df2260f-ef2b-4f53-b355-381155cabbd8",
+    "source": "Models_Web",
+    "title": "Introducing Claude Design by Anthropic Labs",
+    "date": "2026-04-18T06:05:40.104Z",
+    "url": "https://www.anthropic.com/news/claude-design-anthropic-labs"
+  },
+  {
+    "id": "86138774-7dab-4754-aa86-48d14fecc1ad",
+    "source": "Models_Web",
+    "title": "Project Glasswing",
+    "date": "2026-04-18T06:05:40.105Z",
+    "url": "https://www.anthropic.com/glasswing"
+  },
+  {
+    "id": "17d5bb9a-a785-4145-acbd-ca16bc0bcd4b",
+    "source": "Models_Web",
+    "title": "Introducing Claude Opus 4.7",
+    "date": "2026-04-18T06:05:40.105Z",
+    "url": "https://www.anthropic.com/news/claude-opus-4-7"
+  },
+  {
+    "id": "571a16ee-5312-4af8-84b1-318835f6be62",
+    "source": "Models_Social",
+    "title": "Codex for (almost) everything. It can now use apps on your Mac, connect to more of your tools, crea...",
+    "date": "2026-04-18T06:05:54.316Z",
+    "url": "https://x.com/OpenAI/status/2044827705406062670"
+  },
+  {
+    "id": "09746579-ea82-474d-8cbd-1b73078b8200",
+    "source": "Models_Social",
+    "title": "Introducing Claude Opus 4.7, our most capable Opus model yet. It handles long-running tasks with mo...",
+    "date": "2026-04-18T06:05:59.283Z",
+    "url": "https://x.com/claudeai/status/2044785261393977612"
   }
 ]
