@@ -3232,5 +3232,40 @@
     "title": "We’ve watched you create the impossible with @FlowbyGoogle … today, the Flow family is growing. M...",
     "date": "2026-04-18T06:17:39.544Z",
     "url": "https://x.com/GoogleLabs/status/2045250788864495874"
+  },
+  {
+    "id": "c137c9e2-2fd2-4bf2-aa9d-264b69dd5760",
+    "source": "Models_Web",
+    "title": "Introducing Claude Design by Anthropic Labs",
+    "date": "2026-04-19T06:24:01.501Z",
+    "url": "https://www.anthropic.com/news/claude-design-anthropic-labs"
+  },
+  {
+    "id": "71fa8256-899d-4ed2-b453-dedcdb61a68f",
+    "source": "Models_Web",
+    "title": "Project Glasswing",
+    "date": "2026-04-19T06:24:01.502Z",
+    "url": "https://www.anthropic.com/glasswing"
+  },
+  {
+    "id": "0188f503-4e44-4e8e-adf3-a70c171459a5",
+    "source": "Models_Web",
+    "title": "Introducing Claude Opus 4.7",
+    "date": "2026-04-19T06:24:01.502Z",
+    "url": "https://www.anthropic.com/news/claude-opus-4-7"
+  },
+  {
+    "id": "d7c73fbd-9f58-4539-977e-bbfe23b98d23",
+    "source": "Models_Social",
+    "title": "Codex for (almost) everything. It can now use apps on your Mac, connect to more of your tools, crea...",
+    "date": "2026-04-19T06:24:15.541Z",
+    "url": "https://x.com/OpenAI/status/2044827705406062670"
+  },
+  {
+    "id": "19b2b2e5-3502-46ff-82ff-cdcde0a31e1f",
+    "source": "Models_Social",
+    "title": "Introducing Claude Opus 4.7, our most capable Opus model yet. It handles long-running tasks with mo...",
+    "date": "2026-04-19T06:24:20.231Z",
+    "url": "https://x.com/claudeai/status/2044785261393977612"
   }
 ]
