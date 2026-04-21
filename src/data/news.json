@@ -3267,5 +3267,54 @@
     "title": "Introducing Claude Opus 4.7, our most capable Opus model yet. It handles long-running tasks with mo...",
     "date": "2026-04-19T06:24:20.231Z",
     "url": "https://x.com/claudeai/status/2044785261393977612"
+  },
+  {
+    "id": "04d9815c-1923-4946-bfa4-32d13b876d74",
+    "source": "Coding_Tools",
+    "title": "Apr 14, 2026",
+    "date": "2026-04-21T06:31:43.002Z",
+    "url": "https://cursor.com/changelog/04-14-26"
+  },
+  {
+    "id": "f5412f73-a9a2-4103-9d22-87d4ffbad757",
+    "source": "Coding_Tools",
+    "title": "#Debug Mode in CLI",
+    "date": "2026-04-21T06:31:43.002Z",
+    "url": "https://cursor.com/changelog#debug-mode-in-cli"
+  },
+  {
+    "id": "c92c44f7-b212-49b2-93d6-24187cdcd378",
+    "source": "Coding_Tools",
+    "title": "#/btw support in CLI",
+    "date": "2026-04-21T06:31:43.003Z",
+    "url": "https://cursor.com/changelog#btw-support-in-cli"
+  },
+  {
+    "id": "74413430-3df3-4744-befe-8206df091a9b",
+    "source": "Coding_Tools",
+    "title": "#Configuration menu in CLI",
+    "date": "2026-04-21T06:31:43.003Z",
+    "url": "https://cursor.com/changelog#configuration-menu-in-cli"
+  },
+  {
+    "id": "efdbc371-1bce-4f91-a78f-9ee96bdd8c21",
+    "source": "Coding_Tools",
+    "title": "#Custom status bars in CLI",
+    "date": "2026-04-21T06:31:43.003Z",
+    "url": "https://cursor.com/changelog#custom-status-bars-in-cli"
+  },
+  {
+    "id": "ae470882-f788-46c4-9174-bbcaaef1f14c",
+    "source": "Coding_Tools",
+    "title": "CLI Improvements↓↑",
+    "date": "2026-04-21T06:31:43.003Z",
+    "url": "https://cursor.com/changelog#cli-improvements-"
+  },
+  {
+    "id": "8b934c32-fdb1-4733-b5d9-c1f5436e1c63",
+    "source": "Coding_Tools",
+    "title": "CLI Bug Fixes↓↑",
+    "date": "2026-04-21T06:31:43.003Z",
+    "url": "https://cursor.com/changelog#cli-bug-fixes-"
   }
 ]
