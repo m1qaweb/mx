@@ -3274,5 +3274,54 @@
     "title": "Gemini 3.1 Flash TTS is our most controllable text-to-speech model yet. With new Audio Tags, you ca...",
     "date": "2026-04-21T06:32:02.792Z",
     "url": "https://x.com/GoogleDeepMind/status/2044447030353752349"
+  },
+  {
+    "id": "02391b9b-a0e1-42d4-93ad-49a61464892f",
+    "source": "Coding_Tools",
+    "title": "Apr 14, 2026",
+    "date": "2026-04-22T06:24:38.154Z",
+    "url": "https://cursor.com/changelog/04-14-26"
+  },
+  {
+    "id": "7040bc85-2236-4cbf-8bb7-ece54a723498",
+    "source": "Coding_Tools",
+    "title": "#Debug Mode in CLI",
+    "date": "2026-04-22T06:24:38.154Z",
+    "url": "https://cursor.com/changelog#debug-mode-in-cli"
+  },
+  {
+    "id": "c3131e9a-115e-4ca5-b0bf-f9a1f00fcda2",
+    "source": "Coding_Tools",
+    "title": "#/btw support in CLI",
+    "date": "2026-04-22T06:24:38.154Z",
+    "url": "https://cursor.com/changelog#btw-support-in-cli"
+  },
+  {
+    "id": "2f05592e-ab16-4456-bc10-7519d345ef01",
+    "source": "Coding_Tools",
+    "title": "#Configuration menu in CLI",
+    "date": "2026-04-22T06:24:38.154Z",
+    "url": "https://cursor.com/changelog#configuration-menu-in-cli"
+  },
+  {
+    "id": "7d084a59-c018-4813-9555-28fcc5b26156",
+    "source": "Coding_Tools",
+    "title": "#Custom status bars in CLI",
+    "date": "2026-04-22T06:24:38.154Z",
+    "url": "https://cursor.com/changelog#custom-status-bars-in-cli"
+  },
+  {
+    "id": "dc9c3a38-b0bc-4526-b128-44da3d277d7c",
+    "source": "Coding_Tools",
+    "title": "CLI Improvements↓↑",
+    "date": "2026-04-22T06:24:38.154Z",
+    "url": "https://cursor.com/changelog#cli-improvements-"
+  },
+  {
+    "id": "8199acc3-268f-4451-bd6e-b5533dd9cbd7",
+    "source": "Coding_Tools",
+    "title": "CLI Bug Fixes↓↑",
+    "date": "2026-04-22T06:24:38.155Z",
+    "url": "https://cursor.com/changelog#cli-bug-fixes-"
   }
 ]
