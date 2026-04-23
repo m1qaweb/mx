@@ -3288,5 +3288,54 @@
     "title": "We're launching the Anthropic STEM Fellows Program. AI will accelerate progress in science and eng...",
     "date": "2026-04-22T06:37:15.835Z",
     "url": "https://x.com/AnthropicAI/status/2046362119755727256"
+  },
+  {
+    "id": "842e4f97-f82b-410b-b33e-3adb81a4547c",
+    "source": "Coding_Tools",
+    "title": "Apr 14, 2026",
+    "date": "2026-04-23T06:20:45.789Z",
+    "url": "https://cursor.com/changelog/04-14-26"
+  },
+  {
+    "id": "8a96c13b-73e7-435f-9541-c51f64db65c2",
+    "source": "Coding_Tools",
+    "title": "#Debug Mode in CLI",
+    "date": "2026-04-23T06:20:45.789Z",
+    "url": "https://cursor.com/changelog#debug-mode-in-cli"
+  },
+  {
+    "id": "91c95d74-fed7-410e-916e-ca27fa413608",
+    "source": "Coding_Tools",
+    "title": "#/btw support in CLI",
+    "date": "2026-04-23T06:20:45.790Z",
+    "url": "https://cursor.com/changelog#btw-support-in-cli"
+  },
+  {
+    "id": "a5a49477-b294-4627-bd08-00b05135c38a",
+    "source": "Coding_Tools",
+    "title": "#Configuration menu in CLI",
+    "date": "2026-04-23T06:20:45.790Z",
+    "url": "https://cursor.com/changelog#configuration-menu-in-cli"
+  },
+  {
+    "id": "fe672c49-b5d0-4538-a4f9-32f8d017d3a1",
+    "source": "Coding_Tools",
+    "title": "#Custom status bars in CLI",
+    "date": "2026-04-23T06:20:45.790Z",
+    "url": "https://cursor.com/changelog#custom-status-bars-in-cli"
+  },
+  {
+    "id": "b7ee052c-fd3a-4c3e-9776-b45fc7b3a358",
+    "source": "Coding_Tools",
+    "title": "CLI Improvements↓↑",
+    "date": "2026-04-23T06:20:45.790Z",
+    "url": "https://cursor.com/changelog#cli-improvements-"
+  },
+  {
+    "id": "af1a6a43-be65-4260-94bf-55663e9219ea",
+    "source": "Coding_Tools",
+    "title": "CLI Bug Fixes↓↑",
+    "date": "2026-04-23T06:20:45.791Z",
+    "url": "https://cursor.com/changelog#cli-bug-fixes-"
   }
 ]
