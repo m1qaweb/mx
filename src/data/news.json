@@ -3288,5 +3288,19 @@
     "title": "We're launching the Anthropic STEM Fellows Program. AI will accelerate progress in science and eng...",
     "date": "2026-04-22T06:37:15.835Z",
     "url": "https://x.com/AnthropicAI/status/2046362119755727256"
+  },
+  {
+    "id": "a10e1b68-6da0-4af2-a43b-4eea0ba0c819",
+    "source": "Google_Ecosystem",
+    "title": "Agents CLI in Agent Platform: create to production in one CLI",
+    "date": "2026-04-23T06:17:47.154Z",
+    "url": "https://developers.googleblog.com/en/agents-cli-in-agent-platform-create-to-production-in-one-cli/"
+  },
+  {
+    "id": "c239d2cd-309b-4d11-a795-36e9818caeeb",
+    "source": "Google_Ecosystem",
+    "title": "Deep Research and Deep Research Max are our latest autonomous research agents powered by Gemini 3.1 ...",
+    "date": "2026-04-23T06:17:52.824Z",
+    "url": "https://x.com/GoogleDeepMind/status/2046627042335060342"
   }
 ]
