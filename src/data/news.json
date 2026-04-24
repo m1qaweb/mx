@@ -3302,5 +3302,61 @@
     "title": "Last month, we published our look into what 81,000 people told us they want from AI. In new researc...",
     "date": "2026-04-23T06:22:50.773Z",
     "url": "https://x.com/AnthropicAI/status/2047006548149289017"
+  },
+  {
+    "id": "7c87df8c-fedb-4943-93cf-bb772e51749e",
+    "source": "Coding_Tools",
+    "title": "Per-model message counts in user activity reports",
+    "date": "2026-04-24T07:17:54.836Z",
+    "url": "https://kiro.dev/changelog/general/per-model-message-counts-in-user-activity-reports/"
+  },
+  {
+    "id": "4558ff17-d95e-4aa3-8abf-6682a256aae9",
+    "source": "Coding_Tools",
+    "title": "Apr 14, 2026",
+    "date": "2026-04-24T07:17:58.624Z",
+    "url": "https://cursor.com/changelog/04-14-26"
+  },
+  {
+    "id": "9d7dd069-698a-48e0-b60d-374e5039d338",
+    "source": "Coding_Tools",
+    "title": "#Debug Mode in CLI",
+    "date": "2026-04-24T07:17:58.624Z",
+    "url": "https://cursor.com/changelog#debug-mode-in-cli"
+  },
+  {
+    "id": "f1a28656-ed8c-4224-9c3c-36fa4d870872",
+    "source": "Coding_Tools",
+    "title": "#/btw support in CLI",
+    "date": "2026-04-24T07:17:58.624Z",
+    "url": "https://cursor.com/changelog#btw-support-in-cli"
+  },
+  {
+    "id": "6700390d-dc84-4465-9b17-019fd3138635",
+    "source": "Coding_Tools",
+    "title": "#Configuration menu in CLI",
+    "date": "2026-04-24T07:17:58.625Z",
+    "url": "https://cursor.com/changelog#configuration-menu-in-cli"
+  },
+  {
+    "id": "7f1f6328-3b88-4fde-99b6-08264a196950",
+    "source": "Coding_Tools",
+    "title": "#Custom status bars in CLI",
+    "date": "2026-04-24T07:17:58.625Z",
+    "url": "https://cursor.com/changelog#custom-status-bars-in-cli"
+  },
+  {
+    "id": "ff6e424d-ab03-4a25-9e89-189dcf1fd220",
+    "source": "Coding_Tools",
+    "title": "CLI Improvements↓↑",
+    "date": "2026-04-24T07:17:58.625Z",
+    "url": "https://cursor.com/changelog#cli-improvements-"
+  },
+  {
+    "id": "2c0797f0-2ecc-415a-9d18-857bafb12a73",
+    "source": "Coding_Tools",
+    "title": "CLI Bug Fixes↓↑",
+    "date": "2026-04-24T07:17:58.625Z",
+    "url": "https://cursor.com/changelog#cli-bug-fixes-"
   }
 ]
