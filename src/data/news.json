@@ -3302,5 +3302,26 @@
     "title": "Last month, we published our look into what 81,000 people told us they want from AI. In new researc...",
     "date": "2026-04-23T06:22:50.773Z",
     "url": "https://x.com/AnthropicAI/status/2047006548149289017"
+  },
+  {
+    "id": "c6812dd9-da04-480a-8a93-ed48b42852cc",
+    "source": "Google_Ecosystem",
+    "title": "Building real-world on-device AI with LiteRT and NPU",
+    "date": "2026-04-24T06:34:13.536Z",
+    "url": "https://developers.googleblog.com/en/building-real-world-on-device-ai-with-litert-and-npu/"
+  },
+  {
+    "id": "17ffce55-16b8-4e3d-95d1-8c40b33a13d6",
+    "source": "Google_Ecosystem",
+    "title": "Agents CLI in Agent Platform: create to production in one CLI",
+    "date": "2026-04-24T06:34:13.537Z",
+    "url": "https://developers.googleblog.com/en/agents-cli-in-agent-platform-create-to-production-in-one-cli/"
+  },
+  {
+    "id": "2b55415d-3179-498d-ae61-5c7eb7367229",
+    "source": "Google_Ecosystem",
+    "title": "This is Decoupled DiLoCo: our new resilient and flexible way to train advanced AI models across mult...",
+    "date": "2026-04-24T06:34:19.343Z",
+    "url": "https://x.com/GoogleDeepMind/status/2047330981145669790"
   }
 ]
