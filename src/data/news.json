@@ -3358,5 +3358,26 @@
     "title": "CLI Bug Fixes↓↑",
     "date": "2026-04-24T07:17:58.625Z",
     "url": "https://cursor.com/changelog#cli-bug-fixes-"
+  },
+  {
+    "id": "090ac788-5188-44cc-8844-93ec66bf3317",
+    "source": "Google_Ecosystem",
+    "title": "Building real-world on-device AI with LiteRT and NPU",
+    "date": "2026-04-25T06:19:45.849Z",
+    "url": "https://developers.googleblog.com/en/building-real-world-on-device-ai-with-litert-and-npu/"
+  },
+  {
+    "id": "a8aa2351-baa5-41a8-b6a3-4e5b98a0c4dc",
+    "source": "Google_Ecosystem",
+    "title": "Agents CLI in Agent Platform: create to production in one CLI",
+    "date": "2026-04-25T06:19:45.849Z",
+    "url": "https://developers.googleblog.com/en/agents-cli-in-agent-platform-create-to-production-in-one-cli/"
+  },
+  {
+    "id": "923b0eba-abff-478e-89d9-d85b160dbef1",
+    "source": "Google_Ecosystem",
+    "title": "This is Decoupled DiLoCo: our new resilient and flexible way to train advanced AI models across mult...",
+    "date": "2026-04-25T06:19:51.344Z",
+    "url": "https://x.com/GoogleDeepMind/status/2047330981145669790"
   }
 ]
