@@ -3358,5 +3358,61 @@
     "title": "CLI Bug Fixes↓↑",
     "date": "2026-04-24T07:17:58.625Z",
     "url": "https://cursor.com/changelog#cli-bug-fixes-"
+  },
+  {
+    "id": "e1ee6132-9ec8-4f60-83d0-83e1c8b237e9",
+    "source": "Coding_Tools",
+    "title": "Real-Time Shell Output Streaming",
+    "date": "2026-04-25T06:30:34.209Z",
+    "url": "https://kiro.dev/changelog/#real-time-shell-output-streaming"
+  },
+  {
+    "id": "0b3dc5d3-07dd-423b-a3bb-dad939f9181b",
+    "source": "Coding_Tools",
+    "title": "Skills as Slash Commands",
+    "date": "2026-04-25T06:30:34.209Z",
+    "url": "https://kiro.dev/changelog/#skills-as-slash-commands"
+  },
+  {
+    "id": "d459ce81-65d3-4b7a-bfa2-b080072ce4d8",
+    "source": "Coding_Tools",
+    "title": "Device Flow for Remote Environments",
+    "date": "2026-04-25T06:30:34.209Z",
+    "url": "https://kiro.dev/changelog/#device-flow-for-remote-environments"
+  },
+  {
+    "id": "7bf6f82a-3e95-4b1a-9984-31224389f769",
+    "source": "Coding_Tools",
+    "title": "Red Hat Enterprise Linux Support",
+    "date": "2026-04-25T06:30:34.209Z",
+    "url": "https://kiro.dev/changelog/#red-hat-enterprise-linux-support"
+  },
+  {
+    "id": "1a514f49-776a-4517-bd77-4f8ec3ea6691",
+    "source": "Coding_Tools",
+    "title": "3.2 Apr 24, 2026",
+    "date": "2026-04-25T06:30:39.088Z",
+    "url": "https://cursor.com/changelog/04-24-26"
+  },
+  {
+    "id": "82f12ef0-404e-4615-b1df-1e4ef5637e70",
+    "source": "Coding_Tools",
+    "title": "#Multitask in Agents Window",
+    "date": "2026-04-25T06:30:39.088Z",
+    "url": "https://cursor.com/changelog#multitask-in-agents-window"
+  },
+  {
+    "id": "044adea8-1070-40e3-a75f-b2054b8345c4",
+    "source": "Coding_Tools",
+    "title": "#Worktrees in Agents Window",
+    "date": "2026-04-25T06:30:39.088Z",
+    "url": "https://cursor.com/changelog#worktrees-in-agents-window"
+  },
+  {
+    "id": "81434c8f-72c6-45d3-a191-2a875f57505f",
+    "source": "Coding_Tools",
+    "title": "#Multi-root workspaces in Agents Window",
+    "date": "2026-04-25T06:30:39.088Z",
+    "url": "https://cursor.com/changelog#multi-root-workspaces-in-agents-window"
   }
 ]
