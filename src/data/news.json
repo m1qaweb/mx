@@ -3358,5 +3358,40 @@
     "title": "CLI Bug Fixes↓↑",
     "date": "2026-04-24T07:17:58.625Z",
     "url": "https://cursor.com/changelog#cli-bug-fixes-"
+  },
+  {
+    "id": "c560c74e-becc-40d5-a40c-e6d60457a432",
+    "source": "Models_Web",
+    "title": "An update on our election safeguards",
+    "date": "2026-04-25T06:12:39.505Z",
+    "url": "https://www.anthropic.com/news/election-safeguards-update"
+  },
+  {
+    "id": "10b591c6-c158-49a9-b8e8-b2615194dfae",
+    "source": "Models_Web",
+    "title": "Anthropic and NEC collaborate to build Japan’s largest AI engineering workforce",
+    "date": "2026-04-25T06:12:39.506Z",
+    "url": "https://www.anthropic.com/news/anthropic-nec"
+  },
+  {
+    "id": "c1da26a1-8ff9-44f6-a58e-ff21f8aa0163",
+    "source": "Models_Web",
+    "title": "Anthropic and Amazon expand collaboration for up to 5 gigawatts of new compute",
+    "date": "2026-04-25T06:12:39.506Z",
+    "url": "https://www.anthropic.com/news/anthropic-amazon-compute"
+  },
+  {
+    "id": "614fc8e4-89f6-427f-b26b-759242b0831a",
+    "source": "Models_Social",
+    "title": "Update: GPT-5.5 and GPT-5.5 Pro are now available in the API.",
+    "date": "2026-04-25T06:13:06.198Z",
+    "url": "https://x.com/OpenAI/status/2047743592278745425"
+  },
+  {
+    "id": "97d028ec-181a-4775-b086-090f4152df60",
+    "source": "Models_Social",
+    "title": "New Anthropic research: Project Deal. We created a marketplace for employees in our San Francisco o...",
+    "date": "2026-04-25T06:13:10.984Z",
+    "url": "https://x.com/AnthropicAI/status/2047728360818696302"
   }
 ]
