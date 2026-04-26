@@ -3414,5 +3414,26 @@
     "title": "#Multi-root workspaces in Agents Window",
     "date": "2026-04-25T06:30:39.088Z",
     "url": "https://cursor.com/changelog#multi-root-workspaces-in-agents-window"
+  },
+  {
+    "id": "00c3773f-1498-408f-9215-997ac256e9cd",
+    "source": "Google_Ecosystem",
+    "title": "Building real-world on-device AI with LiteRT and NPU",
+    "date": "2026-04-26T06:24:20.691Z",
+    "url": "https://developers.googleblog.com/en/building-real-world-on-device-ai-with-litert-and-npu/"
+  },
+  {
+    "id": "d5c8b3c2-2577-4a74-a6d1-e6b2883098d2",
+    "source": "Google_Ecosystem",
+    "title": "Agents CLI in Agent Platform: create to production in one CLI",
+    "date": "2026-04-26T06:24:20.692Z",
+    "url": "https://developers.googleblog.com/en/agents-cli-in-agent-platform-create-to-production-in-one-cli/"
+  },
+  {
+    "id": "ce4e64e4-7daa-490d-8b0f-e28b4c96b808",
+    "source": "Google_Ecosystem",
+    "title": "This is Decoupled DiLoCo: our new resilient and flexible way to train advanced AI models across mult...",
+    "date": "2026-04-26T06:24:25.390Z",
+    "url": "https://x.com/GoogleDeepMind/status/2047330981145669790"
   }
 ]
