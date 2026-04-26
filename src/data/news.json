@@ -3414,5 +3414,40 @@
     "title": "#Multi-root workspaces in Agents Window",
     "date": "2026-04-25T06:30:39.088Z",
     "url": "https://cursor.com/changelog#multi-root-workspaces-in-agents-window"
+  },
+  {
+    "id": "e635d601-1b8d-441c-9e2f-c613aba5b15c",
+    "source": "Models_Web",
+    "title": "An update on our election safeguards",
+    "date": "2026-04-26T06:17:03.507Z",
+    "url": "https://www.anthropic.com/news/election-safeguards-update"
+  },
+  {
+    "id": "a0275bdc-46b0-4ebf-bb43-e59cff5dca19",
+    "source": "Models_Web",
+    "title": "Anthropic and NEC collaborate to build Japan’s largest AI engineering workforce",
+    "date": "2026-04-26T06:17:03.507Z",
+    "url": "https://www.anthropic.com/news/anthropic-nec"
+  },
+  {
+    "id": "dc97d1cb-34d9-4fa7-84d6-336237f44b8b",
+    "source": "Models_Web",
+    "title": "Anthropic and Amazon expand collaboration for up to 5 gigawatts of new compute",
+    "date": "2026-04-26T06:17:03.508Z",
+    "url": "https://www.anthropic.com/news/anthropic-amazon-compute"
+  },
+  {
+    "id": "9d4e4c66-e6eb-4301-be2a-bb446c0bd090",
+    "source": "Models_Social",
+    "title": "Update: GPT-5.5 and GPT-5.5 Pro are now available in the API.",
+    "date": "2026-04-26T06:17:16.993Z",
+    "url": "https://x.com/OpenAI/status/2047743592278745425"
+  },
+  {
+    "id": "0d579e6b-96bb-40e1-ab74-392000162522",
+    "source": "Models_Social",
+    "title": "New Anthropic research: Project Deal. We created a marketplace for employees in our San Francisco o...",
+    "date": "2026-04-26T06:17:22.044Z",
+    "url": "https://x.com/AnthropicAI/status/2047728360818696302"
   }
 ]
