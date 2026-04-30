@@ -3484,5 +3484,26 @@
     "title": "Devin Agent in Windsurf",
     "date": "2026-04-29T06:26:05.017Z",
     "url": "https://windsurf.com/changelog#devin-agent-in-windsurf"
+  },
+  {
+    "id": "7c1b2830-d95a-4bcd-a8b0-308567715028",
+    "source": "Models_Web",
+    "title": "Claude for Creative Work",
+    "date": "2026-04-30T06:17:50.087Z",
+    "url": "https://www.anthropic.com/news/claude-for-creative-work"
+  },
+  {
+    "id": "5185bfea-6ebe-4820-994b-441347961837",
+    "source": "Models_Social",
+    "title": "Want to secure an early ticket to OpenAI DevDay? Build something with GPT-5.5 and Image Gen. Each w...",
+    "date": "2026-04-30T06:18:04.099Z",
+    "url": "https://x.com/OpenAI/status/2049535650626785334"
+  },
+  {
+    "id": "fc3f0636-a049-40c8-b4ba-407384f8dde0",
+    "source": "Models_Social",
+    "title": "New on the Science Blog: We gave Claude 99 problems analyzing real biological data and compared its ...",
+    "date": "2026-04-30T06:18:08.102Z",
+    "url": "https://x.com/AnthropicAI/status/2049624600741560340"
   }
 ]
